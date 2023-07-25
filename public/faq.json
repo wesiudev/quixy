@@ -1,0 +1,104 @@
+{
+    "faq": [
+        {
+            "question": "Jak mogę zarezerwować termin online?",
+            "answer": "Aby zarezerwować termin online, proszę przejść do naszej strony internetowej i skorzystać z formularza rezerwacji. Po wybraniu preferowanego terminu i podaniu swoich danych kontaktowych, otrzymasz potwierdzenie rezerwacji.",
+            "link": ""
+        },
+        {
+            "question": "Czy muszę posiadać konto, aby dokonać rezerwacji online?",
+            "answer": "Nie, nie jest konieczne posiadanie konta. Możesz dokonać rezerwacji online, podając swoje dane kontaktowe w formularzu rezerwacji.",
+            "link": ""
+        },
+        {
+            "question": "Czy wymagane jest wpłacenie zaliczki przy rezerwacji online?",
+            "answer": "Tak, w celu potwierdzenia rezerwacji online wymagana jest wpłata zaliczki. Po dokonaniu rezerwacji otrzymasz informacje dotyczące płatności i kwoty zaliczki.",
+            "link": ""
+        },
+        {
+            "question": "Czy mogę zmienić lub anulować moją rezerwację online?",
+            "answer": "Tak, możliwa jest zmiana lub anulowanie rezerwacji online. Prosimy o kontakt z nami telefonicznie lub mailowo, aby omówić szczegóły i dokonać niezbędnych zmian.",
+            "link": ""
+        },
+        {
+            "question": "Jak długo trwa standardowa sesja manicure?",
+            "answer": "Standardowa sesja manicure trwa zazwyczaj około 45 minut, ale może się różnić w zależności od rodzaju i zakresu usługi. Dokładne informacje na temat czasu trwania usługi znajdziesz na naszej stronie internetowej lub możesz skonsultować się z naszymi specjalistami.",
+            "link": ""
+        },
+        {
+            "question": "Czy oferujecie również usługi pedicure?",
+            "answer": "Tak, oprócz usług manicure oferujemy również usługi pedicure. Zapraszamy do zapoznania się z naszą ofertą na stronie internetowej.",
+            "link": ""
+        },
+        {
+            "question": "Jakie są dostępne metody płatności przy rezerwacji online?",
+            "answer": "Przy rezerwacji online akceptujemy płatności kartą kredytową, przelewem bankowym lub płatnością przez platformę płatności internetowych. Wybierz preferowaną metodę płatności podczas rezerwacji.",
+            "link": ""
+        },
+        {
+            "question": "Czy mogę zobaczyć dostępne terminy i ceny przed dokonaniem rezerwacji?",
+            "answer": "Tak, na naszej stronie internetowej znajdziesz aktualne informacje dotyczące dostępnych terminów oraz cennik usług. Możesz je sprawdzić przed dokonaniem rezerwacji online.",
+            "link": ""
+        },
+        {
+            "question": "Czy mogę wybrać preferowanego specjalistę do wykonania manicure?",
+            "answer": "Tak, możesz wybrać preferowanego specjalistę do wykonania manicure. Prosimy o podanie tej informacji podczas dokonywania rezerwacji online. Postaramy się spełnić Twoje preferencje, biorąc pod uwagę dostępność.",
+            "link": ""
+        },
+        {
+            "question": "Jakie są Wasze godziny otwarcia i dni pracy?",
+            "answer": "Nasze godziny otwarcia i dni pracy są uzależnione od konkretnego salonu. Zapraszamy do sprawdzenia informacji na naszej stronie internetowej lub skontaktowania się z nami telefonicznie, aby uzyskać aktualne godziny otwarcia.",
+            "link": ""
+        },
+        {
+            "question": "Czy oferujecie promocje lub rabaty dla rezerwacji online?",
+            "answer": "Tak, regularnie oferujemy promocje i rabaty dla rezerwacji online. Aby być na bieżąco z naszymi aktualnymi ofertami, śledź naszą stronę internetową lub zapisz się do naszego newslettera.",
+            "link": ""
+        },
+        {
+            "question": "Czy mogę zarezerwować sesję manicure dla grupy osób?",
+            "answer": "Tak, jesteśmy w stanie obsłużyć rezerwacje dla grupy osób. Prosimy o kontakt z nami telefonicznie lub mailowo, aby omówić szczegóły i dostępność terminów.",
+            "link": ""
+        },
+        {
+            "question": "Czy jesteście w stanie obsłużyć osoby z ograniczeniami fizycznymi?",
+            "answer": "Tak, jesteśmy przygotowani do obsługi osób z ograniczeniami fizycznymi. Prosimy o wcześniejszy kontakt z nami, abyśmy mogli zapewnić odpowiednie warunki i dostosować nasze usługi do Twoich potrzeb.",
+            "link": ""
+        },
+        {
+            "question": "Czy mogę zarezerwować dodatkowe usługi wraz z manicure, takie jak malowanie wzorków lub zdobienia?",
+            "answer": "Oczywiście! Oferujemy różnorodne dodatkowe usługi, takie jak malowanie wzorków, zdobienia czy aplikacje specjalnych lakierów. Prosimy o podanie takich preferencji podczas rezerwacji online lub skonsultuj się z nami bezpośrednio.",
+            "link": ""
+        },
+        {
+            "question": "Czy mogę przynieść własny lakier do manicure?",
+            "answer": "Tak, możesz przynieść swój własny lakier do manicure. Prosimy o poinformowanie nas o tym podczas rezerwacji, abyśmy mogli odpowiednio się przygotować.",
+            "link": ""
+        },
+        {
+            "question": "Jak długo przed rezerwacją muszę dokonać potwierdzenia?",
+            "answer": "Prosimy o dokonanie potwierdzenia rezerwacji online lub telefonicznie co najmniej 24 godziny przed wybranym terminem. W przypadku braku potwierdzenia rezerwacji, termin może zostać uznany za nieaktywny.",
+            "link": ""
+        },
+        {
+            "question": "Czy mogę zarezerwować więcej niż jeden termin na raz, na przykład na kolejne tygodnie?",
+            "answer": "Tak, możesz zarezerwować więcej niż jeden termin na raz, na przykład na kolejne tygodnie. Prosimy o podanie preferowanych dat i godzin rezerwacji podczas składania zamówienia.",
+            "link": ""
+        },
+        {
+            "question": "Czy dostępne są vouchery upominkowe na usługi manicure?",
+            "answer": "Tak, oferujemy vouchery upominkowe na usługi manicure. Są to doskonały prezent dla bliskiej osoby. Prosimy o kontakt z nami, aby dowiedzieć się więcej na temat voucherów upominkowych.",
+            "link": ""
+        },
+        {
+            "question": "Jakie są Wasze zasady dotyczące higieny i dezynfekcji narzędzi?",
+            "answer": "Przywiązujemy ogromną wagę do higieny i dezynfekcji narzędzi. Regularnie przestrzegamy rygorystycznych procedur i standardów dotyczących czystości. Możesz być pewien/a, że Twoje bezpieczeństwo jest dla nas najważniejsze.",
+            "link": ""
+        },
+        {
+            "question": "Czy oferujecie usługi dla mężczyzn?",
+            "answer": "Tak, oferujemy usługi dla mężczyzn. Nasze usługi manicure są dostępne dla wszystkich klientów, niezależnie od płci. Zapraszamy do skorzystania z naszych usług.",
+            "link": ""
+        }
+    ]
+}

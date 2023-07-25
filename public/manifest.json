@@ -1,0 +1,21 @@
+{
+    "name": "ManicurePiekniejGrudziadz",
+    "short_name": "ManicurePiekniejGrudziadz",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFC0CB",
+    "description": "Witaj w ManicurePiekniejGrudziadz, Twoim pierwszym wyborem, jeśli chodzi o bezbłędne manicure i możliwość rezerwacji online! Jesteśmy tutaj, aby podnieść Twój poziom pielęgnacji paznokci i pomóc Ci osiągnąć oszałamiający efekt, godny salonu, nie wychodząc z domu. W ManicurePiekniejGrudziadz doskonale rozumiemy, że Twoje paznokcie są odbiciem Twojego stylu i indywidualności. Nasz zespół wykwalifikowanych i pełnych pasji stylistów paznokci jest poświęcony temu, aby zapewnić Ci niezwykłe doświadczenie w pielęgnacji paznokci, spełniające Twoje oczekiwania. Nasza strona internetowa umożliwia Ci dokonanie rezerwacji online w prosty i wygodny sposób. Teraz możesz wybrać dogodny dla siebie termin i czas bez konieczności dzwonienia czy wysyłania e-maili. Po prostu zaloguj się na naszej stronie, przeglądaj dostępne terminy i zarezerwuj swoją wizytę w naszym ekskluzywnym salonie paznokci. ManicurePiekniejGrudziadz oferuje szeroki zakres usług, począwszy od klasycznych manicure i pedicure, po najnowsze trendy w stylizacji paznokci. Niezależnie od tego, czy preferujesz naturalny wygląd, czy też śmiałe wzory i kolory, nasi specjaliści zapewnią Ci perfekcyjny manicure, który Cię zachwyci. Doświadcz naszego luksusowego podejścia do pielęgnacji paznokci i ciesz się nie tylko pięknymi wynikami, ale również relaksującą atmosferą. Wybierz ManicurePiekniejGrudziadz i odkryj prawdziwe raje pielęgnacji paznokci.",
+    "icons": [
+    {
+        "src": "/favicon.png",
+        "sizes": "48x48",
+        "type": "image/png"
+    }
+    ],
+    "related_applications": [
+        {
+            "platform": "ManicurePiekniejGrudziadz",
+            "url": "https://www.manicuregrudziadz.pl"
+        }
+        ]
+}

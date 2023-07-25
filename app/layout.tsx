@@ -1,0 +1,79 @@
+import { Parisienne } from "next/font/google";
+import "./globals.css";
+import localFont from "next/font/local";
+import { Metadata } from "next";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+export const metadata: Metadata = {
+  title:
+    "ManicureGrudziadz.pl - Pasja Manicure | Rezerwacje Online | Anna Żebrowska Manicure | Paznokcie Grudziądz",
+  description:
+    "Zadbaj o swoje paznokcie - manicure na imprezę urodzinową, święto lub sylwestra? Rezerwacja Manicure na ManicureGrudziadz.pl",
+  themeColor: "pink",
+  publisher: "wesiudev",
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/favicon.png",
+  },
+};
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="pl">
+      <body
+        className={`${cocosharp.variable} ${parisienne.variable}
+       w-full `}
+      >
+        {" "}
+        <Header />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
+}
+
+const parisienne = Parisienne({
+  weight: "400",
+  variable: "--font-persisienne",
+  subsets: ["latin"],
+});
+const cocosharp = localFont({
+  src: [
+    {
+      path: "../public/fonts/Italic.ttf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/BoldItalic.ttf",
+      weight: "700",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/Bold.ttf",
+      weight: "700",
+    },
+    {
+      path: "../public/fonts/ExtraLight.ttf",
+      weight: "200",
+    },
+    {
+      path: "../public/fonts/Light.ttf",
+      weight: "300",
+    },
+    {
+      path: "../public/fonts/LightItalic.ttf",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/Regular.ttf",
+      weight: "500",
+    },
+  ],
+  variable: "--font-cocosharp",
+});
