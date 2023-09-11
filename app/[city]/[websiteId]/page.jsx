@@ -16,9 +16,9 @@ import About from "@/app/components/About";
 import { Footer } from "@/app/components/Footer";
 import ShopContent from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
-  const pages = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL}/api/shop/pages`
-  ).then((res) => res.json());
+  const pages = await fetch(`https://localhost:3000/api/shop/pages`).then(
+    (res) => res.json()
+  );
   return pages.pages.map((page) => ({
     city: page.city,
     websiteId: page.websiteId,
