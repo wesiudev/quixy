@@ -5,7 +5,7 @@ import Shop from "./components/shop/Shop";
 import { getShopContent } from "./lib/getShopContent";
 
 async function getServicesList() {
-  const req = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/services`);
+  const req = await fetch(`/api/services`);
   // Recommendation: handle errors
   if (!req.ok) {
     // This will activate the closest `error.js` Error Boundary
@@ -16,7 +16,7 @@ async function getServicesList() {
 }
 
 async function getBlogData() {
-  const req = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/blog`);
+  const req = await fetch(`/api/blog`);
   const data = req.json();
   return data;
 }
