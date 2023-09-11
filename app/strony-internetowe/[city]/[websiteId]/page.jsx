@@ -25,7 +25,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   // fetch data
   const { page } = await fetch(
-    `http://localhost:3000/api/shop/${city}/${websiteId}`
+    `http://localhost:3000/api/shop/${params.city}/${params.websiteId}`
   );
   return {
     title: `Quixy.pl - Programowanie stron internetowych - ${page.name} - Grafika komputerowa - Projektowanie logo`,
@@ -37,7 +37,7 @@ export const dynamicParams = false;
 
 export default async function Page({ params }) {
   const { page } = await fetch(
-    `http://localhost:3000/api/shop/${city}/${websiteId}`
+    `http://localhost:3000/api/shop/${params.city}/${params.websiteId}`
   );
 
   if (page)
