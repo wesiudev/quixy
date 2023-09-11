@@ -204,7 +204,7 @@ export default async function Page({ params }) {
           </div>
         </div>
         <UnderHero />
-        <Shop ItemsList={ShopContent} />
+        {/* <Shop ItemsList={ShopContent} /> */}
         <About />
       </>
     );
