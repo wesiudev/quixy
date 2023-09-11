@@ -15,12 +15,6 @@ async function getServicesList() {
   return services;
 }
 
-async function getBlogData() {
-  const req = await fetch(`/api/blog`);
-  const data = req.json();
-  return data;
-}
-
 export default async function Home() {
   const ItemsList = await getShopContent();
   return (
