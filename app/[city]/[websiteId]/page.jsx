@@ -14,6 +14,7 @@ import Shop from "@/app/components/shop/Shop";
 import { getShopContent } from "@/app/lib/getShopContent";
 import About from "@/app/components/About";
 import { Footer } from "@/app/components/Footer";
+import ShopContent from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
   const pages = await fetch(
     `${process.env.NEXT_PUBLIC_SITE_URL}/api/shop/pages`
@@ -37,7 +38,7 @@ export const dynamicParams = false;
 
 export default async function Page({ params }) {
   const { page } = await getWebsiteInfo(params.city, params.websiteId);
-  const ItemsList = await getShopContent();
+
   if (page)
     return (
       <>
@@ -203,7 +204,7 @@ export default async function Page({ params }) {
           </div>
         </div>
         <UnderHero />
-        <Shop ItemsList={ItemsList} />
+        <Shop ItemsList={ShopContent} />
         <About />
       </>
     );
