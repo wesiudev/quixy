@@ -19,7 +19,7 @@ export async function generateStaticParams() {
   const pages = await fetch(`https://localhost:3000/api/shop/pages`).then(
     (res) => res.json()
   );
-  return pages.pages.map((page) => ({
+  return ShopContent.shopItems.map((page) => ({
     city: page.city,
     websiteId: page.websiteId,
   }));
