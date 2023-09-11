@@ -5,6 +5,6 @@ export async function GET() {
   try {
     return NextResponse.json({ pages: ShopContent.shopItems });
   } catch (error) {
-    return new NextResponse("Error", { status: 500 });
+    return new NextResponse("not found", { status: 500 });
   }
 }
