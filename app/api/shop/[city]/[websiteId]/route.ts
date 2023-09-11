@@ -1,6 +1,6 @@
 import ShopContent from "@/public/json/ShopContent.json";
 import { NextResponse } from "next/server";
-export async function GET(req, { params }) {
+export async function GET(req: any, { params }: any) {
   try {
     const page = ShopContent.shopItems.find(
       (page) => page.city === params.city && page.websiteId === params.websiteId
