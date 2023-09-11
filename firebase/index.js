@@ -19,7 +19,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-const dbRef = collection(db, "piekniej");
+const dbRef = collection(db, "blog");
 
 async function getBlogPosts() {
   const filter = query(dbRef);

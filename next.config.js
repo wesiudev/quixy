@@ -8,12 +8,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "decocanva.com",
-        port: "",
-      },
-      {
-        protocol: "https",
-        hostname: "edu-consulting-szkolenia.pl",
+        hostname: "firebasestorage.googleapis.com",
         port: "",
       },
     ],

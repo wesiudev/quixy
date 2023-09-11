@@ -1,4 +1,4 @@
-import { Parisienne } from "next/font/google";
+import { Signika } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 import { Metadata } from "next";
@@ -6,14 +6,14 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 export const metadata: Metadata = {
   title:
-    "ManicureGrudziadz.pl - Pasja Manicure | Rezerwacje Online | Anna Żebrowska Manicure | Paznokcie Grudziądz",
+    "Strony Internetowe - quixy.pl - Najnowsze technologie - Szybkość i niezawodność",
   description:
-    "Zadbaj o swoje paznokcie - manicure na imprezę urodzinową, święto lub sylwestra? Rezerwacja Manicure na ManicureGrudziadz.pl",
-  themeColor: "pink",
+    "Tworzenie stron internetowych. Oferta stron internetowych. Aplikacje internetowe oparte o najnowsze technologie.",
+  themeColor: "#8cf562",
   publisher: "wesiudev",
   manifest: "/manifest.json",
   icons: {
-    icon: "/favicon.png",
+    icon: "/assets/favicon.png",
   },
 };
 export default function RootLayout({
@@ -24,8 +24,8 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${cocosharp.variable} ${parisienne.variable}
-       w-full `}
+        className={`${cocosharp.variable} ${signika.variable}
+       w-full overflow-x-hidden`}
       >
         {" "}
         <Header />
@@ -36,10 +36,10 @@ export default function RootLayout({
   );
 }
 
-const parisienne = Parisienne({
-  weight: "400",
-  variable: "--font-persisienne",
-  subsets: ["latin"],
+const signika = Signika({
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-signika",
+  subsets: ["latin-ext"],
 });
 const cocosharp = localFont({
   src: [

@@ -2,60 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 body.modal-open {
   overflow: hidden;
-}
-
-@keyframes slideFromBottomToTop {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.slide-from-bottom-to-top {
-  animation-name: slideFromBottomToTop;
-  animation-duration: .5s; /* Adjust the animation speed as needed */
-  animation-timing-function: ease-in; /* Adjust the timing function as needed */
-}
-
-@keyframes slideFromTopToBottom {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-.slide-from-top-to-bottom {
-  animation-name: slideFromTopToBottom;
-  animation-duration: .5s; /* Adjust the animation speed as needed */
-  animation-timing-function: ease-in; /* Adjust the timing function as needed */
 }

@@ -1,0 +1,594 @@
+{
+  "shopItems": [
+    {
+      "city": "strony-internetowe",
+      "websiteId": "strona-wizytowka-polska",
+      "name": "Strona wizytówka",
+      "price": "800zł",
+      "description": {
+        "h1": "STRONA WIZYTÓWKA",
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
+        "reasons": [
+          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
+          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
+          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
+          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
+          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
+        ],
+        "infos": [
+          "Łatwa do utworzenia i zarządzania",
+          "Niskie koszty utrzymania",
+          "Możliwość prezentacji portfolio lub usług",
+          "Zwiększenie widoczności w internecie",
+          "Szybki dostęp do informacji kontaktowych",
+          "Profesjonalne wrażenie na klientach",
+          "Łatwa aktualizacja treści",
+          "Możliwość dodawania recenzji i referencji od klientów",
+          "Łatwa nawigacja dla użytkowników",
+          "Poprawa pozycji w wynikach wyszukiwania Google",
+          "Możliwość dodawania bloga lub aktualności",
+          "Ogólna dostępność dla klientów przez całą dobę",
+          "Możliwość zbierania kontaktów do bazy danych"
+        ],
+        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
+        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "strony-internetowe",
+      "websiteId": "sklep-internetowy-polska",
+      "name": "Sklep internetowy",
+      "price": "3500zł",
+      "description": {
+        "h1": "SKLEP INTERNETOWY",
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
+        "reasons": [
+          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
+          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
+          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
+          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
+          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
+          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
+          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
+          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
+        ],
+        "infos": [
+          "Globalny zasięg i dostępność dla klientów",
+          "Możliwość sprzedaży 24/7 przez cały rok",
+          "Zwiększenie potencjału sprzedażowego",
+          "Łatwy dostęp do szerokiego asortymentu produktów",
+          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
+          "Personalizacja oferty i rekomendacje dla klientów",
+          "Bezpieczne płatności online",
+          "Łatwa aktualizacja asortymentu i cen",
+          "Efektywne zarządzanie zapasami",
+          "Integracja z różnymi systemami płatności i dostawcami",
+          "Możliwość prowadzenia działań marketingowych online",
+          "Skuteczna analiza danych i raportowanie",
+          "Możliwość zaoferowania różnych opcji dostawy",
+          "Łatwy dostęp do recenzji i opinii produktów"
+        ],
+        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
+        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "strony-internetowe",
+      "websiteId": "strona-landingowa-polska",
+      "name": "Strona landingowa",
+      "price": "1200zł",
+      "description": {
+        "h1": "LANDING PAGE",
+        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
+        "reasons": [
+          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
+          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
+          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
+          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
+          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
+          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
+          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
+          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
+        ],
+        "infos": [
+          "Zwiększenie konwersji klientów",
+          "Skoncentrowana na jednym celu - działaniu CTA",
+          "Szybki czas ładowania",
+          "Wyjątkowy i atrakcyjny design",
+          "Skupienie uwagi na istotnych informacjach",
+          "Możliwość dostosowania treści pod konkretne kampanie",
+          "Integracja z narzędziami do zbierania leadów",
+          "Efektywna w promocji nowych produktów lub usług",
+          "Łatwa do testowania różnych wersji",
+          "Łatwa analiza skuteczności",
+          "Zwiększenie zrozumienia oferty",
+          "Ograniczenie rozproszenia uwagi klientów",
+          "Możliwość personalizacji treści"
+        ],
+        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
+        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "grudziadz",
+      "websiteId": "strona-wizytowka-grudziadz",
+      "name": "Strona wizytówka",
+      "price": "800zł",
+      "description": {
+        "h1": "STRONA WIZYTÓWKA",
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
+        "reasons": [
+          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
+          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
+          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
+          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
+          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
+        ],
+        "infos": [
+          "Łatwa do utworzenia i zarządzania",
+          "Niskie koszty utrzymania",
+          "Możliwość prezentacji portfolio lub usług",
+          "Zwiększenie widoczności w internecie",
+          "Szybki dostęp do informacji kontaktowych",
+          "Profesjonalne wrażenie na klientach",
+          "Łatwa aktualizacja treści",
+          "Możliwość dodawania recenzji i referencji od klientów",
+          "Łatwa nawigacja dla użytkowników",
+          "Poprawa pozycji w wynikach wyszukiwania Google",
+          "Możliwość dodawania bloga lub aktualności",
+          "Ogólna dostępność dla klientów przez całą dobę",
+          "Możliwość zbierania kontaktów do bazy danych"
+        ],
+        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
+        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "grudziadz",
+      "websiteId": "sklep-internetowy-grudziadz",
+      "name": "Sklep internetowy",
+      "price": "3500zł",
+      "description": {
+        "h1": "SKLEP INTERNETOWY",
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
+        "reasons": [
+          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
+          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
+          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
+          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
+          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
+          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
+          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
+          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
+        ],
+        "infos": [
+          "Globalny zasięg i dostępność dla klientów",
+          "Możliwość sprzedaży 24/7 przez cały rok",
+          "Zwiększenie potencjału sprzedażowego",
+          "Łatwy dostęp do szerokiego asortymentu produktów",
+          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
+          "Personalizacja oferty i rekomendacje dla klientów",
+          "Bezpieczne płatności online",
+          "Łatwa aktualizacja asortymentu i cen",
+          "Efektywne zarządzanie zapasami",
+          "Integracja z różnymi systemami płatności i dostawcami",
+          "Możliwość prowadzenia działań marketingowych online",
+          "Skuteczna analiza danych i raportowanie",
+          "Możliwość zaoferowania różnych opcji dostawy",
+          "Łatwy dostęp do recenzji i opinii produktów"
+        ],
+        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
+        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "grudziadz",
+      "websiteId": "strona-landingowa-grudziadz",
+      "name": "Strona landingowa",
+      "price": "1200zł",
+      "description": {
+        "h1": "LANDING PAGE",
+        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
+        "reasons": [
+          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
+          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
+          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
+          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
+          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
+          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
+          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
+          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
+        ],
+        "infos": [
+          "Zwiększenie konwersji klientów",
+          "Skoncentrowana na jednym celu - działaniu CTA",
+          "Szybki czas ładowania",
+          "Wyjątkowy i atrakcyjny design",
+          "Skupienie uwagi na istotnych informacjach",
+          "Możliwość dostosowania treści pod konkretne kampanie",
+          "Integracja z narzędziami do zbierania leadów",
+          "Efektywna w promocji nowych produktów lub usług",
+          "Łatwa do testowania różnych wersji",
+          "Łatwa analiza skuteczności",
+          "Zwiększenie zrozumienia oferty",
+          "Ograniczenie rozproszenia uwagi klientów",
+          "Możliwość personalizacji treści"
+        ],
+        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
+        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "gdansk",
+      "websiteId": "strona-wizytowka-gdansk",
+      "name": "Strona wizytówka",
+      "price": "800zł",
+      "description": {
+        "h1": "STRONA WIZYTÓWKA",
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
+        "reasons": [
+          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
+          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
+          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
+          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
+          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
+        ],
+        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+      },
+      "infos": [
+        "Łatwa do utworzenia i zarządzania",
+        "Niskie koszty utrzymania",
+        "Możliwość prezentacji portfolio lub usług",
+        "Zwiększenie widoczności w internecie",
+        "Szybki dostęp do informacji kontaktowych",
+        "Profesjonalne wrażenie na klientach",
+        "Łatwa aktualizacja treści",
+        "Możliwość dodawania recenzji i referencji od klientów",
+        "Łatwa nawigacja dla użytkowników",
+        "Poprawa pozycji w wynikach wyszukiwania Google",
+        "Możliwość dodawania bloga lub aktualności",
+        "Ogólna dostępność dla klientów przez całą dobę",
+        "Możliwość zbierania kontaktów do bazy danych"
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
+        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "gdansk",
+      "websiteId": "sklep-internetowy-gdansk",
+      "name": "Sklep internetowy",
+      "price": "3500zł",
+      "description": {
+        "h1": "SKLEP INTERNETOWY",
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
+        "reasons": [
+          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
+          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
+          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
+          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
+          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
+          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
+          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
+          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
+        ],
+        "infos": [
+          "Globalny zasięg i dostępność dla klientów",
+          "Możliwość sprzedaży 24/7 przez cały rok",
+          "Zwiększenie potencjału sprzedażowego",
+          "Łatwy dostęp do szerokiego asortymentu produktów",
+          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
+          "Personalizacja oferty i rekomendacje dla klientów",
+          "Bezpieczne płatności online",
+          "Łatwa aktualizacja asortymentu i cen",
+          "Efektywne zarządzanie zapasami",
+          "Integracja z różnymi systemami płatności i dostawcami",
+          "Możliwość prowadzenia działań marketingowych online",
+          "Skuteczna analiza danych i raportowanie",
+          "Możliwość zaoferowania różnych opcji dostawy",
+          "Łatwy dostęp do recenzji i opinii produktów"
+        ],
+        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
+        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "gdansk",
+      "websiteId": "strona-landingowa-gdansk",
+      "name": "Strona landingowa",
+      "price": "1200zł",
+      "description": {
+        "h1": "LANDING PAGE",
+        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
+        "reasons": [
+          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
+          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
+          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
+          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
+          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
+          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
+          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
+          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
+        ],
+        "infos": [
+          "Zwiększenie konwersji klientów",
+          "Skoncentrowana na jednym celu - działaniu CTA",
+          "Szybki czas ładowania",
+          "Wyjątkowy i atrakcyjny design",
+          "Skupienie uwagi na istotnych informacjach",
+          "Możliwość dostosowania treści pod konkretne kampanie",
+          "Integracja z narzędziami do zbierania leadów",
+          "Efektywna w promocji nowych produktów lub usług",
+          "Łatwa do testowania różnych wersji",
+          "Łatwa analiza skuteczności",
+          "Zwiększenie zrozumienia oferty",
+          "Ograniczenie rozproszenia uwagi klientów",
+          "Możliwość personalizacji treści"
+        ],
+        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
+        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "warszawa",
+      "websiteId": "strona-wizytowka-warszawa",
+      "name": "Strona wizytówka",
+      "price": "800zł",
+      "description": {
+        "h1": "STRONA WIZYTÓWKA",
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
+        "reasons": [
+          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
+          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
+          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
+          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
+          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
+        ],
+        "infos": [
+          "Łatwa do utworzenia i zarządzania",
+          "Niskie koszty utrzymania",
+          "Możliwość prezentacji portfolio lub usług",
+          "Zwiększenie widoczności w internecie",
+          "Szybki dostęp do informacji kontaktowych",
+          "Profesjonalne wrażenie na klientach",
+          "Łatwa aktualizacja treści",
+          "Możliwość dodawania recenzji i referencji od klientów",
+          "Łatwa nawigacja dla użytkowników",
+          "Poprawa pozycji w wynikach wyszukiwania Google",
+          "Możliwość dodawania bloga lub aktualności",
+          "Ogólna dostępność dla klientów przez całą dobę",
+          "Możliwość zbierania kontaktów do bazy danych"
+        ],
+        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
+        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "warszawa",
+      "websiteId": "sklep-internetowy-warszawa",
+      "name": "Sklep internetowy",
+      "price": "3500zł",
+      "description": {
+        "h1": "SKLEP INTERNETOWY",
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
+        "reasons": [
+          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
+          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
+          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
+          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
+          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
+          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
+          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
+          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
+        ],
+        "infos": [
+          "Globalny zasięg i dostępność dla klientów",
+          "Możliwość sprzedaży 24/7 przez cały rok",
+          "Zwiększenie potencjału sprzedażowego",
+          "Łatwy dostęp do szerokiego asortymentu produktów",
+          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
+          "Personalizacja oferty i rekomendacje dla klientów",
+          "Bezpieczne płatności online",
+          "Łatwa aktualizacja asortymentu i cen",
+          "Efektywne zarządzanie zapasami",
+          "Integracja z różnymi systemami płatności i dostawcami",
+          "Możliwość prowadzenia działań marketingowych online",
+          "Skuteczna analiza danych i raportowanie",
+          "Możliwość zaoferowania różnych opcji dostawy",
+          "Łatwy dostęp do recenzji i opinii produktów"
+        ],
+        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
+        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "warszawa",
+      "websiteId": "strona-landingowa-warszawa",
+      "name": "Strona landingowa",
+      "price": "1200zł",
+      "description": {
+        "h1": "LANDING PAGE",
+        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
+        "reasons": [
+          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
+          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
+          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
+          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
+          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
+          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
+          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
+          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
+        ],
+        "infos": [
+          "Zwiększenie konwersji klientów",
+          "Skoncentrowana na jednym celu - działaniu CTA",
+          "Szybki czas ładowania",
+          "Wyjątkowy i atrakcyjny design",
+          "Skupienie uwagi na istotnych informacjach",
+          "Możliwość dostosowania treści pod konkretne kampanie",
+          "Integracja z narzędziami do zbierania leadów",
+          "Efektywna w promocji nowych produktów lub usług",
+          "Łatwa do testowania różnych wersji",
+          "Łatwa analiza skuteczności",
+          "Zwiększenie zrozumienia oferty",
+          "Ograniczenie rozproszenia uwagi klientów",
+          "Możliwość personalizacji treści"
+        ],
+        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
+        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "krakow",
+      "websiteId": "strona-wizytowka-krakow",
+      "name": "Strona wizytówka",
+      "price": "800zł",
+      "description": {
+        "h1": "STRONA WIZYTÓWKA",
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
+        "reasons": [
+          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
+          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
+          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
+          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
+          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
+        ],
+        "infos": [
+          "Łatwa do utworzenia i zarządzania",
+          "Niskie koszty utrzymania",
+          "Możliwość prezentacji portfolio lub usług",
+          "Zwiększenie widoczności w internecie",
+          "Szybki dostęp do informacji kontaktowych",
+          "Profesjonalne wrażenie na klientach",
+          "Łatwa aktualizacja treści",
+          "Możliwość dodawania recenzji i referencji od klientów",
+          "Łatwa nawigacja dla użytkowników",
+          "Poprawa pozycji w wynikach wyszukiwania Google",
+          "Możliwość dodawania bloga lub aktualności",
+          "Ogólna dostępność dla klientów przez całą dobę",
+          "Możliwość zbierania kontaktów do bazy danych"
+        ],
+        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
+        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "krakow",
+      "websiteId": "sklep-internetowy-krakow",
+      "name": "Sklep internetowy",
+      "price": "3500zł",
+      "description": {
+        "h1": "SKLEP INTERNETOWY",
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
+        "reasons": [
+          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
+          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
+          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
+          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
+          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
+          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
+          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
+          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
+        ],
+        "infos": [
+          "Globalny zasięg i dostępność dla klientów",
+          "Możliwość sprzedaży 24/7 przez cały rok",
+          "Zwiększenie potencjału sprzedażowego",
+          "Łatwy dostęp do szerokiego asortymentu produktów",
+          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
+          "Personalizacja oferty i rekomendacje dla klientów",
+          "Bezpieczne płatności online",
+          "Łatwa aktualizacja asortymentu i cen",
+          "Efektywne zarządzanie zapasami",
+          "Integracja z różnymi systemami płatności i dostawcami",
+          "Możliwość prowadzenia działań marketingowych online",
+          "Skuteczna analiza danych i raportowanie",
+          "Możliwość zaoferowania różnych opcji dostawy",
+          "Łatwy dostęp do recenzji i opinii produktów"
+        ],
+        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
+        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    },
+    {
+      "city": "krakow",
+      "websiteId": "strona-landingowa-krakow",
+      "name": "Strona landingowa",
+      "price": "1200zł",
+      "description": {
+        "h1": "LANDING PAGE",
+        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
+        "reasons": [
+          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
+          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
+          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
+          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
+          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
+          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
+          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
+          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
+        ],
+        "infos": [
+          "Zwiększenie konwersji klientów",
+          "Skoncentrowana na jednym celu - działaniu CTA",
+          "Szybki czas ładowania",
+          "Wyjątkowy i atrakcyjny design",
+          "Skupienie uwagi na istotnych informacjach",
+          "Możliwość dostosowania treści pod konkretne kampanie",
+          "Integracja z narzędziami do zbierania leadów",
+          "Efektywna w promocji nowych produktów lub usług",
+          "Łatwa do testowania różnych wersji",
+          "Łatwa analiza skuteczności",
+          "Zwiększenie zrozumienia oferty",
+          "Ograniczenie rozproszenia uwagi klientów",
+          "Możliwość personalizacji treści"
+        ],
+        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+      },
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
+        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+      }
+    }
+  ]
+}

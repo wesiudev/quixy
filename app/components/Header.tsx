@@ -1,60 +1,67 @@
 "use client";
 import Link from "next/link";
-import { FaArrowLeft, FaBlog, FaClock, FaHome, FaPhone } from "react-icons/fa";
+import {
+  FaArrowLeft,
+  FaBlog,
+  FaClock,
+  FaHome,
+  FaPhone,
+  FaSearch,
+} from "react-icons/fa";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { useState } from "react";
-import { Contact } from "./contact";
+import Image from "next/image";
+import logo from "../assets/logo.png";
 export const Header = () => {
   const [isContactOpen, setContactOpen] = useState<boolean>(false);
   return (
-    <div className="w-full bg-rose-300 flex justify-center flex-row  pb-3">
-      <div className="relative flex flex-col lg:flex-row w-[90vw] justify-between mx-auto pt-12 sm:py-6">
-        <div className="w-full">
+    <div className="w-full h-max bg-green-500 flex  flex-row justify-between py-3 px-3 lg:px-[8vw] fixed left-0 top-0 shadow-md shadow-black z-[1000] space-x-6">
+      <Link href="/" className="py-2  rounded-md font-signika text-3xl">
+        <Image
+          src={logo}
+          width={512}
+          height={512}
+          alt="Tworzenie stron internetowych Quixy.pl logo"
+          className="max-h-[72px] w-auto"
+        />
+      </Link>
+      <div className="flex flex-row items-center justify-between w-3/4 relative">
+        <button className="group absolute top-[50%] -translate-y-[50%] lg:top-[0%] lg:-translate-y-[0%] right-0 lg:relative w-full lg:w-3/4 p-3 bg-white rounded-lg flex my-auto ">
+          <FaSearch className="h-full w-7 text-green-500" />
+          <div className="text-zinc-500 absolute left-[50%] -translate-x-[50%] top-[50%] -translate-y-[50%] opacity-100 group-hover:opacity-0 duration-150">
+            Czego szukasz?
+          </div>
+          <div className="text-zinc-500 absolute left-[50%] -translate-x-[50%] top-[50%] -translate-y-[50%] opacity-0 group-hover:opacity-100 duration-300">
+            Kliknij i szukaj
+          </div>
+        </button>
+        <div className="fixed lg:relative bottom-0 left-0 grid grid-cols-2 bg-green-500 w-full px-0 lg:flex text-zinc-800 md:justify-end md:flex-row items-center lg:space-x-6 font-coco font-bold text-xl">
           <Link
-            href="/"
-            className="w-max lg:w-max flex flex-col mx-auto lg:mx-0 h-max"
+            className="p-5 border-t-2 border-r-2 lg:border-r-0 lg:border-t-0 border-b-2 lg:border-b-0 border-white lg:p-2 flex items-center justify-center hover:bg-green-300 duration-200"
+            href="Blog"
           >
-            <span className="text-[6.5rem] lg:text-[9rem] font-pars text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-gray-500 to-red-400 overflow-visible w-max pb-3 sm:pb-6 pr-3">
-              Piękniej
-            </span>
-            <span className="text-lg lg:text-2xl font-sans italic bg-clip-text bg-gradient-to-r from-red-600 via-gray-500 to-rose-500 text-transparent w-max -mt-11 sm:-mt-14 lg:-mt-16 lg:ml-0">
-              Manicure by Anna Żebrowska
-            </span>
+            Blog
+          </Link>
+          <Link
+            className="p-5 border-t-2 lg:border-t-0 lg:p-2 flex items-center justify-center border-b-2 lg:border-b-0 border-white hover:bg-green-300 duration-200"
+            href="Sklep"
+          >
+            Sklep
+          </Link>
+          <Link
+            className="p-5 lg:p-2 flex items-center justify-center border-r-2 lg:border-r-0 border-white hover:bg-green-300 duration-200"
+            href="Sklep"
+          >
+            Kontakt
+          </Link>
+          <Link
+            className="p-5 lg:p-2 flex items-center justify-center hover:bg-green-300 duration-200"
+            href="Blog"
+          >
+            Faq
           </Link>
         </div>
-        <div className="z-[1000] sm:z-50 fixed sm:relative bottom-0 left-[50%] -translate-x-[50%] lg:left-0 lg:translate-x-0 w-screen sm:w-[90vw] sm:mt-12 lg:mt-0 mx-auto lg:w-max">
-          <div className="bg-rose-500 lg:bg-transparent flex flex-row w-full lg:w-max lg:justify-start lg:items-end lg:gap-x-3 items-center h-max lg:h-full lg:pt-6 font-sans text-white lg:flex-wrap mx-auto">
-            <div className="flex flex-row sm:flex-row-reverse gap-x-3 justify-between w-2/3 lg:w-max">
-              <button
-                onClick={() => setContactOpen(!isContactOpen)}
-                className="hover:bg-rose-400 lg:rounded-md italic pt-3 pb-2 sm:py-3 px-3 lg:px-6 bg-rose-500 text-xl lg:text-lg w-full lg:w-max text-center flex flex-col sm:flex-row items-center justify-center lg:border-2 lg:border-transparent lg:hover:border-white"
-              >
-                {!isContactOpen ? (
-                  <FaPhone className="sm:mr-1" />
-                ) : (
-                  <FaArrowLeft />
-                )}
-                <span>{!isContactOpen ? "Kontakt" : "Powrót"}</span>
-              </button>
-              <Link
-                href="/"
-                className="hover:bg-rose-400 lg:rounded-md italic pt-3 pb-2 sm:py-3 px-3 lg:px-6 bg-rose-500 text-xl lg:text-lg w-full lg:w-max text-center flex flex-col sm:flex-row items-center justify-center lg:border-2 lg:border-transparent lg:hover:border-white"
-              >
-                <FaHome className="sm:mr-1" />
-                <span>Home</span>
-              </Link>
-            </div>
-            <Link
-              href="/blog"
-              className="hover:bg-rose-400 lg:rounded-md w-1/3 italic gap-x-3 pt-3 pb-2 sm:py-3 px-3 lg:px-6 bg-rose-500 text-xl lg:text-lg lg:w-max text-center flex flex-col sm:flex-row items-center justify-center lg:border-2 lg:border-transparent lg:hover:border-white"
-            >
-              <FaBlog className="sm:mr-1" /> <span>Blog</span>
-            </Link>
-          </div>
-        </div>
       </div>
-
-      <Contact setContactOpen={setContactOpen} isContactOpen={isContactOpen} />
     </div>
   );
 };

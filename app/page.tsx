@@ -1,8 +1,9 @@
-import { GalleryGrid } from "./components/GalleryGrid";
-import { Announcer } from "./components/Announcer";
-import { Reserve } from "./components/Reserve";
-import { ServicesGrid } from "./components/ServicesGrid";
-import BlogInviter from "./components/BlogInviter";
+import About from "./components/About";
+import Hero from "./components/Hero";
+import UnderHero from "./components/UnderHero";
+import Shop from "./components/shop/Shop";
+import { getShopContent } from "./lib/getShopContent";
+
 async function getServicesList() {
   const req = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/services`);
   // Recommendation: handle errors
@@ -21,15 +22,13 @@ async function getBlogData() {
 }
 
 export default async function Home() {
-  const { services } = await getServicesList();
-  const { posts } = await getBlogData();
+  const ItemsList = await getShopContent();
   return (
     <>
-      <GalleryGrid />
-      <Announcer />
-      <ServicesGrid services={services} />
-      <Reserve />
-      <BlogInviter posts={posts.posts} />
+      <Hero />
+      <UnderHero />
+      <Shop ItemsList={ItemsList} />
+      <About />
     </>
   );
 }
