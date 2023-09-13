@@ -11,7 +11,7 @@ import Shop from "@/app/components/shop/Shop";
 import { getShopContent } from "@/app/lib/getShopContent";
 import About from "@/app/components/About";
 import shopItems from "@/public/json/ShopContent.json";
-import getShopContentSSR from "@/app/lib/getShopContentSSR";
+import { getShopContentSSR } from "@/app/lib/getShopContentSSR";
 
 export async function generateStaticParams() {
   const pages = await getShopContentSSR();
