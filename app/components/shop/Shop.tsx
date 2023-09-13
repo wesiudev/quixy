@@ -7,7 +7,7 @@
 // "PEŁNIMY USŁUGI GRAFICZNE PROGRAMUJEMY STRON NA TERENIE ... ZAPRASZAMY DO KONTAKTU"
 
 // TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
-import { Service } from "@/app/defs/defs";
+
 import ShopHeadline from "./ShopHeadline";
 import ShopItem from "./ShopItem";
 import graphicItems from "@/public/json/ShopContentGraphic.json";

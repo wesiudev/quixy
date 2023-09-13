@@ -16,12 +16,12 @@ import { getShopContent } from "./lib/getShopContent";
 // }
 
 export default async function Home() {
-  // const ItemsList = await getShopContent();
+  const ItemsList = await getShopContent();
   return (
     <>
       <Hero />
       <UnderHero />
-      {/* <Shop ItemsList={ItemsList} /> */}
+      <Shop ItemsList={ItemsList} />
       <About />
     </>
   );
