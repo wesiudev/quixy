@@ -13,7 +13,7 @@ import About from "@/app/components/About";
 import shopItems from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
   const pages = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL}/api/shop/pages`
+    `${process.env.NEXT_PUBLIC_SITE_URL}/api/shop/pages?secret=${process.env.API_SECRET_KEY}`
   ).then((res) => res.json());
   return pages.pages.map((page) => ({
     city: page.city,
