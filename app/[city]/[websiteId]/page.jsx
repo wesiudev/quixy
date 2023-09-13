@@ -1,8 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 
-import Hero from "@/app/components/Hero";
-import ShopHeadline from "@/app/components/shop/ShopHeadline";
-import ShopItem from "@/app/components/shop/ShopItem";
 import { getWebsiteInfo } from "@/app/lib/getWebsiteInfo";
 import Image from "next/image";
 import ninja from "@/app/assets/ninja-strony-internetowe-quixy.png";
@@ -13,10 +10,12 @@ import UnderHero from "@/app/components/UnderHero";
 import Shop from "@/app/components/shop/Shop";
 import { getShopContent } from "@/app/lib/getShopContent";
 import About from "@/app/components/About";
-import { Footer } from "@/app/components/Footer";
-import ShopContent from "@/public/json/ShopContent.json";
+import shopItems from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
-  return ShopContent.shopItems.map((page) => ({
+  const pages = await fetch(
+    `${process.env.NEXT_PUBLIC_SITE_URL}/api/shop/pages`
+  ).then((res) => res.json());
+  return pages.pages.map((page) => ({
     city: page.city,
     websiteId: page.websiteId,
   }));
@@ -24,7 +23,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   // fetch data
-  const { page } = await fetch(`/api/shop/${params}`);
+  const { page } = await getWebsiteInfo(params.city, params.websiteId);
   return {
     title: `Quixy.pl - Programowanie stron internetowych - ${page.name} - Grafika komputerowa - Projektowanie logo`,
     description: `Usługi programistyczne Quixy.pl. ${page.summary}`,
@@ -34,13 +33,13 @@ export async function generateMetadata({ params }) {
 export const dynamicParams = false;
 
 export default async function Page({ params }) {
-  const { page } = await fetch(`/api/shop/${params}`);
-
+  const { page } = await getWebsiteInfo(params.city, params.websiteId);
+  const ItemsList = await getShopContent();
   if (page)
     return (
       <>
         {/* <Hero /> */}
-        <div className="min-h-screen w-full pt-24 px-3 lg:px-[8vw] mx-auto bg-gradient-to-b bg-green-400 relative ">
+        <div className="min-h-screen w-full pt-24 px-3 lg:px-[8vw] mx-auto bg-gradient-to-b bg-green-400 relative overflow-hidden">
           <div className="absolute h-4 bg-green-400 blur-sm -bottom-2 left-0 w-full"></div>
           {/* <ShopHeadline title={page.name} /> */}
           <div className="absolute left-6 lg:left-[8vw] -top-12 h-24 w-24 bg-white rotate-45 bg-opacity-10"></div>
@@ -57,7 +56,7 @@ export default async function Page({ params }) {
           <div className=" flex flex-col w-full mx-auto mt-24">
             <div className="py-12 font-bold relative flex flex-col lg:flex-row">
               <div className="w-full lg:w-3/5  relative">
-                <h1 className="relative w-full text-gray-50 text-7xl drop-shadow-xl shadow-black mt-36 lg:pr-12 z-30">
+                <h1 className="relative w-full text-gray-50 text-3xl lg:text-7xl drop-shadow-xl shadow-black mt-36 lg:pr-12 z-30">
                   {page.description.h1}
                 </h1>
                 <div className="flex flex-col w-full">
@@ -200,6 +199,9 @@ export default async function Page({ params }) {
             </div>
           </div>
         </div>
+        <UnderHero />
+        <Shop ItemsList={ItemsList} />
+        <About />
       </>
     );
 }
