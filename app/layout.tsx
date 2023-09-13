@@ -6,9 +6,9 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 export const metadata: Metadata = {
   title:
-    "Strony Internetowe - quixy.pl - Najnowsze technologie - Szybkość i niezawodność",
+    "Quixy.pl - Programowanie stron internetowych - Grafika komputerowa - Projektowanie logo",
   description:
-    "Tworzenie stron internetowych. Oferta stron internetowych. Aplikacje internetowe oparte o najnowsze technologie.",
+    "Tworzenie stron internetowych. Oferta stron internetowych. Aplikacje internetowe oparte o najnowsze technologie. Grafika komputerowa, grafika social media.",
   themeColor: "#8cf562",
   publisher: "wesiudev",
   manifest: "/manifest.json",
@@ -28,9 +28,8 @@ export default function RootLayout({
        w-full overflow-x-hidden`}
       >
         {" "}
-        <Header />
         {children}
-        <Footer />
+        
       </body>
     </html>
   );

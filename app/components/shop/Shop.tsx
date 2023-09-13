@@ -23,7 +23,7 @@ export default function Shop({ ItemsList }: { ItemsList: any }) {
           <Link
             className={`${i > 2 && "hidden"} `}
             key={i}
-            href={`/strony-internetowe/${service.websiteId}`}
+            href={`/${service.city}/${service.websiteId}`}
           >
             <ShopItem index={i} key={i} item={service} isGraphic={false} />
           </Link>
@@ -31,15 +31,19 @@ export default function Shop({ ItemsList }: { ItemsList: any }) {
       </div>
       <ShopHeadline title="Usługi graficzne" />
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 w-4/5 lg:w-3/4 mx-auto mt-12 gap-6 lg:gap-12 pb-12">
-        {graphicItems.graphicItems.map((service: any, i: any) => (
-          <Link key={i} href={`/uslugi-graficzne/${service.websiteId}`}>
-            <ShopItem
-              index={i}
-              key={i}
-              item={service}
-              isGraphic={service.isGraphic}
-            />
-          </Link>
+        {ShopContent.map((service: any, i: any) => (
+          <>
+            {service.isGraphic && (
+              <Link key={i} href={`/${service.city}/${service.websiteId}`}>
+                <ShopItem
+                  index={i}
+                  key={i}
+                  item={service}
+                  isGraphic={service.isGraphic}
+                />
+              </Link>
+            )}
+          </>
         ))}
       </div>
     </div>
