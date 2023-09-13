@@ -170,7 +170,7 @@ export default async function Page({ params }) {
                         NAJWAŻNIEJSZE INFORMACJE
                       </h1>
                       <div className="flex flex-col ">
-                        {page.description.infos.map((info, i) => (
+                        {page.description.infos?.map((info, i) => (
                           <div
                             key={i}
                             className="flex flex-row items-center hover:bg-green-400 p-2"
