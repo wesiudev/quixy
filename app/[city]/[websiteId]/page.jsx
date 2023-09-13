@@ -12,7 +12,9 @@ import { getShopContent } from "@/app/lib/getShopContent";
 import About from "@/app/components/About";
 import shopItems from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
-  const pages = await fetch(`/api/shop/pages`).then((res) => res.json());
+  const pages = await fetch(
+    `${process.env.NEXT_PUBLIC_SITE_URL}/api/shop/pages`
+  ).then((res) => res.json());
   return pages.pages.map((page) => ({
     city: page.city,
     websiteId: page.websiteId,
