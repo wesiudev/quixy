@@ -1,9 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { FaArrowLeft, FaLink, FaPlus } from "react-icons/fa";
+import { FaArrowLeft, FaLink } from "react-icons/fa";
 import * as Scroll from "react-scroll";
-import { addBlogPost } from "@/firebase/index";
+import { addBlogPost } from "../../../firebase/index";
 
 export default function NewPost() {
   const [input, setInput] = useState({
@@ -32,7 +32,6 @@ export default function NewPost() {
       ...prevInput,
       tags: [...prevInput.tags, { name: tagInput }],
     }));
-    console.log(input.tags);
   };
 
   const handleMarkdownChange = (event: any) => {
