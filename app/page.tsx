@@ -4,18 +4,17 @@ import { Header } from "./components/Header";
 import Hero from "./components/Hero";
 import UnderHero from "./components/UnderHero";
 import Shop from "./components/shop/Shop";
-import { getShopContentSSR } from "./lib/getShopContentSSR";
+import { getShopContent } from "./lib/getShopContent";
 
 export default async function Home() {
-  const ItemsList = await getShopContentSSR();
-
+  const ItemsList = await getShopContent();
   return (
     <>
       <Header />
       <Hero />
       <UnderHero />
       <Shop ItemsList={ItemsList} />
-      <About content={ItemsList.pages[0].aboutSection} />
+      <About content={ItemsList.shopContent[0].aboutSection} />
       <Footer />
     </>
   );
