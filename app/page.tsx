@@ -7,15 +7,15 @@ import Shop from "./components/shop/Shop";
 import { getShopContentSSR } from "./lib/getShopContentSSR";
 
 export default async function Home() {
-  const ItemsList = await getShopContentSSR();
+  // const ItemsList = await getShopContentSSR();
 
   return (
     <>
       <Header />
       <Hero />
       <UnderHero />
-      <Shop ItemsList={ItemsList} />
-      <About content={ItemsList.pages[0].aboutSection} />
+      {/* <Shop ItemsList={ItemsList} /> */}
+      {/* <About content={ItemsList.pages[0].aboutSection} /> */}
       <Footer />
     </>
   );
