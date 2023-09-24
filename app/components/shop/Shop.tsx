@@ -10,7 +10,6 @@
 
 import ShopHeadline from "./ShopHeadline";
 import ShopItem from "./ShopItem";
-import graphicItems from "@/public/json/ShopContentGraphic.json";
 import Link from "next/link";
 export default function Shop({ ItemsList }: { ItemsList: any }) {
   const ShopContent = ItemsList.pages;
