@@ -1,23 +1,20 @@
-import { getPost } from "@/app/lib/getPost";
-import Image from "next/image";
-import Link from "next/link";
-export async function generateStaticParams() {
-  const { posts } = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL}/api/blog/`
-  ).then((res) => res.json());
+// export async function generateStaticParams() {
+//   const { posts } = await fetch(
+//     `${process.env.NEXT_PUBLIC_SITE_URL}/api/blog/`
+//   ).then((res) => res.json());
 
-  return posts.map((post) => ({ postId: post.postId }));
-}
+//   return posts.map((post) => ({ postId: post.postId }));
+// }
 
-export const dynamicParams = false;
+// export const dynamicParams = false;
 
-export default async function Page({ params }) {
-  const { post } = await getPost(params.postId);
-  if (post) return <div className="w-[90vw] flex flex-row mx-auto"></div>;
-}
+// export default async function Page({ params }) {
+//   const { post } = await getPost(params.postId);
+//   if (post) return <div className="w-[90vw] flex flex-row mx-auto"></div>;
+// }
 
-{
-  /* <div className="flex flex-col p-12">
+// {
+/* <div className="flex flex-col p-12">
             <h1 className="leading-relaxed font-bold">{input.title}</h1>
             <h3 className="italic  leading-relaxed font-italic font-light">
               {input.intro}
@@ -66,4 +63,4 @@ export default async function Page({ params }) {
               ))}
             </div>
           </ */
-}
+// }
