@@ -12,7 +12,13 @@ import ShopHeadline from "./ShopHeadline";
 import ShopItem from "./ShopItem";
 import graphicItems from "@/public/json/ShopContentGraphic.json";
 import Link from "next/link";
-export default function Shop({ ItemsList }: { ItemsList: any }) {
+export default function Shop({
+  ItemsList,
+  city,
+}: {
+  ItemsList: any;
+  city?: string;
+}) {
   const ShopContent = ItemsList.shopItems;
   return (
     <div className="min-h-screen w-screen bg-green-400 flex flex-col pb-48">

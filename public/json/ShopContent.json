@@ -3,8 +3,10 @@
     {
       "isGraphic": false,
       "city": "strony-internetowe",
+      "cityPropperName": "Cała polska",
       "websiteId": "strona-wizytowka-polska",
       "name": "Strona wizytówka",
+      "linkName": "Strona wizytówka Polska",
       "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
@@ -73,6 +75,7 @@
       "city": "strony-internetowe",
       "websiteId": "sklep-internetowy-polska",
       "name": "Sklep internetowy",
+      "linkName": "Sklep internetowy Polska",
       "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
@@ -145,6 +148,7 @@
       "city": "strony-internetowe",
       "websiteId": "strona-landingowa-polska",
       "name": "Strona landingowa",
+      "linkName": "Strona landingowa Polska",
       "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
@@ -214,8 +218,10 @@
     {
       "isGraphic": false,
       "city": "grudziadz",
+      "cityPropperName": "Grudziądz",
       "websiteId": "strona-wizytowka-grudziadz",
       "name": "Strona wizytówka",
+      "linkName": "Strona wizytówka Grudziądz",
       "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
@@ -284,6 +290,7 @@
       "city": "grudziadz",
       "websiteId": "sklep-internetowy-grudziadz",
       "name": "Sklep internetowy",
+      "linkName": "Sklep internetowy Grudziądz",
       "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
@@ -356,6 +363,7 @@
       "city": "grudziadz",
       "websiteId": "strona-landingowa-grudziadz",
       "name": "Strona landingowa",
+      "linkName": "Strona landingowa Grudziądz",
       "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
@@ -425,8 +433,10 @@
     {
       "isGraphic": false,
       "city": "gdansk",
+      "cityPropperName": "Gdańsk",
       "websiteId": "strona-wizytowka-gdansk",
       "name": "Strona wizytówka",
+      "linkName": "Strona wizytówka Gdańsk",
       "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
@@ -495,6 +505,7 @@
       "city": "gdansk",
       "websiteId": "sklep-internetowy-gdansk",
       "name": "Sklep internetowy",
+      "linkName": "Sklep internetowy Gdańsk",
       "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
@@ -567,6 +578,7 @@
       "city": "gdansk",
       "websiteId": "strona-landingowa-gdansk",
       "name": "Strona landingowa",
+      "linkName": "Strona landingowa Gdańsk",
       "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
@@ -636,7 +648,9 @@
     {
       "isGraphic": false,
       "city": "warszawa",
+      "cityPropperName": "Warszawa",
       "websiteId": "strona-wizytowka-warszawa",
+      "linkName": "Strona wizytówka Warszawa",
       "name": "Strona wizytówka",
       "price": "1399zł",
       "description": {
@@ -706,6 +720,7 @@
       "isGraphic": false,
       "city": "warszawa",
       "websiteId": "sklep-internetowy-warszawa",
+      "linkName": "Sklep internetowy Warszawa",
       "name": "Sklep internetowy",
       "price": "8999zł",
       "description": {
@@ -778,6 +793,8 @@
       "isGraphic": false,
       "city": "warszawa",
       "websiteId": "strona-landingowa-warszawa",
+      "linkName": "Strona landingowa Warszawa",
+
       "name": "Strona landingowa",
       "price": "1799zł",
       "description": {
@@ -848,7 +865,9 @@
     {
       "isGraphic": false,
       "city": "krakow",
+      "cityPropperName": "Kraków",
       "websiteId": "strona-wizytowka-krakow",
+      "linkName": "Strona wizytówka Kraków",
       "name": "Strona wizytówka",
       "price": "1399zł",
       "description": {
@@ -917,6 +936,7 @@
       "isGraphic": false,
       "city": "krakow",
       "websiteId": "sklep-internetowy-krakow",
+      "linkName": "Sklep internetowy Kraków",
       "name": "Sklep internetowy",
       "price": "8999zł",
       "description": {
@@ -989,6 +1009,7 @@
       "isGraphic": false,
       "city": "krakow",
       "websiteId": "strona-landingowa-krakow",
+      "linkName": "Strona landingowa Kraków",
       "name": "Strona landingowa",
       "price": "1799zł",
       "description": {
@@ -1059,7 +1080,9 @@
     {
       "isGraphic": true,
       "city": "grafika-komputerowa",
+      "cityPropperName": "Grudziądz",
       "websiteId": "projektowanie-logo",
+      "linkName": "Projektowanie logo Grudziądz",
       "name": "Projektowanie logo",
       "price": "500zł",
       "description": {
@@ -1134,7 +1157,458 @@
     {
       "isGraphic": true,
       "city": "grafika-komputerowa",
+      "linkName": "Grafika social media Grudziądz",
       "websiteId": "pakiet-social-media",
+      "name": "PAKIET SOCIAL MEDIA",
+      "price": "1799zł",
+      "description": {
+        "h1": "PAKIET SOCIAL MEDIA",
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy.",
+        "reasons": [
+          "Zwiększenie widoczności: Obecność na mediach społecznościowych pozwala dotrzeć do szerszej publiczności i zwiększyć widoczność marki.",
+          "Budowanie relacji: Mediów społecznościowych można używać do nawiązywania i budowania relacji z klientami, co prowadzi do większej lojalności i zaufania.",
+          "Promocja produktów/usług: Platformy społecznościowe pozwalają na skuteczną promocję produktów i usług, docierając do potencjalnych klientów.",
+          "Feedback od klientów: Możliwość otrzymywania opinii i komentarzy od klientów pomaga w doskonaleniu oferty i dostosowywaniu się do ich potrzeb.",
+          "Analiza rynku: Monitoring mediów społecznościowych pozwala na zrozumienie trendów rynkowych i potrzeb klientów.",
+          "Kreowanie wizerunku marki: Social media pozwalają na budowanie pozytywnego wizerunku marki i komunikowanie jej wartości.",
+          "Wsparcie klienta: Możesz dostarczać wsparcie klientom poprzez odpowiedzi na pytania i rozwiązywanie problemów na platformach społecznościowych.",
+          "Reklama ukierunkowana: Platformy społecznościowe oferują narzędzia do ukierunkowanej reklamy, co pozwala docierać do konkretnych grup docelowych.",
+          "Śledzenie konkurencji: Monitorowanie aktywności konkurencji na mediach społecznościowych pomaga w analizie rynku i dostosowywaniu strategii.",
+          "Wzmacnianie zaangażowania: Redagowanie ciekawych treści i udostępnianie ich na mediach społecznościowych przyciąga uwagę i zwiększa zaangażowanie użytkowników.",
+          "Wpływ na SEO: Aktywność na mediach społecznościowych może wpłynąć na pozycje Twojej strony internetowej w wynikach wyszukiwania.",
+          "Monitorowanie wyników: Dostępne narzędzia pozwalają na monitorowanie efektywności działań na mediach społecznościowych i dostosowywanie strategii na podstawie wyników."
+        ],
+        "infos": [
+          "Zwiększenie widoczności",
+          "Budowanie relacji",
+          "Promocja produktów/usług",
+          "Feedback od klientów",
+          "Analiza rynku",
+          "Kreowanie wizerunku marki",
+          "Wsparcie klienta",
+          "Reklama ukierunkowana",
+          "Śledzenie konkurencji",
+          "Wzmacnianie zaangażowania",
+          "Wpływ na SEO",
+          "Monitorowanie wyników"
+        ],
+        "summary": "Prowadzenie mediów społecznościowych dla biznesu stanowi istotny element strategii marketingowej, pozwalając na zwiększenie widoczności marki, budowanie relacji z klientami oraz skuteczną promocję produktów i usług. To także narzędzie umożliwiające zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co wpływa na sukces i rozwój firmy."
+      },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/grafika-komputerowa-social-media-grudziadz.png?alt=media&token=e97bc406-d502-4644-8fb9-e2260e0ddfa4",
+        "alt": "grafika komputerowa quixy.pl social media pakiet"
+      }
+    },
+    {
+      "city": "warszawa",
+      "cityPropperName": "Warszawa",
+      "websiteId": "projektowanie-logo",
+      "linkName": "Projektowanie logo Warszawa",
+      "name": "Projektowanie logo",
+      "price": "500zł",
+      "description": {
+        "h1": "ZALETY LOGO",
+        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki.",
+        "reasons": [
+          "Rozpoznawalność marki: Logo jest graficznym symbolem lub znakiem rozpoznawczym, który pomaga w odróżnieniu Twojej marki od konkurencji. Dobrze zaprojektowane logo może przyciągnąć uwagę i zapadać w pamięć klientów.",
+          "Profesjonalizm: Posiadanie logo daje Twojej firmie profesjonalny wygląd. Dzięki niemu Twoja firma wydaje się bardziej wiarygodna i godna zaufania w oczach klientów.",
+          "Wizualizacja tożsamości marki: Logo jest kluczowym elementem identyfikacji wizualnej marki. Określa ono kolorystykę, czcionki i styl, które powinny być stosowane we wszystkich materiałach marketingowych i komunikacji firmy.",
+          "Przyciąganie uwagi: Estetycznie i atrakcyjnie zaprojektowane logo może przyciągnąć uwagę klientów i skłonić ich do bliższego przyjrzenia się Twoim produktom lub usługom.",
+          "Budowanie lojalności klienta: Klienci często identyfikują się z marką za pośrednictwem jej logo. Silna identyfikacja marki może prowadzić do większej lojalności klientów.",
+          "Marketing i reklama: Logo jest niezbędne do tworzenia materiałów marketingowych, takich jak ulotki, banery, strony internetowe, plakaty i reklamy. Pomaga to utrzymać spójność w komunikacji marketingowej.",
+          "Rozpoznawalność online: W erze internetu logo jest ważnym elementem identyfikacji online. Może być wykorzystywane na stronach internetowych, w mediach społecznościowych, w wiadomościach e-mail i innych miejscach online.",
+          "Skupienie uwagi: Logo może pomóc w skupieniu uwagi na najważniejszych aspektach Twojej marki lub oferty, przekazując kluczowe wartości i przesłanie.",
+          "Wartość rynkowa: Dobrze rozpoznawalne logo może zwiększyć wartość rynkową firmy i wpływać na jej sukces na rynku.",
+          "Łatwość identyfikacji: Logo umożliwia szybkie i łatwe rozpoznanie firmy przez klientów, co może pomóc w przyciągnięciu nowych klientów."
+        ],
+        "infos": [
+          "Rozpoznawalność",
+          "Profesjonalizm",
+          "Identyfikacja wizualna",
+          "Skupienie uwagi",
+          "Lojalność klientów",
+          "Marketing i reklama",
+          "Wartość rynkowa",
+          "Rozpoznawalność online",
+          "Skrócenie przekazu",
+          "Unikalność",
+          "Kreatywność",
+          "Wartość estetyczna",
+          "Komunikacja marki",
+          "Rozpoznawalność offline",
+          "Długoletnia inwestycja"
+        ],
+        "summary": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+      },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/quixy-projektowanie-logo-uslugi-graficzne.png?alt=media&token=7a3b3aa8-c947-420f-8987-7dff99660521",
+        "alt": "grafika komputerowa quixy.pl projektowanie logo"
+      }
+    },
+    {
+      "city": "warszawa",
+      "linkName": "Grafika social media Warszawa",
+      "websiteId": "pakiet-social-media",
+      "name": "PAKIET SOCIAL MEDIA",
+      "price": "1799zł",
+      "description": {
+        "h1": "PAKIET SOCIAL MEDIA",
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy.",
+        "reasons": [
+          "Zwiększenie widoczności: Obecność na mediach społecznościowych pozwala dotrzeć do szerszej publiczności i zwiększyć widoczność marki.",
+          "Budowanie relacji: Mediów społecznościowych można używać do nawiązywania i budowania relacji z klientami, co prowadzi do większej lojalności i zaufania.",
+          "Promocja produktów/usług: Platformy społecznościowe pozwalają na skuteczną promocję produktów i usług, docierając do potencjalnych klientów.",
+          "Feedback od klientów: Możliwość otrzymywania opinii i komentarzy od klientów pomaga w doskonaleniu oferty i dostosowywaniu się do ich potrzeb.",
+          "Analiza rynku: Monitoring mediów społecznościowych pozwala na zrozumienie trendów rynkowych i potrzeb klientów.",
+          "Kreowanie wizerunku marki: Social media pozwalają na budowanie pozytywnego wizerunku marki i komunikowanie jej wartości.",
+          "Wsparcie klienta: Możesz dostarczać wsparcie klientom poprzez odpowiedzi na pytania i rozwiązywanie problemów na platformach społecznościowych.",
+          "Reklama ukierunkowana: Platformy społecznościowe oferują narzędzia do ukierunkowanej reklamy, co pozwala docierać do konkretnych grup docelowych.",
+          "Śledzenie konkurencji: Monitorowanie aktywności konkurencji na mediach społecznościowych pomaga w analizie rynku i dostosowywaniu strategii.",
+          "Wzmacnianie zaangażowania: Redagowanie ciekawych treści i udostępnianie ich na mediach społecznościowych przyciąga uwagę i zwiększa zaangażowanie użytkowników.",
+          "Wpływ na SEO: Aktywność na mediach społecznościowych może wpłynąć na pozycje Twojej strony internetowej w wynikach wyszukiwania.",
+          "Monitorowanie wyników: Dostępne narzędzia pozwalają na monitorowanie efektywności działań na mediach społecznościowych i dostosowywanie strategii na podstawie wyników."
+        ],
+        "infos": [
+          "Zwiększenie widoczności",
+          "Budowanie relacji",
+          "Promocja produktów/usług",
+          "Feedback od klientów",
+          "Analiza rynku",
+          "Kreowanie wizerunku marki",
+          "Wsparcie klienta",
+          "Reklama ukierunkowana",
+          "Śledzenie konkurencji",
+          "Wzmacnianie zaangażowania",
+          "Wpływ na SEO",
+          "Monitorowanie wyników"
+        ],
+        "summary": "Prowadzenie mediów społecznościowych dla biznesu stanowi istotny element strategii marketingowej, pozwalając na zwiększenie widoczności marki, budowanie relacji z klientami oraz skuteczną promocję produktów i usług. To także narzędzie umożliwiające zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co wpływa na sukces i rozwój firmy."
+      },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/grafika-komputerowa-social-media-grudziadz.png?alt=media&token=e97bc406-d502-4644-8fb9-e2260e0ddfa4",
+        "alt": "grafika komputerowa quixy.pl social media pakiet"
+      }
+    },
+    {
+      "city": "krakow",
+      "cityPropperName": "Kraków",
+      "websiteId": "projektowanie-logo",
+      "linkName": "Projektowanie logo Kraków",
+      "name": "Projektowanie logo",
+      "price": "500zł",
+      "description": {
+        "h1": "ZALETY LOGO",
+        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki.",
+        "reasons": [
+          "Rozpoznawalność marki: Logo jest graficznym symbolem lub znakiem rozpoznawczym, który pomaga w odróżnieniu Twojej marki od konkurencji. Dobrze zaprojektowane logo może przyciągnąć uwagę i zapadać w pamięć klientów.",
+          "Profesjonalizm: Posiadanie logo daje Twojej firmie profesjonalny wygląd. Dzięki niemu Twoja firma wydaje się bardziej wiarygodna i godna zaufania w oczach klientów.",
+          "Wizualizacja tożsamości marki: Logo jest kluczowym elementem identyfikacji wizualnej marki. Określa ono kolorystykę, czcionki i styl, które powinny być stosowane we wszystkich materiałach marketingowych i komunikacji firmy.",
+          "Przyciąganie uwagi: Estetycznie i atrakcyjnie zaprojektowane logo może przyciągnąć uwagę klientów i skłonić ich do bliższego przyjrzenia się Twoim produktom lub usługom.",
+          "Budowanie lojalności klienta: Klienci często identyfikują się z marką za pośrednictwem jej logo. Silna identyfikacja marki może prowadzić do większej lojalności klientów.",
+          "Marketing i reklama: Logo jest niezbędne do tworzenia materiałów marketingowych, takich jak ulotki, banery, strony internetowe, plakaty i reklamy. Pomaga to utrzymać spójność w komunikacji marketingowej.",
+          "Rozpoznawalność online: W erze internetu logo jest ważnym elementem identyfikacji online. Może być wykorzystywane na stronach internetowych, w mediach społecznościowych, w wiadomościach e-mail i innych miejscach online.",
+          "Skupienie uwagi: Logo może pomóc w skupieniu uwagi na najważniejszych aspektach Twojej marki lub oferty, przekazując kluczowe wartości i przesłanie.",
+          "Wartość rynkowa: Dobrze rozpoznawalne logo może zwiększyć wartość rynkową firmy i wpływać na jej sukces na rynku.",
+          "Łatwość identyfikacji: Logo umożliwia szybkie i łatwe rozpoznanie firmy przez klientów, co może pomóc w przyciągnięciu nowych klientów."
+        ],
+        "infos": [
+          "Rozpoznawalność",
+          "Profesjonalizm",
+          "Identyfikacja wizualna",
+          "Skupienie uwagi",
+          "Lojalność klientów",
+          "Marketing i reklama",
+          "Wartość rynkowa",
+          "Rozpoznawalność online",
+          "Skrócenie przekazu",
+          "Unikalność",
+          "Kreatywność",
+          "Wartość estetyczna",
+          "Komunikacja marki",
+          "Rozpoznawalność offline",
+          "Długoletnia inwestycja"
+        ],
+        "summary": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+      },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/quixy-projektowanie-logo-uslugi-graficzne.png?alt=media&token=7a3b3aa8-c947-420f-8987-7dff99660521",
+        "alt": "grafika komputerowa quixy.pl projektowanie logo"
+      }
+    },
+    {
+      "city": "krakow",
+      "linkName": "Grafika social media Kraków",
+      "websiteId": "pakiet-social-media",
+      "name": "PAKIET SOCIAL MEDIA",
+      "price": "1799zł",
+      "description": {
+        "h1": "PAKIET SOCIAL MEDIA",
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy.",
+        "reasons": [
+          "Zwiększenie widoczności: Obecność na mediach społecznościowych pozwala dotrzeć do szerszej publiczności i zwiększyć widoczność marki.",
+          "Budowanie relacji: Mediów społecznościowych można używać do nawiązywania i budowania relacji z klientami, co prowadzi do większej lojalności i zaufania.",
+          "Promocja produktów/usług: Platformy społecznościowe pozwalają na skuteczną promocję produktów i usług, docierając do potencjalnych klientów.",
+          "Feedback od klientów: Możliwość otrzymywania opinii i komentarzy od klientów pomaga w doskonaleniu oferty i dostosowywaniu się do ich potrzeb.",
+          "Analiza rynku: Monitoring mediów społecznościowych pozwala na zrozumienie trendów rynkowych i potrzeb klientów.",
+          "Kreowanie wizerunku marki: Social media pozwalają na budowanie pozytywnego wizerunku marki i komunikowanie jej wartości.",
+          "Wsparcie klienta: Możesz dostarczać wsparcie klientom poprzez odpowiedzi na pytania i rozwiązywanie problemów na platformach społecznościowych.",
+          "Reklama ukierunkowana: Platformy społecznościowe oferują narzędzia do ukierunkowanej reklamy, co pozwala docierać do konkretnych grup docelowych.",
+          "Śledzenie konkurencji: Monitorowanie aktywności konkurencji na mediach społecznościowych pomaga w analizie rynku i dostosowywaniu strategii.",
+          "Wzmacnianie zaangażowania: Redagowanie ciekawych treści i udostępnianie ich na mediach społecznościowych przyciąga uwagę i zwiększa zaangażowanie użytkowników.",
+          "Wpływ na SEO: Aktywność na mediach społecznościowych może wpłynąć na pozycje Twojej strony internetowej w wynikach wyszukiwania.",
+          "Monitorowanie wyników: Dostępne narzędzia pozwalają na monitorowanie efektywności działań na mediach społecznościowych i dostosowywanie strategii na podstawie wyników."
+        ],
+        "infos": [
+          "Zwiększenie widoczności",
+          "Budowanie relacji",
+          "Promocja produktów/usług",
+          "Feedback od klientów",
+          "Analiza rynku",
+          "Kreowanie wizerunku marki",
+          "Wsparcie klienta",
+          "Reklama ukierunkowana",
+          "Śledzenie konkurencji",
+          "Wzmacnianie zaangażowania",
+          "Wpływ na SEO",
+          "Monitorowanie wyników"
+        ],
+        "summary": "Prowadzenie mediów społecznościowych dla biznesu stanowi istotny element strategii marketingowej, pozwalając na zwiększenie widoczności marki, budowanie relacji z klientami oraz skuteczną promocję produktów i usług. To także narzędzie umożliwiające zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co wpływa na sukces i rozwój firmy."
+      },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/grafika-komputerowa-social-media-grudziadz.png?alt=media&token=e97bc406-d502-4644-8fb9-e2260e0ddfa4",
+        "alt": "grafika komputerowa quixy.pl social media pakiet"
+      }
+    },
+    {
+      "city": "gdansk",
+      "cityPropperName": "Gdańsk",
+      "linkName": "Projektowanie logo Gdańsk",
+      "websiteId": "projektowanie-logo",
+      "name": "Projektowanie logo",
+      "price": "500zł",
+      "description": {
+        "h1": "ZALETY LOGO",
+        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki.",
+        "reasons": [
+          "Rozpoznawalność marki: Logo jest graficznym symbolem lub znakiem rozpoznawczym, który pomaga w odróżnieniu Twojej marki od konkurencji. Dobrze zaprojektowane logo może przyciągnąć uwagę i zapadać w pamięć klientów.",
+          "Profesjonalizm: Posiadanie logo daje Twojej firmie profesjonalny wygląd. Dzięki niemu Twoja firma wydaje się bardziej wiarygodna i godna zaufania w oczach klientów.",
+          "Wizualizacja tożsamości marki: Logo jest kluczowym elementem identyfikacji wizualnej marki. Określa ono kolorystykę, czcionki i styl, które powinny być stosowane we wszystkich materiałach marketingowych i komunikacji firmy.",
+          "Przyciąganie uwagi: Estetycznie i atrakcyjnie zaprojektowane logo może przyciągnąć uwagę klientów i skłonić ich do bliższego przyjrzenia się Twoim produktom lub usługom.",
+          "Budowanie lojalności klienta: Klienci często identyfikują się z marką za pośrednictwem jej logo. Silna identyfikacja marki może prowadzić do większej lojalności klientów.",
+          "Marketing i reklama: Logo jest niezbędne do tworzenia materiałów marketingowych, takich jak ulotki, banery, strony internetowe, plakaty i reklamy. Pomaga to utrzymać spójność w komunikacji marketingowej.",
+          "Rozpoznawalność online: W erze internetu logo jest ważnym elementem identyfikacji online. Może być wykorzystywane na stronach internetowych, w mediach społecznościowych, w wiadomościach e-mail i innych miejscach online.",
+          "Skupienie uwagi: Logo może pomóc w skupieniu uwagi na najważniejszych aspektach Twojej marki lub oferty, przekazując kluczowe wartości i przesłanie.",
+          "Wartość rynkowa: Dobrze rozpoznawalne logo może zwiększyć wartość rynkową firmy i wpływać na jej sukces na rynku.",
+          "Łatwość identyfikacji: Logo umożliwia szybkie i łatwe rozpoznanie firmy przez klientów, co może pomóc w przyciągnięciu nowych klientów."
+        ],
+        "infos": [
+          "Rozpoznawalność",
+          "Profesjonalizm",
+          "Identyfikacja wizualna",
+          "Skupienie uwagi",
+          "Lojalność klientów",
+          "Marketing i reklama",
+          "Wartość rynkowa",
+          "Rozpoznawalność online",
+          "Skrócenie przekazu",
+          "Unikalność",
+          "Kreatywność",
+          "Wartość estetyczna",
+          "Komunikacja marki",
+          "Rozpoznawalność offline",
+          "Długoletnia inwestycja"
+        ],
+        "summary": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+      },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/quixy-projektowanie-logo-uslugi-graficzne.png?alt=media&token=7a3b3aa8-c947-420f-8987-7dff99660521",
+        "alt": "grafika komputerowa quixy.pl projektowanie logo"
+      }
+    },
+    {
+      "city": "gdansk",
+      "websiteId": "pakiet-social-media",
+      "linkName": "Grafika social media Gdańsk",
       "name": "PAKIET SOCIAL MEDIA",
       "price": "1799zł",
       "description": {

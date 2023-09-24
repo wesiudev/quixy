@@ -5,10 +5,5 @@ export default function BlogLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <div className="w-full">
-      {children}
-      <Footer />
-    </div>
-  );
+  return <div className="w-full">{children}</div>;
 }

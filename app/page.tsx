@@ -15,7 +15,7 @@ export default async function Home() {
       <UnderHero />
       <Shop ItemsList={ItemsList} />
       <About content={ItemsList.shopItems[0].aboutSection} />
-      <Footer />
+      <Footer content={ItemsList.shopItems} />
     </>
   );
 }

@@ -12,6 +12,7 @@ import { getShopContent } from "@/app/lib/getShopContent";
 import About from "@/app/components/About";
 import shopItems from "@/public/json/ShopContent.json";
 import { getShopContentSSR } from "@/app/lib/getShopContentSSR";
+import { Footer } from "@/app/components/Footer";
 
 export async function generateStaticParams() {
   const pages = await getShopContentSSR();
@@ -225,8 +226,9 @@ export default async function Page({ params }) {
           </div>
         </div>
         <UnderHero />
-        <Shop ItemsList={ItemsList} />
+        <Shop ItemsList={ItemsList} city={page.city} />
         <About content={page.aboutSection} />
+        <Footer content={ItemsList.shopItems} />
       </>
     );
 }
