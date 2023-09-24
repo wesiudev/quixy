@@ -16,7 +16,8 @@ import hero from "../../assets/bg.png";
 import hero2 from "../../assets/bg2.png";
 export async function generateStaticParams() {
   const pages = await getShopContentSSR();
-  return pages.pages.map((page) => ({
+
+  return pages?.pages?.map((page) => ({
     city: page.city,
     websiteId: page.websiteId,
   }));
