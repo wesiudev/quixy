@@ -14,7 +14,7 @@ export default async function Home() {
       <Hero />
       <UnderHero />
       <Shop ItemsList={ItemsList} />
-      <About content={ItemsList.shopContent[0].aboutSection} />
+      <About content={ItemsList.shopItems[0].aboutSection} />
       <Footer />
     </>
   );
