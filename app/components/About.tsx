@@ -5,8 +5,6 @@ import Image from "next/image";
 import connector from "@/app/assets/laczenie-sekcji-strony-www-o-nas.png";
 
 export default function About({ content }: any) {
-  console.log(content[0].h2);
-
   return (
     <div className="min-h-screen w-screen  px-[8vw] pt-12 pb-12 bg-gray-500 font-coco relative z-[102]">
       <Image
