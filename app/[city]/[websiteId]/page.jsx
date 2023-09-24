@@ -26,7 +26,7 @@ export async function generateMetadata({ params }) {
   const { page } = await getWebsiteInfo(params.city, params.websiteId);
   return {
     title: `Quixy.pl - Programowanie stron internetowych - ${page.name} - Grafika komputerowa - Projektowanie logo`,
-    description: `Usługi programistyczne Quixy.pl. ${page.summary}`,
+    description: `Usługi programistyczne Quixy.pl. ${page.description.summary}`,
   };
 }
 
