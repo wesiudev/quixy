@@ -3,7 +3,7 @@ import underhero from "../assets/underhero2.png";
 import websites from "../assets/websites.png";
 export default function UnderHero() {
   return (
-    <div className="min-h-screen w-screen bg-green-500 flex flex-col lg:flex-row lg:pl-[8vw]">
+    <div className="min-h-screen w-screen bg-green-500 flex flex-col lg:flex-row lg:pl-[8vw] z-[100] relative">
       <div className=" rounded-lg w-[90vw] lg:w-1/2 h-max  bg-white relative mt-24 mx-auto">
         <h1 className="py-6 font-coco text-4xl text-center font-bold selection:bg-green-400 selection:text-white">
           Kup unikalną stronę!

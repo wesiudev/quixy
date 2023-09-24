@@ -5,6 +5,12 @@ import {
   getDocs,
   query,
   orderBy,
+  getDoc,
+  setDoc,
+  doc,
+  addDoc,
+  arrayUnion,
+  updateDoc,
 } from "firebase/firestore/lite";
 
 const firebaseConfig = {
@@ -19,13 +25,22 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-const dbRef = collection(db, "blog");
-
-async function getBlogPosts() {
-  const filter = query(dbRef);
-  const response = await getDocs(filter);
-  const posts = response.docs.map((doc) => doc.data());
-  return posts[0];
+async function getBlogPosts(websiteName) {
+  const docRef = doc(db, websiteName, "blog");
+  const docSnap = await getDoc(docRef);
+  return docSnap.data();
 }
 
-export { getBlogPosts };
+async function addBlogPost(websiteName, post) {
+  const docRef = doc(db, websiteName, "blog");
+  const docSnap = await getDoc(docRef);
+  if (!docSnap.data()) {
+    await setDoc(doc(db, websiteName, "blog"), { posts: [post] });
+  } else {
+    await updateDoc(doc(db, websiteName, "blog"), {
+      posts: arrayUnion(post),
+    });
+  }
+}
+
+export { addBlogPost, getBlogPosts };

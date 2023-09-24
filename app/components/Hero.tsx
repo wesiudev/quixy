@@ -2,6 +2,7 @@ import Image from "next/image";
 import hero from "../assets/bg.png";
 import hero2 from "../assets/bg2.png";
 import Link from "next/link";
+
 export default function Hero() {
   return (
     <div>

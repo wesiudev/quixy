@@ -5,7 +5,7 @@
       "city": "strony-internetowe",
       "websiteId": "strona-wizytowka-polska",
       "name": "Strona wizytówka",
-      "price": "800zł",
+      "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
         "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
@@ -33,9 +33,39 @@
         ],
         "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
-        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa wizytówka Polska. Oferta tworzenie stron internetowych na terenie Polski quixy.pl"
       }
     },
     {
@@ -43,7 +73,7 @@
       "city": "strony-internetowe",
       "websiteId": "sklep-internetowy-polska",
       "name": "Sklep internetowy",
-      "price": "3500zł",
+      "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
         "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
@@ -75,9 +105,39 @@
         ],
         "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
-        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona sklep internetowy Polska. Oferta tworzenie stron internetowych na terenie Polski quixy.pl"
       }
     },
     {
@@ -85,7 +145,7 @@
       "city": "strony-internetowe",
       "websiteId": "strona-landingowa-polska",
       "name": "Strona landingowa",
-      "price": "1200zł",
+      "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
         "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
@@ -116,9 +176,39 @@
         ],
         "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
-        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa landing page Polska. Strona internetowa landingowa w Polsce. Oferta tworzenie stron internetowych na terenie Polski quixy.pl"
       }
     },
     {
@@ -126,7 +216,7 @@
       "city": "grudziadz",
       "websiteId": "strona-wizytowka-grudziadz",
       "name": "Strona wizytówka",
-      "price": "800zł",
+      "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
         "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
@@ -154,9 +244,39 @@
         ],
         "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Grudziądz.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Grudziądza. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne."
+        },
+        {
+          "h2": "Programowanie stron internetowych.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Grudziądza i okolic kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Naszym celem jest zapewnienie naszym klientom nie tylko estetycznych, ale także funkcjonalnych rozwiązań, które pomogą osiągnąć sukces w świecie online."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Grudziądzu.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Tworzymy strony internetowe, które wyróżniają się estetyką i funkcjonalnością."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom."
+        },
+        {
+          "h2": "Strony pod pixel.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Grudziądz i okolice! Nasza firma działa na terenie całej Polski, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Grudziądzu."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
-        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa wizytówka Grudziądz. Oferta tworzenie stron internetowych Grudziądz quixy.pl"
       }
     },
     {
@@ -164,7 +284,7 @@
       "city": "grudziadz",
       "websiteId": "sklep-internetowy-grudziadz",
       "name": "Sklep internetowy",
-      "price": "3500zł",
+      "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
         "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
@@ -196,9 +316,39 @@
         ],
         "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Grudziądz.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Grudziądza. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne."
+        },
+        {
+          "h2": "Programowanie stron internetowych.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Grudziądza i okolic kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Naszym celem jest zapewnienie naszym klientom nie tylko estetycznych, ale także funkcjonalnych rozwiązań, które pomogą osiągnąć sukces w świecie online."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Grudziądzu.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Tworzymy strony internetowe, które wyróżniają się estetyką i funkcjonalnością."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom."
+        },
+        {
+          "h2": "Strony pod pixel.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Grudziądz i okolice! Nasza firma działa na terenie całej Polski, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Grudziądzu."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
-        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona sklep internetowy Grudziądz. Oferta tworzenie stron internetowych Grudziądz quixy.pl"
       }
     },
     {
@@ -206,7 +356,7 @@
       "city": "grudziadz",
       "websiteId": "strona-landingowa-grudziadz",
       "name": "Strona landingowa",
-      "price": "1200zł",
+      "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
         "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
@@ -237,9 +387,39 @@
         ],
         "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Grudziądz.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Grudziądza. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne."
+        },
+        {
+          "h2": "Programowanie stron internetowych.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Grudziądza i okolic kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Naszym celem jest zapewnienie naszym klientom nie tylko estetycznych, ale także funkcjonalnych rozwiązań, które pomogą osiągnąć sukces w świecie online."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Grudziądzu.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Tworzymy strony internetowe, które wyróżniają się estetyką i funkcjonalnością."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom."
+        },
+        {
+          "h2": "Strony pod pixel.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Grudziądz i okolice! Nasza firma działa na terenie całej Polski, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Grudziądzu."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
-        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa landing page Grudziądz. Strona internetowa landingowa Grudziądz. Oferta tworzenie stron internetowych Grudziądz quixy.pl"
       }
     },
     {
@@ -247,7 +427,7 @@
       "city": "gdansk",
       "websiteId": "strona-wizytowka-gdansk",
       "name": "Strona wizytówka",
-      "price": "800zł",
+      "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
         "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
@@ -258,26 +438,56 @@
           "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
           "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
         ],
-        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci.",
+        "infos": [
+          "Łatwa do utworzenia i zarządzania",
+          "Niskie koszty utrzymania",
+          "Możliwość prezentacji portfolio lub usług",
+          "Zwiększenie widoczności w internecie",
+          "Szybki dostęp do informacji kontaktowych",
+          "Profesjonalne wrażenie na klientach",
+          "Łatwa aktualizacja treści",
+          "Możliwość dodawania recenzji i referencji od klientów",
+          "Łatwa nawigacja dla użytkowników",
+          "Poprawa pozycji w wynikach wyszukiwania Google",
+          "Możliwość dodawania bloga lub aktualności",
+          "Ogólna dostępność dla klientów przez całą dobę",
+          "Możliwość zbierania kontaktów do bazy danych"
+        ]
       },
-      "infos": [
-        "Łatwa do utworzenia i zarządzania",
-        "Niskie koszty utrzymania",
-        "Możliwość prezentacji portfolio lub usług",
-        "Zwiększenie widoczności w internecie",
-        "Szybki dostęp do informacji kontaktowych",
-        "Profesjonalne wrażenie na klientach",
-        "Łatwa aktualizacja treści",
-        "Możliwość dodawania recenzji i referencji od klientów",
-        "Łatwa nawigacja dla użytkowników",
-        "Poprawa pozycji w wynikach wyszukiwania Google",
-        "Możliwość dodawania bloga lub aktualności",
-        "Ogólna dostępność dla klientów przez całą dobę",
-        "Możliwość zbierania kontaktów do bazy danych"
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Gdańsk.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Gdańska, jednego z najdynamiczniej rozwijających się miast w Polsce. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w sieci. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność."
+        },
+        {
+          "h2": "Programowanie stron internetowych Gdańsk.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Gdańska i okolic kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Gdańsku.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Gdańsk.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Gdańsku oraz okolicach, zwiększając widoczność Twojej firmy w regionie."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Gdańska od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Gdańsk.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Gdańsku, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Gdańsk i okolice! Nasza firma działa na terenie całego regionu, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Gdańsku. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy."
+        }
       ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
-        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa wizytówka Gdańsk. Oferta tworzenie stron internetowych Gdańsk quixy.pl"
       }
     },
     {
@@ -285,7 +495,7 @@
       "city": "gdansk",
       "websiteId": "sklep-internetowy-gdansk",
       "name": "Sklep internetowy",
-      "price": "3500zł",
+      "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
         "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
@@ -317,9 +527,39 @@
         ],
         "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Gdańsk.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Gdańska, jednego z najdynamiczniej rozwijających się miast w Polsce. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w sieci. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność."
+        },
+        {
+          "h2": "Programowanie stron internetowych Gdańsk.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Gdańska i okolic kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Gdańsku.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Gdańsk.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Gdańsku oraz okolicach, zwiększając widoczność Twojej firmy w regionie."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Gdańska od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Gdańsk.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Gdańsku, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Gdańsk i okolice! Nasza firma działa na terenie całego regionu, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Gdańsku. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
-        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona sklep internetowy Gdańsk. Oferta tworzenie stron internetowych Gdańsk quixy.pl"
       }
     },
     {
@@ -327,7 +567,7 @@
       "city": "gdansk",
       "websiteId": "strona-landingowa-gdansk",
       "name": "Strona landingowa",
-      "price": "1200zł",
+      "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
         "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
@@ -358,9 +598,39 @@
         ],
         "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Gdańsk.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Gdańska, jednego z najdynamiczniej rozwijających się miast w Polsce. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w sieci. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność."
+        },
+        {
+          "h2": "Programowanie stron internetowych Gdańsk.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Gdańska i okolic kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Gdańsku.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Gdańsk.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Gdańsku oraz okolicach, zwiększając widoczność Twojej firmy w regionie."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Gdańska od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Gdańsk.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Gdańsku, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Gdańsk i okolice! Nasza firma działa na terenie całego regionu, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Gdańsku. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
-        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa landing page Gdańsk. Strona internetowa landingowa Gdańsk. Oferta tworzenie stron internetowych Gdańsk quixy.pl"
       }
     },
     {
@@ -368,7 +638,7 @@
       "city": "warszawa",
       "websiteId": "strona-wizytowka-warszawa",
       "name": "Strona wizytówka",
-      "price": "800zł",
+      "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
         "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
@@ -396,9 +666,40 @@
         ],
         "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Warszawa.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Warszawy, stolicy Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w tętniącym życiem centrum biznesowym. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność w sercu kraju."
+        },
+        {
+          "h2": "Programowanie stron internetowych Warszawa.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Warszawy kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Warszawie.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą w samym sercu Polski. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Warszawa.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Warszawie oraz okolicach, zwiększając widoczność Twojej firmy w stolicy kraju."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Warszawy od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Warszawa.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Warszawie, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w stolicy Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Warszawa i okolice! Nasza firma działa na terenie całej stolicy i kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Warszawie. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy w sercu Polski."
+        }
+      ],
+
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
-        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa wizytówka Warszawa. Oferta tworzenie stron internetowych Warszawa quixy.pl"
       }
     },
     {
@@ -406,7 +707,7 @@
       "city": "warszawa",
       "websiteId": "sklep-internetowy-warszawa",
       "name": "Sklep internetowy",
-      "price": "3500zł",
+      "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
         "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
@@ -438,9 +739,39 @@
         ],
         "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Warszawa.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Warszawy, stolicy Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w tętniącym życiem centrum biznesowym. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność w sercu kraju."
+        },
+        {
+          "h2": "Programowanie stron internetowych Warszawa.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Warszawy kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Warszawie.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą w samym sercu Polski. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Warszawa.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Warszawie oraz okolicach, zwiększając widoczność Twojej firmy w stolicy kraju."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Warszawy od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Warszawa.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Warszawie, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w stolicy Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Warszawa i okolice! Nasza firma działa na terenie całej stolicy i kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Warszawie. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy w sercu Polski."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
-        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona sklep internetowy Warszawa. Oferta tworzenie stron internetowych Warszawa quixy.pl"
       }
     },
     {
@@ -448,7 +779,7 @@
       "city": "warszawa",
       "websiteId": "strona-landingowa-warszawa",
       "name": "Strona landingowa",
-      "price": "1200zł",
+      "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
         "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
@@ -479,9 +810,39 @@
         ],
         "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Warszawa.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Warszawy, stolicy Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w tętniącym życiem centrum biznesowym. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność w sercu kraju."
+        },
+        {
+          "h2": "Programowanie stron internetowych Warszawa.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Warszawy kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Warszawie.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą w samym sercu Polski. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Warszawa.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Warszawie oraz okolicach, zwiększając widoczność Twojej firmy w stolicy kraju."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Warszawy od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Warszawa.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Warszawie, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w stolicy Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Warszawa i okolice! Nasza firma działa na terenie całej stolicy i kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Warszawie. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy w sercu Polski."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
-        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa landing page Warszawa. Strona internetowa landingowa Warszawa. Oferta tworzenie stron internetowych Warszawa quixy.pl"
       }
     },
     {
@@ -489,7 +850,7 @@
       "city": "krakow",
       "websiteId": "strona-wizytowka-krakow",
       "name": "Strona wizytówka",
-      "price": "800zł",
+      "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
         "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio. Jest to miejsce, gdzie można przedstawić podstawowe informacje o sobie, swojej firmie lub projekcie związanych ze światem online. Na takiej stronie można umieścić logo, nazwę, dane kontaktowe oraz krótki opis swojej działalności. Strona wizytówka jest często używana przez osoby lub firmy, które chcą stworzyć prostą obecność w internecie, ale nie potrzebują zaawansowanych funkcji ani skomplikowanego designu.Jeśli zajmujesz się tworzeniem stron internetowych i sklepów internetowych, to strona wizytówka może być doskonałym narzędziem do zaprezentowania swoich umiejętności i doświadczenia w tych dziedzinach.",
@@ -517,9 +878,39 @@
         ],
         "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Kraków.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Krakowa, jednego z najpiękniejszych miast w Polsce. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w sercu Małopolski. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność w jednym z najważniejszych ośrodków kulturalnych i biznesowych w kraju."
+        },
+        {
+          "h2": "Programowanie stron internetowych Kraków.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Krakowa kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Krakowie.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą w sercu Małopolski. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Kraków.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Krakowie oraz okolicach, zwiększając widoczność Twojej firmy w stolicy Małopolski."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Krakowa od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Kraków.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Krakowie, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w sercu Małopolski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Kraków i okolice! Nasza firma działa na terenie całej stolicy Małopolski, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Krakowie. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy w jednym z najważniejszych miast Polski."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-internetowa-wiztyowka-obrazek2.png?alt=media&token=aa257d93-ac0e-480e-aad7-7ffca2c3864b",
-        "alt": "Strona internetowa wizytówka. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa wizytówka Warszawa. Oferta tworzenie stron internetowych Warszawa quixy.pl"
       }
     },
     {
@@ -527,7 +918,7 @@
       "city": "krakow",
       "websiteId": "sklep-internetowy-krakow",
       "name": "Sklep internetowy",
-      "price": "3500zł",
+      "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
         "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
@@ -559,9 +950,39 @@
         ],
         "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Kraków.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Krakowa, jednego z najpiękniejszych miast w Polsce. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w sercu Małopolski. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność w jednym z najważniejszych ośrodków kulturalnych i biznesowych w kraju."
+        },
+        {
+          "h2": "Programowanie stron internetowych Kraków.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Krakowa kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Krakowie.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą w sercu Małopolski. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Kraków.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Krakowie oraz okolicach, zwiększając widoczność Twojej firmy w stolicy Małopolski."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Krakowa od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Kraków.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Krakowie, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w sercu Małopolski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Kraków i okolice! Nasza firma działa na terenie całej stolicy Małopolski, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Krakowie. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy w jednym z najważniejszych miast Polski."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-sklep-internetowy-zdjecie2.png?alt=media&token=3a0d3b10-de22-4574-a797-8e07b5b6adc6",
-        "alt": "Strona sklep internetowy. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona sklep internetowy Warszawa. Oferta tworzenie stron internetowych Warszawa quixy.pl"
       }
     },
     {
@@ -569,7 +990,7 @@
       "city": "krakow",
       "websiteId": "strona-landingowa-krakow",
       "name": "Strona landingowa",
-      "price": "1200zł",
+      "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
         "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
@@ -600,17 +1021,47 @@
         ],
         "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Kraków.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie Krakowa, jednego z najpiękniejszych miast w Polsce. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w sercu Małopolski. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność w internecie, zdobywać nowych klientów i rozwijać swoją działalność w jednym z najważniejszych ośrodków kulturalnych i biznesowych w kraju."
+        },
+        {
+          "h2": "Programowanie stron internetowych Kraków.",
+          "p": "Nasza misja polega na dostarczaniu klientom z Krakowa kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Dlatego nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Krakowie.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasza oferta obejmuje nie tylko tworzenie stron internetowych, ale także pozycjonowanie, co sprawia, że Twoja strona będzie widoczna dla osób szukających produktów lub usług związanych z Twoją branżą w sercu Małopolski. Z nami zyskasz przewagę nad konkurencją i zwiększysz swoje szanse na sukces w świecie online."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Kraków.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w Krakowie oraz okolicach, zwiększając widoczność Twojej firmy w stolicy Małopolski."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma jest obecna na rynku Krakowa od wielu lat, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Kraków.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z lokalnym zasięgiem w Krakowie, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w sercu Małopolski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Kraków i okolice! Nasza firma działa na terenie całej stolicy Małopolski, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne również w Krakowie. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy w jednym z najważniejszych miast Polski."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/strona-landing-page-zdjecie2.png?alt=media&token=b77aebb7-70e5-4612-8ce6-0ec6357ac13e",
-        "alt": "Strona internetowa landing page. Strona internetowa landingowa. Oferta tworzenie stron internetowych quixy.pl"
+        "alt": "Strona internetowa landing page Warszawa. Strona internetowa landingowa Warszawa. Oferta tworzenie stron internetowych Warszawa quixy.pl"
       }
     },
     {
       "isGraphic": true,
-      "city": "grudziadz",
-      "websiteId": "grafika-komputerowa-projektowanie-logo",
+      "city": "grafika-komputerowa",
+      "websiteId": "projektowanie-logo",
       "name": "Projektowanie logo",
-      "price": "300zł",
+      "price": "500zł",
       "description": {
         "h1": "ZALETY LOGO",
         "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki.",
@@ -645,6 +1096,36 @@
         ],
         "summary": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/quixy-projektowanie-logo-uslugi-graficzne.png?alt=media&token=7a3b3aa8-c947-420f-8987-7dff99660521",
         "alt": "grafika komputerowa quixy.pl projektowanie logo"
@@ -652,10 +1133,10 @@
     },
     {
       "isGraphic": true,
-      "city": "grudziadz",
-      "websiteId": "grafika-komputerowa-projektowanie-social-media",
+      "city": "grafika-komputerowa",
+      "websiteId": "pakiet-social-media",
       "name": "PAKIET SOCIAL MEDIA",
-      "price": "500zł",
+      "price": "1799zł",
       "description": {
         "h1": "PAKIET SOCIAL MEDIA",
         "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy.",
@@ -689,6 +1170,36 @@
         ],
         "summary": "Prowadzenie mediów społecznościowych dla biznesu stanowi istotny element strategii marketingowej, pozwalając na zwiększenie widoczności marki, budowanie relacji z klientami oraz skuteczną promocję produktów i usług. To także narzędzie umożliwiające zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co wpływa na sukces i rozwój firmy."
       },
+      "aboutSection": [
+        {
+          "h2": "Strony internetowe Polska.",
+          "p": "Witaj na stronie Quixy.pl – Jesteśmy Twoim partnerem w dziedzinie projektowania stron internetowych i grafiki komputerowej na terenie całej Polski. Nasza firma to zespół profesjonalistów, którzy kochają to, co robią, i z pasją tworzą unikalne rozwiązania online oraz projekty graficzne, które pomogą Twojej firmie wyróżnić się w świecie internetu. Dzięki naszym usługom będziesz mógł efektywnie budować swoją obecność online, zdobywać nowych klientów i rozwijać swoją działalność niezależnie od regionu, w którym działasz."
+        },
+        {
+          "h2": "Programowanie stron internetowych Polska.",
+          "p": "Nasza misja polega na dostarczaniu klientom z całej Polski kompleksowych usług z zakresu projektowania stron internetowych i grafiki komputerowej. Jesteśmy przekonani, że każdy projekt zasługuje na indywidualne podejście oraz najwyższą jakość wykonania. Nasza oferta obejmuje tworzenie stron internetowych, pozycjonowanie oraz opiekę nad stroną po jej wdrożeniu. Dzięki temu Twoja firma będzie widoczna i konkurencyjna na rynku nie tylko lokalnym, ale także ogólnokrajowym."
+        },
+        {
+          "h2": "Najlepsze strony internetowe w Polsce.",
+          "p": "Dla nas jakość jest priorytetem. Dbamy o każdy detal, aby efekt końcowy był perfekcyjny. Nasze strony internetowe są zoptymalizowane pod kątem szybkości, bezpieczeństwa i responsywności, co pomaga w osiągnięciu wysokich pozycji w wynikach wyszukiwania Google. Niezależnie od branży, w której działa Twoja firma, pomożemy Ci stworzyć funkcjonalną, estetyczną i skuteczną stronę internetową, która przyciągnie uwagę potencjalnych klientów i zachęci ich do działania."
+        },
+        {
+          "h2": "Programowanie, grafika, pozycjonowanie Polska.",
+          "p": "Nasz zespół twórców jest pełen pomysłów i gotów podejmować się wyzwań. Z pasją podchodzimy do projektowania, co gwarantuje unikalność i oryginalność naszych prac. Dodatkowo oferujemy usługi z zakresu grafiki komputerowej, co pozwala na stworzenie spójnego wizerunku marki w internecie i poza nim. Nasze doświadczenie w pozycjonowaniu stron internetowych pozwoli Ci dotrzeć do potencjalnych klientów w każdym zakątku Polski, zwiększając widoczność Twojej firmy na rynku krajowym."
+        },
+        {
+          "h2": "Tworzenie stron internetowych od dawna.",
+          "p": "Jesteśmy doświadczonymi developerami stron internetowych oraz projektantami graficznymi. Dzięki naszemu wieloletniemu doświadczeniu jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom. Niezależnie od skali projektu, jesteśmy gotowi dostarczyć Ci profesjonalne rozwiązania, które spełnią Twoje oczekiwania. Nasza firma ma bogate portfolio projektów z różnych regionów Polski, co sprawia, że mamy głęboką wiedzę o lokalnych potrzebach i preferencjach klientów."
+        },
+        {
+          "h2": "Strony pod pixel Polska.",
+          "p": "Rozumiemy, że każdy projekt i każdy klient są wyjątkowi. Dlatego staramy się poznać Twoje potrzeby i cele, aby stworzyć rozwiązanie dostosowane do Ciebie. Jako agencja z ogólnokrajowym zasięgiem, jesteśmy blisko Ciebie i możemy szybko reagować na Twoje potrzeby. Oferujemy również wsparcie techniczne i opiekę nad Twoją stroną internetową po jej wdrożeniu, abyś mógł być pewien, że działa ona sprawnie i skutecznie służy Twojej firmie w każdym zakątku Polski."
+        },
+        {
+          "h2": "Tutaj nas znajdziesz!",
+          "p": "Strony internetowe Polska! Nasza firma działa na terenie całego kraju, co oznacza, że oferujemy tworzenie stron internetowych i usługi graficzne na obszarze całej Polski. Skorzystaj z naszego doświadczenia i ekspertyzy, aby zbudować silną obecność online i osiągnąć sukces biznesowy na polskim rynku."
+        }
+      ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/grafika-komputerowa-social-media-grudziadz.png?alt=media&token=e97bc406-d502-4644-8fb9-e2260e0ddfa4",
         "alt": "grafika komputerowa quixy.pl social media pakiet"
