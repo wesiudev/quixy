@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   publisher: "wesiudev",
   manifest: "/manifest.json",
   icons: {
-    icon: "/assets/favicon.png",
+    icon: "/favicon.png",
   },
 };
 export default function RootLayout({

@@ -5,7 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import logo from "../assets/logo.png";
 export const Header = () => {
-  const [isMenuOpen, setContactOpen] = useState<boolean>(false);
+  const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
   return (
     <div className="w-full h-max  lg:bg-transparent flex  flex-row justify-between py-3 px-3 lg:px-[8vw] absolute left-0 top-0 z-[1000] space-x-6">
       <Link href="/" className="py-2  rounded-md font-signika text-3xl">
@@ -27,7 +27,7 @@ export const Header = () => {
             Kliknij i szukaj
           </div>
         </button>
-        <div className="lg:ml-24 fixed top-0 left-0 w-full lg:w-3/4 px-0 flex text-white flex-col   items-center font-coco font-bold text-xl">
+        <div className="lg:ml-24 fixed top-0 left-0 w-full lg:w-3/4 px-0 flex text-white flex-col items-center font-coco font-bold text-xl">
           {["blog", "sklep", "faq"].map((menuItem, i) => (
             <Link
               key={i}
