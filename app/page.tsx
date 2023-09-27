@@ -11,7 +11,9 @@ export default async function Home() {
   return (
     <>
       <Header />
-      <Hero />
+      <div className="h-screen relative">
+        <Hero />
+      </div>
       <UnderHero />
       <Shop ItemsList={ItemsList} />
       <About content={ItemsList.shopItems[0].aboutSection} />

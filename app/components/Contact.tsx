@@ -16,15 +16,18 @@ export default function Contact() {
             contactDetails.step === 1 ? "-translate-x-[100%]" : "-translate-x-0"
           }`}
         >
-          <h1 className="text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold font-coco">
-            Utrzyj nosa konkurencji!
+          <h1 className="text-white text-3xl md:text-3xl lg:text-4xl xl:text-6xl font-extrabold font-coco drop-shadow-lg shadow-black">
+            UTRZYJ NOSA KONKURENCJI
           </h1>
-
+          <h2 className="text-sm   text-white  drop-shadow-lg shadow-black italic">
+            w <strong className="font-extrabold text-yellow-400">Quixy</strong>{" "}
+            znamy się na rzeczy
+          </h2>
           <button
             onClick={() => setContactDetails({ ...contactDetails, step: 1 })}
-            className=" mt-4 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium  rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white text-white focus:ring-4 focus:outline-none  focus:ring-green-800 hover:drop-shadow-lg hover:shadow-black"
+            className="mt-12 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden rounded-lg text-sm font-medium group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 ease-in duration-200 hover:text-white text-white focus:ring-4 focus:outline-none  focus:ring-green-800 hover:drop-shadow-lg hover:shadow-black"
           >
-            <span className="relative px-5 py-2.5 transition-all ease-in duration-200 bg-gray-900 rounded-md group-hover:bg-opacity-0 text-2xl">
+            <span className="relative px-6 py-3 transition-all ease-in duration-200 bg-black rounded-md group-hover:bg-opacity-0 text-2xl">
               Zamów stronę
             </span>
           </button>
@@ -36,9 +39,12 @@ export default function Contact() {
               : "-translate-y-[100%] opacity-0 z-[-50]"
           } duration-500 delay-1000`}
         >
-          <h1 className="mb-8 text-white w-max text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
-            Wybierz rodzaj strony
+          <h1 className=" text-white w-max text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
+            SZUKASZ STRONY?
           </h1>
+          <h2 className="text-sm mb-8 font-light italic">
+            skonfiguruj stronę, by później ją zamówić
+          </h2>
           <div className="flex flex-row items-center justify-center flex-wrap w-full">
             <button
               type="button"

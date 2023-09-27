@@ -3,9 +3,10 @@ import hero from "../assets/bg.webp";
 import hero2 from "../assets/bg2.webp";
 import Link from "next/link";
 import Contact from "./Contact";
-export default function Hero() {
+
+export default function Hero({ filter }: { filter?: boolean }) {
   return (
-    <div>
+    <>
       <div className="h-[35vh] w-screen flex items-center overflow-hidden top-[50%] -translate-y-[50%] absolute flex-col lg:flex-row bg-gradient-to-b from-green-500  to-blue-500">
         {/* first plane image */}
         <Image
@@ -23,27 +24,31 @@ export default function Hero() {
           className="hidden lg:block absolute -right-[12vw] 2xl:-right-[3vw] h-screen w-auto overflow-hidden top-[50%] -translate-y-[50%] z-[5] object-cover"
         />
 
-        <div className="flex items-center text-center justify-center text-6xl w-full h-full absolute right-0 top-0 font-coco text-white drop-shadow-2xl shadow-black z-50 bg-blue-500 bg-opacity-20">
+        <div
+          className={`flex items-center text-center justify-center text-6xl w-full h-full absolute right-0 top-0 font-coco text-white drop-shadow-2xl shadow-black z-50 ${
+            filter ? " bg-black bg-opacity-60" : " bg-zinc-600 bg-opacity-20"
+          }`}
+        >
           <Contact />
         </div>
       </div>
-      <div className="w-screen h-screen mt-0 bg-gray-900 bg-opacity-75">
+      <div className="w-screen h-screen mt-0 bg-zinc-900 bg-opacity-75">
         {/* second plane image */}
         <Image
           src={hero}
           width={1920}
           height={1280}
           alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-          className="absolute h-screen w-auto overflow-hidden -left-[12vw] xl:-left-[5vw] top-[50%] -translate-y-[50%] -z-[5] opacity-100 object-cover blur-sm"
+          className="absolute h-screen w-auto overflow-hidden -left-[12vw] xl:-left-[5vw] top-[50%] -translate-y-[50%] -z-[5] opacity-100 object-cover blur-md"
         />
         <Image
           src={hero2}
           width={1920}
           height={1280}
           alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-          className="hidden lg:block absolute h-screen w-auto overflow-hidden top-[50%] -translate-y-[50%] -right-[12vw] 2xl:-right-[3vw] -z-10 opacity-100 object-cover blur-sm"
+          className="hidden lg:block absolute h-screen w-auto overflow-hidden top-[50%] -translate-y-[50%] -right-[12vw] 2xl:-right-[3vw] -z-10 opacity-100 object-cover blur-md"
         />
       </div>
-    </div>
+    </>
   );
 }
