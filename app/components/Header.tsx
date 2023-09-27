@@ -1,21 +1,13 @@
 "use client";
 import Link from "next/link";
-import {
-  FaArrowLeft,
-  FaBlog,
-  FaClock,
-  FaHome,
-  FaPhone,
-  FaSearch,
-} from "react-icons/fa";
-import { AiFillCloseCircle } from "react-icons/ai";
+import { FaSearch } from "react-icons/fa";
 import { useState } from "react";
 import Image from "next/image";
 import logo from "../assets/logo.png";
 export const Header = () => {
-  const [isContactOpen, setContactOpen] = useState<boolean>(false);
+  const [isMenuOpen, setContactOpen] = useState<boolean>(false);
   return (
-    <div className="w-full h-max bg-black bg-opacity-50 lg:bg-transparent flex  flex-row justify-between py-3 px-3 lg:px-[8vw] absolute left-0 top-0 z-[1000] space-x-6">
+    <div className="w-full h-max  lg:bg-transparent flex  flex-row justify-between py-3 px-3 lg:px-[8vw] absolute left-0 top-0 z-[1000] space-x-6">
       <Link href="/" className="py-2  rounded-md font-signika text-3xl">
         <Image
           src={logo}
@@ -35,26 +27,16 @@ export const Header = () => {
             Kliknij i szukaj
           </div>
         </button>
-        <div className="lg:ml-24 fixed lg:relative bottom-0 left-0 w-full lg:w-3/4 px-0 flex text-white lg:justify-end md:flex-row items-center lg:space-x-6 font-coco font-bold text-xl">
-          <Link
-            className="p-5 w-full bg-black bg-opacity-50 border-r-2 lg:border-r-0 lg:border-t-0  border-white lg:p-2 flex items-center justify-center hover:underline duration-200"
-            href="Blog"
-          >
-            Blog
-          </Link>
-          <Link
-            className="p-5 w-full bg-black bg-opacity-50 border-r-2 lg:border-r-0  lg:p-2 flex items-center justify-center  border-white hover:underline duration-200"
-            href="Sklep"
-          >
-            Sklep
-          </Link>
-
-          <Link
-            className="p-5 w-full bg-black bg-opacity-50 lg:p-2 flex items-center justify-center hover:underline duration-200"
-            href="Blog"
-          >
-            Faq
-          </Link>
+        <div className="lg:ml-24 fixed top-0 left-0 w-full lg:w-3/4 px-0 flex text-white flex-col   items-center font-coco font-bold text-xl">
+          {["blog", "sklep", "faq"].map((menuItem, i) => (
+            <Link
+              key={i}
+              className="p-5 w-full border-r-2 lg:border-r-0 lg:border-t-0  border-white lg:p-2 flex items-center justify-center hover:underline duration-200"
+              href={`/${menuItem}`}
+            >
+              {menuItem}
+            </Link>
+          ))}
         </div>
       </div>
     </div>
