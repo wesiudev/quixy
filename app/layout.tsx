@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import { Metadata } from "next";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { Providers } from "@/redux/Provider";
 export const metadata: Metadata = {
   title:
     "Quixy.pl - Programowanie stron internetowych - Grafika komputerowa - Projektowanie logo",
@@ -27,8 +28,7 @@ export default function RootLayout({
         className={`${cocosharp.variable} ${signika.variable}
        w-full overflow-x-hidden`}
       >
-        {" "}
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

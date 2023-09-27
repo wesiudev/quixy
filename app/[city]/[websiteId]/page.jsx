@@ -13,7 +13,7 @@ import About from "@/app/components/About";
 import shopItems from "@/public/json/ShopContent.json";
 import { getShopContentSSR } from "@/app/lib/getShopContentSSR";
 import { Footer } from "@/app/components/Footer";
-import Hero from "@/app/components/Hero";
+import Hero from "@/app/components/HeroModule/HeroModule";
 import ProductHero from "./ProductHero";
 
 export async function generateStaticParams() {

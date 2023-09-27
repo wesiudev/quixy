@@ -1,7 +1,7 @@
 import About from "./components/About";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
-import Hero from "./components/Hero";
+import Hero from "./components/HeroModule/HeroModule";
 import UnderHero from "./components/UnderHero";
 import Shop from "./components/shop/Shop";
 import { getShopContent } from "./lib/getShopContent";
