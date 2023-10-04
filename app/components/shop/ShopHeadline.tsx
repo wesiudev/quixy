@@ -1,9 +1,7 @@
 export default function ShopHeadline({ title }: { title: string }) {
   return (
     <div
-      className={`bg-white w-4/5 lg:w-3/4 h-max py-12 flex items-center justify-center mx-auto rounded-xl relative overflow-hidden shadow-md shadow-green-800 ${
-        title === "Usługi programistyczne" ? "-mt-16" : "mt-12"
-      }`}
+      className={`bg-white w-full rounded-none  h-max py-12 flex items-center justify-center mx-auto relative overflow-hidden  -mt-16`}
     >
       <h1 className="text-2xl lg:text-4xl h-max mx-auto font-coco font-bold z-[100] text-center">
         {title}

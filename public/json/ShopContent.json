@@ -10,30 +10,7 @@
       "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio.",
-        "reasons": [
-          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
-          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
-          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
-          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
-          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
-        ],
-        "infos": [
-          "Łatwa do utworzenia i zarządzania",
-          "Niskie koszty utrzymania",
-          "Możliwość prezentacji portfolio lub usług",
-          "Zwiększenie widoczności w internecie",
-          "Szybki dostęp do informacji kontaktowych",
-          "Profesjonalne wrażenie na klientach",
-          "Łatwa aktualizacja treści",
-          "Możliwość dodawania recenzji i referencji od klientów",
-          "Łatwa nawigacja dla użytkowników",
-          "Poprawa pozycji w wynikach wyszukiwania Google",
-          "Możliwość dodawania bloga lub aktualności",
-          "Ogólna dostępność dla klientów przez całą dobę",
-          "Możliwość zbierania kontaktów do bazy danych"
-        ],
-        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio."
       },
       "aboutSection": [
         {
@@ -79,34 +56,7 @@
       "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
-        "reasons": [
-          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
-          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
-          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
-          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
-          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
-          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
-          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
-          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
-        ],
-        "infos": [
-          "Globalny zasięg i dostępność dla klientów",
-          "Możliwość sprzedaży 24/7 przez cały rok",
-          "Zwiększenie potencjału sprzedażowego",
-          "Łatwy dostęp do szerokiego asortymentu produktów",
-          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
-          "Personalizacja oferty i rekomendacje dla klientów",
-          "Bezpieczne płatności online",
-          "Łatwa aktualizacja asortymentu i cen",
-          "Efektywne zarządzanie zapasami",
-          "Integracja z różnymi systemami płatności i dostawcami",
-          "Możliwość prowadzenia działań marketingowych online",
-          "Skuteczna analiza danych i raportowanie",
-          "Możliwość zaoferowania różnych opcji dostawy",
-          "Łatwy dostęp do recenzji i opinii produktów"
-        ],
-        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
       },
       "aboutSection": [
         {
@@ -152,33 +102,7 @@
       "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
-        "reasons": [
-          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
-          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
-          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
-          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
-          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
-          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
-          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
-          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
-        ],
-        "infos": [
-          "Zwiększenie konwersji klientów",
-          "Skoncentrowana na jednym celu - działaniu CTA",
-          "Szybki czas ładowania",
-          "Wyjątkowy i atrakcyjny design",
-          "Skupienie uwagi na istotnych informacjach",
-          "Możliwość dostosowania treści pod konkretne kampanie",
-          "Integracja z narzędziami do zbierania leadów",
-          "Efektywna w promocji nowych produktów lub usług",
-          "Łatwa do testowania różnych wersji",
-          "Łatwa analiza skuteczności",
-          "Zwiększenie zrozumienia oferty",
-          "Ograniczenie rozproszenia uwagi klientów",
-          "Możliwość personalizacji treści"
-        ],
-        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
       },
       "aboutSection": [
         {
@@ -225,30 +149,7 @@
       "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio.",
-        "reasons": [
-          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
-          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
-          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
-          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
-          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
-        ],
-        "infos": [
-          "Łatwa do utworzenia i zarządzania",
-          "Niskie koszty utrzymania",
-          "Możliwość prezentacji portfolio lub usług",
-          "Zwiększenie widoczności w internecie",
-          "Szybki dostęp do informacji kontaktowych",
-          "Profesjonalne wrażenie na klientach",
-          "Łatwa aktualizacja treści",
-          "Możliwość dodawania recenzji i referencji od klientów",
-          "Łatwa nawigacja dla użytkowników",
-          "Poprawa pozycji w wynikach wyszukiwania Google",
-          "Możliwość dodawania bloga lub aktualności",
-          "Ogólna dostępność dla klientów przez całą dobę",
-          "Możliwość zbierania kontaktów do bazy danych"
-        ],
-        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio."
       },
       "aboutSection": [
         {
@@ -294,34 +195,7 @@
       "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
-        "reasons": [
-          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
-          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
-          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
-          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
-          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
-          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
-          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
-          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
-        ],
-        "infos": [
-          "Globalny zasięg i dostępność dla klientów",
-          "Możliwość sprzedaży 24/7 przez cały rok",
-          "Zwiększenie potencjału sprzedażowego",
-          "Łatwy dostęp do szerokiego asortymentu produktów",
-          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
-          "Personalizacja oferty i rekomendacje dla klientów",
-          "Bezpieczne płatności online",
-          "Łatwa aktualizacja asortymentu i cen",
-          "Efektywne zarządzanie zapasami",
-          "Integracja z różnymi systemami płatności i dostawcami",
-          "Możliwość prowadzenia działań marketingowych online",
-          "Skuteczna analiza danych i raportowanie",
-          "Możliwość zaoferowania różnych opcji dostawy",
-          "Łatwy dostęp do recenzji i opinii produktów"
-        ],
-        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
       },
       "aboutSection": [
         {
@@ -367,33 +241,7 @@
       "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
-        "reasons": [
-          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
-          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
-          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
-          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
-          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
-          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
-          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
-          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
-        ],
-        "infos": [
-          "Zwiększenie konwersji klientów",
-          "Skoncentrowana na jednym celu - działaniu CTA",
-          "Szybki czas ładowania",
-          "Wyjątkowy i atrakcyjny design",
-          "Skupienie uwagi na istotnych informacjach",
-          "Możliwość dostosowania treści pod konkretne kampanie",
-          "Integracja z narzędziami do zbierania leadów",
-          "Efektywna w promocji nowych produktów lub usług",
-          "Łatwa do testowania różnych wersji",
-          "Łatwa analiza skuteczności",
-          "Zwiększenie zrozumienia oferty",
-          "Ograniczenie rozproszenia uwagi klientów",
-          "Możliwość personalizacji treści"
-        ],
-        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
       },
       "aboutSection": [
         {
@@ -509,34 +357,7 @@
       "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
-        "reasons": [
-          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
-          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
-          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
-          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
-          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
-          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
-          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
-          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
-        ],
-        "infos": [
-          "Globalny zasięg i dostępność dla klientów",
-          "Możliwość sprzedaży 24/7 przez cały rok",
-          "Zwiększenie potencjału sprzedażowego",
-          "Łatwy dostęp do szerokiego asortymentu produktów",
-          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
-          "Personalizacja oferty i rekomendacje dla klientów",
-          "Bezpieczne płatności online",
-          "Łatwa aktualizacja asortymentu i cen",
-          "Efektywne zarządzanie zapasami",
-          "Integracja z różnymi systemami płatności i dostawcami",
-          "Możliwość prowadzenia działań marketingowych online",
-          "Skuteczna analiza danych i raportowanie",
-          "Możliwość zaoferowania różnych opcji dostawy",
-          "Łatwy dostęp do recenzji i opinii produktów"
-        ],
-        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
       },
       "aboutSection": [
         {
@@ -582,33 +403,7 @@
       "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
-        "reasons": [
-          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
-          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
-          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
-          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
-          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
-          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
-          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
-          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
-        ],
-        "infos": [
-          "Zwiększenie konwersji klientów",
-          "Skoncentrowana na jednym celu - działaniu CTA",
-          "Szybki czas ładowania",
-          "Wyjątkowy i atrakcyjny design",
-          "Skupienie uwagi na istotnych informacjach",
-          "Możliwość dostosowania treści pod konkretne kampanie",
-          "Integracja z narzędziami do zbierania leadów",
-          "Efektywna w promocji nowych produktów lub usług",
-          "Łatwa do testowania różnych wersji",
-          "Łatwa analiza skuteczności",
-          "Zwiększenie zrozumienia oferty",
-          "Ograniczenie rozproszenia uwagi klientów",
-          "Możliwość personalizacji treści"
-        ],
-        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
       },
       "aboutSection": [
         {
@@ -655,30 +450,7 @@
       "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio.",
-        "reasons": [
-          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
-          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
-          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
-          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
-          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
-        ],
-        "infos": [
-          "Łatwa do utworzenia i zarządzania",
-          "Niskie koszty utrzymania",
-          "Możliwość prezentacji portfolio lub usług",
-          "Zwiększenie widoczności w internecie",
-          "Szybki dostęp do informacji kontaktowych",
-          "Profesjonalne wrażenie na klientach",
-          "Łatwa aktualizacja treści",
-          "Możliwość dodawania recenzji i referencji od klientów",
-          "Łatwa nawigacja dla użytkowników",
-          "Poprawa pozycji w wynikach wyszukiwania Google",
-          "Możliwość dodawania bloga lub aktualności",
-          "Ogólna dostępność dla klientów przez całą dobę",
-          "Możliwość zbierania kontaktów do bazy danych"
-        ],
-        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio."
       },
       "aboutSection": [
         {
@@ -725,34 +497,7 @@
       "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
-        "reasons": [
-          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
-          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
-          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
-          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
-          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
-          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
-          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
-          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
-        ],
-        "infos": [
-          "Globalny zasięg i dostępność dla klientów",
-          "Możliwość sprzedaży 24/7 przez cały rok",
-          "Zwiększenie potencjału sprzedażowego",
-          "Łatwy dostęp do szerokiego asortymentu produktów",
-          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
-          "Personalizacja oferty i rekomendacje dla klientów",
-          "Bezpieczne płatności online",
-          "Łatwa aktualizacja asortymentu i cen",
-          "Efektywne zarządzanie zapasami",
-          "Integracja z różnymi systemami płatności i dostawcami",
-          "Możliwość prowadzenia działań marketingowych online",
-          "Skuteczna analiza danych i raportowanie",
-          "Możliwość zaoferowania różnych opcji dostawy",
-          "Łatwy dostęp do recenzji i opinii produktów"
-        ],
-        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
       },
       "aboutSection": [
         {
@@ -799,33 +544,7 @@
       "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
-        "reasons": [
-          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
-          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
-          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
-          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
-          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
-          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
-          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
-          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
-        ],
-        "infos": [
-          "Zwiększenie konwersji klientów",
-          "Skoncentrowana na jednym celu - działaniu CTA",
-          "Szybki czas ładowania",
-          "Wyjątkowy i atrakcyjny design",
-          "Skupienie uwagi na istotnych informacjach",
-          "Możliwość dostosowania treści pod konkretne kampanie",
-          "Integracja z narzędziami do zbierania leadów",
-          "Efektywna w promocji nowych produktów lub usług",
-          "Łatwa do testowania różnych wersji",
-          "Łatwa analiza skuteczności",
-          "Zwiększenie zrozumienia oferty",
-          "Ograniczenie rozproszenia uwagi klientów",
-          "Możliwość personalizacji treści"
-        ],
-        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
       },
       "aboutSection": [
         {
@@ -872,30 +591,7 @@
       "price": "1399zł",
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio.",
-        "reasons": [
-          "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
-          "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
-          "Opisanie swoich usług: Krótko opisz, jakie usługi związane z tworzeniem stron internetowych i sklepów internetowych oferujesz oraz jakie są Twoje unikalne cechy.",
-          "Wyrażenie swojej tożsamości: Logo i grafika mogą pomóc w wyrażeniu tożsamości firmy lub indywidualnego stylu.",
-          "Zaprojektowanie atrakcyjnego wyglądu: Chociaż strona wizytówka jest prostą stroną internetową, warto zadbać o jej estetykę i czytelność, aby przyciągnąć uwagę odwiedzających."
-        ],
-        "infos": [
-          "Łatwa do utworzenia i zarządzania",
-          "Niskie koszty utrzymania",
-          "Możliwość prezentacji portfolio lub usług",
-          "Zwiększenie widoczności w internecie",
-          "Szybki dostęp do informacji kontaktowych",
-          "Profesjonalne wrażenie na klientach",
-          "Łatwa aktualizacja treści",
-          "Możliwość dodawania recenzji i referencji od klientów",
-          "Łatwa nawigacja dla użytkowników",
-          "Poprawa pozycji w wynikach wyszukiwania Google",
-          "Możliwość dodawania bloga lub aktualności",
-          "Ogólna dostępność dla klientów przez całą dobę",
-          "Możliwość zbierania kontaktów do bazy danych"
-        ],
-        "summary": "Podsumowując, strona wizytówka to podstawowe narzędzie online, które pomaga przedstawić informacje o sobie lub swojej działalności związanej z tworzeniem stron internetowych i sklepów internetowych. To swoiste wizytówka online, która może być używana do budowania profesjonalnego wizerunku w sieci."
+        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio."
       },
       "aboutSection": [
         {
@@ -941,34 +637,7 @@
       "price": "8999zł",
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. Jest to wirtualny sklep, który pozwala klientom przeglądać, wybierać i dokonywać zakupów w sposób wygodny i bez konieczności fizycznego odwiedzania sklepu stacjonarnego. Sklepy internetowe oferują szeroki zakres produktów, od odzieży i elektroniki po usługi cyfrowe i produkty niematerialne.",
-        "reasons": [
-          "Katalog produktów: Sklep internetowy zawiera dokładny katalog produktów lub usług, który jest łatwo dostępny dla klientów. Każdy produkt jest opisany, a często zawiera zdjęcia, cenę i dostępność.",
-          "Koszyk zakupowy: Klienci mogą dodawać produkty do wirtualnego koszyka zakupowego i zarządzać nimi przed dokonaniem płatności.",
-          "Proces zamówienia i płatności: Sklep internetowy umożliwia klientom łatwe dokonywanie zakupów online. Klienci mogą wprowadzać swoje dane, wybierać metodę płatności i finalizować zamówienie.",
-          "System zarządzania zamówieniami: Dla właściciela sklepu internetowego istnieje system zarządzania zamówieniami, który umożliwia śledzenie i przetwarzanie zamówień klientów.",
-          "Bezpieczeństwo transakcji: Sklepy internetowe muszą zapewniać bezpieczne i poufne transakcje online, często poprzez użycie szyfrowania danych i zabezpieczeń płatności.",
-          "Opcje dostawy: Klienci mogą wybierać różne opcje dostawy, w tym dostawę do domu, odbiór osobisty lub inną metodę dostawy dostosowaną do ich potrzeb.",
-          "Obsługa klienta: Sklepy internetowe często oferują obsługę klienta, która pomaga klientom rozwiązywać problemy i udziela odpowiedzi na pytania.",
-          "Marketing i promocje: Sklepy internetowe często wykorzystują strategie marketingowe, takie jak kampanie reklamowe, kody rabatowe i programy lojalnościowe, aby przyciągać klientów i zachęcać do zakupów."
-        ],
-        "infos": [
-          "Globalny zasięg i dostępność dla klientów",
-          "Możliwość sprzedaży 24/7 przez cały rok",
-          "Zwiększenie potencjału sprzedażowego",
-          "Łatwy dostęp do szerokiego asortymentu produktów",
-          "Możliwość dokładnego śledzenia i analizy zachowań klientów",
-          "Personalizacja oferty i rekomendacje dla klientów",
-          "Bezpieczne płatności online",
-          "Łatwa aktualizacja asortymentu i cen",
-          "Efektywne zarządzanie zapasami",
-          "Integracja z różnymi systemami płatności i dostawcami",
-          "Możliwość prowadzenia działań marketingowych online",
-          "Skuteczna analiza danych i raportowanie",
-          "Możliwość zaoferowania różnych opcji dostawy",
-          "Łatwy dostęp do recenzji i opinii produktów"
-        ],
-        "summary": "Sklepy internetowe są niezwykle wszechstronne i mogą obsługiwać różne rodzaje produktów i branż. Są one integralną częścią handlu online i umożliwiają przedsiębiorcom dotarcie do szerokiej grupy klientów na całym świecie."
+        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
       },
       "aboutSection": [
         {
@@ -1014,33 +683,7 @@
       "price": "1799zł",
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa - landing page - to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji, takiej jak zapisanie się na newsletter, dokonanie zakupu, wypełnienie formularza kontaktowego lub pobranie darmowej próbki. Jest to narzędzie marketingowe, które ma na celu konwersję odwiedzających w potencjalnych klientów lub leadów.",
-        "reasons": [
-          "Skupienie na celu: Landing page jest skoncentrowana na jednym głównym celu, co pozwala wyraźnie komunikować, co chcesz osiągnąć od odwiedzających. To sprawia, że jest bardziej efektywna niż bardziej ogólne strony internetowe.",
-          "Konwersja: Landing page jest zoptymalizowana pod kątem konwersji. Zawiera elementy takie jak przyciski 'Działaj teraz', formularze kontaktowe lub inne narzędzia, które zachęcają odwiedzających do natychmiastowej akcji.",
-          "Prostota i klarowność: Landing page jest zazwyczaj prostym i przejrzystym projektem, co ułatwia odwiedzającym zrozumienie przekazu i podjęcie pożądanej akcji.",
-          "Zminimalizowana nawigacja: W przeciwieństwie do wielu innych stron internetowych, landing page ma zminimalizowaną nawigację, co oznacza, że odwiedzający nie są rozpraszani innymi linkami ani treściami.",
-          "Mierzenie efektywności: Dzięki narzędziom do analizy można dokładnie mierzyć efektywność landing page poprzez śledzenie wskaźników, takich jak współczynnik konwersji, co pozwala na stałe doskonalenie strony.",
-          "Personalizacja: Możesz tworzyć różne wersje landing page dostosowane do różnych grup docelowych lub kampanii marketingowych, co zwiększa jej efektywność.",
-          "Szybki czas ładowania: Landing page jest zazwyczaj zoptymalizowana pod kątem szybkiego ładowania, co pomaga w utrzymaniu uwagi odwiedzających.",
-          "Wsparcie kampanii marketingowych: Jest doskonałym narzędziem w kampaniach reklamowych online, takich jak reklamy Google Ads czy kampanie e-mail marketingowe."
-        ],
-        "infos": [
-          "Zwiększenie konwersji klientów",
-          "Skoncentrowana na jednym celu - działaniu CTA",
-          "Szybki czas ładowania",
-          "Wyjątkowy i atrakcyjny design",
-          "Skupienie uwagi na istotnych informacjach",
-          "Możliwość dostosowania treści pod konkretne kampanie",
-          "Integracja z narzędziami do zbierania leadów",
-          "Efektywna w promocji nowych produktów lub usług",
-          "Łatwa do testowania różnych wersji",
-          "Łatwa analiza skuteczności",
-          "Zwiększenie zrozumienia oferty",
-          "Ograniczenie rozproszenia uwagi klientów",
-          "Możliwość personalizacji treści"
-        ],
-        "summary": "W skrócie, landing page to narzędzie marketingowe, które pozwala na precyzyjne przekazywanie informacji i zachęcanie odwiedzających do pożądanej akcji, co czyni ją niezwykle przydatną w strategii marketingowej."
+        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
       },
       "aboutSection": [
         {
@@ -1087,37 +730,7 @@
       "price": "500zł",
       "description": {
         "h1": "ZALETY LOGO",
-        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki.",
-        "reasons": [
-          "Rozpoznawalność marki: Logo jest graficznym symbolem lub znakiem rozpoznawczym, który pomaga w odróżnieniu Twojej marki od konkurencji. Dobrze zaprojektowane logo może przyciągnąć uwagę i zapadać w pamięć klientów.",
-          "Profesjonalizm: Posiadanie logo daje Twojej firmie profesjonalny wygląd. Dzięki niemu Twoja firma wydaje się bardziej wiarygodna i godna zaufania w oczach klientów.",
-          "Wizualizacja tożsamości marki: Logo jest kluczowym elementem identyfikacji wizualnej marki. Określa ono kolorystykę, czcionki i styl, które powinny być stosowane we wszystkich materiałach marketingowych i komunikacji firmy.",
-          "Przyciąganie uwagi: Estetycznie i atrakcyjnie zaprojektowane logo może przyciągnąć uwagę klientów i skłonić ich do bliższego przyjrzenia się Twoim produktom lub usługom.",
-          "Budowanie lojalności klienta: Klienci często identyfikują się z marką za pośrednictwem jej logo. Silna identyfikacja marki może prowadzić do większej lojalności klientów.",
-          "Marketing i reklama: Logo jest niezbędne do tworzenia materiałów marketingowych, takich jak ulotki, banery, strony internetowe, plakaty i reklamy. Pomaga to utrzymać spójność w komunikacji marketingowej.",
-          "Rozpoznawalność online: W erze internetu logo jest ważnym elementem identyfikacji online. Może być wykorzystywane na stronach internetowych, w mediach społecznościowych, w wiadomościach e-mail i innych miejscach online.",
-          "Skupienie uwagi: Logo może pomóc w skupieniu uwagi na najważniejszych aspektach Twojej marki lub oferty, przekazując kluczowe wartości i przesłanie.",
-          "Wartość rynkowa: Dobrze rozpoznawalne logo może zwiększyć wartość rynkową firmy i wpływać na jej sukces na rynku.",
-          "Łatwość identyfikacji: Logo umożliwia szybkie i łatwe rozpoznanie firmy przez klientów, co może pomóc w przyciągnięciu nowych klientów."
-        ],
-        "infos": [
-          "Rozpoznawalność",
-          "Profesjonalizm",
-          "Identyfikacja wizualna",
-          "Skupienie uwagi",
-          "Lojalność klientów",
-          "Marketing i reklama",
-          "Wartość rynkowa",
-          "Rozpoznawalność online",
-          "Skrócenie przekazu",
-          "Unikalność",
-          "Kreatywność",
-          "Wartość estetyczna",
-          "Komunikacja marki",
-          "Rozpoznawalność offline",
-          "Długoletnia inwestycja"
-        ],
-        "summary": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
       },
       "aboutSection": [
         {
@@ -1163,36 +776,7 @@
       "price": "1799zł",
       "description": {
         "h1": "PAKIET SOCIAL MEDIA",
-        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy.",
-        "reasons": [
-          "Zwiększenie widoczności: Obecność na mediach społecznościowych pozwala dotrzeć do szerszej publiczności i zwiększyć widoczność marki.",
-          "Budowanie relacji: Mediów społecznościowych można używać do nawiązywania i budowania relacji z klientami, co prowadzi do większej lojalności i zaufania.",
-          "Promocja produktów/usług: Platformy społecznościowe pozwalają na skuteczną promocję produktów i usług, docierając do potencjalnych klientów.",
-          "Feedback od klientów: Możliwość otrzymywania opinii i komentarzy od klientów pomaga w doskonaleniu oferty i dostosowywaniu się do ich potrzeb.",
-          "Analiza rynku: Monitoring mediów społecznościowych pozwala na zrozumienie trendów rynkowych i potrzeb klientów.",
-          "Kreowanie wizerunku marki: Social media pozwalają na budowanie pozytywnego wizerunku marki i komunikowanie jej wartości.",
-          "Wsparcie klienta: Możesz dostarczać wsparcie klientom poprzez odpowiedzi na pytania i rozwiązywanie problemów na platformach społecznościowych.",
-          "Reklama ukierunkowana: Platformy społecznościowe oferują narzędzia do ukierunkowanej reklamy, co pozwala docierać do konkretnych grup docelowych.",
-          "Śledzenie konkurencji: Monitorowanie aktywności konkurencji na mediach społecznościowych pomaga w analizie rynku i dostosowywaniu strategii.",
-          "Wzmacnianie zaangażowania: Redagowanie ciekawych treści i udostępnianie ich na mediach społecznościowych przyciąga uwagę i zwiększa zaangażowanie użytkowników.",
-          "Wpływ na SEO: Aktywność na mediach społecznościowych może wpłynąć na pozycje Twojej strony internetowej w wynikach wyszukiwania.",
-          "Monitorowanie wyników: Dostępne narzędzia pozwalają na monitorowanie efektywności działań na mediach społecznościowych i dostosowywanie strategii na podstawie wyników."
-        ],
-        "infos": [
-          "Zwiększenie widoczności",
-          "Budowanie relacji",
-          "Promocja produktów/usług",
-          "Feedback od klientów",
-          "Analiza rynku",
-          "Kreowanie wizerunku marki",
-          "Wsparcie klienta",
-          "Reklama ukierunkowana",
-          "Śledzenie konkurencji",
-          "Wzmacnianie zaangażowania",
-          "Wpływ na SEO",
-          "Monitorowanie wyników"
-        ],
-        "summary": "Prowadzenie mediów społecznościowych dla biznesu stanowi istotny element strategii marketingowej, pozwalając na zwiększenie widoczności marki, budowanie relacji z klientami oraz skuteczną promocję produktów i usług. To także narzędzie umożliwiające zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co wpływa na sukces i rozwój firmy."
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy."
       },
       "aboutSection": [
         {
@@ -1238,37 +822,7 @@
       "price": "500zł",
       "description": {
         "h1": "ZALETY LOGO",
-        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki.",
-        "reasons": [
-          "Rozpoznawalność marki: Logo jest graficznym symbolem lub znakiem rozpoznawczym, który pomaga w odróżnieniu Twojej marki od konkurencji. Dobrze zaprojektowane logo może przyciągnąć uwagę i zapadać w pamięć klientów.",
-          "Profesjonalizm: Posiadanie logo daje Twojej firmie profesjonalny wygląd. Dzięki niemu Twoja firma wydaje się bardziej wiarygodna i godna zaufania w oczach klientów.",
-          "Wizualizacja tożsamości marki: Logo jest kluczowym elementem identyfikacji wizualnej marki. Określa ono kolorystykę, czcionki i styl, które powinny być stosowane we wszystkich materiałach marketingowych i komunikacji firmy.",
-          "Przyciąganie uwagi: Estetycznie i atrakcyjnie zaprojektowane logo może przyciągnąć uwagę klientów i skłonić ich do bliższego przyjrzenia się Twoim produktom lub usługom.",
-          "Budowanie lojalności klienta: Klienci często identyfikują się z marką za pośrednictwem jej logo. Silna identyfikacja marki może prowadzić do większej lojalności klientów.",
-          "Marketing i reklama: Logo jest niezbędne do tworzenia materiałów marketingowych, takich jak ulotki, banery, strony internetowe, plakaty i reklamy. Pomaga to utrzymać spójność w komunikacji marketingowej.",
-          "Rozpoznawalność online: W erze internetu logo jest ważnym elementem identyfikacji online. Może być wykorzystywane na stronach internetowych, w mediach społecznościowych, w wiadomościach e-mail i innych miejscach online.",
-          "Skupienie uwagi: Logo może pomóc w skupieniu uwagi na najważniejszych aspektach Twojej marki lub oferty, przekazując kluczowe wartości i przesłanie.",
-          "Wartość rynkowa: Dobrze rozpoznawalne logo może zwiększyć wartość rynkową firmy i wpływać na jej sukces na rynku.",
-          "Łatwość identyfikacji: Logo umożliwia szybkie i łatwe rozpoznanie firmy przez klientów, co może pomóc w przyciągnięciu nowych klientów."
-        ],
-        "infos": [
-          "Rozpoznawalność",
-          "Profesjonalizm",
-          "Identyfikacja wizualna",
-          "Skupienie uwagi",
-          "Lojalność klientów",
-          "Marketing i reklama",
-          "Wartość rynkowa",
-          "Rozpoznawalność online",
-          "Skrócenie przekazu",
-          "Unikalność",
-          "Kreatywność",
-          "Wartość estetyczna",
-          "Komunikacja marki",
-          "Rozpoznawalność offline",
-          "Długoletnia inwestycja"
-        ],
-        "summary": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
       },
       "aboutSection": [
         {
@@ -1313,36 +867,7 @@
       "price": "1799zł",
       "description": {
         "h1": "PAKIET SOCIAL MEDIA",
-        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy.",
-        "reasons": [
-          "Zwiększenie widoczności: Obecność na mediach społecznościowych pozwala dotrzeć do szerszej publiczności i zwiększyć widoczność marki.",
-          "Budowanie relacji: Mediów społecznościowych można używać do nawiązywania i budowania relacji z klientami, co prowadzi do większej lojalności i zaufania.",
-          "Promocja produktów/usług: Platformy społecznościowe pozwalają na skuteczną promocję produktów i usług, docierając do potencjalnych klientów.",
-          "Feedback od klientów: Możliwość otrzymywania opinii i komentarzy od klientów pomaga w doskonaleniu oferty i dostosowywaniu się do ich potrzeb.",
-          "Analiza rynku: Monitoring mediów społecznościowych pozwala na zrozumienie trendów rynkowych i potrzeb klientów.",
-          "Kreowanie wizerunku marki: Social media pozwalają na budowanie pozytywnego wizerunku marki i komunikowanie jej wartości.",
-          "Wsparcie klienta: Możesz dostarczać wsparcie klientom poprzez odpowiedzi na pytania i rozwiązywanie problemów na platformach społecznościowych.",
-          "Reklama ukierunkowana: Platformy społecznościowe oferują narzędzia do ukierunkowanej reklamy, co pozwala docierać do konkretnych grup docelowych.",
-          "Śledzenie konkurencji: Monitorowanie aktywności konkurencji na mediach społecznościowych pomaga w analizie rynku i dostosowywaniu strategii.",
-          "Wzmacnianie zaangażowania: Redagowanie ciekawych treści i udostępnianie ich na mediach społecznościowych przyciąga uwagę i zwiększa zaangażowanie użytkowników.",
-          "Wpływ na SEO: Aktywność na mediach społecznościowych może wpłynąć na pozycje Twojej strony internetowej w wynikach wyszukiwania.",
-          "Monitorowanie wyników: Dostępne narzędzia pozwalają na monitorowanie efektywności działań na mediach społecznościowych i dostosowywanie strategii na podstawie wyników."
-        ],
-        "infos": [
-          "Zwiększenie widoczności",
-          "Budowanie relacji",
-          "Promocja produktów/usług",
-          "Feedback od klientów",
-          "Analiza rynku",
-          "Kreowanie wizerunku marki",
-          "Wsparcie klienta",
-          "Reklama ukierunkowana",
-          "Śledzenie konkurencji",
-          "Wzmacnianie zaangażowania",
-          "Wpływ na SEO",
-          "Monitorowanie wyników"
-        ],
-        "summary": "Prowadzenie mediów społecznościowych dla biznesu stanowi istotny element strategii marketingowej, pozwalając na zwiększenie widoczności marki, budowanie relacji z klientami oraz skuteczną promocję produktów i usług. To także narzędzie umożliwiające zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co wpływa na sukces i rozwój firmy."
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy."
       },
       "aboutSection": [
         {
@@ -1388,37 +913,7 @@
       "price": "500zł",
       "description": {
         "h1": "ZALETY LOGO",
-        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki.",
-        "reasons": [
-          "Rozpoznawalność marki: Logo jest graficznym symbolem lub znakiem rozpoznawczym, który pomaga w odróżnieniu Twojej marki od konkurencji. Dobrze zaprojektowane logo może przyciągnąć uwagę i zapadać w pamięć klientów.",
-          "Profesjonalizm: Posiadanie logo daje Twojej firmie profesjonalny wygląd. Dzięki niemu Twoja firma wydaje się bardziej wiarygodna i godna zaufania w oczach klientów.",
-          "Wizualizacja tożsamości marki: Logo jest kluczowym elementem identyfikacji wizualnej marki. Określa ono kolorystykę, czcionki i styl, które powinny być stosowane we wszystkich materiałach marketingowych i komunikacji firmy.",
-          "Przyciąganie uwagi: Estetycznie i atrakcyjnie zaprojektowane logo może przyciągnąć uwagę klientów i skłonić ich do bliższego przyjrzenia się Twoim produktom lub usługom.",
-          "Budowanie lojalności klienta: Klienci często identyfikują się z marką za pośrednictwem jej logo. Silna identyfikacja marki może prowadzić do większej lojalności klientów.",
-          "Marketing i reklama: Logo jest niezbędne do tworzenia materiałów marketingowych, takich jak ulotki, banery, strony internetowe, plakaty i reklamy. Pomaga to utrzymać spójność w komunikacji marketingowej.",
-          "Rozpoznawalność online: W erze internetu logo jest ważnym elementem identyfikacji online. Może być wykorzystywane na stronach internetowych, w mediach społecznościowych, w wiadomościach e-mail i innych miejscach online.",
-          "Skupienie uwagi: Logo może pomóc w skupieniu uwagi na najważniejszych aspektach Twojej marki lub oferty, przekazując kluczowe wartości i przesłanie.",
-          "Wartość rynkowa: Dobrze rozpoznawalne logo może zwiększyć wartość rynkową firmy i wpływać na jej sukces na rynku.",
-          "Łatwość identyfikacji: Logo umożliwia szybkie i łatwe rozpoznanie firmy przez klientów, co może pomóc w przyciągnięciu nowych klientów."
-        ],
-        "infos": [
-          "Rozpoznawalność",
-          "Profesjonalizm",
-          "Identyfikacja wizualna",
-          "Skupienie uwagi",
-          "Lojalność klientów",
-          "Marketing i reklama",
-          "Wartość rynkowa",
-          "Rozpoznawalność online",
-          "Skrócenie przekazu",
-          "Unikalność",
-          "Kreatywność",
-          "Wartość estetyczna",
-          "Komunikacja marki",
-          "Rozpoznawalność offline",
-          "Długoletnia inwestycja"
-        ],
-        "summary": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
       },
       "aboutSection": [
         {
@@ -1463,36 +958,7 @@
       "price": "1799zł",
       "description": {
         "h1": "PAKIET SOCIAL MEDIA",
-        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy.",
-        "reasons": [
-          "Zwiększenie widoczności: Obecność na mediach społecznościowych pozwala dotrzeć do szerszej publiczności i zwiększyć widoczność marki.",
-          "Budowanie relacji: Mediów społecznościowych można używać do nawiązywania i budowania relacji z klientami, co prowadzi do większej lojalności i zaufania.",
-          "Promocja produktów/usług: Platformy społecznościowe pozwalają na skuteczną promocję produktów i usług, docierając do potencjalnych klientów.",
-          "Feedback od klientów: Możliwość otrzymywania opinii i komentarzy od klientów pomaga w doskonaleniu oferty i dostosowywaniu się do ich potrzeb.",
-          "Analiza rynku: Monitoring mediów społecznościowych pozwala na zrozumienie trendów rynkowych i potrzeb klientów.",
-          "Kreowanie wizerunku marki: Social media pozwalają na budowanie pozytywnego wizerunku marki i komunikowanie jej wartości.",
-          "Wsparcie klienta: Możesz dostarczać wsparcie klientom poprzez odpowiedzi na pytania i rozwiązywanie problemów na platformach społecznościowych.",
-          "Reklama ukierunkowana: Platformy społecznościowe oferują narzędzia do ukierunkowanej reklamy, co pozwala docierać do konkretnych grup docelowych.",
-          "Śledzenie konkurencji: Monitorowanie aktywności konkurencji na mediach społecznościowych pomaga w analizie rynku i dostosowywaniu strategii.",
-          "Wzmacnianie zaangażowania: Redagowanie ciekawych treści i udostępnianie ich na mediach społecznościowych przyciąga uwagę i zwiększa zaangażowanie użytkowników.",
-          "Wpływ na SEO: Aktywność na mediach społecznościowych może wpłynąć na pozycje Twojej strony internetowej w wynikach wyszukiwania.",
-          "Monitorowanie wyników: Dostępne narzędzia pozwalają na monitorowanie efektywności działań na mediach społecznościowych i dostosowywanie strategii na podstawie wyników."
-        ],
-        "infos": [
-          "Zwiększenie widoczności",
-          "Budowanie relacji",
-          "Promocja produktów/usług",
-          "Feedback od klientów",
-          "Analiza rynku",
-          "Kreowanie wizerunku marki",
-          "Wsparcie klienta",
-          "Reklama ukierunkowana",
-          "Śledzenie konkurencji",
-          "Wzmacnianie zaangażowania",
-          "Wpływ na SEO",
-          "Monitorowanie wyników"
-        ],
-        "summary": "Prowadzenie mediów społecznościowych dla biznesu stanowi istotny element strategii marketingowej, pozwalając na zwiększenie widoczności marki, budowanie relacji z klientami oraz skuteczną promocję produktów i usług. To także narzędzie umożliwiające zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co wpływa na sukces i rozwój firmy."
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy."
       },
       "aboutSection": [
         {
@@ -1538,37 +1004,7 @@
       "price": "500zł",
       "description": {
         "h1": "ZALETY LOGO",
-        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki.",
-        "reasons": [
-          "Rozpoznawalność marki: Logo jest graficznym symbolem lub znakiem rozpoznawczym, który pomaga w odróżnieniu Twojej marki od konkurencji. Dobrze zaprojektowane logo może przyciągnąć uwagę i zapadać w pamięć klientów.",
-          "Profesjonalizm: Posiadanie logo daje Twojej firmie profesjonalny wygląd. Dzięki niemu Twoja firma wydaje się bardziej wiarygodna i godna zaufania w oczach klientów.",
-          "Wizualizacja tożsamości marki: Logo jest kluczowym elementem identyfikacji wizualnej marki. Określa ono kolorystykę, czcionki i styl, które powinny być stosowane we wszystkich materiałach marketingowych i komunikacji firmy.",
-          "Przyciąganie uwagi: Estetycznie i atrakcyjnie zaprojektowane logo może przyciągnąć uwagę klientów i skłonić ich do bliższego przyjrzenia się Twoim produktom lub usługom.",
-          "Budowanie lojalności klienta: Klienci często identyfikują się z marką za pośrednictwem jej logo. Silna identyfikacja marki może prowadzić do większej lojalności klientów.",
-          "Marketing i reklama: Logo jest niezbędne do tworzenia materiałów marketingowych, takich jak ulotki, banery, strony internetowe, plakaty i reklamy. Pomaga to utrzymać spójność w komunikacji marketingowej.",
-          "Rozpoznawalność online: W erze internetu logo jest ważnym elementem identyfikacji online. Może być wykorzystywane na stronach internetowych, w mediach społecznościowych, w wiadomościach e-mail i innych miejscach online.",
-          "Skupienie uwagi: Logo może pomóc w skupieniu uwagi na najważniejszych aspektach Twojej marki lub oferty, przekazując kluczowe wartości i przesłanie.",
-          "Wartość rynkowa: Dobrze rozpoznawalne logo może zwiększyć wartość rynkową firmy i wpływać na jej sukces na rynku.",
-          "Łatwość identyfikacji: Logo umożliwia szybkie i łatwe rozpoznanie firmy przez klientów, co może pomóc w przyciągnięciu nowych klientów."
-        ],
-        "infos": [
-          "Rozpoznawalność",
-          "Profesjonalizm",
-          "Identyfikacja wizualna",
-          "Skupienie uwagi",
-          "Lojalność klientów",
-          "Marketing i reklama",
-          "Wartość rynkowa",
-          "Rozpoznawalność online",
-          "Skrócenie przekazu",
-          "Unikalność",
-          "Kreatywność",
-          "Wartość estetyczna",
-          "Komunikacja marki",
-          "Rozpoznawalność offline",
-          "Długoletnia inwestycja"
-        ],
-        "summary": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
       },
       "aboutSection": [
         {
@@ -1613,36 +1049,7 @@
       "price": "1799zł",
       "description": {
         "h1": "PAKIET SOCIAL MEDIA",
-        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy.",
-        "reasons": [
-          "Zwiększenie widoczności: Obecność na mediach społecznościowych pozwala dotrzeć do szerszej publiczności i zwiększyć widoczność marki.",
-          "Budowanie relacji: Mediów społecznościowych można używać do nawiązywania i budowania relacji z klientami, co prowadzi do większej lojalności i zaufania.",
-          "Promocja produktów/usług: Platformy społecznościowe pozwalają na skuteczną promocję produktów i usług, docierając do potencjalnych klientów.",
-          "Feedback od klientów: Możliwość otrzymywania opinii i komentarzy od klientów pomaga w doskonaleniu oferty i dostosowywaniu się do ich potrzeb.",
-          "Analiza rynku: Monitoring mediów społecznościowych pozwala na zrozumienie trendów rynkowych i potrzeb klientów.",
-          "Kreowanie wizerunku marki: Social media pozwalają na budowanie pozytywnego wizerunku marki i komunikowanie jej wartości.",
-          "Wsparcie klienta: Możesz dostarczać wsparcie klientom poprzez odpowiedzi na pytania i rozwiązywanie problemów na platformach społecznościowych.",
-          "Reklama ukierunkowana: Platformy społecznościowe oferują narzędzia do ukierunkowanej reklamy, co pozwala docierać do konkretnych grup docelowych.",
-          "Śledzenie konkurencji: Monitorowanie aktywności konkurencji na mediach społecznościowych pomaga w analizie rynku i dostosowywaniu strategii.",
-          "Wzmacnianie zaangażowania: Redagowanie ciekawych treści i udostępnianie ich na mediach społecznościowych przyciąga uwagę i zwiększa zaangażowanie użytkowników.",
-          "Wpływ na SEO: Aktywność na mediach społecznościowych może wpłynąć na pozycje Twojej strony internetowej w wynikach wyszukiwania.",
-          "Monitorowanie wyników: Dostępne narzędzia pozwalają na monitorowanie efektywności działań na mediach społecznościowych i dostosowywanie strategii na podstawie wyników."
-        ],
-        "infos": [
-          "Zwiększenie widoczności",
-          "Budowanie relacji",
-          "Promocja produktów/usług",
-          "Feedback od klientów",
-          "Analiza rynku",
-          "Kreowanie wizerunku marki",
-          "Wsparcie klienta",
-          "Reklama ukierunkowana",
-          "Śledzenie konkurencji",
-          "Wzmacnianie zaangażowania",
-          "Wpływ na SEO",
-          "Monitorowanie wyników"
-        ],
-        "summary": "Prowadzenie mediów społecznościowych dla biznesu stanowi istotny element strategii marketingowej, pozwalając na zwiększenie widoczności marki, budowanie relacji z klientami oraz skuteczną promocję produktów i usług. To także narzędzie umożliwiające zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co wpływa na sukces i rozwój firmy."
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy."
       },
       "aboutSection": [
         {

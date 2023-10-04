@@ -5,16 +5,18 @@ import { Metadata } from "next";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Providers } from "@/redux/Provider";
+import Script from "next/script";
 export const metadata: Metadata = {
   title:
     "Quixy.pl - Programowanie stron internetowych - Grafika komputerowa - Projektowanie logo",
   description:
     "Tworzenie stron internetowych. Oferta stron internetowych. Aplikacje internetowe oparte o najnowsze technologie. Grafika komputerowa, grafika social media.",
+  viewport: "width=device-width, initial-scale=1",
   themeColor: "#8cf562",
   publisher: "wesiudev",
   manifest: "/manifest.json",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.ico",
   },
 };
 export default function RootLayout({
@@ -26,9 +28,13 @@ export default function RootLayout({
     <html lang="pl">
       <body
         className={`${cocosharp.variable} ${signika.variable}
-       w-full overflow-x-hidden`}
+       w-full overflow-x-hidden relative`}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          <div className="cursor" data-cursor></div>
+          {children}
+        </Providers>
+        <Script src="scripts/script.js" />
       </body>
     </html>
   );

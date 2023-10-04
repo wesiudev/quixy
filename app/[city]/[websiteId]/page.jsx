@@ -15,6 +15,7 @@ import { getShopContentSSR } from "@/app/lib/getShopContentSSR";
 import { Footer } from "@/app/components/Footer";
 import Hero from "@/app/components/HeroModule/HeroModule";
 import ProductHero from "./ProductHero";
+import AboutProduct from "./UnderProduct";
 
 export async function generateStaticParams() {
   const pages = await getShopContentSSR();
@@ -28,8 +29,8 @@ export async function generateMetadata({ params }) {
   // fetch data
   const { page } = await getWebsiteInfo(params.city, params.websiteId);
   return {
-    title: `Quixy.pl - Programowanie stron internetowych - ${page.name} - Grafika komputerowa - Projektowanie logo`,
-    description: `Usługi programistyczne Quixy.pl. ${page.description.summary}`,
+    title: ``,
+    description: ``,
   };
 }
 
@@ -42,7 +43,7 @@ export default async function Page({ params }) {
     return (
       <>
         <ProductHero page={page} />
-
+        <AboutProduct />
         <UnderHero />
         <Shop ItemsList={ItemsList} city={page.city} />
         <About content={page.aboutSection} />

@@ -20,11 +20,11 @@ export const Header = () => {
         />
       </Link>
       <div className="flex flex-row items-center justify-between w-full relative ">
-        <div className="w-full lg:w-3/4 pr-12 pl-6 flex text-white flex-col lg:flex-row  items-center font-coco font-bold text-xl ">
+        <div className="fixed lg:relative bg-black left-0 bottom-0 w-full lg:w-3/4 lg:pr-12 lg:pl-6 flex text-white flex-row items-center font-coco font-bold text-xl ">
           {["BLOG", "SKLEP", "FaQ"].map((menuItem, i) => (
             <Link
               key={i}
-              className={`p-3 w-full border-r-2 lg:border-r-0 lg:border-t-0  border-white flex items-center justify-center hover:underline duration-200 ${
+              className={`p-3 w-full border-white flex items-center justify-center hover:underline duration-200 ${
                 pathname === menuItem || (pathname === "" && "text-green-500")
               } `}
               href={`/${menuItem.toLowerCase()}`}
@@ -33,7 +33,7 @@ export const Header = () => {
             </Link>
           ))}
         </div>
-        <button className="group absolute top-[50%] -translate-y-[50%] lg:top-[0%] lg:-translate-y-[0%] right-0 lg:relative w-full lg:w-1/2 p-3 bg-gray-300 bg-opacity-20 rounded-lg flex my-auto ">
+        <button className="group absolute top-[50%] -translate-y-[50%] lg:top-[0%] lg:-translate-y-[0%] right-0 lg:relative w-full lg:w-1/2 p-3 bg-gray-300 bg-opacity-20 rounded-lg flex my-auto">
           <FaSearch className="h-full w-7 text-zinc-500" />
           <div className="text-white absolute left-[50%] -translate-x-[50%] top-[50%] -translate-y-[50%] opacity-100 group-hover:opacity-0 duration-150">
             Czego szukasz?

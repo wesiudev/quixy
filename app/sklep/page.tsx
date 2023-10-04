@@ -11,10 +11,10 @@ export default async function Page() {
   return (
     <div>
       <Header />
-      <div className="w-full max-h-[35vh] overflow-hidden relative mt-[104px]">
+      <div className="w-full max-h-[40vh] overflow-hidden relative mt-[104px]">
         <HeroModule filter={true} />
       </div>
-      <div className="bg-green-500">
+      <div className="">
         <Shop ItemsList={ItemsList} mt={true} />
       </div>
       <UnderHero />

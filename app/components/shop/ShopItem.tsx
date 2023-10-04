@@ -18,15 +18,15 @@ export default function ShopItem({
       } `}
     >
       <div
-        className={`mt-3 lg:mt-0 group bg-white hover:shadow-lg duration-200 shadow-black aspect-square w-full rounded-xl flex flex-col justify-between items-center relative`}
+        className={`mt-3 lg:mt-0 group bg-white hover:shadow-lg duration-200 shadow-black aspect-square w-full flex flex-col justify-between items-center relative`}
       >
-        <div className="group-hover:-rotate-0  lg:group-hover:scale-125 group-hover:-mt-4 duration-200 absolute -left-8 lg:-left-6 -top-0 w-max p-3 -rotate-45 bg-yellow-400 rounded-lg text-gray-700 flex items-center justify-center z-50 font-coco shadow-sm shadow-gray-700">
-          już od {item.price}
+        <div className="group-hover:-rotate-0  group-hover:scale-125 group-hover:-mt-4 duration-200 absolute left-2 top-2 w-max px-3 py-1  bg-green-600 rounded-lg text-white flex items-center justify-center z-50 font-coco shadow-sm shadow-gray-700">
+          od {item.price}
         </div>
         <div className="absolute w-full h-full left-0 top-0 overflow-hidden">
-          <div className="w-full h-full  bg-gradient-to-br from-green-200 via-yellow-200 to-green-200 rotate-45 "></div>
+          <div className="w-full h-full  bg-gradient-to-br from-blue-300  to-green-300 "></div>
         </div>
-        <div className="text-lg font-coco font-bold bg-green-600 text-white w-max mx-auto bottom-12 p-2 rounded-lg select-none shadow-sm shadow-black z-[60] absolute">
+        <div className="text-lg font-coco font-bold bg-black text-white w-full mx-auto bottom-0 text-center p-2 select-none shadow-sm shadow-black z-[60] absolute">
           {item.name.toLocaleUpperCase()}
         </div>
         <Image

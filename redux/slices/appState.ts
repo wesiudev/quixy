@@ -1,21 +1,21 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+//czy chcesz galierię zdjęć
+//mapa strony (google maps)
+//zakładki
 const initialState: any = {
   heroDialogData: {
-    step: 0,
+    step: 0, //krok
     websiteName: "",
     languages: [],
     theme: [],
     about: "",
-    seo: "",
-    seoTarget: "",
-    social: "",
+    target: "", //branża
+    social: "", //czy prowadzenie social mediów
     audience: "",
-    blog: "",
-    blogServices: "",
+    blog: "", //czy chcesz bloga?
+    blogServices: "", //czy chcesz abyśmy prowadzili bloga za ciebie?
   },
 };
-
 export const appState = createSlice({
   name: "appState",
   initialState,

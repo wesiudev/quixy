@@ -2,12 +2,12 @@ import Image from "next/image";
 import hero from "../../assets/bg.webp";
 import hero2 from "../../assets/bg2.webp";
 import Link from "next/link";
-import Contact from "../Contact";
+import Contact from "./Contact";
 
 export default function HeroModule({ filter }: { filter?: boolean }) {
   return (
     <>
-      <div className="h-[50vh] lg:h-[40vh] duration-1000 w-screen flex items-center overflow-hidden top-[50%] -translate-y-[50%] absolute flex-col lg:flex-row bg-gradient-to-b from-green-500  to-blue-500">
+      <div className="h-[35vh] lg:h-[35vh] duration-1000 w-screen flex items-center overflow-hidden top-[50%] -translate-y-[50%] absolute flex-col lg:flex-row bg-gradient-to-b from-green-500  to-blue-500">
         {/* first plane image */}
         <Image
           src={hero}

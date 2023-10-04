@@ -2,12 +2,12 @@
 import { setHeroDialogData, setHeroDialogLang } from "@/redux/slices/appState";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import uaFlag from "../assets/ua.png";
-import plFlag from "../assets/pl.png";
-import enFlag from "../assets/en.png";
-import enHover from "../assets/enHover.png";
-import plHover from "../assets/plHover.png";
-import uaHover from "../assets/uaHover.png";
+import uaFlag from "../../assets/ua.png";
+import plFlag from "../../assets/pl.png";
+import enFlag from "../../assets/en.png";
+import enHover from "../../assets/enHover.png";
+import plHover from "../../assets/plHover.png";
+import uaHover from "../../assets/uaHover.png";
 import Image from "next/image";
 import { FaArrowCircleRight } from "react-icons/fa";
 
@@ -71,12 +71,12 @@ export default function Contact() {
   return (
     <>
       <div
-        className={`relative w-max h-full overflow-hidden bg-black duration-500 delay-300 ${
+        className={`relative w-max h-full overflow-hidden bg-black duration-500 delay-800 ${
           heroDialogData.step === 0 ? "bg-opacity-0" : "bg-opacity-50"
         }`}
       >
         <div
-          className={`w-screen h-full flex items-center justify-center flex-col delay-300 duration-700 ${
+          className={`w-screen h-full flex items-center justify-center flex-col duration-700 ${
             heroDialogData.step > 0 ? "-translate-x-[100%]" : "-translate-x-0"
           }`}
         >
@@ -84,15 +84,15 @@ export default function Contact() {
             UTRZYJ NOSA KONKURENCJI
           </h1>
 
-          <h2 className="text-sm   text-white  drop-shadow-lg shadow-black italic">
+          <h2 className="text-sm mt-2 text-white  drop-shadow-lg shadow-black italic">
             w <strong className="font-extrabold text-yellow-400">Quixy</strong>{" "}
             znamy się na rzeczy
           </h2>
           <button
             onClick={updateDialogStep}
-            className="mt-6 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden rounded-lg text-sm font-medium group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 ease-in duration-200 hover:text-white text-white focus:ring-4 focus:outline-none  focus:ring-green-800 hover:drop-shadow-lg hover:shadow-black z-[100]"
+            className="mt-6 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden rounded-lg text-sm font-medium group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 group-hover:scale-105 ease-in duration-100 hover:text-white text-white focus:ring-4 focus:outline-none  focus:ring-green-800 hover:drop-shadow-lg hover:shadow-black z-[100]"
           >
-            <span className="relative px-6 py-3 transition-all ease-in duration-200 bg-black rounded-md group-hover:bg-opacity-0 text-2xl  z-[100]">
+            <span className="relative px-6 py-2 transition-all ease-in duration-100 bg-black rounded-md group-hover:bg-opacity-0 text-2xl group-hover:scale-105 z-[100]">
               Zamów stronę
             </span>
           </button>
@@ -102,7 +102,7 @@ export default function Contact() {
             heroDialogData.step === 1
               ? "-translate-y-[50%] opacity-100 z-50"
               : "-translate-y-[200%] opacity-0 z-[-50]"
-          } duration-500 delay-1000`}
+          } duration-500 delay-300`}
         >
           <h1 className=" text-white w-max text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
             SZUKASZ STRONY?
@@ -119,14 +119,14 @@ export default function Contact() {
           </div>
         </div>
         <div
-          className={`w-full absolute left-[50%] top-[50%] -translate-x-[50%] flex flex-col items-center duration-500 delay-1000 justify-center ${
+          className={`w-full absolute left-[50%] top-[50%] -translate-x-[50%] flex flex-col items-center duration-500 delay-500 justify-center ${
             heroDialogData.step === 2
               ? "-translate-y-[50%] opacity-100 z-50"
               : "-translate-y-[200%] opacity-0 z-[-50]"
           }   `}
         >
           <h1 className=" text-white w-max text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
-            STRONA MIĘDZYNARODOWA?
+            TŁUMACZENIE?
           </h1>
           <h2 className="text-sm font-light italic">
             wybierz języki {"(minimalnie jeden)"}
@@ -135,9 +135,9 @@ export default function Contact() {
           <div
             className={`flex flex-col items-center justify-center flex-wrap w-full ${
               heroDialogData.step === 2
-                ? "translate-y-[10%]"
-                : "-translate-y-[100%]"
-            } duration-700 delay-[1.2s] my-4`}
+                ? "-translate-y-[-10%]"
+                : "-translate-y-[-150%]"
+            } duration-500 delay-500`}
           >
             <div className="flex flex-row items-center justify-center flex-wrap w-full space-x-6">
               {availableCountries.map((country: any, i: number) => (
@@ -166,10 +166,10 @@ export default function Contact() {
                       width={444}
                       height={444}
                       alt="country flag quixy strony www"
-                      className={`max-h-[70px] w-auto absolute left-0 top-0 z-10 duration-200 ${
+                      className={`max-h-[70px] w-auto absolute left-0 top-0 z-10 duration-100 ${
                         chosenLang.some(
                           (lang: any) => lang.name === country.name
-                        ) && "scale-[1.2] -translate-y-4"
+                        ) && "scale-[1.2] -translate-y-2"
                       }`}
                     />
                     <Image
@@ -177,10 +177,10 @@ export default function Contact() {
                       width={444}
                       height={444}
                       alt="country flag quixy strony www"
-                      className={`max-h-[70px] w-auto absolute left-0 top-0 opacity-0 group-hover:opacity-100 duration-200 z-5 ${
+                      className={`max-h-[70px] w-auto absolute left-0 top-0 opacity-0 group-hover:opacity-100 duration-100 z-5 ${
                         chosenLang.some(
                           (lang: any) => lang.name === country.name
-                        ) && "opacity-100 scale-[1.3] -translate-y-4"
+                        ) && "opacity-100 scale-[1.3] -translate-y-2"
                       }`}
                     />
                   </button>
@@ -192,13 +192,13 @@ export default function Contact() {
                 dispatch(setHeroDialogLang(chosenLang)),
                   dispatch(setHeroDialogData({ ...heroDialogData, step: 3 }));
               }}
-              className={`rounded-full hover:disabled:shadow-sm hover:disabled:shadow-red-400 hover:disabled:bg-red-500 hover:disabled:cursor-not-allowed mt-8 ${
+              className={`h-max w-max rounded-full hover:disabled:shadow-sm hover:disabled:shadow-red-400 hover:disabled:bg-red-500 hover:disabled:cursor-not-allowed mt-2 ${
                 chosenLang.length >= 1 &&
                 "bg-green-500 shadow-sm shadow-green-400"
-              } duration-300`}
+              } duration-100`}
               disabled={chosenLang.length <= 0}
             >
-              <FaArrowCircleRight className="w-16 h-16 text-white " />
+              <FaArrowCircleRight className="w-12 h-12 text-white " />
             </button>
           </div>
         </div>
@@ -230,7 +230,7 @@ const Buttons = ({
           );
         }}
         type="button"
-        className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none  focus:ring-lime-800 shadow-lg  shadow-lime-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mx-4 mb-6"
+        className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none  focus:ring-lime-800 shadow-lg  shadow-lime-800/80 font-medium rounded-lg text-sm px-2 lg:px-5 py-2.5 text-center mx-4 mb-6 hover:scale-105 duration-100"
       >
         Strona wizytówka
       </button>
@@ -246,7 +246,7 @@ const Buttons = ({
           );
         }}
         type="button"
-        className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none  focus:ring-red-800 shadow-lg  shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mx-4 mb-6"
+        className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none  focus:ring-red-800 shadow-lg  shadow-red-800/80 font-medium rounded-lg text-sm px-2 lg:px-5 py-2.5 text-center mx-4 mb-6 hover:scale-105 duration-100"
       >
         Sklep internetowy
       </button>
@@ -262,7 +262,7 @@ const Buttons = ({
           );
         }}
         type="button"
-        className="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none  focus:ring-pink-800 shadow-lg shadow-pink-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mx-4 mb-6"
+        className="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none  focus:ring-pink-800 shadow-lg shadow-pink-800/80 font-medium rounded-lg text-sm px-2 lg:px-5 py-2.5 text-center mx-4 mb-6 hover:scale-105 duration-100"
       >
         Strona landingowa
       </button>{" "}
