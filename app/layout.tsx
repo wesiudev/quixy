@@ -34,7 +34,6 @@ export default function RootLayout({
           <div className="cursor" data-cursor></div>
           {children}
         </Providers>
-        <Script src="scripts/script.js" />
       </body>
     </html>
   );

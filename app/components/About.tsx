@@ -25,24 +25,24 @@ export default function About({ content }: { content: any }) {
         height={300}
         src={connector}
         alt="Tworzenie grafiki komputerowej na quixy.pl w całej Polsce"
-        className="w-full absolute left-0 top-0 -translate-y-[99%]"
+        className="w-full absolute left-0 top-0 -translate-y-[99%] scale-125 lg:scale-100"
       />
       <Image
         width={1080}
         height={300}
         src={connector}
         alt="Strony WWW Polska. Sprawdź ofertę - tworzymy strony internetowe w całej Polsce. Strona internetowa Warszawa, Gdańsk, Kraków."
-        className="w-full absolute left-0 bottom-0 translate-y-[99%] rotate-180"
+        className="w-full absolute left-0 bottom-0 translate-y-[99%] rotate-180 scale-125 lg:scale-100"
       />
       <div className="flex flex-col relative">
-        <h1 className="relative text-6xl sm:text-8xl lg:text-7xl font-bold drop-shadow-xl shadow-black text-green-300">
+        <h1 className="relative text-5xl sm:text-8xl lg:text-7xl font-bold drop-shadow-xl shadow-black text-green-300">
           KIM JESTEŚMY?
         </h1>
         <h2 className="relative font-bold drop-shadow-xl shadow-black text-green-300 text-[13px]">
           {content[0].h2}
         </h2>
         <p className="text-white mt-3 prose lg:prose-xl">{content[0].p}</p>
-        <h1 className="relative text-6xl sm:text-8xl lg:text-7xl font-bold drop-shadow-xl shadow-black  mt-24 text-green-300">
+        <h1 className="relative text-5xl sm:text-8xl lg:text-7xl font-bold drop-shadow-xl shadow-black  mt-24 text-green-300">
           NASZA MISJA
         </h1>
         <h2 className="relative font-bold drop-shadow-xl shadow-black text-green-300 text-[13px]">

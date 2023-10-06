@@ -1,6 +1,5 @@
 import Image from "next/image";
 import heroImg from "../../assets/macbook-color.webp";
-import Hero from "@/app/components/HeroModule/HeroModule";
 export default function ProductHero({ page }: { page: any }) {
   return (
     <div className="h-screen w-screen relative font-coco">
@@ -9,7 +8,7 @@ export default function ProductHero({ page }: { page: any }) {
           src={heroImg}
           width={1980}
           height={1359}
-          alt=""
+          alt={`quixy hero page ${page.name}`}
           className="object-cover"
         />
       </div>

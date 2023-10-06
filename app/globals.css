@@ -5,31 +5,21 @@
 body.modal-open {
   overflow: hidden;
 }
-
-.cursor {
-  display: none;
+.scrollbar::-webkit-scrollbar {
+  width: 15px;
+  height: 6px;
+  background-color: #5e5c5d;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 99px;
 }
 
-.cursor {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 75px;
-  height: 75px;
-  background-color: var(--white);
-  mix-blend-mode: exclusion;
-  border-radius: var(--radius-circle);
-  transform: translate(-50%, -50%) scale(0.35);
-  transition: transform 0.35s;
-  pointer-events: none;
-  z-index: 5000;
+.scrollbar::-webkit-scrollbar-thumb {
+  background: rgb(126 34 206);
+  border-radius: 99px;
+  padding: 2px;
 }
 
-.cursor.hovered {
-  transform: translate(-50%, -50%) scale(1.2);
-}
-
-.cursor.disabled {
-  transform: translate(-50%, -50%) scale(0);
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgb(141, 67, 206);
 }

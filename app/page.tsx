@@ -1,4 +1,4 @@
-import UnderProduct from "./[city]/[websiteId]/UnderProduct";
+import Motivation from "./components/Motivation";
 import About from "./components/About";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
@@ -16,8 +16,8 @@ export default async function Home() {
         <Hero />
       </div>
       <UnderHero />
-      <UnderProduct />
-      <Shop ItemsList={ItemsList} />
+      <Motivation />
+      <Shop ItemsList={ItemsList} pb={true} />
       <About content={ItemsList.shopItems[0].aboutSection} />
       <Footer content={ItemsList.shopItems} />
     </>
