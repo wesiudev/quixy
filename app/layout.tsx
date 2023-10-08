@@ -26,7 +26,19 @@ export default function RootLayout({
         className={`${cocosharp.variable} ${signika.variable}
        w-full overflow-x-hidden relative`}
       >
-        <Providers>{children}</Providers>
+        <Providers>{children}</Providers>{" "}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-SYTL7MG8Q4"
+        />
+        <Script strategy="afterInteractive" id="google-analytics">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SYTL7MG8Q4');
+          `}
+        </Script>
       </body>
     </html>
   );
