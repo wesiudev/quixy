@@ -25,14 +25,14 @@ export default function About({ content }: { content: any }) {
         height={300}
         src={connector}
         alt="Tworzenie grafiki komputerowej na quixy.pl w całej Polsce"
-        className="w-full absolute left-0 top-0 -translate-y-[99%] scale-125 lg:scale-100"
+        className="w-full absolute left-0 top-0 -translate-y-[99%]"
       />
       <Image
         width={1080}
         height={300}
         src={connector}
         alt="Strony WWW Polska. Sprawdź ofertę - tworzymy strony internetowe w całej Polsce. Strona internetowa Warszawa, Gdańsk, Kraków."
-        className="w-full absolute left-0 bottom-0 translate-y-[99%] rotate-180 scale-125 lg:scale-100"
+        className="w-full absolute left-0 bottom-0 translate-y-[99%] rotate-180"
       />
       <div className="flex flex-col relative">
         <h1 className="relative text-5xl sm:text-8xl lg:text-7xl font-bold drop-shadow-xl shadow-black text-green-300">

@@ -7,10 +7,6 @@ import { Footer } from "./components/Footer";
 import { Providers } from "@/redux/Provider";
 import Script from "next/script";
 export const metadata: Metadata = {
-  title:
-    "Quixy.pl - Programowanie stron internetowych - Grafika komputerowa - Projektowanie logo",
-  description:
-    "Tworzenie stron internetowych. Oferta stron internetowych. Aplikacje internetowe oparte o najnowsze technologie. Grafika komputerowa, grafika social media.",
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#8cf562",
   publisher: "wesiudev",

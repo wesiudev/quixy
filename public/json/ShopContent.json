@@ -7,10 +7,32 @@
       "websiteId": "strona-wizytowka-polska",
       "name": "Strona wizytówka",
       "linkName": "Strona wizytówka Polska",
-      "price": "1399zł",
+      "price": "800zł",
+      "seo": {
+        "title": "Quixy | E-Wizytówka, Obecność Online, Powody Za, Cennik",
+        "description": "E-Wizytówka zapewnia potężną przewagę nad konkurencją. Quixy to 10X szybsze strony 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio."
+        "about": "Prosta, ale elegancka strona wizytówka, ukazująca Twoje umiejętności i profesjonalizm, pomagając Ci wyróżnić się w tłumie i przyciągnąć klientów swoją wyjątkową prezentacją.",
+        "features": [
+          {
+            "title": "Minimalistyczny Design",
+            "description": "Zaprojektowana z dbałością o detale, nasza strona wizytówka prezentuje Twoje portfolio i doświadczenie za pomocą minimalistycznego, ale efektownego designu."
+          },
+          {
+            "title": "Niezapomniane Pierwsze Wrażenie",
+            "description": "Od pierwszego spojrzenia klient ma szansę poznać Twój styl i zaufać Twojej wiedzy dzięki czytelnym czcionkom, intuicyjnej nawigacji i precyzyjnie dobranym kolorom."
+          },
+          {
+            "title": "Łatwa Nawigacja",
+            "description": "Nawigacja po stronie została zaprojektowana tak, aby umożliwić klientom szybkie znalezienie najważniejszych informacji o Tobie lub Twojej firmie."
+          },
+          {
+            "title": "Budowanie Trwałych Relacji",
+            "description": "Twój profesjonalizm nie tylko przyciąga, ale także zaczyna budować trwałe relacje z klientami, co pozwala na długotrwały rozwój biznesu."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -53,10 +75,32 @@
       "websiteId": "sklep-internetowy-polska",
       "name": "Sklep internetowy",
       "linkName": "Sklep internetowy Polska",
-      "price": "8999zł",
+      "price": "6000zł",
+      "seo": {
+        "title": "Quixy | Sklep Internetowy E-Commerce, Sprzedaż Online, Powody Za, Cennik",
+        "description": "Sklep Internetowy E-Commerce zapewnia potężną przewagę nad konkurencją lokalną. Quixy to 10X szybsze sklepy internetowe 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
+        "about": "Innowacyjny sklep internetowy oferujący nie tylko produkty, ale także wyjątkowe doświadczenie zakupowe, gdzie każde poszukiwanie zamienia się w ekscytującą podróż po najnowszych trendach i unikalnych znaleziskach.",
+        "features": [
+          {
+            "title": "Personalizowane Rozwiązania",
+            "description": "Tworzymy sklepy internetowe dostosowane do Twoich unikalnych potrzeb i celów biznesowych. Każdy projekt jest indywidualnie projektowany, aby odzwierciedlać Twój unikalny brand."
+          },
+          {
+            "title": "Strategiczne Projektowanie",
+            "description": "Nie ograniczamy się jedynie do pięknej fasady. Nasze sklepy są zaprojektowane z myślą o strategii sprzedaży. Optymalizujemy układ, nawigację i treści, aby zwiększyć konwersje i zyski."
+          },
+          {
+            "title": "Responsywność i Mobilność",
+            "description": "Zadbamy, aby Twój sklep działał doskonale na każdym urządzeniu. Od smartfonów po komputery stacjonarne, zapewnimy, że Twoi klienci zawsze będą mieli łatwy dostęp do Twoich produktów."
+          },
+          {
+            "title": "Wsparcie Techniczne",
+            "description": "Nasi specjaliści są gotowi pomóc Ci we wszystkim, od integracji płatności po obsługę błędów. Twój sklep będzie działał płynnie, a Ty skupisz się na obsłudze klienta."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -99,10 +143,32 @@
       "websiteId": "strona-landingowa-polska",
       "name": "Strona landingowa",
       "linkName": "Strona landingowa Polska",
-      "price": "1799zł",
+      "price": "700zł",
+      "seo": {
+        "title": "Quixy | Strona Landingowa, Promowanie Biznesu, Zwiększenie Ruchu, Cennik",
+        "description": "Strona Landingowa zapewnia potężną przewagę nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
+        "about": "Efektywna strona landingowa, która przyciąga uwagę odwiedzających eleganckim designem i przekonującym przekazem, pomagając Ci skutecznie zaprezentować swoją markę lub produkt.",
+        "features": [
+          {
+            "title": "Elegancki i Funkcjonalny Design",
+            "description": "Nasze strony landingowe łączą estetykę z funkcjonalnością. Każdy element jest starannie zaprojektowany, aby przyciągnąć uwagę i zachęcić odwiedzających do działania."
+          },
+          {
+            "title": "Optymalizacja Pod Konwersje",
+            "description": "Nie tylko tworzymy strony, ale również analizujemy zachowania odwiedzających. Dzięki tej wiedzy optymalizujemy układ, treści i formularze, zwiększając konwersje nawet o łącznie 30%."
+          },
+          {
+            "title": "Responsywność na Wszystkich Urządzeniach",
+            "description": "Nie ważne, czy odwiedzający używają smartfona, tabletu czy komputera stacjonarnego – nasze strony działają doskonale na każdym urządzeniu, zapewniając niezrównane doświadczenie użytkownika."
+          },
+          {
+            "title": "Wsparcie i Analiza",
+            "description": "Nasi eksperci nie tylko tworzą stronę, ale także śledzą jej efekty. Dostarczamy regularne raporty i analizy, pomagając Ci zrozumieć, jak Twoja strona przekształca odwiedzających w klientów."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -146,10 +212,32 @@
       "websiteId": "strona-wizytowka-grudziadz",
       "name": "Strona wizytówka",
       "linkName": "Strona wizytówka Grudziądz",
-      "price": "1399zł",
+      "price": "800zł",
+      "seo": {
+        "title": "Quixy | Strona wizytówka Grudziądz - Obecność Online, Powody Za, Cennik",
+        "description": "Strona wizytówka zapewnia potężną przewagę nad konkurencją. Quixy to 10X szybsze strony 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio."
+        "about": "Prosta, ale elegancka strona wizytówka, ukazująca Twoje umiejętności i profesjonalizm, pomagając Ci wyróżnić się w tłumie i przyciągnąć klientów swoją wyjątkową prezentacją.",
+        "features": [
+          {
+            "title": "Minimalistyczny Design",
+            "description": "Zaprojektowana z dbałością o detale, nasza strona wizytówka prezentuje Twoje portfolio i doświadczenie za pomocą minimalistycznego, ale efektownego designu."
+          },
+          {
+            "title": "Niezapomniane Pierwsze Wrażenie",
+            "description": "Od pierwszego spojrzenia klient ma szansę poznać Twój styl i zaufać Twojej wiedzy dzięki czytelnym czcionkom, intuicyjnej nawigacji i precyzyjnie dobranym kolorom."
+          },
+          {
+            "title": "Łatwa Nawigacja",
+            "description": "Nawigacja po stronie została zaprojektowana tak, aby umożliwić klientom szybkie znalezienie najważniejszych informacji o Tobie lub Twojej firmie."
+          },
+          {
+            "title": "Budowanie Trwałych Relacji",
+            "description": "Twój profesjonalizm nie tylko przyciąga, ale także zaczyna budować trwałe relacje z klientami, co pozwala na długotrwały rozwój biznesu."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -192,10 +280,32 @@
       "websiteId": "sklep-internetowy-grudziadz",
       "name": "Sklep internetowy",
       "linkName": "Sklep internetowy Grudziądz",
-      "price": "8999zł",
+      "price": "6000zł",
+      "seo": {
+        "title": "Quixy | Sklep Internetowy E-Commerce Grudziądz, Sprzedaż Online, Powody Za, Cennik",
+        "description": "Sklep Internetowy E-Commerce zapewnia potężną przewagę nad konkurencją lokalną Grudziądza. Quixy to 10X szybsze sklepy internetowe 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
+        "about": "Innowacyjny sklep internetowy oferujący nie tylko produkty, ale także wyjątkowe doświadczenie zakupowe, gdzie każde poszukiwanie zamienia się w ekscytującą podróż po najnowszych trendach i unikalnych znaleziskach.",
+        "features": [
+          {
+            "title": "Personalizowane Rozwiązania",
+            "description": "Tworzymy sklepy internetowe dostosowane do Twoich unikalnych potrzeb i celów biznesowych. Każdy projekt jest indywidualnie projektowany, aby odzwierciedlać Twój unikalny brand."
+          },
+          {
+            "title": "Strategiczne Projektowanie",
+            "description": "Nie ograniczamy się jedynie do pięknej fasady. Nasze sklepy są zaprojektowane z myślą o strategii sprzedaży. Optymalizujemy układ, nawigację i treści, aby zwiększyć konwersje i zyski."
+          },
+          {
+            "title": "Responsywność i Mobilność",
+            "description": "Zadbamy, aby Twój sklep działał doskonale na każdym urządzeniu. Od smartfonów po komputery stacjonarne, zapewnimy, że Twoi klienci zawsze będą mieli łatwy dostęp do Twoich produktów."
+          },
+          {
+            "title": "Wsparcie Techniczne",
+            "description": "Nasi specjaliści są gotowi pomóc Ci we wszystkim, od integracji płatności po obsługę błędów. Twój sklep będzie działał płynnie, a Ty skupisz się na obsłudze klienta."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -238,10 +348,32 @@
       "websiteId": "strona-landingowa-grudziadz",
       "name": "Strona landingowa",
       "linkName": "Strona landingowa Grudziądz",
-      "price": "1799zł",
+      "price": "700zł",
+      "seo": {
+        "title": "Quixy | Strona Landingowa Grudziądz, Promowanie Biznesu, Zwiększenie Ruchu, Cennik",
+        "description": "Strona Landingowa zapewnia potężną przewagę nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
+        "about": "Efektywna strona landingowa, która przyciąga uwagę odwiedzających eleganckim designem i przekonującym przekazem, pomagając Ci skutecznie zaprezentować swoją markę lub produkt.",
+        "features": [
+          {
+            "title": "Elegancki i Funkcjonalny Design",
+            "description": "Nasze strony landingowe łączą estetykę z funkcjonalnością. Każdy element jest starannie zaprojektowany, aby przyciągnąć uwagę i zachęcić odwiedzających do działania."
+          },
+          {
+            "title": "Optymalizacja Pod Konwersje",
+            "description": "Nie tylko tworzymy strony, ale również analizujemy zachowania odwiedzających. Dzięki tej wiedzy optymalizujemy układ, treści i formularze, zwiększając konwersje nawet o łącznie 30%."
+          },
+          {
+            "title": "Responsywność na Wszystkich Urządzeniach",
+            "description": "Nie ważne, czy odwiedzający używają smartfona, tabletu czy komputera stacjonarnego – nasze strony działają doskonale na każdym urządzeniu, zapewniając niezrównane doświadczenie użytkownika."
+          },
+          {
+            "title": "Wsparcie i Analiza",
+            "description": "Nasi eksperci nie tylko tworzą stronę, ale także śledzą jej efekty. Dostarczamy regularne raporty i analizy, pomagając Ci zrozumieć, jak Twoja strona przekształca odwiedzających w klientów."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -285,10 +417,32 @@
       "websiteId": "strona-wizytowka-gdansk",
       "name": "Strona wizytówka",
       "linkName": "Strona wizytówka Gdańsk",
-      "price": "1399zł",
+      "price": "800zł",
+      "seo": {
+        "title": "Quixy | Strona wizytówka Gdańsk - Obecność Online, Powody Za, Cennik",
+        "description": "Strona wizytówka zapewnia potężną przewagę nad konkurencją. Quixy to 10X szybsze strony 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio.",
+        "about": "Prosta, ale elegancka strona wizytówka, ukazująca Twoje umiejętności i profesjonalizm, pomagając Ci wyróżnić się w tłumie i przyciągnąć klientów swoją wyjątkową prezentacją.",
+        "features": [
+          {
+            "title": "Minimalistyczny Design",
+            "description": "Zaprojektowana z dbałością o detale, nasza strona wizytówka prezentuje Twoje portfolio i doświadczenie za pomocą minimalistycznego, ale efektownego designu."
+          },
+          {
+            "title": "Niezapomniane Pierwsze Wrażenie",
+            "description": "Od pierwszego spojrzenia klient ma szansę poznać Twój styl i zaufać Twojej wiedzy dzięki czytelnym czcionkom, intuicyjnej nawigacji i precyzyjnie dobranym kolorom."
+          },
+          {
+            "title": "Łatwa Nawigacja",
+            "description": "Nawigacja po stronie została zaprojektowana tak, aby umożliwić klientom szybkie znalezienie najważniejszych informacji o Tobie lub Twojej firmie."
+          },
+          {
+            "title": "Budowanie Trwałych Relacji",
+            "description": "Twój profesjonalizm nie tylko przyciąga, ale także zaczyna budować trwałe relacje z klientami, co pozwala na długotrwały rozwój biznesu."
+          }
+        ],
         "reasons": [
           "Przedstawienie swojego portfolio: Dodaj przykłady projektów stron internetowych i sklepów internetowych, które wcześniej stworzyłeś, aby pokazać swoje umiejętności i styl projektowania.",
           "Udostępnienie informacji kontaktowych: Umieść swoje dane kontaktowe, aby potencjalni klienci mogli łatwo się z Tobą skontaktować w sprawie nowych projektów.",
@@ -354,10 +508,32 @@
       "websiteId": "sklep-internetowy-gdansk",
       "name": "Sklep internetowy",
       "linkName": "Sklep internetowy Gdańsk",
-      "price": "8999zł",
+      "price": "6000zł",
+      "seo": {
+        "title": "Quixy | Sklep Internetowy E-Commerce Gdańsk, Sprzedaż Online, Powody Za, Cennik",
+        "description": "Sklep Internetowy E-Commerce zapewnia potężną przewagę nad konkurencją lokalną Gdańska. Quixy to 10X szybsze sklepy internetowe 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
+        "about": "Innowacyjny sklep internetowy oferujący nie tylko produkty, ale także wyjątkowe doświadczenie zakupowe, gdzie każde poszukiwanie zamienia się w ekscytującą podróż po najnowszych trendach i unikalnych znaleziskach.",
+        "features": [
+          {
+            "title": "Personalizowane Rozwiązania",
+            "description": "Tworzymy sklepy internetowe dostosowane do Twoich unikalnych potrzeb i celów biznesowych. Każdy projekt jest indywidualnie projektowany, aby odzwierciedlać Twój unikalny brand."
+          },
+          {
+            "title": "Strategiczne Projektowanie",
+            "description": "Nie ograniczamy się jedynie do pięknej fasady. Nasze sklepy są zaprojektowane z myślą o strategii sprzedaży. Optymalizujemy układ, nawigację i treści, aby zwiększyć konwersje i zyski."
+          },
+          {
+            "title": "Responsywność i Mobilność",
+            "description": "Zadbamy, aby Twój sklep działał doskonale na każdym urządzeniu. Od smartfonów po komputery stacjonarne, zapewnimy, że Twoi klienci zawsze będą mieli łatwy dostęp do Twoich produktów."
+          },
+          {
+            "title": "Wsparcie Techniczne",
+            "description": "Nasi specjaliści są gotowi pomóc Ci we wszystkim, od integracji płatności po obsługę błędów. Twój sklep będzie działał płynnie, a Ty skupisz się na obsłudze klienta."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -400,10 +576,32 @@
       "websiteId": "strona-landingowa-gdansk",
       "name": "Strona landingowa",
       "linkName": "Strona landingowa Gdańsk",
-      "price": "1799zł",
+      "price": "700zł",
+      "seo": {
+        "title": "Quixy | Strona Landingowa Grudziądz, Promowanie Biznesu, Zwiększenie Ruchu, Cennik",
+        "description": "Strona Landingowa zapewnia potężną przewagę nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
+        "about": "Efektywna strona landingowa, która przyciąga uwagę odwiedzających eleganckim designem i przekonującym przekazem, pomagając Ci skutecznie zaprezentować swoją markę lub produkt.",
+        "features": [
+          {
+            "title": "Elegancki i Funkcjonalny Design",
+            "description": "Nasze strony landingowe łączą estetykę z funkcjonalnością. Każdy element jest starannie zaprojektowany, aby przyciągnąć uwagę i zachęcić odwiedzających do działania."
+          },
+          {
+            "title": "Optymalizacja Pod Konwersje",
+            "description": "Nie tylko tworzymy strony, ale również analizujemy zachowania odwiedzających. Dzięki tej wiedzy optymalizujemy układ, treści i formularze, zwiększając konwersje nawet o łącznie 30%."
+          },
+          {
+            "title": "Responsywność na Wszystkich Urządzeniach",
+            "description": "Nie ważne, czy odwiedzający używają smartfona, tabletu czy komputera stacjonarnego – nasze strony działają doskonale na każdym urządzeniu, zapewniając niezrównane doświadczenie użytkownika."
+          },
+          {
+            "title": "Wsparcie i Analiza",
+            "description": "Nasi eksperci nie tylko tworzą stronę, ale także śledzą jej efekty. Dostarczamy regularne raporty i analizy, pomagając Ci zrozumieć, jak Twoja strona przekształca odwiedzających w klientów."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -447,10 +645,32 @@
       "websiteId": "strona-wizytowka-warszawa",
       "linkName": "Strona wizytówka Warszawa",
       "name": "Strona wizytówka",
-      "price": "1399zł",
+      "price": "800zł",
+      "seo": {
+        "title": "Quixy | Strona wizytówka Warszawa - Obecność Online, Powody Za, Cennik",
+        "description": "Strona wizytówka zapewnia potężną przewagę nad konkurencją. Quixy to 10X szybsze strony 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio."
+        "about": "Prosta, ale elegancka strona wizytówka, ukazująca Twoje umiejętności i profesjonalizm, pomagając Ci wyróżnić się w tłumie i przyciągnąć klientów swoją wyjątkową prezentacją.",
+        "features": [
+          {
+            "title": "Minimalistyczny Design",
+            "description": "Zaprojektowana z dbałością o detale, nasza strona wizytówka prezentuje Twoje portfolio i doświadczenie za pomocą minimalistycznego, ale efektownego designu."
+          },
+          {
+            "title": "Niezapomniane Pierwsze Wrażenie",
+            "description": "Od pierwszego spojrzenia klient ma szansę poznać Twój styl i zaufać Twojej wiedzy dzięki czytelnym czcionkom, intuicyjnej nawigacji i precyzyjnie dobranym kolorom."
+          },
+          {
+            "title": "Łatwa Nawigacja",
+            "description": "Nawigacja po stronie została zaprojektowana tak, aby umożliwić klientom szybkie znalezienie najważniejszych informacji o Tobie lub Twojej firmie."
+          },
+          {
+            "title": "Budowanie Trwałych Relacji",
+            "description": "Twój profesjonalizm nie tylko przyciąga, ale także zaczyna budować trwałe relacje z klientami, co pozwala na długotrwały rozwój biznesu."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -494,10 +714,32 @@
       "websiteId": "sklep-internetowy-warszawa",
       "linkName": "Sklep internetowy Warszawa",
       "name": "Sklep internetowy",
-      "price": "8999zł",
+      "price": "6000zł",
+      "seo": {
+        "title": "Quixy | Sklep Internetowy E-Commerce Warszawa, Sprzedaż Online, Powody Za, Cennik",
+        "description": "Sklep Internetowy E-Commerce zapewnia potężną przewagę nad konkurencją lokalną Warszawy. Quixy to 10X szybsze sklepy internetowe 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
+        "about": "Innowacyjny sklep internetowy oferujący nie tylko produkty, ale także wyjątkowe doświadczenie zakupowe, gdzie każde poszukiwanie zamienia się w ekscytującą podróż po najnowszych trendach i unikalnych znaleziskach.",
+        "features": [
+          {
+            "title": "Personalizowane Rozwiązania",
+            "description": "Tworzymy sklepy internetowe dostosowane do Twoich unikalnych potrzeb i celów biznesowych. Każdy projekt jest indywidualnie projektowany, aby odzwierciedlać Twój unikalny brand."
+          },
+          {
+            "title": "Strategiczne Projektowanie",
+            "description": "Nie ograniczamy się jedynie do pięknej fasady. Nasze sklepy są zaprojektowane z myślą o strategii sprzedaży. Optymalizujemy układ, nawigację i treści, aby zwiększyć konwersje i zyski."
+          },
+          {
+            "title": "Responsywność i Mobilność",
+            "description": "Zadbamy, aby Twój sklep działał doskonale na każdym urządzeniu. Od smartfonów po komputery stacjonarne, zapewnimy, że Twoi klienci zawsze będą mieli łatwy dostęp do Twoich produktów."
+          },
+          {
+            "title": "Wsparcie Techniczne",
+            "description": "Nasi specjaliści są gotowi pomóc Ci we wszystkim, od integracji płatności po obsługę błędów. Twój sklep będzie działał płynnie, a Ty skupisz się na obsłudze klienta."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -541,10 +783,32 @@
       "linkName": "Strona landingowa Warszawa",
 
       "name": "Strona landingowa",
-      "price": "1799zł",
+      "price": "700zł",
+      "seo": {
+        "title": "Quixy | Strona Landingowa Warszawa, Promowanie Biznesu, Zwiększenie Ruchu, Cennik",
+        "description": "Strona Landingowa zapewnia potężną przewagę nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
+        "about": "Efektywna strona landingowa, która przyciąga uwagę odwiedzających eleganckim designem i przekonującym przekazem, pomagając Ci skutecznie zaprezentować swoją markę lub produkt.",
+        "features": [
+          {
+            "title": "Elegancki i Funkcjonalny Design",
+            "description": "Nasze strony landingowe łączą estetykę z funkcjonalnością. Każdy element jest starannie zaprojektowany, aby przyciągnąć uwagę i zachęcić odwiedzających do działania."
+          },
+          {
+            "title": "Optymalizacja Pod Konwersje",
+            "description": "Nie tylko tworzymy strony, ale również analizujemy zachowania odwiedzających. Dzięki tej wiedzy optymalizujemy układ, treści i formularze, zwiększając konwersje nawet o łącznie 30%."
+          },
+          {
+            "title": "Responsywność na Wszystkich Urządzeniach",
+            "description": "Nie ważne, czy odwiedzający używają smartfona, tabletu czy komputera stacjonarnego – nasze strony działają doskonale na każdym urządzeniu, zapewniając niezrównane doświadczenie użytkownika."
+          },
+          {
+            "title": "Wsparcie i Analiza",
+            "description": "Nasi eksperci nie tylko tworzą stronę, ale także śledzą jej efekty. Dostarczamy regularne raporty i analizy, pomagając Ci zrozumieć, jak Twoja strona przekształca odwiedzających w klientów."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -588,10 +852,32 @@
       "websiteId": "strona-wizytowka-krakow",
       "linkName": "Strona wizytówka Kraków",
       "name": "Strona wizytówka",
-      "price": "1399zł",
+      "price": "800zł",
+      "seo": {
+        "title": "Quixy | Strona wizytówka Kraków - Obecność Online, Powody Za, Cennik",
+        "description": "Strona wizytówka zapewnia potężną przewagę nad konkurencją. Quixy to 10X szybsze strony 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "STRONA WIZYTÓWKA",
-        "about": "Strona wizytówka to minimalistyczna, ale elegancka strona internetowa, która pełni rolę cyfrowej wizytówki lub miniportfolio."
+        "about": "Prosta, ale elegancka strona wizytówka, ukazująca Twoje umiejętności i profesjonalizm, pomagając Ci wyróżnić się w tłumie i przyciągnąć klientów swoją wyjątkową prezentacją.",
+        "features": [
+          {
+            "title": "Minimalistyczny Design",
+            "description": "Zaprojektowana z dbałością o detale, nasza strona wizytówka prezentuje Twoje portfolio i doświadczenie za pomocą minimalistycznego, ale efektownego designu."
+          },
+          {
+            "title": "Niezapomniane Pierwsze Wrażenie",
+            "description": "Od pierwszego spojrzenia klient ma szansę poznać Twój styl i zaufać Twojej wiedzy dzięki czytelnym czcionkom, intuicyjnej nawigacji i precyzyjnie dobranym kolorom."
+          },
+          {
+            "title": "Łatwa Nawigacja",
+            "description": "Nawigacja po stronie została zaprojektowana tak, aby umożliwić klientom szybkie znalezienie najważniejszych informacji o Tobie lub Twojej firmie."
+          },
+          {
+            "title": "Budowanie Trwałych Relacji",
+            "description": "Twój profesjonalizm nie tylko przyciąga, ale także zaczyna budować trwałe relacje z klientami, co pozwala na długotrwały rozwój biznesu."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -634,10 +920,32 @@
       "websiteId": "sklep-internetowy-krakow",
       "linkName": "Sklep internetowy Kraków",
       "name": "Sklep internetowy",
-      "price": "8999zł",
+      "price": "6000zł",
+      "seo": {
+        "title": "Quixy | Sklep Internetowy E-Commerce Kraków, Sprzedaż Online, Powody Za, Cennik",
+        "description": "Sklep Internetowy E-Commerce zapewnia potężną przewagę nad konkurencją lokalną Krakowa. Quixy to 10X szybsze sklepy internetowe 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "SKLEP INTERNETOWY",
-        "about": "Sklep internetowy to zaawansowana strona internetowa lub platforma online, która umożliwia sprzedaż produktów lub usług przez Internet. "
+        "about": "Innowacyjny sklep internetowy oferujący nie tylko produkty, ale także wyjątkowe doświadczenie zakupowe, gdzie każde poszukiwanie zamienia się w ekscytującą podróż po najnowszych trendach i unikalnych znaleziskach.",
+        "features": [
+          {
+            "title": "Personalizowane Rozwiązania",
+            "description": "Tworzymy sklepy internetowe dostosowane do Twoich unikalnych potrzeb i celów biznesowych. Każdy projekt jest indywidualnie projektowany, aby odzwierciedlać Twój unikalny brand."
+          },
+          {
+            "title": "Strategiczne Projektowanie",
+            "description": "Nie ograniczamy się jedynie do pięknej fasady. Nasze sklepy są zaprojektowane z myślą o strategii sprzedaży. Optymalizujemy układ, nawigację i treści, aby zwiększyć konwersje i zyski."
+          },
+          {
+            "title": "Responsywność i Mobilność",
+            "description": "Zadbamy, aby Twój sklep działał doskonale na każdym urządzeniu. Od smartfonów po komputery stacjonarne, zapewnimy, że Twoi klienci zawsze będą mieli łatwy dostęp do Twoich produktów."
+          },
+          {
+            "title": "Wsparcie Techniczne",
+            "description": "Nasi specjaliści są gotowi pomóc Ci we wszystkim, od integracji płatności po obsługę błędów. Twój sklep będzie działał płynnie, a Ty skupisz się na obsłudze klienta."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -680,10 +988,32 @@
       "websiteId": "strona-landingowa-krakow",
       "linkName": "Strona landingowa Kraków",
       "name": "Strona landingowa",
-      "price": "1799zł",
+      "price": "700zł",
+      "seo": {
+        "title": "Quixy | Strona Landingowa Kraków, Promowanie Biznesu, Zwiększenie Ruchu, Cennik",
+        "description": "Strona Landingowa zapewnia potężną przewagę nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
         "h1": "LANDING PAGE",
-        "about": "Strona landingowa to jednostronicowa strona internetowa, która została specjalnie zaprojektowana w celu przyciągnięcia uwagi odwiedzających i zachęcenia ich do podjęcia konkretnej akcji."
+        "about": "Efektywna strona landingowa, która przyciąga uwagę odwiedzających eleganckim designem i przekonującym przekazem, pomagając Ci skutecznie zaprezentować swoją markę lub produkt.",
+        "features": [
+          {
+            "title": "Elegancki i Funkcjonalny Design",
+            "description": "Nasze strony landingowe łączą estetykę z funkcjonalnością. Każdy element jest starannie zaprojektowany, aby przyciągnąć uwagę i zachęcić odwiedzających do działania."
+          },
+          {
+            "title": "Optymalizacja Pod Konwersje",
+            "description": "Nie tylko tworzymy strony, ale również analizujemy zachowania odwiedzających. Dzięki tej wiedzy optymalizujemy układ, treści i formularze, zwiększając konwersje nawet o łącznie 30%."
+          },
+          {
+            "title": "Responsywność na Wszystkich Urządzeniach",
+            "description": "Nie ważne, czy odwiedzający używają smartfona, tabletu czy komputera stacjonarnego – nasze strony działają doskonale na każdym urządzeniu, zapewniając niezrównane doświadczenie użytkownika."
+          },
+          {
+            "title": "Wsparcie i Analiza",
+            "description": "Nasi eksperci nie tylko tworzą stronę, ale także śledzą jej efekty. Dostarczamy regularne raporty i analizy, pomagając Ci zrozumieć, jak Twoja strona przekształca odwiedzających w klientów."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -722,15 +1052,36 @@
     },
     {
       "isGraphic": true,
-      "city": "grafika-komputerowa",
+      "city": "grudziadz",
       "cityPropperName": "Grudziądz",
       "websiteId": "projektowanie-logo",
-      "linkName": "Projektowanie logo Grudziądz",
       "name": "Projektowanie logo",
-      "price": "500zł",
+      "price": "400zł",
+      "seo": {
+        "title": "Quixy | Projektowanie Logo Grudziądz, Promowanie Produktu, Zwiększenie Ruchu, Cennik",
+        "description": "Dobrze przygotowane i spójne Logo to w tych czasach potężna przewaga nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
-        "h1": "ZALETY LOGO",
-        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+        "h1": "Tworzymy Unikalne Loga, które Wyrażają Tożsamość Twojej Firmy",
+        "about": "Nasze usługi tworzenia logo dla firm to klucz do budowania trwałego wrażenia i rozpoznawalności marki. Z pasją i precyzją projektujemy loga, które nie tylko są estetycznie przyjemne dla oka, ale także przekazują istotę Twojego biznesu, pomagając Ci wyróżnić się na rynku.",
+        "features": [
+          {
+            "title": "Indywidualne Podejście",
+            "description": "Każde logo, które projektujemy, jest unikalne i dopasowane do Twojej firmy. Skupiamy się na zrozumieniu Twojej wizji i wartości, aby stworzyć logo, które idealnie odzwierciedla Twoją markę."
+          },
+          {
+            "title": "Proste i Porywające Designy",
+            "description": "Nasze loga są proste, ale zarazem porywające. Skupiamy się na klarowności, co pozwala Twoim klientom łatwo zapamiętać i rozpoznać Twoją firmę, nawet w zatłoczonej przestrzeni marketingowej."
+          },
+          {
+            "title": "Wieloetapowy Proces Projektowy",
+            "description": "Nasze podejście opiera się na wieloetapowym procesie, który obejmuje dogłębną analizę, koncepcję, iteracje i finalizację. Dzięki temu możemy zagwarantować, że otrzymasz logo, które spełnia wszystkie Twoje oczekiwania."
+          },
+          {
+            "title": "Wsparcie i Dostosowanie",
+            "description": "Nie kończymy naszej pracy po dostarczeniu loga. Oferujemy wsparcie i dostosowanie, aby upewnić się, że logo idealnie wpisuje się w Twoją stronę internetową, materiały marketingowe czy produkty."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -770,14 +1121,37 @@
     {
       "isGraphic": true,
       "city": "grafika-komputerowa",
-      "linkName": "Grafika social media Grudziądz",
-      "websiteId": "pakiet-social-media",
-      "name": "PAKIET SOCIAL MEDIA",
-      "price": "1799zł",
-      "description": {
-        "h1": "PAKIET SOCIAL MEDIA",
-        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy."
+      "linkName": "Grafika na Social Media",
+      "websiteId": "grafika-na-social-media",
+      "name": "GRAFIKA NA SOCIAL MEDIA",
+      "price": "400zł",
+      "seo": {
+        "title": "Quixy | Grafika na Social Media, Promowanie Produktu, Zwiększenie Ruchu, Cennik",
+        "description": "Dobrze przygotowana strona w Social Media to w tych czasach potężna przewaga nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
       },
+      "description": {
+        "h1": "GRAFIKA NA SOCIAL MEDIA",
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług.",
+        "features": [
+          {
+            "title": "Kreatywne Grafiki na Social Media w Grudziądzu",
+            "description": "Nasi projektanci tworzą grafiki na terenie Grudziądza, które przyciągają wzrok i przekazują przekaz marki w sposób przystępny i porywający. Każda grafika jest starannie zaprojektowana, aby wyróżnić Twoją markę na tle konkurencji."
+          },
+          {
+            "title": "Efektywne Kampanie Promocyjne",
+            "description": "Nasze kampanie promocyjne są zaprojektowane tak, aby dotrzeć do odpowiedniego audytorium i generować zainteresowanie Twoimi produktami lub usługami. Optymalizujemy koszty, zwiększając jednocześnie zwroty z inwestycji."
+          },
+          {
+            "title": "Personalizowane i Responsywne",
+            "description": "Dostosowujemy nasze grafiki i kampanie do Twojej grupy docelowej, zapewniając spersonalizowane doświadczenia dla Twoich klientów. Bez względu na urządzenie, na którym są wyświetlane, nasze grafiki i kampanie zachowują swoją efektywność."
+          },
+          {
+            "title": "Wsparcie i Analiza Wyników",
+            "description": "Nasi eksperci nie tylko tworzą grafiki i kampanie, ale także monitorują ich skuteczność. Regularnie dostarczamy raporty i analizy, pomagając Ci zrozumieć, jak Twoja marka rośnie i przyciąga nowych klientów."
+          }
+        ]
+      },
+
       "aboutSection": [
         {
           "h2": "Strony internetowe Polska.",
@@ -810,19 +1184,41 @@
       ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/grafika-komputerowa-social-media-grudziadz.png?alt=media&token=e97bc406-d502-4644-8fb9-e2260e0ddfa4",
-        "alt": "grafika komputerowa quixy.pl social media pakiet"
+        "alt": "grafika komputerowa quixy.pl grafika na social media"
       }
     },
     {
+      "isGraphic": true,
       "city": "warszawa",
       "cityPropperName": "Warszawa",
       "websiteId": "projektowanie-logo",
-      "linkName": "Projektowanie logo Warszawa",
       "name": "Projektowanie logo",
-      "price": "500zł",
+      "price": "400zł",
+      "seo": {
+        "title": "Quixy | Projektowanie Logo Warszawa, Promowanie Produktu, Zwiększenie Ruchu, Cennik",
+        "description": "Dobrze przygotowane i spójne Logo to w tych czasach potężna przewaga nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
-        "h1": "ZALETY LOGO",
-        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+        "h1": "Tworzymy Unikalne Loga, które Wyrażają Tożsamość Twojej Firmy",
+        "about": "Nasze usługi tworzenia logo dla firm to klucz do budowania trwałego wrażenia i rozpoznawalności marki. Z pasją i precyzją projektujemy loga, które nie tylko są estetycznie przyjemne dla oka, ale także przekazują istotę Twojego biznesu, pomagając Ci wyróżnić się na rynku.",
+        "features": [
+          {
+            "title": "Indywidualne Podejście",
+            "description": "Każde logo, które projektujemy, jest unikalne i dopasowane do Twojej firmy. Skupiamy się na zrozumieniu Twojej wizji i wartości, aby stworzyć logo, które idealnie odzwierciedla Twoją markę."
+          },
+          {
+            "title": "Proste i Porywające Designy",
+            "description": "Nasze loga są proste, ale zarazem porywające. Skupiamy się na klarowności, co pozwala Twoim klientom łatwo zapamiętać i rozpoznać Twoją firmę, nawet w zatłoczonej przestrzeni marketingowej."
+          },
+          {
+            "title": "Wieloetapowy Proces Projektowy",
+            "description": "Nasze podejście opiera się na wieloetapowym procesie, który obejmuje dogłębną analizę, koncepcję, iteracje i finalizację. Dzięki temu możemy zagwarantować, że otrzymasz logo, które spełnia wszystkie Twoje oczekiwania."
+          },
+          {
+            "title": "Wsparcie i Dostosowanie",
+            "description": "Nie kończymy naszej pracy po dostarczeniu loga. Oferujemy wsparcie i dostosowanie, aby upewnić się, że logo idealnie wpisuje się w Twoją stronę internetową, materiały marketingowe czy produkty."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -860,14 +1256,37 @@
       }
     },
     {
+      "isGraphic": true,
       "city": "warszawa",
-      "linkName": "Grafika social media Warszawa",
-      "websiteId": "pakiet-social-media",
-      "name": "PAKIET SOCIAL MEDIA",
-      "price": "1799zł",
+      "linkName": "Grafika na Social Media Warszawa",
+      "websiteId": "grafika-social-media",
+      "name": "GRAFIKA NA SOCIAL MEDIA",
+      "price": "400zł",
+      "seo": {
+        "title": "Quixy | Grafika na Social Media Warszawa, Promowanie Produktu, Zwiększenie Ruchu, Cennik",
+        "description": "Dobrze przygotowana strona w Social Media to w tych czasach potężna przewaga nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
-        "h1": "PAKIET SOCIAL MEDIA",
-        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy."
+        "h1": "GRAFIKA NA SOCIAL MEDIA",
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług.",
+        "features": [
+          {
+            "title": "Kreatywne Grafiki na Social Media w Warszawie",
+            "description": "Nasi projektanci tworzą grafiki na terenie Warszawy, które przyciągają wzrok i przekazują przekaz marki w sposób przystępny i porywający. Każda grafika jest starannie zaprojektowana, aby wyróżnić Twoją markę na tle konkurencji."
+          },
+          {
+            "title": "Efektywne Kampanie Promocyjne",
+            "description": "Nasze kampanie promocyjne są zaprojektowane tak, aby dotrzeć do odpowiedniego audytorium i generować zainteresowanie Twoimi produktami lub usługami. Optymalizujemy koszty, zwiększając jednocześnie zwroty z inwestycji."
+          },
+          {
+            "title": "Personalizowane i Responsywne",
+            "description": "Dostosowujemy nasze grafiki i kampanie do Twojej grupy docelowej, zapewniając spersonalizowane doświadczenia dla Twoich klientów. Bez względu na urządzenie, na którym są wyświetlane, nasze grafiki i kampanie zachowują swoją efektywność."
+          },
+          {
+            "title": "Wsparcie i Analiza Wyników",
+            "description": "Nasi eksperci nie tylko tworzą grafiki i kampanie, ale także monitorują ich skuteczność. Regularnie dostarczamy raporty i analizy, pomagając Ci zrozumieć, jak Twoja marka rośnie i przyciąga nowych klientów."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -901,19 +1320,41 @@
       ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/grafika-komputerowa-social-media-grudziadz.png?alt=media&token=e97bc406-d502-4644-8fb9-e2260e0ddfa4",
-        "alt": "grafika komputerowa quixy.pl social media pakiet"
+        "alt": "grafika komputerowa quixy.pl grafika na social media"
       }
     },
     {
+      "isGraphic": true,
       "city": "krakow",
       "cityPropperName": "Kraków",
       "websiteId": "projektowanie-logo",
-      "linkName": "Projektowanie logo Kraków",
       "name": "Projektowanie logo",
-      "price": "500zł",
+      "price": "400zł",
+      "seo": {
+        "title": "Quixy | Projektowanie Logo Kraków, Promowanie Produktu, Zwiększenie Ruchu, Cennik",
+        "description": "Dobrze przygotowane i spójne Logo to w tych czasach potężna przewaga nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
-        "h1": "ZALETY LOGO",
-        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+        "h1": "Tworzymy Unikalne Loga, które Wyrażają Tożsamość Twojej Firmy",
+        "about": "Nasze usługi tworzenia logo dla firm to klucz do budowania trwałego wrażenia i rozpoznawalności marki. Z pasją i precyzją projektujemy loga, które nie tylko są estetycznie przyjemne dla oka, ale także przekazują istotę Twojego biznesu, pomagając Ci wyróżnić się na rynku.",
+        "features": [
+          {
+            "title": "Indywidualne Podejście",
+            "description": "Każde logo, które projektujemy, jest unikalne i dopasowane do Twojej firmy. Skupiamy się na zrozumieniu Twojej wizji i wartości, aby stworzyć logo, które idealnie odzwierciedla Twoją markę."
+          },
+          {
+            "title": "Proste i Porywające Designy",
+            "description": "Nasze loga są proste, ale zarazem porywające. Skupiamy się na klarowności, co pozwala Twoim klientom łatwo zapamiętać i rozpoznać Twoją firmę, nawet w zatłoczonej przestrzeni marketingowej."
+          },
+          {
+            "title": "Wieloetapowy Proces Projektowy",
+            "description": "Nasze podejście opiera się na wieloetapowym procesie, który obejmuje dogłębną analizę, koncepcję, iteracje i finalizację. Dzięki temu możemy zagwarantować, że otrzymasz logo, które spełnia wszystkie Twoje oczekiwania."
+          },
+          {
+            "title": "Wsparcie i Dostosowanie",
+            "description": "Nie kończymy naszej pracy po dostarczeniu loga. Oferujemy wsparcie i dostosowanie, aby upewnić się, że logo idealnie wpisuje się w Twoją stronę internetową, materiały marketingowe czy produkty."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -951,15 +1392,38 @@
       }
     },
     {
+      "isGraphic": true,
       "city": "krakow",
       "linkName": "Grafika social media Kraków",
-      "websiteId": "pakiet-social-media",
-      "name": "PAKIET SOCIAL MEDIA",
-      "price": "1799zł",
-      "description": {
-        "h1": "PAKIET SOCIAL MEDIA",
-        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy."
+      "websiteId": "grafika-na-social-media",
+      "name": "GRAFIKA NA SOCIAL MEDIA",
+      "seo": {
+        "title": "Quixy | Grafika na Social Media Kraków, Promowanie Produktu, Zwiększenie Ruchu, Cennik",
+        "description": "Dobrze przygotowana strona w Social Media to w tych czasach potężna przewaga nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
       },
+      "price": "400zł",
+      "description": {
+        "h1": "GRAFIKA NA SOCIAL MEDIA",
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług."
+      },
+      "features": [
+        {
+          "title": "Kreatywne Grafiki na Social Media w Krakowie",
+          "description": "Nasi projektanci tworzą grafiki na terenie Krakowa, które przyciągają wzrok i przekazują przekaz marki w sposób przystępny i porywający. Każda grafika jest starannie zaprojektowana, aby wyróżnić Twoją markę na tle konkurencji."
+        },
+        {
+          "title": "Efektywne Kampanie Promocyjne",
+          "description": "Nasze kampanie promocyjne są zaprojektowane tak, aby dotrzeć do odpowiedniego audytorium i generować zainteresowanie Twoimi produktami lub usługami. Optymalizujemy koszty, zwiększając jednocześnie zwroty z inwestycji."
+        },
+        {
+          "title": "Personalizowane i Responsywne",
+          "description": "Dostosowujemy nasze grafiki i kampanie do Twojej grupy docelowej, zapewniając spersonalizowane doświadczenia dla Twoich klientów. Bez względu na urządzenie, na którym są wyświetlane, nasze grafiki i kampanie zachowują swoją efektywność."
+        },
+        {
+          "title": "Wsparcie i Analiza Wyników",
+          "description": "Nasi eksperci nie tylko tworzą grafiki i kampanie, ale także monitorują ich skuteczność. Regularnie dostarczamy raporty i analizy, pomagając Ci zrozumieć, jak Twoja marka rośnie i przyciąga nowych klientów."
+        }
+      ],
       "aboutSection": [
         {
           "h2": "Strony internetowe Polska.",
@@ -992,19 +1456,42 @@
       ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/grafika-komputerowa-social-media-grudziadz.png?alt=media&token=e97bc406-d502-4644-8fb9-e2260e0ddfa4",
-        "alt": "grafika komputerowa quixy.pl social media pakiet"
+        "alt": "grafika komputerowa quixy.pl grafika na social media"
       }
     },
     {
+      "isGraphic": true,
       "city": "gdansk",
       "cityPropperName": "Gdańsk",
       "linkName": "Projektowanie logo Gdańsk",
       "websiteId": "projektowanie-logo",
       "name": "Projektowanie logo",
-      "price": "500zł",
+      "price": "400zł",
+      "seo": {
+        "title": "Quixy | Projektowanie Logo Gdańsk, Promowanie Produktu, Zwiększenie Ruchu, Cennik",
+        "description": "Dobrze przygotowane i spójne Logo to w tych czasach potężna przewaga nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
-        "h1": "ZALETY LOGO",
-        "about": "Posiadanie logo jest kluczowe dla firmy, ponieważ pozwala szybko rozpoznawać markę i nadaje jej profesjonalny wygląd, przyciągając uwagę klientów i budując rozpoznawalność. To także ważny element identyfikacji wizualnej, który pomaga w jednoznacznym komunikowaniu wartości i przesłania marki."
+        "h1": "Tworzymy Unikalne Loga, które Wyrażają Tożsamość Twojej Firmy",
+        "about": "Nasze usługi tworzenia logo dla firm to klucz do budowania trwałego wrażenia i rozpoznawalności marki. Z pasją i precyzją projektujemy loga, które nie tylko są estetycznie przyjemne dla oka, ale także przekazują istotę Twojego biznesu, pomagając Ci wyróżnić się na rynku.",
+        "features": [
+          {
+            "title": "Indywidualne Podejście",
+            "description": "Każde logo, które projektujemy, jest unikalne i dopasowane do Twojej firmy. Skupiamy się na zrozumieniu Twojej wizji i wartości, aby stworzyć logo, które idealnie odzwierciedla Twoją markę."
+          },
+          {
+            "title": "Proste i Porywające Designy",
+            "description": "Nasze loga są proste, ale zarazem porywające. Skupiamy się na klarowności, co pozwala Twoim klientom łatwo zapamiętać i rozpoznać Twoją firmę, nawet w zatłoczonej przestrzeni marketingowej."
+          },
+          {
+            "title": "Wieloetapowy Proces Projektowy",
+            "description": "Nasze podejście opiera się na wieloetapowym procesie, który obejmuje dogłębną analizę, koncepcję, iteracje i finalizację. Dzięki temu możemy zagwarantować, że otrzymasz logo, które spełnia wszystkie Twoje oczekiwania."
+          },
+          {
+            "title": "Wsparcie i Dostosowanie",
+            "description": "Nie kończymy naszej pracy po dostarczeniu loga. Oferujemy wsparcie i dostosowanie, aby upewnić się, że logo idealnie wpisuje się w Twoją stronę internetową, materiały marketingowe czy produkty."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -1042,14 +1529,37 @@
       }
     },
     {
+      "isGraphic": true,
       "city": "gdansk",
-      "websiteId": "pakiet-social-media",
+      "websiteId": "grafika-na-social-media",
       "linkName": "Grafika social media Gdańsk",
-      "name": "PAKIET SOCIAL MEDIA",
-      "price": "1799zł",
+      "name": "GRAFIKA NA SOCIAL MEDIA",
+      "price": "400zł",
+      "seo": {
+        "title": "Quixy | Grafika na Social Media Gdańsk, Promowanie Produktu, Zwiększenie Ruchu, Cennik",
+        "description": "Dobrze przygotowana strona w Social Media to w tych czasach potężna przewaga nad konkurencją internetową. Quixy to 10X szybsze promowanie biznesu 100% skuteczności i zadowolonych klientów. Sprawdź jakie oferujemy usługi oraz ceny."
+      },
       "description": {
-        "h1": "PAKIET SOCIAL MEDIA",
-        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług. Dodatkowo, umożliwia to zbieranie opinii od klientów, analizę rynku i dostosowywanie strategii, co może przyczynić się do sukcesu i wzrostu firmy."
+        "h1": "Grafika Na Social Media",
+        "about": "Prowadzenie mediów społecznościowych dla biznesu to skuteczny sposób zwiększania widoczności marki oraz budowania relacji z klientami poprzez promocję produktów i usług.",
+        "features": [
+          {
+            "title": "Kreatywne Grafiki na Social Media w Gdańsku",
+            "description": "Nasi projektanci tworzą grafiki na terenie Gdańska, które przyciągają wzrok i przekazują przekaz marki w sposób przystępny i porywający. Każda grafika jest starannie zaprojektowana, aby wyróżnić Twoją markę na tle konkurencji."
+          },
+          {
+            "title": "Efektywne Kampanie Promocyjne",
+            "description": "Nasze kampanie promocyjne są zaprojektowane tak, aby dotrzeć do odpowiedniego audytorium i generować zainteresowanie Twoimi produktami lub usługami. Optymalizujemy koszty, zwiększając jednocześnie zwroty z inwestycji."
+          },
+          {
+            "title": "Personalizowane i Responsywne",
+            "description": "Dostosowujemy nasze grafiki i kampanie do Twojej grupy docelowej, zapewniając spersonalizowane doświadczenia dla Twoich klientów. Bez względu na urządzenie, na którym są wyświetlane, nasze grafiki i kampanie zachowują swoją efektywność."
+          },
+          {
+            "title": "Wsparcie i Analiza Wyników",
+            "description": "Nasi eksperci nie tylko tworzą grafiki i kampanie, ale także monitorują ich skuteczność. Regularnie dostarczamy raporty i analizy, pomagając Ci zrozumieć, jak Twoja marka rośnie i przyciąga nowych klientów."
+          }
+        ]
       },
       "aboutSection": [
         {
@@ -1083,7 +1593,7 @@
       ],
       "image": {
         "src": "https://firebasestorage.googleapis.com/v0/b/quixy-99e34.appspot.com/o/grafika-komputerowa-social-media-grudziadz.png?alt=media&token=e97bc406-d502-4644-8fb9-e2260e0ddfa4",
-        "alt": "grafika komputerowa quixy.pl social media pakiet"
+        "alt": "grafika komputerowa quixy.pl grafika na social media"
       }
     }
   ]

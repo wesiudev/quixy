@@ -141,7 +141,7 @@ export default function Contact() {
           >
             <div className="flex flex-row items-center justify-center flex-wrap w-full space-x-6">
               {availableCountries.map((country: any, i: number) => (
-                <>
+                <div key={i}>
                   <button
                     onClick={() => {
                       chosenLang.some((lang: any) => lang.name === country.name)
@@ -184,7 +184,7 @@ export default function Contact() {
                       }`}
                     />
                   </button>
-                </>
+                </div>
               ))}
             </div>{" "}
             <button

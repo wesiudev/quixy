@@ -1,19 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { getWebsiteInfo } from "@/app/lib/getWebsiteInfo";
-import Image from "next/image";
-import ninja from "@/app/assets/ninja-strony-internetowe-quixy.png";
-import superhero from "@/app/assets/superdoge-strony-internetowe-quixy.png";
-import { FaCheck, FaInfoCircle } from "react-icons/fa";
-import Link from "next/link";
+
 import UnderHero from "@/app/components/UnderHero";
 import Shop from "@/app/components/shop/Shop";
 import { getShopContent } from "@/app/lib/getShopContent";
 import About from "@/app/components/About";
-import shopItems from "@/public/json/ShopContent.json";
 import { getShopContentSSR } from "@/app/lib/getShopContentSSR";
 import { Footer } from "@/app/components/Footer";
-import Hero from "@/app/components/HeroModule/HeroModule";
 import ProductHero from "./ProductHero";
 import Motivation from "../../components/Motivation";
 
@@ -28,9 +22,22 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   // fetch data
   const { page } = await getWebsiteInfo(params.city, params.websiteId);
+
   return {
-    title: ``,
-    description: ``,
+    title: `${page.seo.title}`,
+    description: `${page.seo.description}`,
+    openGraph: {
+      type: "website",
+      url: "https://quixy.pl",
+      title: `${page.seo.title}`,
+      description: `${page.seo.description}`,
+      siteName: "Quixy",
+      images: [
+        {
+          url: "/favicon.ico",
+        },
+      ],
+    },
   };
 }
 
