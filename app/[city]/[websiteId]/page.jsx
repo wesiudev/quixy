@@ -23,22 +23,7 @@ export async function generateMetadata({ params }) {
   // fetch data
   const { page } = await getWebsiteInfo(params.city, params.websiteId);
 
-  return {
-    title: `${page.seo.title}`,
-    description: `${page.seo.description}`,
-    openGraph: {
-      type: "website",
-      url: "https://quixy.pl",
-      title: `${page.seo.title}`,
-      description: `${page.seo.description}`,
-      siteName: "Quixy",
-      images: [
-        {
-          url: "/favicon.ico",
-        },
-      ],
-    },
-  };
+  return {};
 }
 
 export const dynamicParams = false;
