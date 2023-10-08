@@ -26,10 +26,7 @@ export default function RootLayout({
         className={`${cocosharp.variable} ${signika.variable}
        w-full overflow-x-hidden relative`}
       >
-        <Providers>
-          <div className="cursor" data-cursor></div>
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
