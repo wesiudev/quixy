@@ -15,10 +15,10 @@ export default function SeoModule({ pt }: { pt: boolean }) {
         {/* 1 */}
         <div className="flex flex-col h-full mt-12 ">
           <div className="prose 2xl:prose-xl prose-invert">
-            <h1 className="text-3xl mx-auto font-bold text-green-300">
+            <h1 className="!text-3xl lg:!text-4xl 2xl:!text-5xl mx-auto font-bold text-green-300">
               Skuteczne pozycjonowanie stron internetowych i sklepów e-commerce
             </h1>
-            <h4 className="italic pb-12">
+            <h4 className=" font-light pb-12">
               Chcesz zwiększyć widoczność swojej strony internetowej i
               przyciągnąć większą liczbę potencjalnych klientów? Nasza firma
               oferuje kompleksowe usługi pozycjonowania, które pomogą Ci
@@ -77,7 +77,7 @@ export default function SeoModule({ pt }: { pt: boolean }) {
               poprawy. Działamy na podstawie konkretnych danych, aby zapewnić Ci
               skuteczne rezultaty.
             </p>
-            <h4 className="w-full shadow-black italic ">
+            <h4 className="w-full shadow-black font-light">
               Działając z nami, masz pewność, że Twoja strona internetowa będzie
               działała na najwyższym poziomie, przyciągając organiczny ruch i
               przekształcając go w lojalnych klientów. Skontaktuj się z nami już

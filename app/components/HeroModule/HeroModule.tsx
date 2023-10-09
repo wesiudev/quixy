@@ -1,8 +1,7 @@
 import Image from "next/image";
 import hero from "../../assets/bg.webp";
 import hero2 from "../../assets/bg2.webp";
-import Link from "next/link";
-import Contact from "./Contact";
+import Dialog from "./Dialog";
 
 export default function HeroModule({ filter }: { filter?: boolean }) {
   return (
@@ -29,7 +28,8 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
             filter ? " bg-black bg-opacity-60" : " bg-zinc-600 bg-opacity-20"
           }`}
         >
-          <Contact />
+          {/* user dialog with the lion */}
+          <Dialog />
         </div>
       </div>
       <div className="w-screen h-screen mt-0 bg-zinc-900 bg-opacity-75">

@@ -16,7 +16,7 @@ export default function Shop({
         pb && "lg:pb-60 sm:pb-48 pb-24"
       }`}
     >
-      <h1 className="w-full text-center text-3xl lg:text-4xl lg:w-max mx-auto lg:mx-0 italic bg-white text-black p-4 px-8 lg:rounded-lg drop-shadow shadow-black font-coco font-bold my-12">
+      <h1 className="w-full text-center text-3xl lg:text-4xl lg:w-max mx-auto lg:mx-0 italic bg-white text-black p-4 px-8 lg:rounded-lg font-coco font-bold my-12 shadow-md shadow-zinc-700">
         <span className="text-zinc-800 drop-shadow shadow-black ">Kupuj w</span>{" "}
         <span className="font-bold text-yellow-500 drop-shadow shadow-black ">
           Quixy

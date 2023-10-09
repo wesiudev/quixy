@@ -39,7 +39,7 @@ export default async function Page() {
     <div>
       <Header />
       <div className="w-full max-h-[35vh] overflow-hidden relative mt-[90px]">
-        <HeroModule filter={true} />
+        <HeroModule filter={false} />
       </div>
       <div className="">
         <Shop ItemsList={ItemsList} pb={false} />
