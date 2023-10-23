@@ -27,9 +27,9 @@ export const Header = () => {
                   ? "text-green-500"
                   : ""
               }`}
-              href={`/${menuItem.toUpperCase()}`}
+              href={`/${menuItem.toLowerCase()}`}
             >
-              {menuItem === "shop" ? "SKLEP" : menuItem}
+              {menuItem === "SHOP" ? "SKLEP" : menuItem}
             </Link>
           ))}
         </div>
