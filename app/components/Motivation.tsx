@@ -1,11 +1,10 @@
 import Image from "next/image";
-import watchImage from "../assets/watch-vector-gradient-free-image-quixy.png";
 export default function Motivation() {
   return (
     <div className="bg-[#1b1b1b] text-white py-16 lg:py-36 w-full px-3 lg:px-[8vw] relative z-50">
       <div className="absolute w-auto h-full hidden xl:block  right-0 2xl:right-[12vw] top-0">
         <Image
-          src={watchImage}
+          src="/assets/watch-vector-gradient-free-image-quixy.png"
           width={1024}
           height={1024}
           alt="watch-vector-gradient-free-image-quixy"

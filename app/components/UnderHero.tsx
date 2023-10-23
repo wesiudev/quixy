@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import underhero from "../assets/underhero2.png";
 import { useEffect } from "react";
 import AOS from "aos";
 export default function UnderHero() {
@@ -47,7 +46,7 @@ export default function UnderHero() {
       <div className="w-full mx-auto xl:mx-0 mt-12 xl:mt-0">
         <div className="overflow-hidden flex items-center justify-center lg:rounded-xl">
           <Image
-            src={underhero}
+            src="/assets/underhero2.png"
             width={1024}
             height={700}
             alt="Strony WWW w przystępnych cenach. Obrazek Quixy.pl"

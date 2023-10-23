@@ -1,30 +1,24 @@
 import { setHeroDialogLang } from "@/redux/slices/appState";
-import uaFlag from "../../../assets/ua.png";
-import plFlag from "../../../assets/pl.png";
-import enFlag from "../../../assets/en.png";
-import enHover from "../../../assets/enHover.png";
-import plHover from "../../../assets/plHover.png";
-import uaHover from "../../../assets/uaHover.png";
 import Image from "next/image";
 import { FaArrowCircleRight } from "react-icons/fa";
 
 const availableCountries = [
   {
     name: "ua",
-    img: uaFlag,
-    imgHover: uaHover,
+    img: "/assets/ua.png",
+    imgHover: "/assets/uaHover.png",
     fullName: "Ukraiński",
   },
   {
     name: "pl",
-    img: plFlag,
-    imgHover: plHover,
+    img: "/assets/pl.png",
+    imgHover: "/assets/plHover.png",
     fullName: "Polski",
   },
   {
     name: "en",
-    img: enFlag,
-    imgHover: enHover,
+    img: "/assets/en.png",
+    imgHover: "/assets/enHover.png",
     fullName: "Angielski",
   },
 ];

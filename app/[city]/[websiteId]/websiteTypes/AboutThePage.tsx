@@ -1,7 +1,6 @@
 import { WebsiteOffer } from "@/app/types";
 import Image from "next/image";
 import Link from "next/link";
-import websites from "@/app/assets/websites.png";
 import moment from "moment";
 import FaqModule from "@/app/components/FaqModule";
 import faq from "@/public/json/faqAboutWebsite.json";
@@ -24,7 +23,7 @@ export default function AboutThePage({ item }: { item: WebsiteOffer }) {
             <div className="flex flex-col justify-between w-full">
               <div>
                 <Image
-                  src={websites}
+                  src="/assets/website.png"
                   width={1024}
                   height={1024}
                   alt=""

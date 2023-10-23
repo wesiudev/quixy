@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import heroImg from "../../assets/macbook-color.webp";
 import * as Scroll from "react-scroll";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -15,7 +14,7 @@ export default function ProductHero({ page }: { page: any }) {
     <div className="h-screen w-screen relative font-coco">
       <div className="absolute left-0 top-0 w-full h-full flex overflow-hidden z-0">
         <Image
-          src={heroImg}
+          src="/assets/macbook-color.webp"
           width={1980}
           height={1359}
           alt={`quixy hero page ${page.name}`}

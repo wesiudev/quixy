@@ -1,9 +1,7 @@
 "use client";
 import Link from "next/link";
 import { FaSearch } from "react-icons/fa";
-import { useState } from "react";
 import Image from "next/image";
-import logo from "../assets/logo.png";
 import { usePathname } from "next/navigation";
 export const Header = () => {
   const pathname = usePathname();
@@ -12,7 +10,7 @@ export const Header = () => {
     <div className="fixed left-0 top-0 w-full h-max  flex flex-row justify-between py-3 px-3  z-[1000] space-x-6 bg-black ">
       <Link href="/" className="py-2  rounded-md font-signika text-3xl">
         <Image
-          src={logo}
+          src="/assets/logo.png"
           width={512}
           height={512}
           alt="Tworzenie stron internetowych Quixy.pl logo"

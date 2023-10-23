@@ -1,7 +1,4 @@
 import Image from "next/image";
-import logo from "@/app/assets/logo.png";
-import { FaArrowRight, FaInstagram, FaFacebook, FaBlog } from "react-icons/fa";
-import { IoMdSend } from "react-icons/io";
 import Link from "next/link";
 export const Footer = ({ content }: { content: any }) => {
   return (
@@ -29,7 +26,7 @@ export const Footer = ({ content }: { content: any }) => {
       <div className="flex flex-col items-center justify-start">
         <Image
           className="w-[200px] lg:w-[300px]"
-          src={logo}
+          src="/assets/logo.png"
           width={420}
           height={420}
           alt="Quixy.pl Tworzenie Stron www logo"

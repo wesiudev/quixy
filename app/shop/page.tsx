@@ -7,7 +7,6 @@ import SeoModule from "../components/SeoModule/SeoModule";
 import UnderHero from "../components/UnderHero";
 import Shop from "../components/shop/Shop";
 import { getShopContent } from "../lib/getShopContent";
-import { faq } from "@/public/json/faqAboutWebsite.json";
 export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#8cf562",
@@ -17,7 +16,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   title:
-    "Quixy | Sklep - Utrzyj nosa konkurencji - konkurencyjne strony pod PIXEL.",
+    "Quixy | Sklep - Tworzenie Stron Internetowych - Aplikacje Internetowe",
   description:
     "W Quixy tworzymy konkurencyjne strony internetowe. Co u nas znajdziesz? Aplikacje internetowe oparte o najnowsze technologie. Oferta stron internetowych. Grafika komputerowa, Grafika na Social Media.",
   openGraph: {

@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
-import watch from "@/app/assets/watch1.png";
-import watch2 from "@/app/assets/watch2.png";
-import watch3 from "@/app/assets/watch3.png";
+
 export default function SeoModule({ pt }: { pt: boolean }) {
   return (
     <div className={`${pt && "pb-24"} w-full px-3 lg:px-[8vw] bg-zinc-600`}>
@@ -101,23 +99,23 @@ export default function SeoModule({ pt }: { pt: boolean }) {
                 </h1>
                 <div className="grid grid-cols-3">
                   <Image
-                    src={watch}
-                    width={1024}
-                    height={1024}
+                    src="/assets/watch1.png"
+                    width={256}
+                    height={256}
                     alt="author:https://www.ilovemega.com/blog/wp-content/uploads/montre-10-Louis-Moinet-LM-39.50.80.png"
                     className=""
                   />
                   <Image
-                    src={watch2}
-                    width={1024}
-                    height={1024}
+                    src="/assets/watch2.png"
+                    width={256}
+                    height={256}
                     alt="author:https://www.ilovemega.com/blog/wp-content/uploads/montre-5-Longines-Master-Collection.png"
                     className=""
                   />
                   <Image
-                    src={watch3}
-                    width={1024}
-                    height={1024}
+                    src="/assets/watch3.png"
+                    width={256}
+                    height={256}
                     alt="author:https://www.ilovemega.com/blog/wp-content/uploads/montre-4-Vacheron-Constantin-Dragon.png"
                     className=""
                   />
