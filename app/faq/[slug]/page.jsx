@@ -1,4 +1,4 @@
-import { faq } from "@/public/json/faqAboutWebsite.json";
+import faq from "@/public/json/faqAboutWebsite.json";
 import FaqMap from "../FaqMap";
 export async function generateStaticParams() {
   return faq.faq.map((item) => ({
