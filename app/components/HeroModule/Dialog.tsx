@@ -29,7 +29,7 @@ export default function Dialog() {
             heroDialogData.step > 0 ? "-translate-x-[100%]" : "-translate-x-0"
           }`}
         >
-          <h1 className="text-white text-3xl md:text-3xl lg:text-4xl xl:text-6xl font-extrabold font-coco drop-shadow-lg shadow-black">
+          <h1 className="text-white text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-extrabold font-coco drop-shadow-lg shadow-black">
             UTRZYJ NOSA KONKURENCJI
           </h1>
 
@@ -41,7 +41,7 @@ export default function Dialog() {
             onClick={updateDialogStep}
             className="flex flex-col-reverse md:flex-row md:items-center z-50 relative"
           >
-            <div className="mx-auto w-max relative px-12 py-2 my-6  text-zinc-700 drop-shadow-md  shadow-black transition-all ease-in-out  bg-gradient-to-tr from-yellow-400 via-yellow-200 to-yellow-400 rounded-md text-2xl z-[100] cursor-pointer duration-200 hover:shadow-yellow-600 shadow-lg">
+            <div className="mx-auto w-max relative px-6 py-2 mt-6  text-zinc-700 drop-shadow-md  shadow-black transition-all ease-in-out  bg-gradient-to-tr from-yellow-400 via-yellow-200 to-yellow-400 rounded-md text-sm md:text-2xl z-[100] cursor-pointer duration-200 hover:shadow-yellow-600 shadow-lg">
               Zamów stronę
             </div>
           </button>

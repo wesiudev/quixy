@@ -13,9 +13,9 @@ export default function Shop({
 }) {
   return (
     <div
-      className={`h-max pb-12 w-screen bg-[#1b1b1b] bg-opacity-80 flex flex-col relative z-[150] px-6 lg:px-[8vw] `}
+      className={`h-max pb-12 w-screen bg-[#444444] flex flex-col relative z-[150] px-6 lg:px-[8vw] `}
     >
-      <h1 className="w-full text-center text-3xl lg:text-4xl lg:w-max mx-auto lg:mx-0 italic bg-white text-black p-4 px-8 lg:rounded-lg font-coco font-bold my-12 shadow-md shadow-zinc-700">
+      <h1 className="w-full text-center text-xl md:text-3xl lg:text-4xl lg:w-max mx-auto lg:mx-0 italic bg-white text-black p-4 px-8 lg:rounded-lg font-coco font-bold my-12 shadow-md shadow-zinc-700">
         <span className="text-zinc-800 drop-shadow shadow-black">Kupuj w</span>{" "}
         <span className="font-bold text-yellow-500 drop-shadow shadow-black">
           Quixy
