@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { getWebsiteInfo } from "@/app/lib/getWebsiteInfo";
-import { faq } from "@/public/json/faqAboutWebsite.json";
+import faq from "@/public/json/faqAboutWebsite.json";
 import UnderHero from "@/app/components/UnderHero";
 import Shop from "@/app/components/shop/Shop";
 import { getShopContent } from "@/app/lib/getShopContent";
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
   const description = page?.seo?.description;
   const keywords = page?.seo?.keywords;
   const faqQuestions =
-    faq
+    faq.faq
       ?.filter((faq) => faq.city === params.city)
       .map((faq) => ({
         "@type": "Question",

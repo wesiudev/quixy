@@ -4,7 +4,7 @@ import Link from "next/link";
 import websites from "@/app/assets/websites.png";
 import moment from "moment";
 import FaqModule from "@/app/components/FaqModule";
-import { faq } from "@/public/json/faqAboutWebsite.json";
+import faq from "@/public/json/faqAboutWebsite.json";
 import Specifications from "./Specifications";
 export default function AboutThePage({ item }: { item: WebsiteOffer }) {
   return (
@@ -18,7 +18,7 @@ export default function AboutThePage({ item }: { item: WebsiteOffer }) {
                 <h1 className="text-3xl lg:text-4xl font-bold my-6">
                   Często zadawane pytania
                 </h1>
-                <FaqModule faq={faq} city={item.city} />
+                <FaqModule faq={faq.faq} city={item.city} />
               </div>
             </div>
             <div className="flex flex-col justify-between w-full">

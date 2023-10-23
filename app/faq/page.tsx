@@ -1,4 +1,4 @@
-import { faq } from "@/public/json/faqAboutWebsite.json";
+import faq from "@/public/json/faqAboutWebsite.json";
 import HeroModule from "../components/HeroModule/HeroModule";
 import FaqMap from "./FaqMap";
 export default async function Faq() {
@@ -7,7 +7,7 @@ export default async function Faq() {
       <h1 className="font-coco text-2xl text-white py-3">
         Często zadawane pytania
       </h1>
-      <FaqMap faq={faq} city="shop" />
+      <FaqMap faq={faq.faq} city="shop" />
     </div>
   );
 }

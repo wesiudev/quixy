@@ -1,7 +1,7 @@
 import { faq } from "@/public/json/faqAboutWebsite.json";
 import FaqMap from "../FaqMap";
 export async function generateStaticParams() {
-  return faq.map((item) => ({
+  return faq.faq.map((item) => ({
     slug: item.city,
   }));
 }
@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   // fetch data
 
   const faqQuestions =
-    faq
+    faq.faq
       ?.filter((faq) => faq.city === params.slug)
       .map((faq) => ({
         "@type": "Question",
@@ -94,7 +94,7 @@ export default async function Page({ params }) {
     return (
       <div className="min-h-screen bg-[#202020] w-full px-3 lg:px-[8vw]">
         <h1 className="text-white text-4xl">Często zadawane pytania</h1>
-        <FaqMap city={city} faq={faq} />
+        <FaqMap city={city} faq={faq.faq} />
       </div>
     );
 }
