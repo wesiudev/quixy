@@ -23,7 +23,7 @@ export default function AboutThePage({ item }: { item: WebsiteOffer }) {
             <div className="flex flex-col justify-between w-full">
               <div>
                 <Image
-                  src="/assets/website.png"
+                  src="/assets/websites.png"
                   width={1024}
                   height={1024}
                   alt=""

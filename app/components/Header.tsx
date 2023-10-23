@@ -19,17 +19,17 @@ export const Header = () => {
       </Link>
       <div className="flex flex-row items-center justify-between w-full relative ">
         <div className="fixed lg:relative bg-black left-0 bottom-0 w-full lg:w-3/4 lg:pr-12 lg:pl-6 flex text-white flex-row items-center font-coco font-bold text-xl ">
-          {["blog", "sklep", "faq"].map((menuItem, i) => (
+          {["blog", "shop", "faq"].map((menuItem, i) => (
             <Link
               key={i}
               className={`p-3 w-full border-white flex items-center justify-center hover:underline duration-200 ${
-                pathname.toLowerCase() === menuItem.toLowerCase()
+                pathname.toLowerCase() === menuItem.toUpperCase()
                   ? "text-green-500"
                   : ""
               }`}
               href={`/${menuItem.toLowerCase()}`}
             >
-              {menuItem === "SHOP" ? "SKLEP" : menuItem}
+              {menuItem === "shop" ? "SKLEP" : menuItem}
             </Link>
           ))}
         </div>
