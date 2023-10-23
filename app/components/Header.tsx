@@ -8,26 +8,26 @@ export const Header = () => {
 
   return (
     <div className="fixed left-0 top-0 w-full h-max  flex flex-row justify-between py-3 px-3  z-[1000] space-x-6 bg-black ">
-      <Link href="/" className="py-2  rounded-md font-signika text-3xl">
+      <Link href="/" className="py-2 rounded-md text-3xl">
         <Image
           src="/assets/logo.png"
-          width={512}
-          height={512}
+          width={144}
+          height={144}
           alt="Tworzenie stron internetowych Quixy.pl logo"
           className="max-h-[72px] w-auto"
         />
       </Link>
       <div className="flex flex-row items-center justify-between w-full relative ">
         <div className="fixed lg:relative bg-black left-0 bottom-0 w-full lg:w-3/4 lg:pr-12 lg:pl-6 flex text-white flex-row items-center font-coco font-bold text-xl ">
-          {["blog", "shop", "faq"].map((menuItem, i) => (
+          {["BLOG", "SHOP", "FAQ"].map((menuItem, i) => (
             <Link
               key={i}
               className={`p-3 w-full border-white flex items-center justify-center hover:underline duration-200 ${
-                pathname.toLowerCase() === menuItem.toUpperCase()
+                pathname.toLowerCase() === menuItem.toLowerCase()
                   ? "text-green-500"
                   : ""
               }`}
-              href={`/${menuItem.toLowerCase()}`}
+              href={`/${menuItem.toUpperCase()}`}
             >
               {menuItem === "shop" ? "SKLEP" : menuItem}
             </Link>

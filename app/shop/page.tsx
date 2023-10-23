@@ -6,7 +6,7 @@ import HeroModule from "../components/HeroModule/HeroModule";
 import SeoModule from "../components/SeoModule/SeoModule";
 import UnderHero from "../components/UnderHero";
 import Shop from "../components/shop/Shop";
-import { getShopContent } from "../lib/getShopContent";
+import itemsList from "@/public/json/ShopContent.json";
 export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#8cf562",
@@ -34,7 +34,6 @@ export const metadata: Metadata = {
   },
 };
 export default async function Page() {
-  const ItemsList = await getShopContent();
   return (
     <div>
       <Header />
@@ -42,12 +41,16 @@ export default async function Page() {
         <HeroModule filter={false} />
       </div>
       <div className="">
-        <Shop ItemsList={ItemsList} filter="shop" currentPage="shop" />
+        <Shop
+          ItemsList={itemsList.shopItems}
+          filter="shop"
+          currentPage="shop"
+        />
       </div>
       <UnderHero />
       <SeoModule pt={true} />
-      <About content={ItemsList.shopItems[0].aboutSection} />
-      <Footer content={ItemsList.shopItems} />
+      <About content={itemsList.shopItems[0].aboutSection} />
+      <Footer content={itemsList.shopItems} />
     </div>
   );
 }
