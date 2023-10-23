@@ -16,7 +16,7 @@ export default function UnderHero() {
           data-aos-delay={250}
           className="text-3xl lg:text-5xl md:text-6xl text-gray-100 font-bold mb-3 xl:mt-0 drop-shadow-lg shadow-black"
         >
-          Strony Quixy
+          Współpraca z <span className="text-yellow-400">Quixy.pl</span>
         </h1>
         <div
           data-aos="fade-left"

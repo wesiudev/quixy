@@ -25,12 +25,12 @@ export default function Motivation() {
               usługi projektowania stron internetowych{" "}
             </span>
             zapewniają Twojej firmie wyjątkową obecność online. Z dumą tworzymy
-            strony wizytówki, które przyciągają uwagę, zwiększają zaufanie
+            aplikacje internetowe, które przyciągają uwagę, zwiększają zaufanie
             klientów i wspierają rozwój Twojego biznesu.
           </p>
         </div>
       </div>{" "}
-      <div className="w-full items-center flex gap-2 xl:gap-0 lg:w-[75%] xl:w-[65%]  lg:flex-wrap xl:-ml-1 font-coco overflow-x-scroll lg:overflow-hidden scrollbar py-3 lg:py-0">
+      <div className="w-full items-center flex gap-2 xl:gap-0 lg:w-[75%] xl:w-[65%]  lg:flex-wrap xl:-ml-2 font-coco overflow-x-scroll lg:overflow-hidden scrollbar py-3 lg:py-0">
         {[
           "Tworzenie stron internetowych",
           "Frontend development",
@@ -47,7 +47,7 @@ export default function Motivation() {
         ].map((item: any, i: any) => (
           <div
             key={i}
-            className="bg-purple-700 border-px border-purple-900 p-1.5 px-3 text-white rounded-lg font-light xl:m-1"
+            className="bg-purple-700  p-1.5 px-3 text-white rounded-lg font-light xl:m-2"
           >
             <div className="w-max">{item}</div>
           </div>
