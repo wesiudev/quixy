@@ -11,7 +11,6 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
           <Image
             src="/assets/bg.webp"
             alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-            fill
             quality={50}
             width={1920}
             height={1080}
@@ -21,7 +20,6 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
           <Image
             src="/assets/bg2.webp"
             alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-            fill
             quality={50}
             width={1920}
             height={1080}
@@ -43,7 +41,6 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
           <Image
             src="/assets/bg.webp"
             alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-            fill
             quality={50}
             width={1920}
             height={1080}
@@ -53,7 +50,6 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
           <Image
             src="/assets/bg2.webp"
             alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-            fill
             quality={50}
             width={1920}
             height={1080}
