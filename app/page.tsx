@@ -4,10 +4,8 @@ import { Footer } from "./components/Footer";
 import Hero from "./components/HeroModule/HeroModule";
 import UnderHero from "./components/UnderHero";
 import Shop from "./components/shop/Shop";
-import { getShopContent } from "./lib/getShopContent";
+import shopItems from "@/public/json/ShopContent.json";
 export default async function Home() {
-  const ItemsList = await getShopContent();
-
   return (
     <div className="overflow-x-hidden">
       <div className="h-screen relative">
@@ -15,9 +13,9 @@ export default async function Home() {
       </div>
       <UnderHero />
       <Motivation />
-      <Shop ItemsList={ItemsList} filter="shop" currentPage="shop" />
-      <About content={ItemsList.shopItems[0].aboutSection} />
-      <Footer content={ItemsList.shopItems} />
+      <Shop ItemsList={shopItems.shopItems} filter="shop" currentPage="shop" />
+      <About content={shopItems.shopItems[0].aboutSection} />
+      <Footer content={shopItems.shopItems} />
     </div>
   );
 }

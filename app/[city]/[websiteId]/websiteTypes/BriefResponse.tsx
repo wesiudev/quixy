@@ -61,7 +61,7 @@ export default function BriefResponse() {
                 {item.linkName}
               </Link>
               <h4 className="text-base text-yellow-400 mt-6 italic flex flex-row items-center">
-                <FaUser className="mr-2 w-6 h-6" /> &quot;{item.opinion}&quot;
+                <FaUser className="mr-2 w-5 h-5" /> &quot;{item.opinion}&quot;
               </h4>
             </div>
             <div className=" text-white mt-12">
