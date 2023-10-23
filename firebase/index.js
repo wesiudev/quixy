@@ -24,7 +24,7 @@ const firebaseConfig = {
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
-
+const auth = getAuth(app);
 async function getBlogPosts(websiteName) {
   const docRef = doc(db, websiteName, "blog");
   const docSnap = await getDoc(docRef);
@@ -43,4 +43,4 @@ async function addBlogPost(websiteName, post) {
   }
 }
 
-export { addBlogPost, getBlogPosts };
+export { addBlogPost, getBlogPosts, auth };
