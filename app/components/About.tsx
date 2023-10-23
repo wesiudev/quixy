@@ -1,21 +1,18 @@
-import view from "@/app/assets/view.png";
-import view2 from "@/app/assets/view2.png";
 import Image from "next/image";
-import connector from "@/app/assets/laczenie-sekcji-strony-www-o-nas.png";
 export default function About({ content }: { content: any }) {
   return (
     <div className="min-h-screen w-screen  px-[8vw]  pb-12 bg-gray-500 font-coco relative z-[102] pt-24">
       <Image
         width={1024}
         height={1024}
-        src={view}
+        src="/assets/view.png"
         alt="Quixy.pl tworzenie stron internetowych wizytówek Warszawa, Grudziadz, Gdańsk."
         className="absolute right-24 top-[30vh] w-[55vw] lg:w-[35vw] opacity-40 xl:opacity-70"
       />
       <Image
         width={1024}
         height={1024}
-        src={view2}
+        src="/assets/view2.png"
         alt="Quixy.pl strony pod pixel. Tworzenie stron landingowych w całej Polsce"
         className="absolute right-24 bottom-[10vh] w-[55vw] lg:w-[35vw] opacity-40 xl:opacity-70"
       />
@@ -23,7 +20,7 @@ export default function About({ content }: { content: any }) {
       <Image
         width={1080}
         height={300}
-        src={connector}
+        src="/assets/laczenie-sekcji-strony-www-o-nas.png"
         alt="Strony WWW Polska. Sprawdź ofertę - tworzymy strony internetowe w całej Polsce. Strona internetowa Warszawa, Gdańsk, Kraków."
         className="w-full absolute left-0 bottom-0 translate-y-[99%] rotate-180"
       />
