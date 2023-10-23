@@ -4,19 +4,18 @@ import { getWebsiteInfo } from "@/app/lib/getWebsiteInfo";
 import faq from "@/public/json/faqAboutWebsite.json";
 import UnderHero from "@/app/components/UnderHero";
 import Shop from "@/app/components/shop/Shop";
-import { getShopContent } from "@/app/lib/getShopContent";
+// import { getShopContent } from "@/app/lib/getShopContent";
 import About from "@/app/components/About";
-import { getShopContentSSR } from "@/app/lib/getShopContentSSR";
+// import { getShopContentSSR } from "@/app/lib/getShopContentSSR";
 import { Footer } from "@/app/components/Footer";
 import ProductHero from "./ProductHero";
 import Motivation from "../../components/Motivation";
 import BusinessCard from "./websiteTypes/BriefResponse";
 import AboutThePage from "./websiteTypes/AboutThePage";
 import BriefResponse from "./websiteTypes/BriefResponse";
-
+import shopItems from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
-  const pages = await getShopContentSSR();
-  return pages.pages.map((page) => ({
+  return shopItems.shopItems.map((page) => ({
     city: page.city,
     websiteId: page.websiteId,
   }));
@@ -24,7 +23,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   // fetch data
-  const { page } = await getWebsiteInfo(params.city, params.websiteId);
+  const page = shopItems.shopItems.find(
+    (page) => page.city === params.city && page.websiteId === params.websiteId
+  );
   const title = page?.seo?.title;
   const description = page?.seo?.description;
   const keywords = page?.seo?.keywords;
@@ -103,8 +104,10 @@ export async function generateMetadata({ params }) {
 export const dynamicParams = false;
 
 export default async function Page({ params }) {
-  const { page } = await getWebsiteInfo(params.city, params.websiteId);
-  const ItemsList = await getShopContent();
+  const page = shopItems.shopItems.find(
+    (page) => page.city === params.city && page.websiteId === params.websiteId
+  );
+
   if (page)
     return (
       <>
@@ -112,7 +115,7 @@ export default async function Page({ params }) {
         <AboutThePage item={page} />
         <BriefResponse />
         <Shop
-          ItemsList={ItemsList}
+          ItemsList={shopItems.shopItems}
           pb={true}
           filter={page.city}
           currentPage={page.websiteId}
@@ -120,7 +123,7 @@ export default async function Page({ params }) {
         <Motivation />
         <UnderHero />
         <About content={page.aboutSection} />
-        <Footer content={ItemsList.shopItems} />
+        <Footer content={shopItems.shopItems} />
       </>
     );
 }

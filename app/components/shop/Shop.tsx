@@ -11,7 +11,6 @@ export default function Shop({
   filter: string;
   currentPage: string;
 }) {
-  const ShopContent = ItemsList.shopItems;
   return (
     <div
       className={`h-max pb-12 w-screen bg-[#1b1b1b] bg-opacity-80 flex flex-col relative z-[150] px-6 lg:px-[8vw] `}
@@ -32,7 +31,7 @@ export default function Shop({
       </Link>
 
       <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-6 lg:gap-12 mt-6">
-        {ShopContent.map(
+        {ItemsList.map(
           (service: any, i: any) =>
             !service.isGraphic &&
             service.city === filter && (
