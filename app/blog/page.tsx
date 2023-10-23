@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Post } from "../defs/defs";
+import { Post } from "../types";
 import load from "./load.jpg";
 import Link from "next/link";
 

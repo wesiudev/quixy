@@ -1,7 +1,7 @@
 import { getPost } from "@/app/lib/getPost";
 import Image from "next/image";
 import load from "../load.jpg";
-import { Post, Section } from "@/app/defs/defs";
+import { Post, Section } from "@/app/types";
 import ScrollTo from "./ScrollTo";
 import { polishToEnglish } from "@/app/utils/polishToEnglish";
 import { renderMarkdown } from "@/app/lib/parseMarkdown";

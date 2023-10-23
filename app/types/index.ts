@@ -31,6 +31,35 @@ export type Section = {
   content: string;
 };
 
+export type WebsiteOffer = {
+  city: string;
+  cityPropperName: string;
+  websiteId: string;
+  name: string;
+  linkName: string;
+  price: string;
+  seo: {
+    title: string;
+    description: string;
+  };
+  description: {
+    h1: string;
+    about: string;
+    features: {
+      title: string;
+      description: string;
+    }[];
+  };
+  aboutSection: {
+    h2: string;
+    p: string;
+  }[];
+  image: {
+    src: string;
+    alt: string;
+  };
+};
+
 /**
  * Struktura Post pozwala na przechowywanie informacji o pojedynczym poście na stronie internetowej.
  * Zawiera identyfikator posta, tytuł, sekcje zawierające nagłówek i treść, wstęp, zakończenie,

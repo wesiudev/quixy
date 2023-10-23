@@ -21,5 +21,23 @@ body.modal-open {
 }
 
 .scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgb(141, 67, 206);
+  background: rgb(149, 146, 151);
+}
+.scrollbarwhite::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+  background-color: #181818;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 999px;
+}
+
+.scrollbarwhite::-webkit-scrollbar-thumb {
+  background: rgb(39, 214, 71);
+  padding: 2px;
+  border-radius: 999px;
+}
+
+.scrollbarwhite::-webkit-scrollbar-thumb:hover {
+  background: rgb(74 222 128);
 }

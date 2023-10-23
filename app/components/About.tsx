@@ -2,10 +2,9 @@ import view from "@/app/assets/view.png";
 import view2 from "@/app/assets/view2.png";
 import Image from "next/image";
 import connector from "@/app/assets/laczenie-sekcji-strony-www-o-nas.png";
-
 export default function About({ content }: { content: any }) {
   return (
-    <div className="min-h-screen w-screen  px-[8vw] pt-12 pb-12 bg-gray-500 font-coco relative z-[102]">
+    <div className="min-h-screen w-screen  px-[8vw]  pb-12 bg-gray-500 font-coco relative z-[102] pt-24">
       <Image
         width={1024}
         height={1024}
@@ -20,13 +19,7 @@ export default function About({ content }: { content: any }) {
         alt="Quixy.pl strony pod pixel. Tworzenie stron landingowych w całej Polsce"
         className="absolute right-24 bottom-[10vh] w-[55vw] lg:w-[35vw] opacity-40 xl:opacity-70"
       />
-      <Image
-        width={1080}
-        height={300}
-        src={connector}
-        alt="Tworzenie grafiki komputerowej na quixy.pl w całej Polsce"
-        className="w-full absolute left-0 top-0 -translate-y-[99%]"
-      />
+
       <Image
         width={1080}
         height={300}
@@ -38,9 +31,7 @@ export default function About({ content }: { content: any }) {
         <h1 className="relative text-5xl sm:text-8xl lg:text-7xl font-bold drop-shadow-xl shadow-black text-green-300">
           KIM JESTEŚMY?
         </h1>
-        <h2 className="relative font-bold drop-shadow-xl shadow-black text-green-300 text-[13px]">
-          {content[0].h2}
-        </h2>
+
         <p className="text-white mt-3 prose lg:prose-xl">{content[0].p}</p>
         <h1 className="relative text-5xl sm:text-8xl lg:text-7xl font-bold drop-shadow-xl shadow-black  mt-24 text-green-300">
           NASZA MISJA

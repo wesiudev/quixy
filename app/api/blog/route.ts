@@ -1,6 +1,6 @@
 import { NextResponse, NextRequest } from "next/server";
 import { getBlogPosts } from "@/firebase";
-import { Post } from "@/app/defs/defs";
+import { Post } from "@/app/types";
 export async function GET(req: NextRequest) {
   const secret = req.nextUrl.searchParams.get("secret");
   const url = req.nextUrl.searchParams.get("url");

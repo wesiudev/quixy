@@ -29,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/api/blog/post/route.js",
-    "app/sitemap.js"
+    "app/sitemap.js",
+    "app/faq/[slug]/page.jsx"
   ],
   "exclude": ["node_modules"]
 }

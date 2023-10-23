@@ -39,11 +39,11 @@ export default function Dialog() {
           </h2>
           <button
             onClick={updateDialogStep}
-            className="mt-6 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden rounded-lg text-sm font-medium group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 group-hover:scale-105 ease-in duration-100 hover:text-white text-white focus:ring-4 focus:outline-none  focus:ring-green-800 hover:drop-shadow-lg hover:shadow-black z-[100]"
+            className="flex flex-col-reverse md:flex-row md:items-center z-50 relative"
           >
-            <span className="relative px-6 py-2 transition-all ease-in duration-100 bg-black rounded-md group-hover:bg-opacity-0 text-2xl group-hover:scale-105 z-[100]">
+            <div className="mx-auto w-max relative px-12 py-2 my-6  text-zinc-700 drop-shadow-md  shadow-black transition-all ease-in-out  bg-gradient-to-tr from-yellow-400 via-yellow-200 to-yellow-400 rounded-md text-2xl z-[100] cursor-pointer duration-200 hover:shadow-yellow-600 shadow-lg">
               Zamów stronę
-            </span>
+            </div>
           </button>
         </div>
         <div

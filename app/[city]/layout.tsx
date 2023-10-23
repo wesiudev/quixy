@@ -7,7 +7,7 @@ export default function ProductLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <Header />
       {children}
     </div>

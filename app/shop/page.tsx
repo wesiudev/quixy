@@ -7,6 +7,7 @@ import SeoModule from "../components/SeoModule/SeoModule";
 import UnderHero from "../components/UnderHero";
 import Shop from "../components/shop/Shop";
 import { getShopContent } from "../lib/getShopContent";
+import { faq } from "@/public/json/faqAboutWebsite.json";
 export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#8cf562",
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://quixy.pl",
-    title: "Quixy | Utrzyj nosa konkurencji - konkurencyjne strony pod PIXEL.",
+    title: "",
     description:
       "W Quixy tworzymy konkurencyjne strony internetowe. Co u nas znajdziesz? Aplikacje internetowe oparte o najnowsze technologie. Oferta stron internetowych. Grafika komputerowa, Grafika na Social Media.",
     siteName: "Quixy",
@@ -42,7 +43,7 @@ export default async function Page() {
         <HeroModule filter={false} />
       </div>
       <div className="">
-        <Shop ItemsList={ItemsList} pb={false} />
+        <Shop ItemsList={ItemsList} filter="shop" currentPage="shop" />
       </div>
       <UnderHero />
       <SeoModule pt={true} />

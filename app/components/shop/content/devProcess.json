@@ -1,0 +1,119 @@
+{
+  "devProcess": [
+    {
+      "name": "strona-wizytowka",
+      "steps": [
+        {
+          "title": "Brief",
+          "description": "Klient wypełnia przystępny formularz z danymi o biznesie, preferencjach projektowych i wymaganiach Strony Wizytówki."
+        },
+        {
+          "title": "Planowanie",
+          "description": "Analiza wymagań i celów, Projektowanie interfejsu i doświadczenia użytkownika"
+        },
+        {
+          "title": "Rozwój",
+          "description": "Kodowanie i implementacja funkcji, Testowanie i debugowanie"
+        },
+        {
+          "title": "Grafika",
+          "description": "Tworzenie treści i dodawanie multimediów, Optymalizacja treści pod kątem SEO"
+        },
+        {
+          "title": "Optymalizacja",
+          "description": "Testowanie responsywności i wydajności, Optymalizacja kodu i obrazów"
+        },
+        {
+          "title": "Wdrożenie",
+          "description": "Wybór hostingu i konfiguracja serwera, SEO i integracja z mediami społecznościowymi"
+        },
+        {
+          "title": "Utrzymanie",
+          "description": "Świadczenie wsparcia technicznego, Aktualizacje i monitorowanie wydajności"
+        }
+      ]
+    },
+    {
+      "name": "sklep-internetowy",
+      "steps": [
+        {
+          "title": "Brief",
+          "description": "Klient wypełnia przystępny formularz z danymi o biznesie, preferencjach projektowych i wymaganiach Sklepu Internetowego."
+        },
+        {
+          "title": "Konsultacje",
+          "description": "Klient omawia cele, oczekiwania i funkcje z zespołem projektowym."
+        },
+        {
+          "title": "Projekt",
+          "description": "Zespół tworzy układ, kolorystykę, grafiki i wygląd strony sklepu."
+        },
+        {
+          "title": "Akceptacja",
+          "description": "Klient przegląda projekt i akceptuje lub proponuje zmiany."
+        },
+        {
+          "title": "Cele",
+          "description": "Klient ustala cele biznesowe, strategię marketingową, grupy docelowe i asortyment."
+        },
+        {
+          "title": "Implementacja",
+          "description": "Zespół dodaje produkty, płatności online i przeprowadza testy funkcji."
+        },
+        {
+          "title": "Dostosowania",
+          "description": "Klient otrzymuje szkolenie z obsługi CMS, testuje sklep i proponuje zmiany."
+        },
+        {
+          "title": "Wdrożenie",
+          "description": "Po akceptacji, sklep jest wdrażany, rozpoczyna się promocja, w tym SEO i kampanie reklamowe."
+        },
+        {
+          "title": "Wsparcie",
+          "description": "Zespół zapewnia wsparcie, monitoruje wydajność, instaluje aktualizacje i rozwiązuje problemy."
+        }
+      ]
+    },
+    {
+      "name": "landing-page",
+      "steps": [
+        {
+          "title": "Brief",
+          "description": "Klient dostarcza informacje o biznesie, grupie odbiorczej i preferencjach projektowych w przystępnym formularzu briefu."
+        },
+        {
+          "title": "Cele",
+          "description": "Klient określa cele strony Landing Page, takie jak zbieranie leadów czy zwiększanie rozpoznawalności marki."
+        },
+        {
+          "title": "Interfejs",
+          "description": "Zespół projektowy tworzy interfejs Landing Page, zgodny z celami klienta."
+        },
+        {
+          "title": "Akceptacja",
+          "description": "Klient akceptuje lub proponuje zmiany w projekcie Landing Page."
+        },
+        {
+          "title": "Implementacja",
+          "description": "Zespół implementuje projekt, dodaje interaktywne elementy i przeprowadza testy funkcji oraz responsywności."
+        },
+        {
+          "title": "Optymalizacja",
+          "description": "Optymalizacja treści i formularzy w celu zwiększenia konwersji odwiedzających."
+        },
+        {
+          "title": "Wdrożenie",
+          "description": "Po akceptacji, strona jest wdrażana, a rozpoczyna się promocja, w tym kampanie reklamowe i monitorowanie wyników."
+        },
+        {
+          "title": "Monitorowanie",
+          "description": "Zespół analizuje statystyki odwiedzin, konwersji i dostosowuje strategię w razie potrzeby."
+        },
+        {
+          "title": "Wsparcie",
+          "description": "Zespół techniczny zapewnia wsparcie, monitoruje wydajność, instaluje aktualizacje i rozwiązuje problemy."
+        }
+      ]
+    }
+  ]
+}

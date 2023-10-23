@@ -5,13 +5,10 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState: any = {
   heroDialogData: {
     step: 0, //krok
-    websiteName: "",
-    languages: [],
-    theme: [],
-    about: "",
+    websiteName: "", //wizytowka / sklep / landing page
+    languages: [], //języki
     target: "", //branża
-    social: "", //czy prowadzenie social mediów
-    audience: "",
+    audience: "", //grupa docelowa
     blog: "", //czy chcesz bloga?
     blogServices: "", //czy chcesz abyśmy prowadzili bloga za ciebie?
   },

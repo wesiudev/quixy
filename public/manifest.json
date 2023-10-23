@@ -1,15 +1,42 @@
 {
-  "name": "Quixy.pl - Tworzenie Stron Internetowych - Kreator stron internetowych za darmo",
+  "name": "Quixy.pl - Tworzenie Stron Internetowych, Strony wizytówki, Strony www, Sklepy internetowe, E-commerce, Pozycjonowanie stron internetowych, SEO dla małego biznesu.",
   "short_name": "Quixy",
-  "description": "Tworzenie stron internetowych to zadanie dla profesjonalnych developerów, grafików i marketingowców. W świecie e-commerce nie ma miejsca na błędy. Strony internetowe internetowe gotowe schematy, szablony, template. Kreator stron internetowych quixy.pl",
+  "description": "Tworzenie stron internetowych to zadanie dla profesjonalnych developerów, grafików i marketingowców. W świecie e-commerce nie ma miejsca na błędy. Stwony WWW w naszych czasach rozwijają się niesamowicie szybko a rynek jest w ciągłym ruchu",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#8cf562",
+  "theme_color": "#8cf562",
   "icons": [
     {
       "src": "/favicon.ico",
-      "sizes": "128x128",
+      "sizes": "48x48",
       "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "related_applications": [

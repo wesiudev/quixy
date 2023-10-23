@@ -1,7 +1,7 @@
 "use client";
 import * as Scroll from "react-scroll";
 import { polishToEnglish } from "@/app/utils/polishToEnglish";
-import { Section } from "@/app/defs/defs";
+import { Section } from "@/app/types";
 import { FaLink } from "react-icons/fa";
 
 export default function ScrollTo({ section }: { section: Section }) {

@@ -1,19 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowCircleRight, FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import watch from "@/app/assets/watch1.png";
 import watch2 from "@/app/assets/watch2.png";
 import watch3 from "@/app/assets/watch3.png";
 export default function SeoModule({ pt }: { pt: boolean }) {
   return (
-    <div
-      className={`${
-        pt && "lg:pb-60 sm:pb-48 pb-24"
-      } w-full px-3 lg:px-[8vw] bg-zinc-600`}
-    >
+    <div className={`${pt && "pb-24"} w-full px-3 lg:px-[8vw] bg-zinc-600`}>
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full font-coco">
         {/* 1 */}
-        <div className="flex flex-col h-full mt-12 ">
+        <div className="flex flex-col h-full mt-24 ">
           <div className="prose 2xl:prose-xl prose-invert">
             <h1 className="!text-3xl lg:!text-4xl 2xl:!text-5xl mx-auto font-bold text-green-300">
               Skuteczne pozycjonowanie stron internetowych i sklepów e-commerce
@@ -87,7 +83,7 @@ export default function SeoModule({ pt }: { pt: boolean }) {
         </div>
         {/* 2 */}
         <div className="flex flex-col h-full w-full items-end">
-          <div className=" pt-12 lg:w-3/4 h-full">
+          <div className=" pt-24 lg:w-3/4 h-full">
             <Link
               href="/blog"
               className="group px-3 lg:px-0  text-white font-bold text-2xl mt-6 flex flex-row items-center hover:text-green-400 duration-150 w-max mb-12"
