@@ -3,10 +3,7 @@ import { auth } from "@/firebase";
 import Header from "./Header";
 import { useAuthState } from "react-firebase-hooks/auth";
 import LoginPage from "./LoginPage";
-import { Metadata } from "next";
-export const metadata: Metadata = {
-  title: "Quixy Admin Dashboard",
-};
+
 export default function AdminLayout({
   children,
 }: {

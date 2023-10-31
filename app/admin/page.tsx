@@ -1,5 +1,8 @@
+import { Metadata } from "next";
 import Link from "next/link";
-
+export const metadata: Metadata = {
+  title: "Quixy Admin Dashboard",
+};
 export default function Admin() {
   return (
     <div className="grid grid-cols-4">

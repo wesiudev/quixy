@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaArrowDown, FaArrowRight } from "react-icons/fa";
 export const Footer = ({ content }: { content: any }) => {
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-2 bg-black text-white min-h-[30vh] pt-48 pb-24 font-coco">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-2 bg-[#212121] text-white min-h-[30vh] pt-48 pb-24 font-coco">
       <div className="">
         <div className="flex flex-col items-center justify-start my-12 lg:my-0">
           <Image

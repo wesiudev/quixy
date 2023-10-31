@@ -22,7 +22,7 @@ export default function FaqNavigation() {
             location === polishToEnglish(item)
               ? "text-yellow-400"
               : "text-white hover:text-yellow-400"
-          } p-3 bg-[#101010] rounded-md font-coco text-sm]`}
+          } mt-2 p-3 bg-[#101010] rounded-md font-coco text-sm]`}
           key={i}
           href={`/faq/${polishToEnglish(item)}`}
         >
