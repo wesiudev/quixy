@@ -18,7 +18,7 @@ export default function ProductHero({ page }: { page: any }) {
           width={1980}
           height={1359}
           alt={`quixy hero page ${page.name}`}
-          className="object-cover"
+          className="object-cover object-center w-full h-full "
         />
       </div>
       <div className="w-full h-full bg-black bg-opacity-60 flex items-center justify-center absolute left-0 top-0 z-50">
@@ -29,7 +29,7 @@ export default function ProductHero({ page }: { page: any }) {
           >
             {page.name.toUpperCase()}
           </div>
-          <div className="flex justify-between flex-col md:flex-row  items-center w-full mt-12">
+          <div className="flex justify-between flex-col md:flex-row  items-center w-full mt-6 md:mt-12">
             <div
               data-aos="fade-right"
               data-aos-delay={300}
@@ -37,7 +37,7 @@ export default function ProductHero({ page }: { page: any }) {
             >
               Quixy to coś więcej niż software house
             </div>
-            <div className="flex flex-col-reverse md:flex-row md:items-center">
+            <div className="flex flex-col-reverse md:flex-row md:items-center ">
               <ScrollLink
                 to="about"
                 smooth={true}
@@ -45,7 +45,7 @@ export default function ProductHero({ page }: { page: any }) {
                 delay={200}
                 data-aos="fade-up"
                 data-aos-delay={300}
-                className="mx-auto w-max relative px-12 py-2  lg:my-0 text-zinc-700 drop-shadow-md  shadow-black transition-all ease-in-out duration-500 bg-gradient-to-tr from-yellow-400 via-yellow-200 to-yellow-400 rounded-md text-2xl z-[100] cursor-pointer  hover:shadow-yellow-600 shadow-lg"
+                className="w-full mt-6 md:mt-0 mx-auto text-center md:w-max relative px-12 py-2  lg:my-0 text-zinc-700 drop-shadow-md  shadow-black transition-all ease-in-out duration-500 bg-gradient-to-tr from-yellow-400 via-yellow-200 to-yellow-400 rounded-md text-2xl z-[100] cursor-pointer  hover:shadow-yellow-600 shadow-lg"
               >
                 Sprawdź
               </ScrollLink>
@@ -53,7 +53,7 @@ export default function ProductHero({ page }: { page: any }) {
               <div
                 data-aos="fade-left"
                 data-aos-delay={300}
-                className="text-yellow-400 font-light text-left text-sm md:px-6 lg:px-12 xl:px-16 "
+                className="text-yellow-400 font-light text-left text-sm md:px-6 lg:px-12 xl:px-16 mt-1"
               >
                 niezapomniane doświadczenie użytkownika
               </div>

@@ -9,10 +9,12 @@ export default function ShopItem({
   item,
   currentPage,
   index,
+  labelColor,
 }: {
   item: WebsiteOffer;
   index: number;
   currentPage: string;
+  labelColor?: string;
 }) {
   useEffect(() => {
     AOS.init({
@@ -36,7 +38,12 @@ export default function ShopItem({
             <div className="absolute w-full h-full left-0 top-0 overflow-hidden">
               <div className="w-full h-full bg-gradient-to-br from-blue-300 to-green-300 "></div>
             </div>
-            <div className="text-lg font-coco font-bold bg-zinc-800 text-white w-full mx-auto bottom-0 text-center p-2 select-none z-[60] absolute">
+            <div
+              style={{
+                backgroundColor: labelColor ? labelColor : "bg-zinc-800",
+              }}
+              className="text-lg font-coco font-bold bg-zinc-800 text-white w-full mx-auto bottom-0 text-center p-2 select-none z-[60] absolute"
+            >
               {item.name.toLocaleUpperCase()}
             </div>
             <Image

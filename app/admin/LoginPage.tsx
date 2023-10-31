@@ -35,44 +35,56 @@ export default function LoginPage() {
     }
   }
   return (
-    <div>
-      <h1 className="text-center text-2xl py-12 bg-purple-400 text-white">
-        Zaloguj do panelu administracyjnego
-      </h1>
-      <div className="flex flex-col w-full justify-center items-center bg-black">
+    <div className="relative flex flex-col h-screen justify-center items-center bg-gray-100 overflow-hidden">
+      <form className="flex flex-col w-full max-w-sm p-6 bg-white rounded-lg shadow-md relative z-50">
+        <label className="text-gray-700 font-bold mb-2" htmlFor="email">
+          Email
+        </label>
         <input
-          type="text"
-          onChange={(e) => setEmail(e.target.value)}
+          id="email"
           value={email}
-          placeholder="LOGIN"
-          className={`p-4 text-2xl border-2 border-blue-400 my-3 focus:outline-none ${
-            emailError !== "" && "border-2 border-red-600"
-          }`}
+          onChange={(e) => setEmail(e.target.value)}
+          className="border border-gray-400 p-2 mb-4 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400"
+          placeholder="Email"
+          required
         />
-        {emailError !== "" && (
-          <span className=" text-red-600">{emailError}</span>
-        )}
+        <label className="text-gray-700 font-bold mb-2" htmlFor="password">
+          Password
+        </label>
         <input
+          id="password"
           type="password"
-          onChange={(e) => setPassword(e.target.value)}
           value={password}
-          placeholder="Enter Password"
-          className={`p-4 text-2xl border-2 border-blue-400 my-3
-         focus:bg-white focus:outline-none${
-           passwordError !== "" && "border-2 border-red-600"
-         }`}
-        />{" "}
-        {passwordError !== "" && (
-          <span className=" text-red-600">{passwordError}</span>
-        )}
-        <button
-          disabled={emailError !== "" || (passwordError !== "" && true)}
-          onClick={() => emailPasswordLogin()}
-          className="bg-blue-400 w-full p-4 text-white mt-3 disabled:cursor-not-allowed"
+          onChange={(e) => setPassword(e.target.value)}
+          className="border border-gray-400 p-2 mb-4 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400"
+          placeholder="Password"
+          required
+        />
+        <h3
+          className={`h-px ${
+            (emailError || passwordError) && "!h-6 mb-8 duration-500"
+          }  duration-500`}
         >
-          ZALOGUJ
+          {emailError && emailError}, {passwordError && passwordError}
+        </h3>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            emailPasswordLogin();
+          }}
+          type="submit"
+          className="bg-purple-400 text-white py-2 rounded-md hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-400"
+        >
+          Login
         </button>
-      </div>
+      </form>{" "}
+      <h1 className="text-center text-2xl py-12 bg-purple-400 text-white px-3 rounded-b-xl relative z-50">
+        Quixy Admin v1.0
+      </h1>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 opacity-25"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-purple-400 via-pink-500 to-red-500 opacity-25"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 opacity-25 transform rotate-45"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-purple-400 via-pink-500 to-red-500 opacity-25 transform -rotate-45"></div>
     </div>
   );
 }

@@ -20,6 +20,7 @@
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.1",
     "firebase": "^9.22.1",
+    "firebase-admin": "^11.11.0",
     "framer-motion": "^10.16.4",
     "gsap": "^3.12.2",
     "isomorphic-dompurify": "^1.8.0",
@@ -51,6 +52,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "@types/aos": "^3.0.4",
     "@types/dompurify": "^3.0.2",
-    "@types/jsdom": "^21.1.2"
+    "@types/jsdom": "^21.1.2",
+    "video.js": "^8.6.1"
   }
 }

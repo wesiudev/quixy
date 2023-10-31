@@ -1,19 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { getWebsiteInfo } from "@/app/lib/getWebsiteInfo";
 import faq from "@/public/json/faqAboutWebsite.json";
 import UnderHero from "@/app/components/UnderHero";
 import Shop from "@/app/components/shop/Shop";
-// import { getShopContent } from "@/app/lib/getShopContent";
 import About from "@/app/components/About";
-// import { getShopContentSSR } from "@/app/lib/getShopContentSSR";
 import { Footer } from "@/app/components/Footer";
 import ProductHero from "./ProductHero";
 import Motivation from "../../components/Motivation";
-import BusinessCard from "./websiteTypes/BriefResponse";
 import AboutThePage from "./websiteTypes/AboutThePage";
 import BriefResponse from "./websiteTypes/BriefResponse";
 import shopItems from "@/public/json/ShopContent.json";
+import HeroModule from "@/app/components/HeroModule/HeroModule";
 export async function generateStaticParams() {
   return shopItems.shopItems.map((page) => ({
     city: page.city,
@@ -26,9 +23,13 @@ export async function generateMetadata({ params }) {
   const page = shopItems.shopItems.find(
     (page) => page.city === params.city && page.websiteId === params.websiteId
   );
+
+  // Get the title, description, and keywords from the page's SEO data
   const title = page?.seo?.title;
   const description = page?.seo?.description;
   const keywords = page?.seo?.keywords;
+
+  // Generate FAQ schema data for the page
   const faqQuestions =
     faq.faq
       ?.filter((faq) => faq.city === params.city)
@@ -46,63 +47,68 @@ export async function generateMetadata({ params }) {
     "@type": "FAQPage",
     mainEntity: faqQuestions,
   };
-
-  if (page)
-    return {
+  return {
+    title,
+    description,
+    keywords,
+    openGraph: {
+      type: "website",
+      url: "https://quixy.pl",
       title,
       description,
-      keywords,
-      openGraph: {
-        type: "website",
-        url: "https://quixy.pl",
-        title,
-        description,
-        siteName: "Quixy",
-        images: [
-          {
-            url: "/favicon-16x16.png",
-            sizes: "16x16",
-            type: "image/png",
-          },
-          {
-            url: "/favicon-32x32.png",
-            sizes: "32x32",
-            type: "image/png",
-          },
-          {
-            url: "/favicon.ico",
-            sizes: "48x48",
-            type: "image/x-icon",
-          },
-          {
-            url: "/android-chrome-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            url: "/android-chrome-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-          {
-            url: "/apple-touch-icon.png",
-            sizes: "180x180",
-            type: "image/png",
-          },
-        ],
-      },
-      schema: [faqPage],
-      meta: [
+      siteName: "Quixy",
+      images: [
         {
-          name: "theme-color",
-          content: "#8cf562", // replace with your desired theme color
+          url: "/favicon-16x16.png",
+          sizes: "16x16",
+          type: "image/png",
+        },
+        {
+          url: "/favicon-32x32.png",
+          sizes: "32x32",
+          type: "image/png",
+        },
+        {
+          url: "/favicon.ico",
+          sizes: "48x48",
+          type: "image/x-icon",
+        },
+        {
+          url: "/android-chrome-192x192.png",
+          sizes: "192x192",
+          type: "image/png",
+        },
+        {
+          url: "/android-chrome-512x512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+        {
+          url: "/apple-touch-icon.png",
+          sizes: "180x180",
+          type: "image/png",
         },
       ],
-    };
+    },
+    twitter: {
+      cardType: "summary_large_image",
+      site: "@quixy",
+      title,
+      description,
+      image: {
+        url: "/android-chrome-512x512.png",
+        alt: "Quixy Logo",
+      },
+    },
+    schema: [faqPage],
+    meta: [
+      {
+        name: "theme-color",
+        content: "#8cf562", // replace with your desired theme color
+      },
+    ],
+  };
 }
-
-export const dynamicParams = false;
-
 export default async function Page({ params }) {
   const page = shopItems.shopItems.find(
     (page) => page.city === params.city && page.websiteId === params.websiteId
@@ -114,6 +120,9 @@ export default async function Page({ params }) {
         <ProductHero page={page} />
         <AboutThePage item={page} />
         <BriefResponse />
+        <div className="w-full max-h-[35vh] overflow-hidden relative ">
+          <HeroModule filter={true} />
+        </div>
         <Shop
           ItemsList={shopItems.shopItems}
           pb={true}

@@ -4,13 +4,15 @@ import { createSlice } from "@reduxjs/toolkit";
 //zakładki
 const initialState: any = {
   heroDialogData: {
-    step: 0, //krok
-    websiteName: "", //wizytowka / sklep / landing page
-    languages: [], //języki
-    target: "", //branża
-    audience: "", //grupa docelowa
-    blog: "", //czy chcesz bloga?
-    blogServices: "", //czy chcesz abyśmy prowadzili bloga za ciebie?
+    step: 0, //krok jest
+    websiteName: "", //wizytowka / sklep / landing page jest
+    languages: [], //języki jest
+    target: "", //grupa docelowa jest
+    blog: false, //czy chcesz bloga? jest
+    blogServices: false, //czy chcesz abyśmy prowadzili bloga za ciebie? jest
+    gallery: false, //czy chcesz galerię zdjęć? jest
+    map: false, //czy chcesz mapę strony? jest
+    contactType: "", //email phone
   },
 };
 export const appState = createSlice({
@@ -21,7 +23,7 @@ export const appState = createSlice({
       state.heroDialogData = action.payload;
     },
     setHeroDialogLang: (state, action) => {
-      state.heroDialogData.languages = action.payload;
+      state.heroDialogData.languages.push(action.payload);
     },
   },
 });

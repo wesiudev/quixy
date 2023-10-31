@@ -4,9 +4,10 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import HeroModule from "../components/HeroModule/HeroModule";
 import SeoModule from "../components/SeoModule/SeoModule";
-import UnderHero from "../components/UnderHero";
+
 import Shop from "../components/shop/Shop";
 import itemsList from "@/public/json/ShopContent.json";
+import UnderHero from "../components/UnderHero";
 export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#8cf562",
@@ -38,7 +39,7 @@ export default async function Page() {
     <div>
       <Header />
       <div className="w-full max-h-[35vh] overflow-hidden relative mt-[90px]">
-        <HeroModule filter={false} />
+        <HeroModule filter={true} />
       </div>
       <div className="">
         <Shop

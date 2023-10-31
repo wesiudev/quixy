@@ -1,5 +1,7 @@
 import { setHeroDialogLang } from "@/redux/slices/appState";
+
 import Image from "next/image";
+import Link from "next/link";
 import { FaArrowCircleRight } from "react-icons/fa";
 
 const availableCountries = [
@@ -52,7 +54,7 @@ export const Translations = ({
             : "-translate-y-[-150%]"
         } duration-500 delay-500`}
       >
-        <div className="flex flex-row items-center justify-center flex-wrap w-full space-x-6">
+        <div className="flex flex-row items-center justify-center flex-wrap w-full space-x-6 -mt-4">
           {availableCountries.map((country: any, i: number) => (
             <div key={i}>
               <button
@@ -71,7 +73,7 @@ export const Translations = ({
                         country,
                       ]);
                 }}
-                className="group relative w-[70px] h-[70px]"
+                className="group relative w-[60px] h-[60px]"
                 key={i}
               >
                 <Image
@@ -101,9 +103,20 @@ export const Translations = ({
           ))}
         </div>{" "}
         <button
+          title={
+            chosenLang.length <= 0
+              ? "Wybierz conajmniej jeden język."
+              : "Następny krok"
+          }
           onClick={() => {
             dispatch(setHeroDialogLang(chosenLang)),
-              dispatch(setHeroDialogData({ ...heroDialogData, step: 3 }));
+              dispatch(
+                setHeroDialogData({
+                  ...heroDialogData,
+                  languages: chosenLang,
+                  step: 3,
+                })
+              );
           }}
           className={`h-max w-max rounded-full hover:disabled:shadow-sm hover:disabled:shadow-red-400 hover:disabled:bg-red-500 hover:disabled:cursor-not-allowed mt-2 ${
             chosenLang.length >= 1 && "bg-green-500 shadow-sm shadow-green-400"
@@ -112,6 +125,14 @@ export const Translations = ({
         >
           <FaArrowCircleRight className="w-12 h-12 text-white " />
         </button>
+        <Link
+          target="_blank"
+          className="text-sm mt-3 text-yellow-400"
+          title="Dlaczego warto przetłumaczyć stronę internetową?"
+          href="/blog/dlaczego-warto-rozszerzyc-strone-internetowa-o-tlumaczenia"
+        >
+          Dlaczego warto tłumaczyć stronę?
+        </Link>
       </div>
     </div>
   );

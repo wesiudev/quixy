@@ -43,8 +43,7 @@ export const metadata: Metadata = {
       type: "image/png",
     },
   ],
-  title:
-    "Quixy - Strony WWW - Tworzenie Stron Internetowych - Utrzyj nosa konkurencji",
+  title: "Strony WWW - Tworzenie Stron Internetowych - Utrzyj nosa konkurencji",
   description:
     "W Quixy tworzymy konkurencyjne strony internetowe. Co u nas znajdziesz? Aplikacje internetowe oparte o najnowsze technologie. Oferta stron internetowych. Grafika komputerowa, Grafika na Social Media.",
   openGraph: {
@@ -68,10 +67,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pl">
+    <html lang="pl" className="scrollbarMain">
       <body
         className={`${cocosharp.variable} ${signika.variable}
-       w-full overflow-x-hidden relative`}
+       w-full overflow-x-hidden relative bg-green-400`}
       >
         <Providers>
           <Header />

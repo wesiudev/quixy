@@ -1,6 +1,7 @@
+"use client";
 import Image from "next/image";
-import Link from "next/link";
-import { FaUser } from "react-icons/fa";
+import AOS from "aos";
+import { useEffect } from "react";
 type Profession = {
   h1: string;
   h2: string;
@@ -21,40 +22,70 @@ type Profession = {
   src: string;
 };
 export default function BriefResponse() {
+  useEffect(() => {
+    AOS.init({
+      offset: 25,
+    });
+  }, []);
   return (
-    <div className="py-12 bg-[#202020]  h-max mx-auto lg:px-[3vw] w-full px-3">
-      <div className="text-2xl lg:text-5xl flex flex-row items-center text-white text-right font-bold">
-        Przykładowe odpowiedzi na brief
+    <div className=" bg-[#202020] lg:!min-h-full h-max mx-auto lg:px-[3vw] w-full px-3 md:px-6 lg:pb-24 font-coco">
+      <div className="w-full lg:hidden py-12 bg-[#181818] border-2 border-[#242424] mb-12">
+        <h1 className="text-3xl lg:text-5xl  text-white text-center font-bold ">
+          Nasze odpowiedzi na brief
+        </h1>
+        <h2 className="text-gray-400 opacity-50 mx-auto w-max">
+          zanim zamówisz
+        </h2>
       </div>
       {professions.map((item: Profession, i: any) => (
         <div
           key={i}
-          className={`flex flex-col lg:flex-row  w-full h-full rounded-lg my-24 ${
-            i % 2 !== 0 ? "lg:flex-row-reverse " : "flex-row   "
+          className={`flex relative flex-col items-center justify-center lg:justify-normal lg:items-start  w-full h-full rounded-lg  ${
+            i > 0 && "lg:mt-12"
           }`}
         >
-          <div className="flex h-max lg:w-1/3 w-full">
-            <Image
-              src={item.src}
-              width={512}
-              height={512}
-              alt={item.h1 + " strona wizytowka, strony www"}
-              className={`rounded-t-xl lg:rounded-xl drop-shadow-md  shadow-black h-max`}
-            />
+          <div
+            className={`flex items-center justify-center h-[300px] ${
+              i === 0 ? "lg:justify-start" : "lg:justify-center"
+            } lg:px-6 md:h-[500px] w-full -mb-36 relative z-[500]`}
+          >
+            <div className="w-max h-full relative">
+              <Image
+                src={item.src}
+                width={512}
+                height={512}
+                alt={item.h1 + " strona wizytowka, strony www"}
+                className={`rounded-xl drop-shadow-md  shadow-black h-full w-auto border-b-2 border-green-400 `}
+              />
+              {i === 0 && (
+                <div className="w-full lg:flex flex-col text-left hidden absolute left-[120%] top-12 text-white text-6xl  font-bold ">
+                  <span className="text-yellow-100 text-left"> NASZE</span>
+                  <span className="text-yellow-200 text-left">ODPOWIEDZI</span>
+                  <span className="text-yellow-300 text-left">NA</span>{" "}
+                  <span className="text-yellow-400 text-left">BRIEF</span>
+                </div>
+              )}
+            </div>
           </div>
           <div
-            className={`${
-              i % 2 !== 0 ? "lg:mr-12" : "lg:ml-12"
-            } drop-shadow-md shadow-black min-h-full flex flex-col justify-between w-full font-coco mb-12 lg:mb-0 bg-[#121212] rounded-b-xl lg:rounded-xl p-6 group`}
+            className={`drop-shadow-md shadow-black !min-h-full flex flex-col justify-between w-full font-coco mb-12 lg:mb-0 bg-[#181818] rounded-xl lg:rounded-br-none lg:rounded-tl-none  p-4 pt-48 lg:p-6 lg:pt-48 group relative`}
           >
-            <div>
-              <h1 className="!text-2xl lg:!text-4xl  drop-shadow-md shadow-black text-green-500 font-bold">
+            <div className=" ">
+              <h1
+                className={`!text-2xl lg:!text-3xl xl:!text-5xl 2xl:!text-6xl  drop-shadow-md shadow-black text-green-500 font-bold text-center ${
+                  i === 0 && "lg:text-left"
+                }`}
+              >
                 {item.h1}
               </h1>
-              <h2 className="!text-lg lg:!text-2xl mt-3 text-white ">
+              <h2
+                className={`!text-base sm:text-lg lg:!text-xl lg:w-4/5 xl:text-3xl xl:w-3/5 2xl:w-1/2 xl:mx-auto mt-3 text-white text-center ${
+                  i === 0 && "lg:text-left lg:!mx-0"
+                }`}
+              >
                 {item.h2}
               </h2>
-              <Link
+              {/* <Link
                 className="text-xl text-blue-400 mt-2 underline underline-offset-2"
                 href={item.link}
               >
@@ -62,37 +93,39 @@ export default function BriefResponse() {
               </Link>
               <h4 className="text-base text-yellow-400 mt-6 italic flex flex-row items-center">
                 <FaUser className="mr-2 w-5 h-5" /> &quot;{item.opinion}&quot;
-              </h4>
+              </h4> */}
             </div>
             <div className=" text-white mt-12">
-              <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="flex flex-col justify-end">
-                  <h1 className="text-2xl lg:text-3xl">Nasza propozycja:</h1>
-                  <p className="mt-4 text-lg">
+              <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#282828] p-3 lg:p-6 rounded-xl lg:rounded-bl-none lg:rounded-tr-none ">
+                <div className="flex flex-col justify-end ">
+                  <h1 className="text-lg md:text-2xl lg:text-3xl">
+                    Nasza propozycja:
+                  </h1>
+                  <p className="mt-4 text-base sm:text-lg">
                     <span className="text-yellow-400 font-bold">Cel:</span>{" "}
                     {item.purpose}
                   </p>
-                  <p className="mt-2 text-lg">
+                  <p className="mt-2 text-base sm:text-lg">
                     <span className="text-yellow-400 font-bold">Styl:</span>{" "}
                     {item.style}
                   </p>
-                  <p className="mt-2 text-lg">
+                  <p className="mt-2 text-base sm:text-lg">
                     <span className="text-yellow-400 font-bold">
                       Struktura:
                     </span>{" "}
                     {item.structure}
                   </p>
-                  <p className="mt-2 text-lg">
+                  <p className="mt-2 text-base sm:text-lg">
                     <span className="text-yellow-400 font-bold">Rozwój:</span>{" "}
                     {item.possible}
                   </p>
                 </div>
                 <div>
                   <div className="grid grid-cols-1 mt-4 lg:mt-0">
-                    <span className="text-green-400 font-bold text-2xl lg:text-3xl">
+                    <span className="text-green-400 font-bold text-lg md:text-2xl lg:text-3xl">
                       Kolory:
                     </span>{" "}
-                    <div className="flex flex-row space-x-3 flex-wrap mt-4">
+                    <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 mt-4">
                       {item.colors.map((color, i) => (
                         <li key={i} className="flex flex-row items-center">
                           <div
@@ -104,12 +137,12 @@ export default function BriefResponse() {
                       ))}
                     </div>
                     <div className="flex flex-col mt-4">
-                      <span className="text-green-400 font-bold text-2xl lg:text-3xl mb-4">
+                      <span className="text-green-400 font-bold text-lg md:text-2xl lg:text-3xl mb-4">
                         Czcionki:
                       </span>{" "}
                       {item.fonts.map((font, i) => (
                         <div key={i} className="flex flex-col">
-                          <div className="mr-2 text-yellow-400 text-2xl flex flex-row items-center">
+                          <div className="mr-2 text-yellow-400 text-lg md:text-2xl flex flex-row items-center">
                             <div>{font.fontName.toUpperCase()}</div>
                             <div className="ml-3 text-white opacity-0 group-hover:opacity-50 duration-300 text-sm">
                               ({font.source}, {font.price})
@@ -142,7 +175,7 @@ export default function BriefResponse() {
 const professions = [
   {
     h1: "Strona wizytówka dla radcy prawnego",
-    h2: "Jako radca prawny, Twoja reputacja i zaufanie klientów to Twoje najważniejsze atuty. Dlatego zainwestuj w naszą wizytówkę internetową, która nie tylko odzwierciedli Twoją ekspertyzę, ale także pokaże Twoje unikalne podejście do prawa. Nasza strona wizytówka jest idealnym narzędziem, aby zaprezentować swoje usługi prawne w najlepszym świetle. Z profesjonalnym designem, intuicyjną nawigacją i przystępną ceną, zyskasz nowych klientów i podniesiesz swoją wartość na rynku.",
+    h2: "Jako radca prawny, Twoja reputacja i zaufanie klientów to Twoje najważniejsze atuty. Dlatego zainwestuj w naszą wizytówkę internetową, która nie tylko odzwierciedli Twoją ekspertyzę, ale także pokaże Twoje unikalne podejście do prawa.",
     colors: ["#685A50", "#4ADE80", "#D8B4FE"],
     style: "Elegancki i Profesjonalny",
     purpose: "Szybki kontakt z kancelarią, prezentacja usług",
@@ -164,7 +197,7 @@ const professions = [
   },
   {
     h1: "Strona wizytówka dla fryzjera",
-    h2: "Jako fryzjer, Twoja strona internetowa jest Twoim głównym narzędziem marketingowym. Nasza strona wizytówka jest idealnym miejscem, aby pokazać światu swoje umiejętności i doświadczenie. Z naszym wsparciem, Twoja strona internetowa będzie wyglądać profesjonalnie, przyciągając nowych klientów zainteresowanych Twoimi usługami. Nasza wizytówka internetowa pomoże Ci podkreślić Twoją unikalność i kreatywność.",
+    h2: "Jako fryzjer, Twoja strona internetowa jest Twoim głównym narzędziem marketingowym. Nasza strona wizytówka jest idealnym miejscem, aby pokazać światu swoje umiejętności i doświadczenie.",
     colors: ["#22C55E", "#F3F4F6", "#93C5FD"],
     style: "Nowoczesny i Trendy",
     purpose: "Szybki kontakt z kancelarią, prezentacja usług",
@@ -186,7 +219,7 @@ const professions = [
   },
   {
     h1: "Strona wizytówka dla artysty",
-    h2: "Jako artysta, Twoje dzieła są Twoim głosem w świecie sztuki. Nasza strona wizytówka jest idealnym miejscem, aby pokazać światu Twoje twórcze dzieła. Z naszym wsparciem, Twoje portfolio artystyczne zostanie zaprezentowane profesjonalnie, przyciągając nowych klientów zainteresowanych Twoimi pracami. Nasza wizytówka internetowa pomoże Ci podkreślić Twoją unikalność i kreatywność.",
+    h2: "Jako artysta, Twoje dzieła są Twoim głosem w świecie sztuki. Nasza strona wizytówka jest idealnym miejscem, aby pokazać światu Twoje twórcze dzieła. Z naszym wsparciem, Twoje portfolio artystyczne zostanie zaprezentowane profesjonalnie.",
     colors: ["#252326", "#8F26F3", "#22C55E"],
     style: "Kreatywny i Artystyczny",
     purpose:

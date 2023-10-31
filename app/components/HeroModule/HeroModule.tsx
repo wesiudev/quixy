@@ -5,7 +5,7 @@ import Dialog from "./Dialog";
 export default function HeroModule({ filter }: { filter?: boolean }) {
   return (
     <>
-      <div className="h-[45vh] lg:h-[35vh] duration-1000 w-screen flex items-center overflow-hidden top-[50%] -translate-y-[50%] absolute flex-col lg:flex-row bg-gradient-to-b from-green-500  to-blue-500">
+      <div className="h-[45vh] lg:h-[38vh] duration-1000 w-screen flex items-center overflow-hidden top-[50%] -translate-y-[50%] absolute flex-col lg:flex-row bg-gradient-to-b from-green-500  to-blue-500">
         {/* first plane image */}
         <img
           src="/assets/bg.webp"
@@ -27,17 +27,17 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
           <Dialog />
         </div>
       </div>
-      <div className="w-screen h-screen mt-0 bg-zinc-900 bg-opacity-75">
+      <div className="w-screen h-screen mt-0 bg-black bg-opacity-90 ">
         {/* second plane image */}
         <img
           src="/assets/bg.webp"
           alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-          className="absolute h-screen w-auto overflow-hidden -left-[12vw] xl:-left-[5vw] top-[50%] -translate-y-[50%] -z-[5] opacity-100 object-cover blur-sm"
+          className="fixed h-screen w-auto overflow-hidden -left-[12vw] xl:-left-[5vw] top-[50%] -translate-y-[50%] z-[-5] opacity-100 object-cover blur-none"
         />
         <img
           src="/assets/bg2.webp"
           alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-          className="hidden lg:block absolute h-screen w-auto overflow-hidden top-[50%] -translate-y-[50%] -right-[12vw] 2xl:-right-[3vw] -z-10 opacity-100 object-cover blur-sm"
+          className="hidden lg:block absolute h-screen w-auto overflow-hidden top-[50%] -translate-y-[50%] -right-[12vw] 2xl:-right-[3vw] -z-10 opacity-100 object-cover blur-md"
         />
       </div>
     </>

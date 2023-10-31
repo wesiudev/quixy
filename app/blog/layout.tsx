@@ -10,7 +10,7 @@ export default function BlogLayout({
     <>
       <Header />
       <div className="w-full max-h-[35vh] overflow-hidden relative mt-[90px]">
-        <HeroModule filter={false} />
+        <HeroModule filter={true} />
       </div>
       {children}
     </>

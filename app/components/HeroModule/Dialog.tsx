@@ -2,9 +2,13 @@
 import { setHeroDialogData } from "@/redux/slices/appState";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-
 import { Translations } from "./dialogQuestions/Translations";
 import { WebsiteTypeButtons } from "./dialogQuestions/WebsiteTypeButtons";
+import { Audience } from "./dialogQuestions/Audience";
+import { SelectBlog } from "./dialogQuestions/SelectBlog";
+import Link from "next/link";
+import { ContactType } from "./dialogQuestions/ContactType";
+import ThankYouMessage from "./dialogQuestions/ThankYouMessage";
 
 export default function Dialog() {
   const [chosenLang, setChosenLang] = useState<any>([]);
@@ -20,7 +24,7 @@ export default function Dialog() {
   return (
     <>
       <div
-        className={`relative w-max h-full overflow-hidden bg-black duration-500 delay-800 ${
+        className={`relative w-max h-full overflow-hidden bg-black duration-500  delay-800 ${
           heroDialogData.step === 0 ? "bg-opacity-0" : "bg-opacity-50"
         }`}
       >
@@ -29,7 +33,7 @@ export default function Dialog() {
             heroDialogData.step > 0 ? "-translate-x-[100%]" : "-translate-x-0"
           }`}
         >
-          <h1 className="text-white text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-extrabold font-coco drop-shadow-lg shadow-black">
+          <h1 className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-coco drop-shadow-lg shadow-black">
             UTRZYJ NOSA KONKURENCJI
           </h1>
 
@@ -41,7 +45,7 @@ export default function Dialog() {
             onClick={updateDialogStep}
             className="flex flex-col-reverse md:flex-row md:items-center z-50 relative"
           >
-            <div className="mx-auto w-max relative px-6 py-2 mt-6  text-zinc-700 drop-shadow-md  shadow-black transition-all ease-in-out  bg-gradient-to-tr from-yellow-400 via-yellow-200 to-yellow-400 rounded-md text-sm md:text-2xl z-[100] cursor-pointer duration-200 hover:shadow-yellow-600 shadow-lg">
+            <div className="mx-auto w-max relative px-6 py-3 mt-6  text-zinc-700 drop-shadow-md  shadow-black transition-all ease-in-out  bg-gradient-to-tr from-yellow-400 via-yellow-200 to-yellow-400 rounded-md text-sm md:text-xl z-[100] cursor-pointer duration-200 hover:shadow-yellow-600 shadow-lg">
               Zamów stronę
             </div>
           </button>
@@ -53,19 +57,29 @@ export default function Dialog() {
               : "-translate-y-[200%] opacity-0 z-[-50]"
           } duration-500 delay-300`}
         >
-          <h1 className=" text-white w-max text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
+          <h1 className=" text-white w-max text-3xl lg:text-4xl xl:text-5xl font-bold font-coco">
             SZUKASZ STRONY?
           </h1>
-          <h2 className="text-sm mb-8 font-light italic">
+          <h2 className="text-sm mb-3  md:mb-5  mt-1 font-light italic">
             skonfiguruj stronę, by później ją zamówić
           </h2>
-          <div className="flex flex-row items-center justify-center flex-wrap w-full">
-            {/* strona wizytowka, strona landingowa, sklep [...] */}
-            <WebsiteTypeButtons
-              dispatch={dispatch}
-              data={heroDialogData}
-              updateDialogStep={updateDialogStep}
-            />
+          <div className="flex flex-col">
+            <div className="flex flex-row items-center justify-center flex-wrap w-full">
+              {/* strona wizytowka, strona landingowa, sklep [...] */}
+              <WebsiteTypeButtons
+                dispatch={dispatch}
+                data={heroDialogData}
+                updateDialogStep={updateDialogStep}
+              />
+            </div>
+            <Link
+              target="_blank"
+              className="text-sm mt-3 text-yellow-400"
+              title="Rodzaje stron internetowych - Quixy"
+              href="/blog/jaka-strona-internetowa-wybrac-dla-biznesu"
+            >
+              Jak dobrać rodzaj strony?
+            </Link>
           </div>
         </div>
         <Translations
@@ -74,6 +88,26 @@ export default function Dialog() {
           chosenLang={chosenLang}
           setChosenLang={setChosenLang}
           dispatch={dispatch}
+        />
+        <Audience
+          dispatch={dispatch}
+          data={heroDialogData}
+          setHeroDialogData={setHeroDialogData}
+        />
+        <SelectBlog
+          dispatch={dispatch}
+          data={heroDialogData}
+          updateDialogStep={updateDialogStep}
+        />
+        <ContactType
+          dispatch={dispatch}
+          data={heroDialogData}
+          setHeroDialogData={setHeroDialogData}
+        />
+        <ThankYouMessage
+          dispatch={dispatch}
+          data={heroDialogData}
+          setHeroDialogData={setHeroDialogData}
         />
       </div>
     </>

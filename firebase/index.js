@@ -2,18 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import {
   getFirestore,
-  collection,
-  getDocs,
-  query,
-  orderBy,
   getDoc,
   setDoc,
   doc,
-  addDoc,
   arrayUnion,
   updateDoc,
 } from "firebase/firestore/lite";
-
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
@@ -23,9 +17,11 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASURMENT_ID,
 };
+
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
+
 async function getBlogPosts(websiteName) {
   const docRef = doc(db, websiteName, "blog");
   const docSnap = await getDoc(docRef);
@@ -43,5 +39,16 @@ async function addBlogPost(websiteName, post) {
     });
   }
 }
+async function createOrder(websiteName, req) {
+  const docRef = doc(db, websiteName, "orders");
+  const docSnap = await getDoc(docRef);
+  if (!docSnap.data()) {
+    await setDoc(doc(db, websiteName, "orders"), { orders: [req] });
+  } else {
+    await updateDoc(doc(db, websiteName, "orders"), {
+      orders: arrayUnion(req),
+    });
+  }
+}
 
-export { addBlogPost, getBlogPosts, auth };
+export { addBlogPost, getBlogPosts, auth, createOrder };

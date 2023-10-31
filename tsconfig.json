@@ -30,7 +30,8 @@
     ".next/types/**/*.ts",
     "app/api/blog/post/route.js",
     "app/sitemap.js",
-    "app/faq/[slug]/page.jsx"
+    "app/faq/[slug]/page.jsx",
+    "app/[city]/[websiteId]/loading.js"
   ],
   "exclude": ["node_modules"]
 }

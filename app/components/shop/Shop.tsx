@@ -6,14 +6,19 @@ export default function Shop({
   ItemsList,
   filter,
   currentPage,
+  color,
+  labelColor,
 }: {
   ItemsList: any;
   filter: string;
   currentPage: string;
+  color?: string;
+  labelColor?: string;
 }) {
   return (
     <div
-      className={`h-max pb-12 w-screen bg-[#444444] flex flex-col relative z-[150] px-6 lg:px-[8vw] `}
+      style={{ backgroundColor: color ? color : "#444444" }}
+      className={`h-max pt-12 pb-24 w-screen flex flex-col relative z-[150] px-6 lg:px-[8vw] `}
     >
       <h1 className="w-full text-center text-xl md:text-3xl lg:text-4xl lg:w-max mx-auto lg:mx-0 italic bg-white text-black p-4 px-8 lg:rounded-lg font-coco font-bold my-12 shadow-md shadow-zinc-700">
         <span className="text-zinc-800 drop-shadow shadow-black">Kupuj w</span>{" "}
@@ -40,6 +45,7 @@ export default function Shop({
                 key={i}
                 item={service}
                 currentPage={currentPage}
+                labelColor={labelColor}
               />
             )
         )}
