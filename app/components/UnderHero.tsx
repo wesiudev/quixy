@@ -108,9 +108,9 @@ export default function UnderHero() {
         </div>
       </div>
       <div className="lg:h-max w-screen bg-[#212121] flex justify-center font-coco">
-        <div className="bg-[#121212] w-full lg:w-[80%] lg:rounded-xl lg:border-2 border-yellow-400 lg:p-12 flex  2xl:text-left flex-col 2xl:flex-row ">
-          <div className="flex flex-col items-center lg:pr-4 px-12">
-            <h1 className="text-white text-3xl font-coco mb-3 mt-12 2xl:mt-0 w-full lg:w-max">
+        <div className="bg-[#121212] w-full lg:w-[80%] lg:rounded-xl lg:border-2 border-yellow-400 lg:p-12 flex  2xl:text-left flex-col ">
+          <div className="flex flex-col items-center">
+            <h1 className="text-white text-3xl font-coco mb-3 mt-12 2xl:mt-0 w-full ">
               Jak wygląda nasza praca?
             </h1>
             <h2 className=" text-gray-400  lg:border-none my-3 lg:my-0 w-full">
@@ -132,7 +132,7 @@ export default function UnderHero() {
             autoPlay
             loop
             muted
-            className="w-full 2xl:w-[70%] "
+            className="w-full mt-12 lg:w-[70%] mx-auto"
           />
         </div>
       </div>
