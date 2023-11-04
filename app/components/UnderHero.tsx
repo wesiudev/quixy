@@ -107,13 +107,13 @@ export default function UnderHero() {
           </Link> */}
         </div>
       </div>
-      <div className="lg:h-max w-screen bg-[#212121] flex justify-center font-coco">
-        <div className="bg-[#121212] w-full lg:w-[80%] lg:rounded-xl lg:border-2 border-yellow-400 lg:p-12 flex  2xl:text-left flex-col ">
-          <div className="flex flex-col items-center">
-            <h1 className="text-white text-3xl font-coco mb-3 mt-12 2xl:mt-0 w-full ">
+      <div className="lg:h-max w-screen bg-[#212121] flex justify-center font-coco pb-12">
+        <div className="bg-[#121212] w-full px-4  lg:w-[80%] lg:rounded-xl lg:border-2 border-yellow-400 lg:p-12 flex  2xl:text-left flex-col ">
+          <div className="flex flex-col items-center lg:text-center lg:w-4/5 xl:w-3/5 mx-auto">
+            <h1 className="text-white text-4xl font-coco mb-6 mt-12 2xl:mt-0 w-full ">
               Jak wygląda nasza praca?
             </h1>
-            <h2 className=" text-gray-400  lg:border-none my-3 lg:my-0 w-full">
+            <h2 className=" text-gray-400  lg:border-none lg:my-0 w-full">
               Zadaniem Web Developerów jest tworzenie stron internetowych. W
               Quixy tworzymy strony internetowe które są responsywne, czyli
               dostosowane do urządzeń mobilnych. Oferujemy optymalizację stron
@@ -122,7 +122,7 @@ export default function UnderHero() {
             </h2>
             <Link
               href="/blog"
-              className=" text-yellow-400 text-xl rounded-xl  mt-3 mb-12 2xl:mb-0 w-full flex flex-row items-center"
+              className=" text-yellow-400 text-xl rounded-xl  mt-3  w-full lg:w-max flex flex-row items-center"
             >
               <FaArtstation className="text-white mr-2" /> Więcej na blogu
             </Link>

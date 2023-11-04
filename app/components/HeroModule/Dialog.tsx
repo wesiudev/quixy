@@ -31,16 +31,16 @@ export default function Dialog() {
         <div
           className={`delay-800 ${
             heroDialogData.step === 0
-              ? "bg-opacity-70 h-[40vh]"
-              : "bg-opacity-100 h-[30vh]"
-          } absolute w-[110vw] top-[-29vh] left-[-5vw] bg-black blur-sm duration-500`}
+              ? "bg-opacity-80 h-[40vh]"
+              : "bg-opacity-100 h-[45vh]"
+          } absolute w-[110vw] top-[-40vh] left-[-5vw] bg-black  duration-500`}
         ></div>
         <div
           className={`delay-800 ${
             heroDialogData.step === 0
-              ? "bg-opacity-70 h-[40vh]"
-              : "bg-opacity-100 h-[30vh]"
-          } absolute w-[110vw]  bottom-[-29vh] left-[-5vw] bg-black blur-sm duration-500`}
+              ? "bg-opacity-80 h-[40vh]"
+              : "bg-opacity-100 h-[45vh]"
+          } absolute w-[110vw]  bottom-[-40vh] left-[-5vw] bg-black  duration-500`}
         ></div>
         <div
           className={`w-screen h-full flex items-center justify-center flex-col duration-700 ${

@@ -37,16 +37,18 @@ export default async function Blog() {
               <Link
                 href={`/blog/${post.url}`}
                 key={i}
-                className="flex flex-col aspect-square overflow-hidden"
+                className="flex flex-col hover:bg-green-300 hover:p-1 duration-300 ease-in-out rounded-lg shadow-md  shadow-zinc-700"
               >
-                <Image
-                  src={post.mainImage}
-                  width={1024}
-                  height={1024}
-                  alt=""
-                  className="w-full"
-                />
-                <h1 className="text-base lg:text-xl text-white drop-shadow shadow-black mt-3">
+                <div className="w-full h-[250px] overflow-hidden flex">
+                  <Image
+                    src={post.mainImage}
+                    width={1024}
+                    height={1024}
+                    alt=""
+                    className="w-full object-cover rounded-lg shadow-md shadow-zinc-700"
+                  />
+                </div>
+                <h1 className="text-base lg:text-xl  drop-shadow-xl shadow-black mt-3 bg-white text-zinc-700 font-bold  text-left p-3 rounded-lg">
                   {post.title}
                 </h1>
               </Link>
