@@ -203,7 +203,7 @@ export default async function Page({ params }: { params: any }) {
             </div>
           </div>
         </div>
-        <SeoModule pt={true} />
+        {/* <SeoModule pt={true} /> */}
       </>
     );
 }

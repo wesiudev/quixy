@@ -126,10 +126,9 @@ export const Translations = ({
           <FaArrowCircleRight className="w-12 h-12 text-white " />
         </button>
         <Link
-          target="_blank"
           className="text-sm mt-3 text-yellow-400"
           title="Dlaczego warto przetłumaczyć stronę internetową?"
-          href="/blog/dlaczego-warto-rozszerzyc-strone-internetowa-o-tlumaczenia"
+          href="/blog/dlaczego-warto-rozwijac-strone-internetowa-o-tlumaczenia-globalny-sukces"
         >
           Dlaczego warto tłumaczyć stronę?
         </Link>

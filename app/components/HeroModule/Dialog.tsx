@@ -87,10 +87,9 @@ export default function Dialog() {
               />
             </div>
             <Link
-              target="_blank"
               className="text-sm mt-3 text-yellow-400"
               title="Rodzaje stron internetowych - Quixy"
-              href="/blog/jaka-strona-internetowa-wybrac-dla-biznesu"
+              href="/blog/jaki-rodzaj-strony-internetowej-wybrac-dla-biznesu"
             >
               Jak dobrać rodzaj strony?
             </Link>

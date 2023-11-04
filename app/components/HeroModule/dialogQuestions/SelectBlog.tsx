@@ -34,7 +34,7 @@ export const SelectBlog = ({
           <h1 className=" text-white w-max text-4xl lg:text-4xl xl:text-5xl font-bold font-coco">
             ROZWÓJ STRONY
           </h1>
-          <h2 className={`text-sm font-light italic  `}>
+          <h2 className={`text-sm font-light italic  text-center`}>
             czy na twojej stronie będzie blog?
           </h2>
         </div>
@@ -48,12 +48,15 @@ export const SelectBlog = ({
           <h1 className=" text-white w-max text-3xl lg:text-4xl xl:text-5xl font-bold font-coco ">
             PROWADZENIE BLOGA
           </h1>
-          <Link
+          <h2 className={`text-sm font-light italic text-center `}>
+            czy chcesz abyśmy tworzyli i publikowali posty za ciebie?
+          </h2>
+          {/* <Link
             href="/pricing"
             className={`text-green-400 text-sm font-light italic my-1 delay-1000 select-none `}
           >
             Sprawdź cennik
-          </Link>
+          </Link> */}
         </div>
 
         <div className="flex flex-row items-center space-x-6 mt-3">
@@ -143,10 +146,9 @@ export const SelectBlog = ({
           </button>
         </div>
         <Link
-          target="_blank"
           className="text-sm mt-3 text-yellow-400"
           title="Dlaczego warto prowadzic bloga na stronie internetowej?"
-          href="/blog/dlaczego-warto-prowadzic-bloga-na-stronie-internetowej"
+          href="/blog/dlaczego-warto-prowadzic-bloga-korzysci-plynace-z-prowadzenia-bloga"
         >
           Dlaczego warto prowadzic bloga?
         </Link>

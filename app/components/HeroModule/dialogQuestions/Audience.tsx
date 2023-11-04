@@ -75,10 +75,9 @@ export const Audience = ({
             </button>
           </div>
           <Link
-            target="_blank"
             className="text-sm mt-3 text-yellow-400"
             title="Jak określić grupę docelową na stronie internetowej?"
-            href="/blog/jak-okreslic-grupe-docelowa-strony-internetowej"
+            href="/blog/jak-skutecznie-okreslic-grupe-docelowa-na-stronie-internetowej"
           >
             Jak określić grupę docelową?
           </Link>

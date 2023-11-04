@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Image from "next/image";
 import Dialog from "./Dialog";
 
 export default function HeroModule({ filter }: { filter?: boolean }) {
@@ -8,12 +9,16 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
       <div className="h-screen duration-1000 w-screen flex items-center overflow-hidden top-[50%] -translate-y-[50%] absolute flex-col lg:flex-row bg-gradient-to-b from-green-500  to-blue-500">
         {/* first plane image */}
         <div className="h-[50vh]">
-          <img
+          <Image
+            width={1200}
+            height={1200}
             src="/assets/bg.webp"
             alt="Hero Image Tworzenie stron internetowych Quixy.pl"
             className="absolute h-screen -left-[12vw] xl:-left-[5vw] w-auto overflow-hidden top-[50%] -translate-y-[50%] z-10 object-cover"
           />
-          <img
+          <Image
+            width={1200}
+            height={1200}
             src="/assets/bg2.webp"
             alt="Hero Image Tworzenie stron internetowych Quixy.pl"
             className="hidden lg:block absolute -right-[12vw] 2xl:-right-[3vw] h-screen w-auto overflow-hidden top-[50%] -translate-y-[50%] z-[5] object-cover"
