@@ -32,7 +32,7 @@ export default async function Blog() {
               Quixy
             </span>
           </Link>
-          <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-24">
             {posts.posts.map((post: Post, i: number) => (
               <Link
                 href={`/blog/${post.url}`}

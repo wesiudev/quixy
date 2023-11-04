@@ -119,7 +119,7 @@ export default async function Page({ params }: { params: any }) {
               Quixy
             </span>
           </Link>
-          <div className="grid grid-cols-1 lg:grid-cols-2 w-full font-coco">
+          <div className="grid grid-cols-1 lg:grid-cols-2 w-full font-coco mt-12">
             {/* 1 */}
             <div className="flex flex-col h-full">
               <div className="prose 2xl:prose-xl prose-invert">
