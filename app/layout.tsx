@@ -70,7 +70,7 @@ export default function RootLayout({
     <html lang="pl" className="scrollbarMain">
       <body
         className={`${cocosharp.variable} ${signika.variable}
-       w-full overflow-x-hidden relative bg-green-400`}
+       w-full overflow-x-hidden relative bg-[#212121]`}
       >
         <Providers>
           <Header />

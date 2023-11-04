@@ -24,16 +24,30 @@ export default function Dialog() {
   return (
     <>
       <div
-        className={`relative w-max h-full overflow-hidden bg-black duration-500  delay-800 ${
+        className={`relative w-max h-[50vh] overflow-visible bg-black duration-500  delay-800 ${
           heroDialogData.step === 0 ? "bg-opacity-0" : "bg-opacity-50"
         }`}
       >
+        <div
+          className={`delay-800 ${
+            heroDialogData.step === 0
+              ? "bg-opacity-70 h-[40vh]"
+              : "bg-opacity-100 h-[30vh]"
+          } absolute w-[110vw] top-[-29vh] left-[-5vw] bg-black blur-sm duration-500`}
+        ></div>
+        <div
+          className={`delay-800 ${
+            heroDialogData.step === 0
+              ? "bg-opacity-70 h-[40vh]"
+              : "bg-opacity-100 h-[30vh]"
+          } absolute w-[110vw]  bottom-[-29vh] left-[-5vw] bg-black blur-sm duration-500`}
+        ></div>
         <div
           className={`w-screen h-full flex items-center justify-center flex-col duration-700 ${
             heroDialogData.step > 0 ? "-translate-x-[100%]" : "-translate-x-0"
           }`}
         >
-          <h1 className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-coco drop-shadow-lg shadow-black">
+          <h1 className="bg-gradient-to-tr from-yellow-600 via-yellow-300 to-yellow-600 bg-clip-text text-transparent text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold font-coco drop-shadow-lg shadow-black">
             UTRZYJ NOSA KONKURENCJI
           </h1>
 

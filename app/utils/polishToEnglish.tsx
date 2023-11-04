@@ -1,4 +1,8 @@
 export function polishToEnglish(sentence: string): string {
+  if (!sentence) {
+    return "";
+  }
+
   const translationDict: { [key: string]: string } = {
     ą: "a",
     ć: "c",

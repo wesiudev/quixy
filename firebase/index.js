@@ -8,6 +8,7 @@ import {
   arrayUnion,
   updateDoc,
 } from "firebase/firestore/lite";
+import { getStorage } from "firebase/storage";
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
@@ -20,6 +21,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+const storage = getStorage(app);
 const auth = getAuth(app);
 
 async function getBlogPosts(websiteName) {
@@ -51,4 +53,4 @@ async function createOrder(websiteName, req) {
   }
 }
 
-export { addBlogPost, getBlogPosts, auth, createOrder };
+export { addBlogPost, getBlogPosts, auth, createOrder, storage };

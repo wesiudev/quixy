@@ -4,7 +4,6 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import HeroModule from "../components/HeroModule/HeroModule";
 import SeoModule from "../components/SeoModule/SeoModule";
-
 import Shop from "../components/shop/Shop";
 import itemsList from "@/public/json/ShopContent.json";
 import UnderHero from "../components/UnderHero";
@@ -38,7 +37,7 @@ export default async function Page() {
   return (
     <div>
       <Header />
-      <div className="w-full max-h-[35vh] overflow-hidden relative mt-[90px]">
+      <div className="w-full h-full overflow-hidden relative">
         <HeroModule filter={true} />
       </div>
       <div className="">

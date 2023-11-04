@@ -30,7 +30,7 @@ export default function FaqModule({
                 {faqItem.content
                   .slice(0, numQuestions)
                   .map((item: any, j: any) => (
-                    <div className=" " key={j}>
+                    <div className="" key={j}>
                       <button
                         className={`flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-white   hover:bg-[#323232] focus:outline-none focus-visible:ring focus-visible:ring-gray-500 focus-visible:ring-opacity-50 relative z-50 ${
                           openIndexes.includes(j)
@@ -51,8 +51,10 @@ export default function FaqModule({
                           }
                         }}
                       >
-                        <span>{item.question}</span>
-                        <span>{openIndexes.includes(j) ? "-" : "+"}</span>
+                        <span className="pr-3 ">{item.question}</span>
+                        <span className="pr-3 ">
+                          {openIndexes.includes(j) ? "-" : "+"}
+                        </span>
                       </button>
 
                       <div

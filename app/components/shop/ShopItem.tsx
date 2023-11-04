@@ -32,9 +32,9 @@ export default function ShopItem({
           <div
             className={`mt-3 lg:mt-0 group bg-white duration-200 aspect-square w-full flex flex-col justify-between items-center relative`}
           >
-            <div className="group-hover:-rotate-0 group-hover:scale-125 group-hover:-mt-4 duration-200 absolute left-2 top-2 w-max px-3 py-1 bg-green-600 rounded-lg text-white flex items-center justify-center z-50 font-coco">
+            {/* <div className="group-hover:-rotate-0 group-hover:scale-125 group-hover:-mt-4 duration-200 absolute left-2 top-2 w-max px-3 py-1 bg-green-600 rounded-lg text-white flex items-center justify-center z-50 font-coco">
               od {item.price}
-            </div>
+            </div> */}
             <div className="absolute w-full h-full left-0 top-0 overflow-hidden">
               <div className="w-full h-full bg-gradient-to-br from-blue-300 to-green-300 "></div>
             </div>

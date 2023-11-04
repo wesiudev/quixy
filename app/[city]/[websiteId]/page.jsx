@@ -1,35 +1,58 @@
 /* eslint-disable @next/next/no-img-element */
 
 import faq from "@/public/json/faqAboutWebsite.json";
-import UnderHero from "@/app/components/UnderHero";
 import Shop from "@/app/components/shop/Shop";
 import About from "@/app/components/About";
 import { Footer } from "@/app/components/Footer";
 import ProductHero from "./ProductHero";
-import Motivation from "../../components/Motivation";
 import AboutThePage from "./websiteTypes/AboutThePage";
 import BriefResponse from "./websiteTypes/BriefResponse";
 import shopItems from "@/public/json/ShopContent.json";
 import HeroModule from "@/app/components/HeroModule/HeroModule";
+import devProcess from "./websiteTypes/content/devProcess.json";
+import DevProcess from "./websiteTypes/DevProcess";
 export async function generateStaticParams() {
   return shopItems.shopItems.map((page) => ({
     city: page.city,
     websiteId: page.websiteId,
   }));
 }
-
-export async function generateMetadata({ params }) {
-  // fetch data
+export default async function Page({ params }) {
   const page = shopItems.shopItems.find(
     (page) => page.city === params.city && page.websiteId === params.websiteId
   );
 
-  // Get the title, description, and keywords from the page's SEO data
+  if (page)
+    return (
+      <>
+        <ProductHero page={page} />
+        <AboutThePage item={page} />
+        <DevProcess devProcess={devProcess} type={page.websiteId} />
+        <BriefResponse />
+        <div className="w-full h-full overflow-hidden relative ">
+          <HeroModule filter={true} />
+        </div>
+        <Shop
+          ItemsList={shopItems.shopItems}
+          pb={true}
+          filter={page.city}
+          currentPage={page.websiteId}
+        />
+        {/* <UnderHero /> */}
+        <About content={page.aboutSection} />
+        <Footer content={shopItems.shopItems} />
+      </>
+    );
+}
+
+export async function generateMetadata({ params }) {
+  const page = shopItems.shopItems.find(
+    (page) => page.city === params.city && page.websiteId === params.websiteId
+  );
   const title = page?.seo?.title;
   const description = page?.seo?.description;
   const keywords = page?.seo?.keywords;
 
-  // Generate FAQ schema data for the page
   const faqQuestions =
     faq.faq
       ?.filter((faq) => faq.city === params.city)
@@ -104,35 +127,8 @@ export async function generateMetadata({ params }) {
     meta: [
       {
         name: "theme-color",
-        content: "#8cf562", // replace with your desired theme color
+        content: "#8cf562",
       },
     ],
   };
-}
-export default async function Page({ params }) {
-  const page = shopItems.shopItems.find(
-    (page) => page.city === params.city && page.websiteId === params.websiteId
-  );
-
-  if (page)
-    return (
-      <>
-        <ProductHero page={page} />
-        <AboutThePage item={page} />
-        <BriefResponse />
-        <div className="w-full max-h-[35vh] overflow-hidden relative ">
-          <HeroModule filter={true} />
-        </div>
-        <Shop
-          ItemsList={shopItems.shopItems}
-          pb={true}
-          filter={page.city}
-          currentPage={page.websiteId}
-        />
-        <Motivation />
-        <UnderHero />
-        <About content={page.aboutSection} />
-        <Footer content={shopItems.shopItems} />
-      </>
-    );
 }

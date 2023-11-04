@@ -11,9 +11,8 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-gray-800 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3 relative z-[99999]">
+    <header className="bg-[#222430]  sm:px-4 sm:py-3 relative z-[4000]">
       <div className="flex items-center justify-between px-4 py-3 sm:p-0">
-        <h1 className="text-white text-2xl font-bold">Panel Quixy</h1>
         <button
           type="button"
           className="block text-gray-500 hover:text-white focus:text-white focus:outline-none sm:hidden"
@@ -32,13 +31,6 @@ export default function Header() {
           isOpen ? "block" : "hidden"
         } px-2 pt-2 pb-4 sm:flex sm:p-0`}
       >
-        <Link
-          href="/admin"
-          className="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-700"
-        >
-          <FaToolbox className="inline-block mr-2" />
-          Admin
-        </Link>
         <Link
           href="/"
           className="block px-2 py-1 mt-1 sm:mt-0 sm:ml-2 text-white font-semibold rounded hover:bg-gray-700"

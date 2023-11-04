@@ -2,6 +2,8 @@
 import Image from "next/image";
 import AOS from "aos";
 import { useEffect } from "react";
+import Link from "next/link";
+import { FaUser } from "react-icons/fa";
 type Profession = {
   h1: string;
   h2: string;
@@ -30,12 +32,9 @@ export default function BriefResponse() {
   return (
     <div className=" bg-[#202020] lg:!min-h-full h-max mx-auto lg:px-[3vw] w-full px-3 md:px-6 lg:pb-24 font-coco">
       <div className="w-full lg:hidden py-12 bg-[#181818] border-2 border-[#242424] mb-12">
-        <h1 className="text-3xl lg:text-5xl  text-white text-center font-bold ">
+        <h1 className="text-3xl lg:text-5xl  text-white text-center font-bold px-6">
           Nasze odpowiedzi na brief
         </h1>
-        <h2 className="text-gray-400 opacity-50 mx-auto w-max">
-          zanim zamówisz
-        </h2>
       </div>
       {professions.map((item: Profession, i: any) => (
         <div
@@ -45,24 +44,26 @@ export default function BriefResponse() {
           }`}
         >
           <div
-            className={`flex items-center justify-center h-[300px] ${
-              i === 0 ? "lg:justify-start" : "lg:justify-center"
-            } lg:px-6 md:h-[500px] w-full -mb-36 relative z-[500]`}
+            className={`flex items-center justify-center h-[300px]  lg:px-6 md:h-[500px] w-full -mb-36 relative z-[500]`}
           >
             <div className="w-max h-full relative">
-              <Image
-                src={item.src}
-                width={512}
-                height={512}
-                alt={item.h1 + " strona wizytowka, strony www"}
-                className={`rounded-xl drop-shadow-md  shadow-black h-full w-auto border-b-2 border-green-400 `}
-              />
+              <div className="h-full w-full bg-gradient-to-b from-green-100 via-green-200 to-green-400 p-1 rounded-xl">
+                <Image
+                  src={item.src}
+                  width={512}
+                  height={512}
+                  alt={item.h1 + " strona wizytowka, strony www"}
+                  className={`rounded-lg drop-shadow-md  shadow-black h-full w-auto `}
+                />
+              </div>
+
               {i === 0 && (
-                <div className="w-full lg:flex flex-col text-left hidden absolute left-[120%] top-12 text-white text-6xl  font-bold ">
-                  <span className="text-yellow-100 text-left"> NASZE</span>
-                  <span className="text-yellow-200 text-left">ODPOWIEDZI</span>
-                  <span className="text-yellow-300 text-left">NA</span>{" "}
-                  <span className="text-yellow-400 text-left">BRIEF</span>
+                <div className="w-full lg:flex flex-col items-end text-right hidden absolute right-[120%] top-12 text-6xl font-bold">
+                  {" "}
+                  <span className="text-green-100 text-left">NASZE</span>
+                  <span className="text-green-200 text-left">ODPOWIEDZI</span>
+                  <span className="text-green-300 text-left">NA</span>
+                  <span className="text-green-400 text-left">BRIEF</span>
                 </div>
               )}
             </div>
@@ -72,32 +73,36 @@ export default function BriefResponse() {
           >
             <div className=" ">
               <h1
-                className={`!text-2xl lg:!text-3xl xl:!text-5xl 2xl:!text-6xl  drop-shadow-md shadow-black text-green-500 font-bold text-center ${
-                  i === 0 && "lg:text-left"
-                }`}
+                className={`!text-2xl lg:!text-3xl xl:!text-5xl 2xl:!text-6xl  drop-shadow-md shadow-black text-green-500 font-bold text-center `}
               >
                 {item.h1}
               </h1>
               <h2
-                className={`!text-base sm:text-lg lg:!text-xl lg:w-4/5 xl:text-3xl xl:w-3/5 2xl:w-1/2 xl:mx-auto mt-3 text-white text-center ${
-                  i === 0 && "lg:text-left lg:!mx-0"
-                }`}
+                className={`!text-base sm:text-lg lg:!text-xl lg:w-4/5 xl:text-3xl xl:w-3/5 2xl:w-1/2 mx-auto mt-3 text-white text-center `}
               >
                 {item.h2}
               </h2>
-              {/* <Link
-                className="text-xl text-blue-400 mt-2 underline underline-offset-2"
-                href={item.link}
+              <div
+                className={`flex flex-col py-6 w-full justify-center items-center ${
+                  i !== 0 && "justify-start items-start"
+                }`}
               >
-                {item.linkName}
-              </Link>
-              <h4 className="text-base text-yellow-400 mt-6 italic flex flex-row items-center">
-                <FaUser className="mr-2 w-5 h-5" /> &quot;{item.opinion}&quot;
-              </h4> */}
+                <h4
+                  className={`text-base text-yellow-400 mb-6 italic flex flex-row items-center text-center `}
+                >
+                  &quot;{item.opinion}&quot;
+                </h4>
+                <Link
+                  className={`text-xl text-white mt-2 border-l-4 border-r-4 border-green-400 px-12 py-3 w-max bg-[#282828] hover:bg-[#404040] duration-300 `}
+                  href={item.link}
+                >
+                  Zobacz stronę
+                </Link>
+              </div>
             </div>
             <div className=" text-white mt-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#282828] p-3 lg:p-6 rounded-xl lg:rounded-bl-none lg:rounded-tr-none ">
-                <div className="flex flex-col justify-end ">
+                <div className="flex flex-col justify-start ">
                   <h1 className="text-lg md:text-2xl lg:text-3xl">
                     Nasza propozycja:
                   </h1>

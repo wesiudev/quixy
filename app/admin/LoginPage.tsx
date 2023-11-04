@@ -44,7 +44,7 @@ export default function LoginPage() {
           id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="border border-gray-400 p-2 mb-4 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400"
+          className="border border-gray-400 p-2 mb-4 rounded-md focus:outline-none focus:ring-2 focus:ring-green-400"
           placeholder="Email"
           required
         />
@@ -56,7 +56,7 @@ export default function LoginPage() {
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="border border-gray-400 p-2 mb-4 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400"
+          className="border border-gray-400 p-2 mb-4 rounded-md focus:outline-none focus:ring-2 focus:ring-green-400"
           placeholder="Password"
           required
         />
@@ -73,18 +73,18 @@ export default function LoginPage() {
             emailPasswordLogin();
           }}
           type="submit"
-          className="bg-purple-400 text-white py-2 rounded-md hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-400"
+          className="bg-green-400 text-white py-2 rounded-md hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-400"
         >
           Login
         </button>
       </form>{" "}
-      <h1 className="text-center text-2xl py-12 bg-purple-400 text-white px-3 rounded-b-xl relative z-50">
+      <h1 className="text-center text-2xl py-12 bg-green-400 text-white px-3 rounded-b-xl relative z-50">
         Quixy Admin v1.0
       </h1>
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 opacity-25"></div>
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-purple-400 via-pink-500 to-red-500 opacity-25"></div>
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 opacity-25 transform rotate-45"></div>
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-purple-400 via-pink-500 to-red-500 opacity-25 transform -rotate-45"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-green-400 via-blue-500 to-red-500 opacity-25"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-green-400 via-blue-500 to-red-500 opacity-25"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-green-400 via-blue-500 to-red-500 opacity-25 transform rotate-45"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-green-400 via-blue-500 to-red-500 opacity-25 transform -rotate-45"></div>
     </div>
   );
 }

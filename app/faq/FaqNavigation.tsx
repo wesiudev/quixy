@@ -14,7 +14,7 @@ export default function FaqNavigation() {
   ];
   const [location, setLocation] = useState("shop");
   return (
-    <div className="flex flex-row space-x-3 flex-wrap items-center justify-center">
+    <div className="flex flex-row space-x-3 flex-wrap items-center justify-center mt-24">
       {cities.map((item: any, i: any) => (
         <Link
           onClick={() => setLocation(polishToEnglish(item))}

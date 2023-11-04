@@ -1,4 +1,3 @@
-import Motivation from "./components/Motivation";
 import About from "./components/About";
 import { Footer } from "./components/Footer";
 import Shop from "./components/shop/Shop";
@@ -12,7 +11,6 @@ export default async function Home() {
         <HeroModule />
       </div>
       <UnderHero />
-      <Motivation />
       <Shop
         ItemsList={shopItems.shopItems}
         filter="shop"

@@ -4,17 +4,28 @@ export const parseMarkdown = (input: any) => {
   let insideList = false;
   const parsedLines = lines.map((line: any) => {
     // Parse headings
-    if (line.startsWith("# ")) {
-      const level = line.lastIndexOf("#") + 1;
-      const text = line.substring(level + 1);
-      return `<h${level} class="text-3xl">${text}</h${level}>`;
+    if (line.startsWith("h1 ")) {
+      const text = line.substring(3);
+      return `<h1 class="!text-3xl">${text}</h1>`;
+    } else if (line.startsWith("h2 ")) {
+      const text = line.substring(3);
+      return `<h2 class="!text-2xl ">${text}</h2>`;
+    } else if (line.startsWith("h3 ")) {
+      const text = line.substring(3);
+      return `<h3 class="!text-xl ">${text}</h3>`;
+    } else if (line.startsWith("h4 ")) {
+      const text = line.substring(3);
+      return `<h4 class="!text-lg !font-normal">${text}</h4>`;
+    } else if (line.startsWith("h5 ")) {
+      const text = line.substring(3);
+      return `<h5 class="!text-sm !font-normal">${text}</h5>`;
     }
     // Parse image syntax ![alt text](image-url) [link text](link-url)
     const imageMatch = line.match(/!\[([^\]]+)\]\(([^)]+)\)/);
     if (imageMatch) {
       const altText = imageMatch[1];
       const imageUrl = imageMatch[2];
-      return `<img class="mx-auto max-w-full flex flex-col" src="${imageUrl}" alt="${altText}" /><a class="opacity-50" href="${imageUrl}">Źródło: ${altText}</a>`;
+      return `<img class="mx-auto max-w-full flex flex-col" src="${imageUrl}" alt="${altText}" />`;
     }
     // Parse link syntax [link text](link-url)
     const linkMatches = line.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g);

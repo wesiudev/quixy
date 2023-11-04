@@ -24,6 +24,7 @@ export type Post = {
   metaTitle?: string;
   metaDescription?: string;
   metaKeywords?: string[];
+  mainImage: string;
 };
 
 export type Section = {
@@ -58,6 +59,11 @@ export type WebsiteOffer = {
     src: string;
     alt: string;
   };
+};
+
+export type ImageType = {
+  src: string;
+  alt: string;
 };
 
 /**

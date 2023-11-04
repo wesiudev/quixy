@@ -18,10 +18,10 @@ export default function Shop({
   return (
     <div
       style={{ backgroundColor: color ? color : "#444444" }}
-      className={`h-max pt-12 pb-24 w-screen flex flex-col relative z-[150] px-6 lg:px-[8vw] `}
+      className={`h-max pt-12 pb-24 w-screen flex flex-col relative z-[150] px-6 lg:px-[10%] `}
     >
-      <h1 className="w-full text-center text-xl md:text-3xl lg:text-4xl lg:w-max mx-auto lg:mx-0 italic bg-white text-black p-4 px-8 lg:rounded-lg font-coco font-bold my-12 shadow-md shadow-zinc-700">
-        <span className="text-zinc-800 drop-shadow shadow-black">Kupuj w</span>{" "}
+      <h1 className="w-full text-center text-2xl md:text-3xl lg:text-4xl lg:w-max mx-auto lg:mx-0 italic bg-white text-black p-4 px-8 lg:rounded-lg font-coco font-bold my-12 shadow-md shadow-zinc-700">
+        <span className="text-zinc-800 drop-shadow shadow-black">Oferta</span>{" "}
         <span className="font-bold text-yellow-500 drop-shadow shadow-black">
           Quixy
         </span>

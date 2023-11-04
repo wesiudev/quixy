@@ -9,7 +9,7 @@ export default function BlogLayout({
   return (
     <>
       <Header />
-      <div className="w-full max-h-[35vh] overflow-hidden relative mt-[90px]">
+      <div className="w-full h-[35vh] overflow-hidden relative pt-[90px]">
         <HeroModule filter={true} />
       </div>
       {children}
