@@ -1,5 +1,5 @@
 import About from "./components/About";
-import { Footer } from "./components/Footer";
+import Footer from "./components/Footer";
 import Shop from "./components/shop/Shop";
 import shopItems from "@/public/json/ShopContent.json";
 import HeroModule from "./components/HeroModule/HeroModule";

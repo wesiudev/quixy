@@ -5,7 +5,7 @@ import { polishToEnglish } from "@/app/utils/polishToEnglish";
 import { renderMarkdown } from "@/app/lib/parseMarkdown";
 import Link from "next/link";
 import UnderHero from "@/app/components/UnderHero";
-import { Footer } from "@/app/components/Footer";
+import Footer from "@/app/components/Footer";
 import shopItems from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
   const { posts } = await fetch(

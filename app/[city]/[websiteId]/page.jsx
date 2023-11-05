@@ -3,7 +3,7 @@
 import faq from "@/public/json/faqAboutWebsite.json";
 import Shop from "@/app/components/shop/Shop";
 import About from "@/app/components/About";
-import { Footer } from "@/app/components/Footer";
+import Footer from "@/app/components/Footer";
 import ProductHero from "./ProductHero";
 import AboutThePage from "./websiteTypes/AboutThePage";
 import BriefResponse from "./websiteTypes/BriefResponse";
