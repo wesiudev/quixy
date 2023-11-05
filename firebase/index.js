@@ -41,6 +41,19 @@ async function addBlogPost(websiteName, post) {
     });
   }
 }
+async function updateBlogPost(websiteName, postId, updatedPost) {
+  const docRef = doc(db, websiteName, "blog");
+  const docSnap = await getDoc(docRef);
+  const posts = docSnap.data().posts;
+  const postIndex = posts.findIndex((post) => post.postId === postId);
+  if (postIndex === -1) {
+    throw new Error("Blog post not found");
+  }
+  posts[postIndex] = updatedPost;
+  await updateDoc(doc(db, websiteName, "blog"), {
+    posts: posts,
+  });
+}
 async function createOrder(websiteName, req) {
   const docRef = doc(db, websiteName, "orders");
   const docSnap = await getDoc(docRef);
@@ -53,4 +66,11 @@ async function createOrder(websiteName, req) {
   }
 }
 
-export { addBlogPost, getBlogPosts, auth, createOrder, storage };
+export {
+  addBlogPost,
+  getBlogPosts,
+  auth,
+  createOrder,
+  storage,
+  updateBlogPost,
+};

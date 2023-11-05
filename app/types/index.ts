@@ -30,6 +30,7 @@ export type Post = {
 export type Section = {
   title: string;
   content: string;
+  id?: number;
 };
 
 export type WebsiteOffer = {

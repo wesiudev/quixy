@@ -21,7 +21,7 @@ export default function UnderHero() {
           alt="Strony WWW w przystępnych cenach. Obrazek Quixy.pl"
           className="w-full lg:w-[50vw] h-auto  lg:border-r-2 border-yellow-400 pt-12"
         />
-        <div className="mt-12 h-full text-white lg:min-w-[50vw] text-5xl sm:text-7xl lg:text-5xl xl:text-6xl font-coco font-bold flex  flex-col items-center lg:items-start lg:justify-center lg:py-0 lg:px-6 xl:px-12">
+        <div className="hidden mt-12 h-full text-white lg:min-w-[50vw] text-5xl sm:text-7xl lg:text-5xl xl:text-6xl font-coco font-bold lg:flex  flex-col items-center lg:items-start lg:justify-center lg:py-0 lg:px-6 xl:px-12">
           <div
             data-aos="flip-right"
             data-aos-duration="700"
@@ -62,9 +62,21 @@ export default function UnderHero() {
             cenach.
           </div>
         </div>{" "}
+        <div className="lg:hidden mt-12 h-full text-white lg:min-w-[50vw] text-4xl sm:text-7xl lg:text-5xl xl:text-6xl font-coco font-bold flex  flex-col items-center lg:items-start lg:justify-center lg:py-0 lg:px-6 xl:px-12">
+          <div className="drop-shadow-lg shadow-black"> Strony</div>
+          <div className="drop-shadow-lg shadow-black"> internetowe</div>
+          <div className="flex flex-row items-center">
+            <div className="drop-shadow-lg shadow-black mr-2"> w</div>
+            <div className="drop-shadow-lg shadow-black text-yellow-400">
+              {" "}
+              przystępnych
+            </div>
+          </div>
+          <div className="drop-shadow-lg shadow-black"> cenach.</div>
+        </div>{" "}
       </div>
       <div className="flex flex-col lg:flex-row items-center w-full h-full bg-[#212121]">
-        <div className="py-6 sm:py-16 lg:border-r-2 border-yellow-400 h-max w-full lg:h-[70vh] lg:min-w-[50vw] text-white text-5xl sm:text-7xl lg:text-6xl 2xl:text-[76px] font-coco font-bold flex flex-col lg:items-end items-center lg:justify-center lg:px-6 xl:px-12 lg:py-0 ">
+        <div className="hidden py-6 sm:py-16 lg:border-r-2 border-yellow-400 h-max w-full lg:h-[70vh] lg:min-w-[50vw] text-white text-5xl sm:text-7xl lg:text-6xl 2xl:text-[76px] font-coco font-bold lg:flex flex-col lg:items-end items-center lg:justify-center lg:px-6 xl:px-12 lg:py-0 ">
           <span
             data-aos="flip-right"
             data-aos-duration="700"
@@ -87,6 +99,18 @@ export default function UnderHero() {
             data-aos-delay="400"
             className="text-yellow-400 drop-shadow-xl shadow-black"
           >
+            {" "}
+            Quixy
+          </span>
+        </div>
+        <div className="lg:hidden py-6 sm:py-16 lg:border-r-2 border-yellow-400 h-max w-full lg:h-[70vh] lg:min-w-[50vw] text-white text-4xl sm:text-7xl lg:text-6xl 2xl:text-[76px] font-coco font-bold flex flex-col lg:items-end items-center lg:justify-center lg:px-6 xl:px-12 lg:py-0 ">
+          <span className="text-white drop-shadow-xl shadow-black">
+            Profesjonalni
+          </span>
+          <span className="text-white drop-shadow-xl shadow-black">
+            Developerzy
+          </span>
+          <span className="text-yellow-400 drop-shadow-xl shadow-black">
             {" "}
             Quixy
           </span>

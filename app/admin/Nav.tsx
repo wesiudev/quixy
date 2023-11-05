@@ -47,11 +47,6 @@ export default function Nav() {
           href: `/admin/blog/edit`,
           icon: <FaEdit />,
         },
-        {
-          title: "Usuń post",
-          href: `/admin/blog/delete`,
-          icon: <FaRemoveFormat />,
-        },
       ],
     },
     {
@@ -109,7 +104,7 @@ export default function Nav() {
     <div className="fixed scrollbar font-coco !text-white">
       <div className="flex flex-col h-screen w-[300px] border-r-[1px] border-[#303345] bg-[#222430] ">
         <div className="text-white py-4 px-3">
-          <h1 className="text-base font-light  flex flex-row items-center ">
+          <h1 className="text-base font-bold  flex flex-row items-center ">
             <Image
               src="/dashboardFav.png"
               width={36}

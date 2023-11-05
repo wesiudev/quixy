@@ -1,14 +1,12 @@
 import { getPost } from "@/app/lib/getPost";
-import Image from "next/image";
-import load from "../load.jpg";
 import { Post, Section } from "@/app/types";
 import ScrollTo from "./ScrollTo";
 import { polishToEnglish } from "@/app/utils/polishToEnglish";
 import { renderMarkdown } from "@/app/lib/parseMarkdown";
-import SeoModule from "@/app/components/SeoModule/SeoModule";
 import Link from "next/link";
-import { FaArrowRight } from "react-icons/fa";
-import moment from "moment";
+import UnderHero from "@/app/components/UnderHero";
+import { Footer } from "@/app/components/Footer";
+import shopItems from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
   const { posts } = await fetch(
     `${process.env.NEXT_PUBLIC_SITE_URL}/api/blog?secret=${process.env.API_SECRET_KEY}`
@@ -158,52 +156,12 @@ export default async function Page({ params }: { params: any }) {
             </div>
             {/* 2 */}
             <div className="flex flex-col h-full w-full items-end">
-              <div className="lg:w-3/4 h-full">
-                {/* <Link
-                  href="/blog"
-                  className="group px-3 lg:px-0  text-white font-bold text-2xl mt-6 flex flex-row items-center hover:text-green-400 duration-150 w-max mb-12"
-                >
-                  <FaArrowRight className="mr-3 group-hover:translate-x-2 group-hover:text-green-400 duration-150" />
-                  Artykuły powiązane
-                </Link> */}
-                {/* <Link
-              href="/blog/jak-wypromować-sklep-e-commerce-z-zegarkami"
-              className="group"
-            >
-              <div className="bg-gray-200 p-3 bg-opacity-20 rounded-xl group-hover:bg-opacity-10 duration-150">
-                <h1 className="text-xl lg:text-3xl drop-shadow shadow-black font-bold mb-6 text-white">
-                  Jak wypromować sklep e-commerce z zegarkami?
-                </h1>
-                <div className="grid grid-cols-3">
-                  <Image
-                    src={watch}
-                    width={1024}
-                    height={1024}
-                    alt="author:https://www.ilovemega.com/blog/wp-content/uploads/montre-10-Louis-Moinet-LM-39.50.80.png"
-                    className=""
-                  />
-                  <Image
-                    src={watch2}
-                    width={1024}
-                    height={1024}
-                    alt="author:https://www.ilovemega.com/blog/wp-content/uploads/montre-5-Longines-Master-Collection.png"
-                    className=""
-                  />
-                  <Image
-                    src={watch3}
-                    width={1024}
-                    height={1024}
-                    alt="author:https://www.ilovemega.com/blog/wp-content/uploads/montre-4-Vacheron-Constantin-Dragon.png"
-                    className=""
-                  />
-                </div>
-              </div>
-            </Link> */}
-              </div>
+              <div className="lg:w-3/4 h-full"></div>
             </div>
           </div>
         </div>
-        {/* <SeoModule pt={true} /> */}
+        <UnderHero />
+        <Footer content={shopItems.shopItems} />
       </>
     );
 }

@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-
 import Image from "next/image";
 import Dialog from "./Dialog";
 
@@ -14,7 +13,7 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
             height={1200}
             src="/assets/bg.webp"
             alt="Hero Image Tworzenie stron internetowych Quixy.pl"
-            className="absolute h-screen -left-[12vw] xl:-left-[5vw] w-auto overflow-hidden top-[50%] -translate-y-[50%] z-10 object-cover"
+            className="absolute h-screen -left-[12vw] xl:-left-[5vw] min-w-[50vw] overflow-hidden top-[50%] -translate-y-[50%] z-10 object-cover"
           />
           <Image
             width={1200}
