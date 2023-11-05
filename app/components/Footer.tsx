@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-export const Footer = ({ content }: { content: any }) => {
+export default function Footer({ content }: { content: any }) {
   return (
     <div className="w-full grid grid-cols-1 bg-[#212121] text-white min-h-[30vh] pt-48 pb-24 font-coco">
       <div className="">
@@ -46,4 +46,4 @@ export const Footer = ({ content }: { content: any }) => {
       </div> */}
     </div>
   );
-};
+}
