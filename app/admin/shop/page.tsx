@@ -7,7 +7,6 @@ import Shop from "@/app/components/shop/Shop";
 import UnderHero from "@/app/components/UnderHero";
 import SeoModule from "@/app/components/SeoModule/SeoModule";
 import About from "@/app/components/About";
-import Footer from "@/app/components/Footer";
 export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#8cf562",
@@ -51,7 +50,6 @@ export default async function Page() {
       <UnderHero />
       <SeoModule pt={true} />
       <About content={itemsList.shopItems[0].aboutSection} />
-      <Footer content={itemsList.shopItems} />
     </div>
   );
 }
