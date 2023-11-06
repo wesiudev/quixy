@@ -15,14 +15,13 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  title:
-    "Quixy | Sklep - Tworzenie Stron Internetowych - Aplikacje Internetowe",
+  title: "Quixy | Oferta Tworzenia Stron Internetowych",
   description:
     "W Quixy tworzymy konkurencyjne strony internetowe. Co u nas znajdziesz? Aplikacje internetowe oparte o najnowsze technologie. Oferta stron internetowych. Grafika komputerowa, Grafika na Social Media.",
   openGraph: {
     type: "website",
     url: "https://quixy.pl",
-    title: "",
+    title: "Quixy | Oferta Tworzenia Stron Internetowych",
     description:
       "W Quixy tworzymy konkurencyjne strony internetowe. Co u nas znajdziesz? Aplikacje internetowe oparte o najnowsze technologie. Oferta stron internetowych. Grafika komputerowa, Grafika na Social Media.",
     siteName: "Quixy",
