@@ -4,9 +4,6 @@ import ScrollTo from "./ScrollTo";
 import { polishToEnglish } from "@/app/utils/polishToEnglish";
 import { renderMarkdown } from "@/app/lib/parseMarkdown";
 import Link from "next/link";
-import UnderHero from "@/app/components/UnderHero";
-import Footer from "@/app/components/Footer";
-import shopItems from "@/public/json/ShopContent.json";
 export async function generateStaticParams() {
   const { posts } = await fetch(
     `${process.env.NEXT_PUBLIC_SITE_URL}/api/blog?secret=${process.env.API_SECRET_KEY}`
@@ -160,8 +157,6 @@ export default async function Page({ params }: { params: any }) {
             </div>
           </div>
         </div>
-        <UnderHero />
-        <Footer content={shopItems.shopItems} />
       </>
     );
 }
