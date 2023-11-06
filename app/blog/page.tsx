@@ -1,10 +1,6 @@
 import Image from "next/image";
 import { Post } from "../types";
-
 import Link from "next/link";
-
-import Footer from "../components/Footer";
-import shopItems from "@/public/json/ShopContent.json";
 import UnderHero from "../components/UnderHero";
 async function getBlogData() {
   const req = await fetch(
