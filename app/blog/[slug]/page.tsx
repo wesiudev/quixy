@@ -15,16 +15,15 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: any }) {
   // fetch data
   const { post } = await getPost(params.slug);
-  const faqQuestions = post?.faq?.map(
-    (item: { question: string; answer: string }) => ({
+  const faqQuestions =
+    post?.faq?.map((item: { question: string; answer: string }) => ({
       "@type": "Question",
       name: item.question,
       acceptedAnswer: {
         "@type": "Answer",
         text: item.answer,
       },
-    })
-  );
+    })) || [];
   const faqPage = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
