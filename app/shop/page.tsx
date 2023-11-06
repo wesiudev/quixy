@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import About from "../components/About";
 import Footer from "../components/Footer";
-import { Header } from "../components/Header";
+import Header from "../components/Header";
 import HeroModule from "../components/HeroModule/HeroModule";
 import SeoModule from "../components/SeoModule/SeoModule";
 import Shop from "../components/shop/Shop";

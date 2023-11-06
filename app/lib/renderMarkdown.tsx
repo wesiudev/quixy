@@ -10,7 +10,7 @@ export const parseMarkdown = (input: any) => {
     if (imageMatch) {
       const altText = imageMatch[1];
       const imageUrl = imageMatch[2];
-      return `<img loading="lazy" decoding="async" width=${500} height=${500} className="mx-auto flex flex-col" src=${imageUrl} alt=${polishToEnglish(
+      return `<Image loading="lazy" decoding="async" width=${500} height=${500} className="mx-auto flex flex-col" src=${imageUrl} alt=${polishToEnglish(
         altText
       )} />`;
     }

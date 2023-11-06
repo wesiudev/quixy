@@ -1,4 +1,4 @@
-import { Header } from "../components/Header";
+import Header from "../components/Header";
 import HeroModule from "../components/HeroModule/HeroModule";
 
 export default function BlogLayout({

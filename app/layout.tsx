@@ -5,7 +5,7 @@ import { Metadata } from "next";
 import Script from "next/script";
 import "aos/dist/aos.css";
 import { Providers } from "@/redux/Provider";
-import { Header } from "./components/Header";
+import Header from "./components/Header";
 export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#8cf562",
@@ -75,20 +75,19 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
-         
         </Providers>
         <Script
-            strategy="afterInteractive"
-            src="https://www.googletagmanager.com/gtag/js?id=G-SYTL7MG8Q4"
-          />
-          <Script strategy="afterInteractive" id="google-analytics">
-            {`
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-SYTL7MG8Q4"
+        />
+        <Script strategy="afterInteractive" id="google-analytics">
+          {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-SYTL7MG8Q4');
           `}
-          </Script>
+        </Script>
       </body>
     </html>
   );

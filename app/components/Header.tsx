@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaSearch } from "react-icons/fa";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-export const Header = () => {
+export default function Header() {
   const pathname = usePathname();
 
   return (
@@ -36,4 +36,4 @@ export const Header = () => {
       </div>
     </div>
   );
-};
+}

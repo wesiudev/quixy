@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: any }) {
     "@type": "FAQPage",
     mainEntity: faqQuestions,
   };
-  const title = `${post.metaTitle} - Quixy.pl`;
+  const title = `${post.metaTitle} - Quixy`;
   const description = `${post.metaDescription}`;
   if (post)
     return {
