@@ -39,18 +39,20 @@ export default function EditSection({
   };
 
   useEffect(() => {
-    const handleMouseMove = (event: MouseEvent) => {
-      if (isResizing) {
-        const newWidth = window.innerWidth - event.clientX;
-        setWidth(newWidth);
-      }
-    };
-    document.addEventListener("mousemove", handleMouseMove);
-    document.addEventListener("mouseup", handleMouseUp);
-    return () => {
-      document.removeEventListener("mousemove", handleMouseMove);
-      document.removeEventListener("mouseup", handleMouseUp);
-    };
+    if (typeof window !== "undefined") {
+      const handleMouseMove = (event: MouseEvent) => {
+        if (isResizing) {
+          const newWidth = window.innerWidth - event.clientX;
+          setWidth(newWidth);
+        }
+      };
+      document.addEventListener("mousemove", handleMouseMove);
+      document.addEventListener("mouseup", handleMouseUp);
+      return () => {
+        document.removeEventListener("mousemove", handleMouseMove);
+        document.removeEventListener("mouseup", handleMouseUp);
+      };
+    }
   }, [isResizing]);
   return (
     <div
