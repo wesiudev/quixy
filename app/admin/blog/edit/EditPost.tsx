@@ -8,7 +8,7 @@ import { FaEdit, FaLink, FaLongArrowAltLeft, FaTrash } from "react-icons/fa";
 import * as Scroll from "react-scroll";
 import PostImages from "./PostImages";
 import { Post, Section } from "@/app/types";
-import EditSection from "./EditSection";
+import EditSection from "../../../../windowComponentFix/EditSection";
 import toast from "react-hot-toast";
 export default function EditPost({
   selectedPost,
