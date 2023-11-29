@@ -8,6 +8,7 @@ import { FaLink, FaLongArrowAltLeft, FaTrash } from "react-icons/fa";
 import * as Scroll from "react-scroll";
 import PostImages from "./PostImages";
 import { useAuthState } from "react-firebase-hooks/auth";
+import See from "./See";
 var randomId = require("random-id");
 export default function NewPost() {
   const [input, setInput] = useState({
@@ -136,55 +137,8 @@ export default function NewPost() {
                 className="!text-black bg-slate-400 mt-1 p-2 outline-none placeholder:text-gray-500  scrollbarMain resize-none"
               />
             </div>
-            <div className="flex flex-col">
-              <div className="flex flex-col w-full my-3">
-                <div className="flex flex-col space-y-3">
-                  Tytuł sekcji
-                  <input
-                    placeholder="Wpisz tekst..."
-                    value={sectionInput}
-                    onChange={(e) => setSectionInput(e.target.value)}
-                    className="!text-black bg-slate-400 mt-1 p-2 outline-none placeholder:text-gray-500"
-                    type="text"
-                  />
-                </div>
-                <div className="flex flex-col mt-3">
-                  Treść sekcji
-                  <textarea
-                    className="!text-black bg-slate-400 mt-1 p-2 placeholder:text-gray-500 outline-none "
-                    placeholder="Wpisz treść sekcji..."
-                    value={sectionContent}
-                    onChange={(e) => setSectionContent(e.target.value)}
-                  />
-                </div>
-              </div>
-              <button
-                value={sectionInput}
-                onClick={(e: any) => {
-                  addSection(e.target.value), setSectionInput("");
-                }}
-                className="!text-lg w-full bg-blue-500 hover:bg-blue-700 duration-200 text-white flex flex-row items-center justify-center mt-3 outline-none py-2"
-              >
-                Dodaj
-              </button>
-              {input.sections.length > 0 && (
-                <div className="bg-[#2F313C] p-3 rounded-md mt-2">
-                  <h1 className="">Twoje sekcje:</h1>
-                  {input.sections.map((section: any, idx) => (
-                    <div key={idx}>
-                      <div className="flex flex-row items-center my-2 hover:bg-[#34363d] p-1">
-                        {section.title}{" "}
-                        <button
-                          onClick={() => removeSection(idx)}
-                          className="ml-3"
-                        >
-                          <FaTrash />
-                        </button>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
+            <div className="text-black !font-coco">
+              <See />
             </div>
           </div>
           <div className="flex flex-col my-3">

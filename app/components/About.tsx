@@ -25,49 +25,49 @@ export default function About({ content }: { content: any }) {
         className="w-full absolute left-0 bottom-0 translate-y-[99%] rotate-180"
       />
       <div className="flex flex-col relative">
-        <h1 className="relative text-2xl md:text-4xl lg:text-7xl font-bold drop-shadow-xl shadow-black text-green-300">
+        <h2 className="relative text-2xl md:text-4xl lg:text-7xl font-bold drop-shadow-xl shadow-black text-green-300">
           KIM JESTEŚMY?
-        </h1>
+        </h2>
 
         <p className="text-white mt-3 prose lg:prose-xl">{content[0].p}</p>
-        <h1 className="relative text-2xl md:text-4xl lg:text-7xl font-bold drop-shadow-xl shadow-black  mt-24 text-green-300">
+        <h2 className="relative text-2xl md:text-4xl lg:text-7xl font-bold drop-shadow-xl shadow-black  mt-24 text-green-300">
           NASZA MISJA
-        </h1>
+        </h2>
         <h2 className="relative font-bold drop-shadow-xl shadow-black text-green-300 text-sm">
           {content[1].h2}
         </h2>
         <p className="text-white mt-3 prose lg:prose-xl">{content[1].p}</p>
-        <h1 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
+        <h2 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
           Jakość, nie - jakoś
-        </h1>
+        </h2>
         <h2 className="relative font-bold drop-shadow-xl shadow-black text-blue-300 text-sm">
           {content[2].h2}
         </h2>
         <p className="text-white mt-3 prose lg:prose-xl">{content[2].p}</p>
-        <h1 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
+        <h2 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
           Kreatywność
-        </h1>
+        </h2>
         <h2 className="relative font-bold drop-shadow-xl shadow-black text-blue-300 text-sm">
           {content[3].h2}
         </h2>
         <p className="text-white mt-3 prose lg:prose-xl">{content[3].p}</p>
-        <h1 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
+        <h2 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
           Doświadczenie
-        </h1>
+        </h2>
         <h2 className="relative font-bold drop-shadow-xl shadow-black text-blue-300 text-sm">
           {content[4].h2}
         </h2>
         <p className="text-white mt-3 prose lg:prose-xl">{content[4].p}</p>
-        <h1 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
+        <h2 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
           Indywidualne podejście
-        </h1>
+        </h2>
         <h2 className="relative font-bold drop-shadow-xl shadow-black text-blue-300 text-sm">
           {content[5].h2}
         </h2>
         <p className="text-white mt-3 prose lg:prose-xl">{content[5].p}</p>
-        <h1 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
+        <h2 className="relative text-2xl md:text-4xl font-bold drop-shadow-xl shadow-black text-blue-300 mt-12">
           Obszar działania
-        </h1>
+        </h2>
         <h2 className="relative font-bold drop-shadow-xl shadow-black text-blue-300 text-sm">
           {content[6].h2}
         </h2>

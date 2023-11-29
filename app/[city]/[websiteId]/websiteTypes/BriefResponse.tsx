@@ -1,11 +1,8 @@
-"use client";
 import Image from "next/image";
-import AOS from "aos";
-import { useEffect } from "react";
 import Link from "next/link";
-import { FaUser } from "react-icons/fa";
+
 type Profession = {
-  h1: string;
+  h1: any;
   h2: string;
   colors: string[];
   style: string;
@@ -24,26 +21,23 @@ type Profession = {
   src: string;
 };
 export default function BriefResponse() {
-  useEffect(() => {
-    AOS.init({
-      offset: 25,
-    });
-  }, []);
   return (
-    <div className=" bg-[#202020] lg:!min-h-full h-max mx-auto lg:px-[3vw] w-full px-3 md:px-6 lg:pb-24 font-coco">
+    <section className=" bg-[#212121] lg:!min-h-full h-max mx-auto lg:px-[3vw] w-full px-3 md:px-6 lg:pb-24 font-coco pt-12">
       <div className="w-full lg:hidden py-12 bg-[#181818] border-2 border-[#242424] mb-12">
-        <h1 className="text-3xl lg:text-5xl  text-white text-center font-bold px-6">
-          Nasze odpowiedzi na brief
-        </h1>
+        <div className="text-3xl lg:text-5xl  text-white text-center font-bold px-6">
+          Przykładowe realizacje
+        </div>
       </div>
       {professions.map((item: Profession, i: any) => (
         <div
+          role="region"
           key={i}
           className={`flex relative flex-col items-center justify-center lg:justify-normal lg:items-start  w-full h-full rounded-lg  ${
             i > 0 && "lg:mt-12"
           }`}
         >
           <div
+            role="region"
             className={`flex items-center justify-center h-[300px]  lg:px-6 md:h-[500px] w-full -mb-36 relative z-[500]`}
           >
             <div className="w-max h-full relative">
@@ -58,12 +52,12 @@ export default function BriefResponse() {
               </div>
 
               {i === 0 && (
-                <div className="w-full lg:flex flex-col items-end text-right hidden absolute right-[120%] top-12 text-6xl font-bold">
+                <div className="w-full lg:flex flex-col items-end text-right hidden absolute right-[120%] top-12 text-4xl xl:text-5xl 2xl:text-6xl font-bold">
                   {" "}
                   <span className="text-green-100 text-left">NASZE</span>
-                  <span className="text-green-200 text-left">ODPOWIEDZI</span>
-                  <span className="text-green-300 text-left">NA</span>
-                  <span className="text-green-400 text-left">BRIEF</span>
+                  <span className="text-green-200 text-left">PRZYKŁADOWE</span>
+                  <span className="text-green-300 text-left">REALIZACJE</span>
+                  <span className="text-green-400 text-left">STRON</span>
                 </div>
               )}
             </div>
@@ -72,27 +66,29 @@ export default function BriefResponse() {
             className={`drop-shadow-md shadow-black !min-h-full flex flex-col justify-between w-full font-coco mb-12 lg:mb-0 bg-[#181818] rounded-xl lg:rounded-br-none lg:rounded-tl-none  p-4 pt-48 lg:p-6 lg:pt-48 group relative`}
           >
             <div className=" ">
-              <h1
+              <h2
                 className={`!text-2xl lg:!text-3xl xl:!text-5xl 2xl:!text-6xl  drop-shadow-md shadow-black text-green-500 font-bold text-center `}
               >
                 {item.h1}
-              </h1>
-              <h2
+              </h2>
+              <p
                 className={`!text-base sm:text-lg lg:!text-xl lg:w-4/5 xl:text-3xl xl:w-3/5 2xl:w-1/2 mx-auto mt-3 text-white text-center `}
               >
                 {item.h2}
-              </h2>
+              </p>
               <div
                 className={`flex flex-col py-6 w-full justify-center items-center ${
                   i !== 0 && "justify-start items-start"
                 }`}
               >
-                <h4
+                <p
                   className={`text-base text-yellow-400 mb-6 italic flex flex-row items-center text-center `}
                 >
                   &quot;{item.opinion}&quot;
-                </h4>
+                </p>
                 <Link
+                  target="_blank"
+                  title="Otwórz w nowej karcie..."
                   className={`text-xl text-white mt-2 border-l-4 border-r-4 border-green-400 px-12 py-3 w-max bg-[#282828] hover:bg-[#404040] duration-300 `}
                   href={item.link}
                 >
@@ -103,9 +99,9 @@ export default function BriefResponse() {
             <div className=" text-white mt-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#282828] p-3 lg:p-6 rounded-xl lg:rounded-bl-none lg:rounded-tr-none ">
                 <div className="flex flex-col justify-start ">
-                  <h1 className="text-lg md:text-2xl lg:text-3xl">
+                  <span className="text-lg md:text-2xl lg:text-3xl">
                     Nasza propozycja:
-                  </h1>
+                  </span>
                   <p className="mt-4 text-base sm:text-lg">
                     <span className="text-yellow-400 font-bold">Cel:</span>{" "}
                     {item.purpose}
@@ -173,13 +169,21 @@ export default function BriefResponse() {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 }
 
 const professions = [
   {
-    h1: "Strona wizytówka dla radcy prawnego",
+    h1: (
+      <div className="flex flex-row items-center justify-center text-center">
+        <Link href="/shop/strona-wizytowka" className="mr-2">
+          {" "}
+          Strona wizytówka
+        </Link>{" "}
+        dla radcy prawnego
+      </div>
+    ),
     h2: "Jako radca prawny, Twoja reputacja i zaufanie klientów to Twoje najważniejsze atuty. Dlatego zainwestuj w naszą wizytówkę internetową, która nie tylko odzwierciedli Twoją ekspertyzę, ale także pokaże Twoje unikalne podejście do prawa.",
     colors: ["#685A50", "#4ADE80", "#D8B4FE"],
     style: "Elegancki i Profesjonalny",
@@ -223,7 +227,15 @@ const professions = [
     src: "/images/strona-wizytowka-dla-fryzjera.png",
   },
   {
-    h1: "Strona wizytówka dla artysty",
+    h1: (
+      <div className="flex flex-row items-center justify-center text-center">
+        <Link href="/shop/sklep-internetowy" className="mr-2">
+          {" "}
+          Sklep Internetowy
+        </Link>{" "}
+        dla artysty
+      </div>
+    ),
     h2: "Jako artysta, Twoje dzieła są Twoim głosem w świecie sztuki. Nasza strona wizytówka jest idealnym miejscem, aby pokazać światu Twoje twórcze dzieła. Z naszym wsparciem, Twoje portfolio artystyczne zostanie zaprezentowane profesjonalnie.",
     colors: ["#252326", "#8F26F3", "#22C55E"],
     style: "Kreatywny i Artystyczny",

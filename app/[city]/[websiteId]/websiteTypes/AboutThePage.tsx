@@ -14,9 +14,9 @@ export default function AboutThePage({ item }: { item: WebsiteOffer }) {
             <div className="lg:pr-12 flex flex-col justify-between ">
               <Specifications item={item} />
               <div className="flex flex-col lg:mt-48 mt-12 pr-3 lg:pr-0">
-                <h1 className="text-2xl lg:text-3xl font-bold my-6">
+                <span className="text-2xl lg:text-3xl font-bold my-6">
                   Często zadawane pytania
-                </h1>
+                </span>
                 <FaqModule faq={faq.faq} city={item.city} />
               </div>
             </div>

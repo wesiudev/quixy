@@ -19,12 +19,12 @@ export default function ThankYouMessage({
       } duration-500 delay-300`}
     >
       <FaCheckCircle className="text-7xl text-white bg-green-400 rounded-full" />
-      <h1 className="text-xl md:text-3xl text-center text-green-400 drop-shadow shadow-black mt-2">
+      <span className="text-xl md:text-3xl text-center text-green-400 drop-shadow shadow-black mt-2">
         Dziękujemy za wiadomość!
-      </h1>
-      <h2 className="text-lg md:text-2xl mt-3">
+      </span>
+      <span className="text-lg md:text-2xl mt-3">
         Wkrótce skontaktujemy się z Tobą w celu ustalenia szczegółów.
-      </h2>
+      </span>
     </div>
   );
 }

@@ -25,8 +25,8 @@ export default function HeroModule({ filter }: { filter?: boolean }) {
           />
 
           <div
-            className={`  flex items-center text-center justify-center text-6xl w-full h-full absolute right-0 top-0 font-coco text-white drop-shadow-2xl shadow-black z-50 ${
-              filter ? "" : " "
+            className={`bg-black bg-opacity-50 flex items-center text-center justify-center text-6xl w-full h-full absolute right-0 top-0 font-coco text-white drop-shadow-2xl shadow-black z-50 ${
+              filter ? "" : ""
             }`}
           >
             {/* user dialog with the lion */}

@@ -47,14 +47,14 @@ export default function Dialog() {
             heroDialogData.step > 0 ? "-translate-x-[100%]" : "-translate-x-0"
           }`}
         >
-          <h1 className="bg-gradient-to-tr from-yellow-600 via-yellow-300 to-yellow-600 bg-clip-text text-transparent text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold font-coco drop-shadow-lg shadow-black">
+          <span className="bg-gradient-to-tr from-yellow-600 via-yellow-300 to-yellow-600 bg-clip-text text-transparent text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold font-coco drop-shadow-lg shadow-black">
             UTRZYJ NOSA KONKURENCJI
-          </h1>
+          </span>
 
-          <h2 className="text-sm mt-2 text-white md:text-xl drop-shadow-lg shadow-black italic">
+          <span className="text-sm mt-2 text-white md:text-xl drop-shadow-lg shadow-black italic">
             w <strong className="font-extrabold text-yellow-400">Quixy</strong>{" "}
             znamy się na rzeczy
-          </h2>
+          </span>
           <button
             onClick={updateDialogStep}
             className="flex flex-col-reverse md:flex-row md:items-center z-50 relative"
@@ -71,12 +71,12 @@ export default function Dialog() {
               : "-translate-y-[200%] opacity-0 z-[-50]"
           } duration-500 delay-300`}
         >
-          <h1 className=" text-white w-max text-3xl lg:text-4xl xl:text-5xl font-bold font-coco">
-            SZUKASZ STRONY?
-          </h1>
-          <h2 className="text-sm mb-3  md:mb-5  mt-1 font-light italic">
+          <span className=" text-white text-3xl lg:text-4xl xl:text-5xl font-bold font-coco">
+            Jakiej strony szukasz?
+          </span>
+          <span className="text-sm mb-3  md:mb-5  mt-1 font-light italic">
             skonfiguruj stronę, by później ją zamówić
-          </h2>
+          </span>
           <div className="flex flex-col">
             <div className="flex flex-row items-center justify-center flex-wrap w-full">
               {/* strona wizytowka, strona landingowa, sklep [...] */}

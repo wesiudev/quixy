@@ -23,22 +23,20 @@ export const parseMarkdown = (input: any) => {
       line = line.replace(linkMatch[0], linkHtml);
     }
     // Parse headings
-    if (line.startsWith("h1 ")) {
+    if (line.startsWith("h2 ")) {
       const text = line.substring(3);
-      return `<h1 class="!text-3xl">${text}</h1>`;
-    } else if (line.startsWith("h2 ")) {
+      return `<h2 class="!text-3xl">${text}</h1>`;
+    } else if (line.startsWith("p ")) {
       const text = line.substring(3);
-      return `<h2 class="!text-2xl ">${text}</h2>`;
+      return `<p class="!text-xl ">${text}</p>`;
     } else if (line.startsWith("h3 ")) {
       const text = line.substring(3);
-      return `<h3 class="!text-xl ">${text}</h3>`;
+      return `<h3 class="!text-2xl ">${text}</h3>`;
     } else if (line.startsWith("h4 ")) {
       const text = line.substring(3);
       return `<h4 class="!text-lg !font-normal">${text}</h4>`;
-    } else if (line.startsWith("h5 ")) {
-      const text = line.substring(3);
-      return `<h5 class="!text-sm !font-normal">${text}</h5>`;
     }
+
     // Parse ordered lists
     const listMatch = line.match(/^(\d+\.)\s(.+)/);
     if (listMatch) {

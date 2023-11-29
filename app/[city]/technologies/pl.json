@@ -1,0 +1,694 @@
+{
+  "pl": [
+    {
+      "Header": {
+        "clients": "Dla klientów"
+      },
+      "Navigation": {
+        "goBack": "Powrót",
+        "btnClose": "Zamknij"
+      },
+      "Dashboard": {
+        "h1": "Zarządzaj swoją stroną"
+      },
+      "CustomerHook": {
+        "h1": "Masz pomysł na stronę internetową?",
+        "h2": "Zbuduj stronę internetową, która spełni Twoje oczekiwania, a moje narzędzie do kalkulacji cen ją wyceni i da Tobie porównanie z innymi ofertami.",
+        "toolH1": "Kalkulator cenowy",
+        "toolH2": "Wybierz funkcjonalności, które chcesz mieć na swojej stronie internetowej.",
+        "toolPriceFor": "Wycena dla",
+        "toolBasicServices": "Podstawowe usługi",
+        "toolBasicServicesDescription": "*Usługi podstawowe są niezbędne do stworzenia strony internetowej. Dodaj więcej usług korzystając z zakładki 'Usługi dodatkowe', które znajdziesz niżej.",
+        "toolBasicServicesDescriptionA": "**Czas realizacji może się wydłużyć w zależności od indywidualnych potrzeb klienta.",
+        "toolExtraServices": "Usługi dodatkowe",
+        "toolEstimatedTime": "Szacowany czas",
+        "toolLogic": "Logika",
+        "toolTime": "Czas realizacji",
+        "toolPrice": "Szacowany koszt",
+        "toolAdded": "Dodano",
+        "toolDelete": "Usuń",
+        "toolSum": "Podsumowanie",
+        "toolOrder": "Sprawdź dostępność",
+        "toolCheckout": "Zobacz ofertę",
+        "toolHours": "godzin",
+        "toolAdd": "Dodaj do projektu",
+        "toolAvailableFrom": "Wybierz jeden termin z dostępnych, wpisz email lub numer telefonu, a ja skontaktuję się z Tobą w celu ustalenia szczegółów.",
+        "templates": [
+          {
+            "id": 0,
+            "name": "Strona wizytówka",
+            "description": "Strona wizytówka jest zwykle krótką stroną internetową, która przedstawia podstawowe informacje o firmie, osobie lub produkcie. Zawiera zazwyczaj nazwę, logo, dane kontaktowe oraz krótki opis działalności lub prezentację oferty.",
+            "services": [
+              {
+                "id": 0,
+                "name": "Inicjalizacja projektu"
+              },
+              {
+                "id": 1,
+                "name": "Strona główna"
+              },
+              {
+                "id": 2,
+                "name": "Formularz kontaktowy"
+              },
+              {
+                "id": 5,
+                "name": "Nawigacja strony"
+              },
+              {
+                "id": 9,
+                "name": "Utworzenie komponentów"
+              },
+              {
+                "id": 10,
+                "name": "Optymalizacja SEO"
+              },
+              {
+                "id": 12,
+                "name": "Dodawanie interakcji"
+              },
+              {
+                "id": 13,
+                "name": "Podsumowanie designu"
+              },
+              {
+                "id": 14,
+                "name": "Wdrażanie aplikacji"
+              },
+              {
+                "id": 15,
+                "name": "Ustawienie domeny"
+              }
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-830550?alt=media&token=c2daf3eb-6acf-462d-9b45-62bbd09cda27",
+            "img2": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-836968?alt=media&token=7672faa6-27d4-4a4a-a2fd-cbd07637fd30"
+          },
+          {
+            "id": 1,
+            "name": "Strona Blog",
+            "description": "Strona blogowa służy do publikowania treści w formie artykułów lub wpisów. Zawiera zazwyczaj różnorodne tematy, komentarze czy też możliwość subskrybowania treści przez czytelników.",
+            "services": [
+              {
+                "id": 0,
+                "name": "Inicjalizacja projektu"
+              },
+              {
+                "id": 1,
+                "name": "Strona główna"
+              },
+              {
+                "id": 2,
+                "name": "Formularz kontaktowy"
+              },
+              {
+                "id": 3,
+                "name": "Blog lub sekcja wiadomości"
+              },
+              {
+                "id": 5,
+                "name": "Nawigacja strony"
+              },
+              {
+                "id": 9,
+                "name": "Utworzenie komponentów"
+              },
+              {
+                "id": 10,
+                "name": "Optymalizacja SEO"
+              },
+              {
+                "id": 11,
+                "name": "Testowanie i debugowanie"
+              },
+              {
+                "id": 12,
+                "name": "Dodawanie interakcji"
+              },
+              {
+                "id": 13,
+                "name": "Podsumowanie designu"
+              },
+              {
+                "id": 14,
+                "name": "Wdrażanie aplikacji"
+              },
+              {
+                "id": 15,
+                "name": "Ustawienie domeny"
+              }
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-804727?alt=media&token=6139acba-a8b7-4e38-9881-c5f7b06fd957",
+            "img2": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-892667?alt=media&token=d2fa10fa-723e-4d2e-8580-3aa05b3f1ace"
+          },
+          {
+            "id": 2,
+            "name": "Sklep internetowy",
+            "description": "Sklep internetowy to strona, na której można dokonywać zakupów online. Zawiera katalog produktów, koszyk, system płatności i inne funkcje umożliwiające dokonywanie transakcji przez klientów.",
+            "services": [
+              {
+                "id": 0,
+                "name": "Inicjalizacja projektu"
+              },
+              {
+                "id": 1,
+                "name": "Strona główna"
+              },
+              {
+                "id": 2,
+                "name": "Formularz kontaktowy"
+              },
+              {
+                "id": 5,
+                "name": "Nawigacja strony"
+              },
+              {
+                "id": 6,
+                "name": "System logowania"
+              },
+              {
+                "id": 7,
+                "name": "Opis produktów lub usług, cennik"
+              },
+              {
+                "id": 8,
+                "name": "System faktur"
+              },
+              {
+                "id": 9,
+                "name": "Utworzenie komponentów"
+              },
+              {
+                "id": 10,
+                "name": "Optymalizacja SEO"
+              },
+              {
+                "id": 11,
+                "name": "Testowanie i debugowanie"
+              },
+
+              {
+                "id": 12,
+                "name": "Dodawanie interakcji"
+              },
+              {
+                "id": 13,
+                "name": "Podsumowanie designu"
+              },
+              {
+                "id": 14,
+                "name": "Wdrażanie aplikacji"
+              },
+              {
+                "id": 15,
+                "name": "Ustawienie domeny"
+              }
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-246592?alt=media&token=d76c2f98-0b82-4c2f-85ee-1d8c715432bd",
+            "img2": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-424775?alt=media&token=81e8e29b-f70b-4a3e-b169-fdfbbcc5ac29"
+          },
+          {
+            "id": 3,
+            "name": "Strona portfolio",
+            "description": "Strona portfolio służy do prezentowania prac, osiągnięć lub projektów wykonanych przez osobę, artystę, freelancerów itp. Zawiera zazwyczaj galerię zdjęć, opisy projektów i informacje kontaktowe.",
+            "services": [
+              {
+                "id": 0,
+                "name": "Inicjalizacja projektu"
+              },
+              {
+                "id": 1,
+                "name": "Strona główna"
+              },
+              {
+                "id": 2,
+                "name": "Formularz kontaktowy"
+              },
+              {
+                "id": 4,
+                "name": "Referencje lub opinie klientów"
+              },
+              {
+                "id": 5,
+                "name": "Nawigacja strony"
+              },
+              {
+                "id": 7,
+                "name": "Opis produktów lub usług, cennik"
+              },
+              {
+                "id": 9,
+                "name": "Utworzenie komponentów"
+              },
+              {
+                "id": 10,
+                "name": "Optymalizacja SEO"
+              },
+              {
+                "id": 11,
+                "name": "Testowanie i debugowanie"
+              },
+              {
+                "id": 12,
+                "name": "Dodawanie interakcji"
+              },
+              {
+                "id": 13,
+                "name": "Podsumowanie designu"
+              },
+              {
+                "id": 14,
+                "name": "Wdrażanie aplikacji"
+              },
+              {
+                "id": 15,
+                "name": "Ustawienie domeny"
+              }
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-166599?alt=media&token=77dc1e73-57e7-4019-87e9-eebb9db6bfb7",
+            "img2": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-535264?alt=media&token=afa264c8-75d7-42c8-a3f5-43924b8ca719"
+          },
+
+          {
+            "id": 4,
+            "name": "Strona landingowa",
+            "description": "Strona landingowa, znana również jako strona docelowa, to pojedyncza strona internetowa, której celem jest konwersja odwiedzających na potencjalnych klientów lub subskrybentów poprzez skoncentrowane przekazanie informacji i zachętę do działania.",
+            "services": [
+              {
+                "id": 0,
+                "name": "Inicjalizacja projektu"
+              },
+              {
+                "id": 1,
+                "name": "Strona główna"
+              },
+              {
+                "id": 12,
+                "name": "Dodawanie interakcji"
+              },
+              {
+                "id": 13,
+                "name": "Podsumowanie designu"
+              },
+              {
+                "id": 14,
+                "name": "Wdrażanie aplikacji"
+              },
+              {
+                "id": 15,
+                "name": "Ustawienie domeny"
+              }
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-706131?alt=media&token=bed4c979-638d-4ddb-925b-96b9a31cb7ce",
+            "img2": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-952496?alt=media&token=58fcbf5d-c253-43aa-85df-1a6c72801f65"
+          },
+          {
+            "id": 5,
+            "name": "Platforma internetowa",
+            "description": "Platforma internetowa to strona internetowa, która umożliwia użytkownikom dostęp do różnych usług lub funkcji. Służą do świadczenia usług typu strony ogłoszeniowe, sklepy internetowe, portale społecznościowe, platformy edukacyjne, platformy do zarządzania projektami, platformy do zarządzania zasobami ludzkimi itp.",
+            "services": [
+              {
+                "id": 0,
+                "name": "Inicjalizacja projektu"
+              },
+              {
+                "id": 1,
+                "name": "Strona główna"
+              },
+              {
+                "id": 2,
+                "name": "Formularz kontaktowy"
+              },
+              {
+                "id": 5,
+                "name": "Nawigacja strony"
+              },
+              {
+                "id": 6,
+                "name": "System logowania"
+              },
+              {
+                "id": 7,
+                "name": "Opis produktów lub usług, cennik"
+              },
+              {
+                "id": 8,
+                "name": "System faktur"
+              },
+              {
+                "id": 9,
+                "name": "Utworzenie komponentów"
+              },
+              {
+                "id": 10,
+                "name": "Optymalizacja SEO"
+              },
+              {
+                "id": 11,
+                "name": "Testowanie i debugowanie"
+              },
+
+              {
+                "id": 12,
+                "name": "Dodawanie interakcji"
+              },
+              {
+                "id": 13,
+                "name": "Podsumowanie designu"
+              },
+              {
+                "id": 14,
+                "name": "Wdrażanie aplikacji"
+              },
+              {
+                "id": 15,
+                "name": "Ustawienie domeny"
+              }
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-333832?alt=media&token=24f0e956-2b50-4cfc-a443-50548876c2fa",
+            "img2": "https://firebasestorage.googleapis.com/v0/b/decocanva-408fb.appspot.com/o/image-883886?alt=media&token=4b1ee311-0447-42e5-a3ff-d7bbdf0351b0"
+          }
+        ],
+        "toolServices": [
+          {
+            "id": 0,
+            "name": "Inicjalizacja projektu",
+            "description": "Zbudowanie nowej aplikacji od podstaw, stworzenie optymalnego środowiska pracy oraz połączenie systemu z autorskim systemem do zarządzania stroną.",
+            "duration": "-",
+            "durationLogic": "2 godziny"
+          },
+          {
+            "id": 1,
+            "name": "Strona główna",
+            "description": "Strona główna jest wizytówką każdej aplikacji internetowej, powinna zachęcić użytkownika do dalszego korzystania z naszej aplikacji.",
+            "duration": "3 godziny",
+            "durationLogic": "1 godzina"
+          },
+          {
+            "id": 2,
+            "name": "Formularz kontaktowy",
+            "description": "Daj użytkownikom możliwość skontaktowania się z Tobą poprzez specjalny formularz, który może pojawić się jako wysunięty obiekt zza ekranu, lub osobna zakładka 'Kontakt'.",
+            "duration": "2 godziny",
+            "durationLogic": "1 godzina"
+          },
+          {
+            "id": 3,
+            "name": "Blog lub sekcja wiadomości",
+            "description": "Prowadź sukcesywnie swój blog, który pojawi się w wyszukiwarce Google, aby przyciągnąć zainteresowanych klientów na swój sklep, stronę portfolio, czy stronę czysto hobbistyczną.",
+            "duration": "12 godzin",
+            "durationLogic": "3 godziny"
+          },
+          {
+            "id": 4,
+            "name": "Referencje lub opinie klientów",
+            "description": "Pozytywne referencje mogą zapewnić wysokie miejsce w Google oraz dać pogląd na jakość świadczonych usług.",
+            "duration": "2 godziny",
+            "durationLogic": "1 godzina"
+          },
+          {
+            "id": 5,
+            "name": "Nawigacja strony",
+            "description": "Przejrzysty układ oraz płynna nawigacja zapewnią użytkownikom najlepsze doznania z używania Twojej storny internetowej.",
+            "duration": "2 godziny",
+            "durationLogic": "1 godzina"
+          },
+          {
+            "id": 6,
+            "name": "System logowania",
+            "description": "Bezpieczny system logowania użytkowników do Twojej strony internetowej pozwala zbierać dane użytkowników, aby później móc wysyłać im najlepiej dobrane oferty do ich preferencji oraz zapewnia wygodę korzystania z zapewnionych treści udostępnianych na twojej stronie internetowej.",
+            "duration": "2 godziny",
+            "durationLogic": "4 godziny"
+          },
+          {
+            "id": 7,
+            "name": "Opis produktów lub usług, cennik",
+            "description": "Wyeksponujemy zasoby, którymi dysponujesz w najoptymalniejszy sposób jaki jest tylko możliwy!",
+            "duration": "2 godziny",
+            "durationLogic": "1 godzina"
+          },
+          {
+            "id": 8,
+            "name": "System faktur",
+            "description": "System faktur wygeneruje dla Ciebie faktury, które możesz wygodnie wysyłać do swoich klientów, aby móc zarządzać swoimi finansami.",
+            "duration": "2 godziny",
+            "durationLogic": "2-3 godziny"
+          },
+          {
+            "id": 9,
+            "name": "Utworzenie komponentów",
+            "description": "Tworzenie różnych komponentów interfejsu użytkownika (UI), takich jak nagłówek, stopka, formularze itp.",
+            "duration": "6 godzin",
+            "durationLogic": "2 godziny"
+          },
+          {
+            "id": 10,
+            "name": "Optymalizacja SEO",
+            "duration": "-",
+            "durationLogic": "4 godziny",
+            "description": "Utworzenie mapy strony, optymalizacja treści, wypełnienie meta tagów, optymalizacja obrazów, optymalizacja kodu strony, optymalizacja prędkości ładowania strony, optymalizacja linków w celu uzyskania lepszej pozycji w przeglądarce - np. Google."
+          },
+          {
+            "id": 11,
+            "name": "Testowanie i debugowanie",
+            "description": "Testowanie aplikacji, odnajdywanie błędów i debugowanie, aby zapewnić poprawne działanie",
+            "duration": "-",
+            "durationLogic": "2-4 godziny"
+          },
+          {
+            "id": 12,
+            "name": "Dodawanie interakcji",
+            "description": "Implementacja interakcji i zdarzeń, takich jak kliknięcia, animacje, formularze, walidacja danych itp.",
+            "duration": "-",
+            "durationLogic": "2-3 godziny"
+          },
+          {
+            "id": 13,
+            "name": "Podsumowanie designu",
+            "description": "Całościowy audyt wyglądu aplikacji i ostateczne poprawki designerskie, używając CSS lub bibliotek stylizacji, takich jak tailwindcss.",
+            "durationLogic": "-",
+            "duration": "2-4 godziny"
+          },
+          {
+            "id": 14,
+            "name": "Wdrażanie aplikacji",
+            "durationLogic": "1-2 godziny",
+            "duration": "-",
+            "description": "Przygotowanie aplikacji do wdrożenia na serwerze produkcyjnym poprzez budowanie paczki produkcyjnej"
+          },
+          {
+            "id": 15,
+            "name": "Ustawienie domeny",
+            "durationLogic": "1 godzina",
+            "duration": "-",
+            "description": "Zakup oraz ustawienie domeny dla twojej strony internetowej."
+          }
+        ],
+        "toolAdditional": [
+          {
+            "id": 51,
+            "name": "Grafika 3D na stronie głównej",
+            "description": "Podgląd 3D na twojej stronie głównej zadowoli oko twojego potencjalnego klienta, dzięki grafice 3D jesteśmy w stanie stworzyć piękne doświadczenie użytkownika.",
+            "duration": "8 godzin",
+            "durationLogic": "2 godziny",
+            "isAdditional": true,
+            "price": 550
+          },
+          {
+            "id": 52,
+            "name": "Często zadawane pytania (FAQ)",
+            "description": "Daj swoim użytkownikom możliwość dowiedzenia się więcej o tym co robisz. Pytania FAQ bardzo często pojawiają się w wyszukiwarce Google, przez co twoja strona internetowa na pewno trafi do większej ilości widowni.",
+            "duration": "2 godziny",
+            "durationLogic": "1 godzina",
+            "isAdditional": true,
+            "price": 150
+          },
+          {
+            "id": 53,
+            "name": "Pobieranie danych z API",
+            "durationLogic": "1 godzina",
+            "duration": "4 godziny",
+            "description": "Jeśli posiadasz swój własny endpoint API, jestem w stanie zapenić implementację logiki pobierania danych z zewnętrznego API, np. za pomocą biblioteki 'axios'",
+            "isAdditional": true,
+            "price": 250
+          }
+        ],
+        "toolLoading": "Szukam najlepszej ceny dla Ciebie...",
+        "toolPriceList": "Kosztorys",
+        "toolButton": "Sprawdź cenę"
+      },
+      "TextSwitcher": [
+        "Web developer do Twojej dyspozycji",
+        "Projektowanie, które przyciąga użytkowników",
+        "Świeże pomysły na Twoją stronę internetową",
+        "Doświadczony front-end developer",
+        "Zoptymalizowane pod kątem szybkości i wydajności",
+        "Szybkie i efektywne tworzenie stron",
+        "Profesjonalne rozwiązania internetowe",
+        "Tworzenie pięknych doświadczeń użytkownika",
+        "Dostarczanie doskonałych projektów"
+      ],
+      "MetaData": {
+        "IndexTitle": "Portfolio Wesiudev | Programista stron internetowych i aplikacji.",
+        "IndexDescription": "Tworzenie stron internetowych. Dowiedz się więcej o moich projektach, technologiach, które używam oraz o mnie.",
+        "TechnologiesTitle": "Technologie Wesiudev | JavaScript, React, Next (...) ",
+        "TechnologiesDescription": "Języki programowania, które umożliwiają mi tworzenie stron internetowych. Dowiedz się więcej o technologiach, które używam do tworzenia stron internetowych.",
+        "ProjectsTitle": "Projekty Wesiudev | Front-end Development | Tworzenie stron internetowych",
+        "ProjectsDescription": "Zobacz strony internetowe, które stworzyłem. Programowanie stron internetowych spersonalizowane do potrzeb każdego klienta.",
+        "ClientsTitle": "Zaloguj się do swojego konta strony",
+        "ClientsDescription": "Zaloguj się do swojego konta strony, aby zarządzać treścią."
+      },
+      "About": {
+        "title": "Parę słów o mnie",
+        "description": "Witaj na mojej stronie internetowej. Nazywam się Paweł Wessel i jestem front-end developerem. Tworzę strony internetowe, które są zoptymalizowane pod kątem szybkości i wydajności. Moje projekty są tworzone z myślą o użytkownikach, którzy chcą mieć piękne doświadczenia podczas przeglądania stron internetowych. Jeśli potrzebujesz strony internetowej, która jest szybka, wydajna i łatwa w utrzymaniu, to dobrze trafiłeś. Zapraszam do kontaktu ze mną."
+      },
+      "Auth": {
+        "h1": "Zaloguj się do swojego konta strony, aby zarządzać treścią.",
+        "h2": "Dodawaj i edytuj swoje posty na blogu, wyświetlaj statystyki strony oraz zarządzaj produktami.",
+        "emailError": "Niepoprawny adres email",
+        "emptyEmailError": "Pole email nie może być puste",
+        "passwordShortError": "Hasło musi mieć minimum 6 znaków",
+        "loginHeadline": "Zaloguj się do swojego konta",
+        "email": "Adres email",
+        "password": "Hasło",
+        "forgotPassword": "Zapomniałeś hasła?",
+        "loginBtn": "Zaloguj się",
+        "cancelBtn": "Cofnij",
+        "resetPasswordBtn": "Przypomnij hasło"
+      },
+      "IndexPage": {
+        "title": "wesiu.dev - strona główna",
+        "description": "Strona główna wesiu.dev",
+        "keywords": "wesiu.dev, strona główna, home, portfolio, frontend, webdevelopment",
+        "projects": "Projekty",
+        "projectsDesc": "Zobacz moje projekty które są już dostępne do wglądu.",
+        "aboutMe": "O mnie",
+        "aboutMeDesc": "Chcesz wiedzieć więcej o mnie? Zajrzyj tutaj.",
+        "technologies": "Technologie",
+        "technologiesDesc": "Dowiedz się jakie technologie używam do tworzenia stron.",
+        "hobby": "Hobby",
+        "hobbyDesc": "Zobacz co robię w wolnym czasie."
+      },
+      "ProjectsPage": {
+        "h1": "projekty",
+        "h2": "Tutaj znajdziesz wszystkie moje prace, które wykonałem jako",
+        "h2b": "[Frontend Developer]",
+        "h3": "Wszystkie projekty są dostępne na moim githubie.",
+        "button": "Pokaż projekty",
+        "descriptions": "O projekcie",
+        "stack": "Technologie",
+        "link": "Zobacz projekt",
+        "components": "Komponenty",
+        "components2": "Wypróbuj płynność moich produkcji"
+      },
+      "TechnologiesPage": {
+        "h1": "technologie",
+        "h2": "Poniżej przedstawiamy zestawienie kluczowych technologii wykorzystywanych w naszym procesie tworzenia stron internetowych. Te narzędzia są niezwykle istotne dla profesjonalnych programistów, umożliwiając tworzenie zaawansowanych, efektywnych i nowoczesnych stron internetowych. Znajdziesz tutaj technologie zarówno front-endowe, odpowiedzialne za interfejs użytkownika, jak i back-endowe, obsługujące logikę biznesową i interakcję z bazą danych. Wśród wymienionych technologii znajdują się popularne frameworki, biblioteki, języki programowania oraz narzędzia wspierające procesy developmentu.",
+        "h2b": "[frontend developer]",
+        "h3": "All of my projects are available on my github account.",
+        "button": "Zobacz technologie",
+        "descriptions": "About the project",
+        "stack": "Stack",
+        "learnMore": "Czytaj dalej",
+        "docs": "Dokumentacja"
+      },
+      "Technologies": [
+        {
+          "name": "React.js",
+          "link": "https://react.dev/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/180px-React-icon.svg.png",
+          "description": "React to wspaniała alternatywa dla klasycznego JavaScriptu. Pozwala na tworzenie komponentów, które są łatwe w utrzymaniu, rozszerzaniu oraz implementacji."
+        },
+        {
+          "name": "Next.js",
+          "link": "https://nextjs.org/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+          "description": "Dzięki Next.js jesteśmy w stanie stworzyć aplikacje internetowe na bardzo dużą skalę i mimo jej rozmiaru, będzie ona zoptymalizowana tak, żeby każdy użytkownik mógł z niej skorzystać na każdym urządzeniu."
+        },
+        {
+          "name": "Redux",
+          "link": "https://redux.js.org/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/180px-Redux_Logo.png",
+          "description": "Redux to bibioteka do zarządzania stanem aplikacji. Dzięki niej jesteśmy w stanie sprawnie rozwiązywać zagadnienia, które do swojej implementacji potrzebują skomplikowanej logiki."
+        },
+        {
+          "name": "Firebase",
+          "link": "https://firebase.google.com/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/435px-Firebase_Logo.svg.png",
+          "description": "Przy pomocy Firebase Storage oraz Firestore Database bezpiecznie przechowujemy dane użytkowników oraz zarządzamy treściami na stronie."
+        },
+        {
+          "name": "OpenAI",
+          "link": "https://openai.com/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1200px-OpenAI_Logo.svg.png?20221228112417",
+          "description": "Technologia, która pozwala na generowanie grafik przy pomocy sztucznej inteligencji."
+        },
+        {
+          "name": "Three.js",
+          "link": "https://threejs.org/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Three.js_Icon.svg",
+          "description": "Three.js to technologia, która pozwala na tworzenie grafiki 3D w przeglądarce."
+        }
+      ],
+      "ProjectsThumbnails": [
+        {
+          "title": "Decocanva",
+          "title2b": "Projekt poboczny",
+          "description": "Platforma do generowania grafik przy pomocy technologii OpenAI. Doświadczenie użytkownika jest płynne i intuicyjne. Projekt przyda się zarówno developerom jak i użytkownikom, którzy chcą poznać możliwości sztucznej inteligencji, a w przyszłości będzie w stanie zapewnić stałą pracę artystom, którzy będą mogli namalować obraz wygenerowany przez sztuczną inteligencję.",
+          "link": "https://decocanva.com",
+          "images": [
+            {
+              "id": 0,
+              "src": "https://firebasestorage.googleapis.com/v0/b/wesiudev-5e3b9.appspot.com/o/decocanvahomepage.png?alt=media&token=6095dd67-5c33-4441-b2f0-1198129d17ba",
+              "alt": "Decocanva Strona Główna"
+            },
+            {
+              "id": 1,
+              "src": "https://firebasestorage.googleapis.com/v0/b/wesiudev-5e3b9.appspot.com/o/decocanvagenerator.png?alt=media&token=4e2a223f-82c3-4533-a9eb-975ea92a99c3",
+              "alt": "Decocanva Generator Obrazków"
+            },
+            {
+              "id": 2,
+              "src": "https://firebasestorage.googleapis.com/v0/b/wesiudev-5e3b9.appspot.com/o/decocanvatutorial.png?alt=media&token=cfde5297-bc8b-421e-9a65-6785a1eafa86",
+              "alt": "Decocanva Poradniki Dla Użytkowników"
+            }
+          ],
+          "stack": [
+            "React.js",
+            "Next.js",
+            "Redux",
+            "Firebase",
+            "OpenAI",
+            "Three.js"
+          ]
+        },
+        {
+          "title": "ManicureGrudziadz",
+          "title2b": "Projekt poboczny",
+          "description": "Aplikacja internetowa w pełni poświęcona zabiegom kosmetycznym typu pedicure i manicure. Znajdują się tam wszystkie informacje dotyczące usług, blog, galeria zdjęć oraz formularz kontaktowy. Projekt jest w trakcie tworzenia. Fun fact: w aplikacji zostały wykorzystane obrazki wygenerowane przez decocanva.com",
+          "link": "https://www.manicuregrudziadz.pl",
+          "images": [
+            {
+              "id": 0,
+              "src": "https://firebasestorage.googleapis.com/v0/b/wesiudev-5e3b9.appspot.com/o/manicuregrudziadzhomepage.png?alt=media&token=5b96e34b-8d16-46cd-a343-d2fdc475a8d0",
+              "alt": "ManicureGrudziadz Strona Główna"
+            },
+            {
+              "id": 1,
+              "src": "https://firebasestorage.googleapis.com/v0/b/wesiudev-5e3b9.appspot.com/o/manicuregrudziadzservices.png?alt=media&token=14753630-c085-43e4-bec9-d3705f1f4af8",
+              "alt": "ManicureGrudziadz Usługi"
+            },
+            {
+              "id": 2,
+              "src": "https://firebasestorage.googleapis.com/v0/b/wesiudev-5e3b9.appspot.com/o/manicuregrudziadzblog.png?alt=media&token=9e3a289d-1989-4f11-91a3-320b7004b9b8",
+              "alt": "Manicuregrudziadz Blog"
+            }
+          ],
+          "stack": ["React.js", "Next.js", "Firebase"]
+        }
+      ],
+      "counter": {
+        "increment": "Dodaj",
+        "decrement": "Odejmij"
+      }
+    }
+  ]
+}

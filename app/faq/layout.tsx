@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import HeroModule from "../components/HeroModule/HeroModule";
 import FaqNavigation from "./FaqNavigation";
 
@@ -13,6 +14,7 @@ export default function ProductLayout({
       </div>
       <FaqNavigation />
       {children}
+      <Footer />
     </div>
   );
 }

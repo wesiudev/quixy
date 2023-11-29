@@ -31,12 +31,12 @@ export const SelectBlog = ({
               : "-translate-y-[50vh] opacity-0"
           }`}
         >
-          <h1 className=" text-white w-max text-4xl lg:text-4xl xl:text-5xl font-bold font-coco">
-            ROZWÓJ STRONY
-          </h1>
-          <h2 className={`text-sm font-light italic  text-center`}>
+          <span className=" text-white text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
+            Rozwój i pozycjonowanie
+          </span>
+          <span className={`text-sm font-light italic mb-2 text-center`}>
             czy na twojej stronie będzie blog?
-          </h2>
+          </span>
         </div>
         <div
           className={`flex flex-col -mt-12 duration-700  ${
@@ -45,12 +45,12 @@ export const SelectBlog = ({
               : "-translate-x-[25vw] opacity-0"
           }`}
         >
-          <h1 className=" text-white w-max text-3xl lg:text-4xl xl:text-5xl font-bold font-coco ">
-            PROWADZENIE BLOGA
-          </h1>
-          <h2 className={`text-sm font-light italic text-center `}>
+          <span className=" text-white text-center text-2xl lg:text-4xl xl:text-5xl font-bold font-coco ">
+            Prowadzenie bloga
+          </span>
+          <span className={`text-sm font-light italic text-center `}>
             czy chcesz abyśmy tworzyli i publikowali posty za ciebie?
-          </h2>
+          </span>
           {/* <Link
             href="/pricing"
             className={`text-green-400 text-sm font-light italic my-1 delay-1000 select-none `}
@@ -68,6 +68,15 @@ export const SelectBlog = ({
                     ...data,
                     step: 5,
                     blog: true,
+                    blogServices: false,
+                  })
+                );
+              !isBlogAccepted &&
+                dispatch(
+                  setHeroDialogData({
+                    ...data,
+                    step: 5,
+                    blog: false,
                     blogServices: false,
                   })
                 );

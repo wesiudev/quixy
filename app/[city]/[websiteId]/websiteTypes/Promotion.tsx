@@ -11,9 +11,9 @@ export default function Promotion() {
   return (
     <div className="mt-12">
       <div>
-        <h1 className="font-bold text-xl sm:text-2xl lg:text-3xl  text-left text-white mt-24 p-3  bg-[#303030] lg:p-6">
+        <span className="font-bold text-xl sm:text-2xl lg:text-3xl  text-left text-white mt-24 p-3  bg-[#303030] lg:p-6">
           Aktywne promocje
-        </h1>
+        </span>
         <div className="mt-6 lg:mt-12">
           <div className="prose prose-invert font-coco  lg:px-0">
             <div className="flex flex-row items-start md:items-center">

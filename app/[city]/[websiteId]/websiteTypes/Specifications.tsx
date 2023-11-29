@@ -17,7 +17,7 @@ export default function Specifications({ item }: { item: WebsiteOffer }) {
         <h2>{item?.description.about}</h2>
       </div>
       <div className="prose prose-invert mt-24">
-        <h1>Co oferuje Quixy?</h1>
+        <h2>Co oferuje Quixy?</h2>
         <ul className="border-l-4 border-green-400 ">
           {item?.description.features.map((item: any, i: number) => (
             <li key={i} className="w-full flex flex-col">

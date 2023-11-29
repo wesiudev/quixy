@@ -93,7 +93,7 @@ export default async function Page({ params }) {
   if (city)
     return (
       <div className="min-h-screen bg-[#202020] w-full px-3 lg:px-[8vw]">
-        <h1 className="text-white text-4xl">Często zadawane pytania</h1>
+        <h2 className="text-white text-4xl">Często zadawane pytania</h2>
         <FaqMap city={city} faq={faq.faq} />
       </div>
     );

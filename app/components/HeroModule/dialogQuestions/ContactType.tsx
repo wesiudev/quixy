@@ -62,12 +62,12 @@ export const ContactType = ({
           : "-translate-y-[200%] opacity-0 z-[-50]"
       } duration-500 delay-300`}
     >
-      <h1 className=" text-white w-max text-3xl lg:text-4xl xl:text-5xl font-bold font-coco -mt-12">
-        KONTAKT
-      </h1>
-      <h2 className="text-sm -mb-4 mt-1 font-light italic">
+      <span className=" text-white w-max text-3xl lg:text-4xl xl:text-5xl font-bold font-coco -mt-12">
+        Kontakt
+      </span>
+      <span className="text-sm -mb-4 mt-1 font-light italic">
         jaką formę kontaktu z nami preferujesz?
-      </h2>
+      </span>
       <div
         className={`${
           contactType !== "" ? "space-x-0" : "space-x-6"

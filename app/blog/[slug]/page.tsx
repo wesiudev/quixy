@@ -81,7 +81,6 @@ export async function generateMetadata({ params }: { params: any }) {
         description,
         image: {
           url: "/android-chrome-512x512.png",
-          alt: "Quixy Logo",
         },
       },
       schema: [faqPage],
@@ -120,34 +119,32 @@ export default async function Page({ params }: { params: any }) {
                 <h1 className="!text-3xl lg:!text-4xl 2xl:!text-5xl mx-auto font-bold text-green-300">
                   {post.title}
                 </h1>
-                <h4
+                <p
                   className="pb-12 font-light"
                   dangerouslySetInnerHTML={renderMarkdown(post.intro)}
-                ></h4>
+                ></p>
                 {post.sections.length > 0 && (
-                  <h4 className="text-white italic drop-shadow-lg shadow-black">
+                  <span className="text-white italic drop-shadow-lg shadow-black">
                     Spis treści
-                  </h4>
+                  </span>
                 )}
                 <div className="flex flex-col mb-6">
                   {post.sections.map((section: Section, idx) => (
-                    <h4 key={idx} className="relative h-12">
-                      <ScrollTo section={section} />
-                    </h4>
+                    <ScrollTo key={idx} section={section} />
                   ))}
                 </div>
                 {post.sections.map((section: Section, idx) => (
                   <div id={`${polishToEnglish(section.title)}`} key={idx}>
-                    <h3 key={idx} className="text-green-300">
+                    <span key={idx} className="text-green-300">
                       {section.title}
-                    </h3>
+                    </span>
 
                     <p
                       dangerouslySetInnerHTML={renderMarkdown(section.content)}
                     />
                   </div>
                 ))}
-                <h4 className="w-full shadow-black font-light">{post.outro}</h4>
+                <p className="w-full shadow-black font-light">{post.outro}</p>
               </div>
             </div>
             {/* 2 */}

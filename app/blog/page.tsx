@@ -38,15 +38,15 @@ export default async function Blog() {
                 <div className="w-full overflow-hidden flex items-start">
                   <Image
                     src={post.mainImage}
-                    width={1024}
-                    height={1024}
-                    alt=""
+                    width={512}
+                    height={512}
+                    alt={post.title}
                     className="w-full object-contain rounded-lg shadow-md shadow-zinc-700"
                   />
                 </div>
-                <h1 className="group-hover:bg-gray-200 duration-300 group-hover:p-4 absolute bottom-3 left-3 right-3 text-base lg:text-xl  drop-shadow-xl shadow-black mt-3 bg-white text-zinc-700 font-bold  text-left p-3 rounded-lg">
+                <span className="group-hover:bg-gray-200 duration-300 group-hover:p-4 absolute bottom-3 left-3 right-3 text-base lg:text-xl  drop-shadow-xl shadow-black mt-3 bg-white text-zinc-700 font-bold  text-left p-3 rounded-lg">
                   {post.title}
-                </h1>
+                </span>
               </Link>
             ))}
           </div>

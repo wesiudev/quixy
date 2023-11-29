@@ -22,12 +22,12 @@ export const Audience = ({
             : "-translate-y-[200%] opacity-0 z-[-50]"
         }   `}
       >
-        <h1 className=" text-white w-max text-3xl lg:text-4xl xl:text-5xl font-bold font-coco">
-          DLA KOGO STRONA?
-        </h1>
-        <h2 className="text-sm font-light italic my-1 ">
+        <span className=" text-white text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
+          Kto będzie odbiorcą strony?
+        </span>
+        <span className="text-sm font-light italic my-1 ">
           określ grupę docelową
-        </h2>
+        </span>
 
         <form
           className="flex flex-col items-center"

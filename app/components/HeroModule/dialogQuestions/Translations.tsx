@@ -40,12 +40,12 @@ export const Translations = ({
           : "-translate-y-[200%] opacity-0 z-[-50]"
       }   `}
     >
-      <h1 className=" text-white w-max text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
-        TŁUMACZENIE?
-      </h1>
-      <h2 className="text-sm font-light italic">
+      <span className=" text-white text-2xl lg:text-4xl xl:text-5xl font-bold font-coco">
+        Czy chcesz przetłumaczyć stronę?
+      </span>
+      <span className="text-sm font-light italic">
         wybierz języki {"(minimalnie jeden)"}
-      </h2>
+      </span>
 
       <div
         className={`flex flex-col items-center justify-center flex-wrap w-full ${
