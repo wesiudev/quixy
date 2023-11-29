@@ -1,5 +1,5 @@
 "use client";
-import { Post } from "@/types";
+import { Post } from "@/app/types";
 import { FaEdit, FaTrash } from "react-icons/fa";
 
 export default function SectionsList({
