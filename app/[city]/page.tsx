@@ -10,7 +10,7 @@ import Technologies from "./technologies/Technologies";
 import pl from "./technologies/pl.json";
 export async function generateStaticParams() {
   return cities.cities.map((item) => ({
-    city: item.city,
+    city: polishToEnglish(item.city),
   }));
 }
 async function getCities() {
