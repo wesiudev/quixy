@@ -18,19 +18,19 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASURMENT_ID,
 };
-
+const websiteName = process.env.NEXT_PUBLIC_APP_NAME;
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const storage = getStorage(app);
 const auth = getAuth(app);
 
-async function getBlogPosts(websiteName) {
+async function getBlogPosts() {
   const docRef = doc(db, websiteName, "blog");
   const docSnap = await getDoc(docRef);
   return docSnap.data();
 }
 
-async function addBlogPost(websiteName, post) {
+async function addBlogPost(post) {
   const docRef = doc(db, websiteName, "blog");
   const docSnap = await getDoc(docRef);
   if (!docSnap.data()) {
@@ -41,7 +41,7 @@ async function addBlogPost(websiteName, post) {
     });
   }
 }
-async function updateBlogPost(websiteName, postId, updatedPost) {
+async function updateBlogPost(postId, updatedPost) {
   const docRef = doc(db, websiteName, "blog");
   const docSnap = await getDoc(docRef);
   const posts = docSnap.data().posts;
@@ -54,7 +54,7 @@ async function updateBlogPost(websiteName, postId, updatedPost) {
     posts: posts,
   });
 }
-async function createOrder(websiteName, req) {
+async function createOrder(req) {
   const docRef = doc(db, websiteName, "orders");
   const docSnap = await getDoc(docRef);
   if (!docSnap.data()) {

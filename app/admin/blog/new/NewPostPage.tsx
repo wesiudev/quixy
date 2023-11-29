@@ -1,6 +1,5 @@
 "use client";
-import { renderMarkdown } from "@/lib/parseMarkdown";
-import { polishToEnglish } from "../../../../../utils/polishToEnglish";
+
 import { addBlogPost } from "@/firebase";
 import Link from "next/link";
 import { useState } from "react";
@@ -13,6 +12,8 @@ import { EditorState } from "draft-js";
 import EditSection from "../edit/EditSection";
 import SectionsList from "./PostSections/SectionsList";
 import FaqHandler from "./FaqHandler";
+import { polishToEnglish } from "@/app/utils/polishToEnglish";
+import { renderMarkdown } from "@/app/utils/parseMarkdown";
 var randomId = require("random-id");
 export default function NewPostPage() {
   const [input, setInput] = useState({

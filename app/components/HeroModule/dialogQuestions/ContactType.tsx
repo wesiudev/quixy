@@ -26,7 +26,7 @@ export const ContactType = ({
             dispatch(
               setHeroDialogData({ ...data, contactType: email, step: 6 })
             );
-          createOrder("quixy", { ...data, contactType: email, step: 6 });
+          createOrder({ ...data, contactType: email, step: 6 });
         } else {
           setEmailError("Niepoprawny adres email");
           setTimeout(() => {
@@ -41,7 +41,7 @@ export const ContactType = ({
             dispatch(
               setHeroDialogData({ ...data, contactType: phone, step: 6 })
             );
-          createOrder("quixy", { ...data, contactType: phone, step: 6 });
+          createOrder({ ...data, contactType: phone, step: 6 });
         } else {
           setPhoneError("Niepoprawny numer telefonu");
           setTimeout(() => {
