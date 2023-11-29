@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { polishToEnglish } from "../utils/polishToEnglish";
+import { polishToEnglish } from "../../utils/polishToEnglish";
 export const parseMarkdown = (input: any) => {
   // Basic Markdown parsing logic
   const lines = input.split("\n");
@@ -10,7 +10,7 @@ export const parseMarkdown = (input: any) => {
     if (imageMatch) {
       const altText = imageMatch[1];
       const imageUrl = imageMatch[2];
-      return `<Image loading="lazy" decoding="async" width=${500} height=${500} className="mx-auto flex flex-col" src=${imageUrl} alt=${polishToEnglish(
+      return `<Image loading="lazy" decoding="async" width=${500} height=${500} class="" src=${imageUrl} alt=${polishToEnglish(
         altText
       )} />`;
     }
@@ -25,16 +25,24 @@ export const parseMarkdown = (input: any) => {
     // Parse headings
     if (line.startsWith("h2 ")) {
       const text = line.substring(3);
-      return `<h2 class="!text-3xl">${text}</h1>`;
+      return `<h2 class="!text-3xl leading-relaxed font-bold text-zinc-800 drop-shadow-lg shadow-black">${text}</h1>`;
     } else if (line.startsWith("p ")) {
+      const text = line.substring(2);
+      return `<p class="!text-xl leading-relaxed font-bold text-zinc-800 drop-shadow-lg shadow-black">${text}</p>`;
+    } else if (
+      line.startsWith(
+        "h3 leading-relaxed font-bold text-zinc-800 drop-shadow-lg shadow-black"
+      )
+    ) {
       const text = line.substring(3);
-      return `<p class="!text-xl ">${text}</p>`;
-    } else if (line.startsWith("h3 ")) {
+      return `<h3 class="!text-2xl leading-relaxed font-bold text-zinc-800 drop-shadow-lg shadow-black">${text}</h3>`;
+    } else if (
+      line.startsWith(
+        "h4 leading-relaxed font-bold text-zinc-800 drop-shadow-lg shadow-black"
+      )
+    ) {
       const text = line.substring(3);
-      return `<h3 class="!text-2xl ">${text}</h3>`;
-    } else if (line.startsWith("h4 ")) {
-      const text = line.substring(3);
-      return `<h4 class="!text-lg !font-normal">${text}</h4>`;
+      return `<h4 class="!text-lg leading-relaxed font-bold text-zinc-800 drop-shadow-lg shadow-black">${text}</h4>`;
     }
 
     // Parse ordered lists

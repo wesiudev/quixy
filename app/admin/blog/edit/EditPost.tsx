@@ -1,15 +1,19 @@
 "use client";
-import { renderMarkdown } from "@/app/lib/parseMarkdown";
-import { polishToEnglish } from "@/app/utils/polishToEnglish";
-import { addBlogPost, updateBlogPost } from "@/firebase";
+
+import { updateBlogPost } from "@/firebase";
 import Link from "next/link";
 import { useState } from "react";
-import { FaEdit, FaLink, FaLongArrowAltLeft, FaTrash } from "react-icons/fa";
+import { FaLink, FaLongArrowAltLeft, FaTrash } from "react-icons/fa";
 import * as Scroll from "react-scroll";
 import PostImages from "./PostImages";
-import { Post, Section } from "@/app/types";
-import EditSection from "../../../../windowComponentFix/EditSection";
-import toast from "react-hot-toast";
+
+import EditSection from "./EditSection";
+import { EditorState } from "draft-js";
+import SectionContentEditor from "../new/PostSections/SectionContentEditor";
+import SectionsList from "../new/PostSections/SectionsList";
+import { Post } from "@/app/types";
+import { polishToEnglish } from "@/app/utils/polishToEnglish";
+import { renderMarkdown } from "@/app/utils/parseMarkdown";
 export default function EditPost({
   selectedPost,
   setSelectedPost,
@@ -19,7 +23,11 @@ export default function EditPost({
 }) {
   const [sectionInput, setSectionInput] = useState("");
   const [sectionContent, setSectionContent] = useState("");
-  const [selectedSection, setSelectedSection] = useState<Section>();
+  const [selectedSection, setSelectedSection] = useState({
+    title: "",
+    content: EditorState.createEmpty(),
+    id: 0,
+  });
   const [tagInput, setTagInput] = useState("");
   const [messageVisible, setMessageVisible] = useState(false);
   const addSection = (value: string) => {
@@ -53,6 +61,7 @@ export default function EditPost({
     newTags.splice(idx, 1);
     setSelectedPost({ ...selectedPost, tags: newTags });
   };
+  const [sectionEditorOpen, setSectionEditorOpen] = useState(true);
 
   return (
     <div className="relative">
@@ -69,6 +78,8 @@ export default function EditPost({
         setSelectedSection={setSelectedSection}
         selectedPost={selectedPost}
         setSelectedPost={setSelectedPost}
+        setSectionEditorOpen={setSectionEditorOpen}
+        sectionEditorOpen={sectionEditorOpen}
       />
 
       <div className="grid grid-cols-1 lg:grid-cols-2  pr-0 text-white gap-y-6 w-full ">
@@ -178,32 +189,18 @@ export default function EditPost({
               >
                 Dodaj
               </button>
-              {selectedPost.sections.length > 0 && (
-                <div className="bg-[#2F313C] p-3 rounded-md my-4">
-                  <h1 className="">Twoje sekcje:</h1>
-                  {selectedPost.sections.map((section: any, idx) => (
-                    <div key={idx}>
-                      <div className="flex flex-row items-center my-2 hover:bg-[#34363d] p-1">
-                        {section.title}{" "}
-                        <button
-                          onClick={() =>
-                            setSelectedSection({ ...section, id: idx })
-                          }
-                          className="ml-3"
-                        >
-                          <FaEdit />
-                        </button>
-                        <button
-                          onClick={() => removeSection(idx)}
-                          className="ml-3"
-                        >
-                          <FaTrash />
-                        </button>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
+              <div className="text-black !font-coco">
+                <SectionContentEditor
+                  addSection={addSection}
+                  removeSection={removeSection}
+                />
+                <SectionsList
+                  input={selectedPost}
+                  setSelectedSection={setSelectedSection}
+                  setSectionEditorOpen={setSectionEditorOpen}
+                  removeSection={removeSection}
+                />
+              </div>
             </div>
           </div>
           <div className="flex flex-col my-3">
@@ -246,7 +243,7 @@ export default function EditPost({
             {selectedPost.tags.length > 0 && (
               <h1 className="my-2">Twoje tagi:</h1>
             )}
-            {selectedPost.tags.map((tag: any, i) => (
+            {selectedPost.tags.map((tag: any, i: number) => (
               <div key={i} className="flex flex-row items-center">
                 {tag.name}
                 <button onClick={() => removeTag(i)} className="ml-3">
@@ -275,7 +272,7 @@ export default function EditPost({
           {selectedPost.url !== "" && (
             <button
               onClick={() => {
-                updateBlogPost("quixy", selectedPost.postId, selectedPost);
+                updateBlogPost(selectedPost.postId, selectedPost);
               }}
               className="py-6 bg-green-500 text-2xl text-white hover:bg-green-400 duration-200"
             >
@@ -303,7 +300,7 @@ export default function EditPost({
                 )}
                 <div className="flex flex-col ml-6">
                   {selectedPost.sections.length > 0 &&
-                    selectedPost.sections.map((section: any, idx) => (
+                    selectedPost.sections.map((section: any, idx: number) => (
                       <h4 key={idx} className="relative h-12">
                         <ScrollTo
                           className=" text-blue-400 flex flex-row items-center cursor-pointer hover:bg-gray-100 duration-150 absolute left-0 top-0 z-20 h-full w-full"
@@ -321,7 +318,7 @@ export default function EditPost({
                     ))}
                 </div>
 
-                {selectedPost.sections.map((section: any, idx) => (
+                {selectedPost.sections.map((section: any, idx: number) => (
                   <div id={`${polishToEnglish(section.title)}`} key={idx}>
                     <h3 key={idx} className="font-bold">
                       {section.title}
@@ -336,7 +333,7 @@ export default function EditPost({
                   {selectedPost.outro}
                 </h3>
                 <div className="-ml-6 flex flex-row space-x-6 flex-wrap items-start">
-                  {selectedPost.tags.map((tag: any, i) => (
+                  {selectedPost.tags.map((tag: any, i: number) => (
                     <Link
                       className={`${i === 0 && "ml-6"}`}
                       href={`/blog/?tag=${tag.name}`}

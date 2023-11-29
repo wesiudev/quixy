@@ -25,14 +25,19 @@ export type Post = {
   metaDescription?: string;
   metaKeywords?: string[];
   mainImage: string;
+  faq: {
+    question: string;
+    answer: string;
+  }[];
+  blogType: string;
+  creationTime: number;
 };
 
 export type Section = {
   title: string;
-  content: string;
+  content: any;
   id?: number;
 };
-
 export type WebsiteOffer = {
   city: string;
   cityPropperName: string;

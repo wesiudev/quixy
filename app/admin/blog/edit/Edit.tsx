@@ -1,9 +1,9 @@
 "use client";
-import { Post } from "@/app/types";
-import Link from "next/link";
+
 import EditPost from "./EditPost";
 import { useState } from "react";
 import Image from "next/image";
+import { Post } from "@/app/types";
 
 export default function Edit({ posts }: { posts: Post[] }) {
   const [selectedPost, setSelectedPost] = useState<Post>();
@@ -15,28 +15,15 @@ export default function Edit({ posts }: { posts: Post[] }) {
           selectedPost={selectedPost}
           setSelectedPost={setSelectedPost}
         />
-      )}
-      {!selectedPost && (
+      )}{" "}
+      {selectedPost === undefined && (
         <div className="flex flex-col pt-24 px-3 lg:px-6">
           <h1 className="text-3xl font-bold mb-4 text-white">
             Który post chcesz edytować?
-          </h1>
+          </h1>{" "}
           <div className="flex flex-col items-center justify-center">
-            {!posts && (
-              <div className="flex flex-col items-center justify-center space-y-6">
-                <h1 className="text-3xl w-max mx-auto text-white drop-shadow shadow-black">
-                  Brak postów
-                </h1>
-                <Link
-                  href="/admin/blog/new"
-                  className="p-3 bg-green-400 test-white mx-auto"
-                >
-                  Dodaj post
-                </Link>
-              </div>
-            )}
             <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 lg:gap-6 ">
-              {posts &&
+              {posts?.length !== 0 &&
                 posts?.map((post: Post, i: number) => (
                   <div
                     onClick={() => setSelectedPost(post)}

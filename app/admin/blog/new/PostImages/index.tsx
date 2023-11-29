@@ -7,7 +7,7 @@ var randomId = require("random-id");
 
 import Image from "next/image";
 import { FaImage } from "react-icons/fa";
-import { ImageType } from "@/app/types";
+import { ImageType } from "@/types";
 
 export default function PostImages({
   input,
@@ -53,7 +53,7 @@ export default function PostImages({
   }
   const [clipboardContent, setClipboardContent] = useState("");
   function copyToClipboard(src: string, alt: string) {
-    navigator.clipboard.writeText(`![${alt}](${src})`);
+    navigator.clipboard.writeText(`${src}`);
     setClipboardContent(src);
   }
 

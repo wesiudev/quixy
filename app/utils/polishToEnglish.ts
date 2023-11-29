@@ -1,8 +1,4 @@
 export function polishToEnglish(sentence: string): string {
-  if (!sentence) {
-    return "";
-  }
-
   const translationDict: { [key: string]: string } = {
     ą: "a",
     ć: "c",
@@ -11,19 +7,20 @@ export function polishToEnglish(sentence: string): string {
     ń: "n",
     ś: "s",
     ó: "o",
-    ż: "ż",
-    ź: "ź",
+    ż: "z",
+    ź: "z",
     // Add more translation mappings as needed
   };
 
   const sanitizedSentence = sentence
-    .replace(
+    ?.replace(
       /[ąćęłńśóżź]/gi,
-      (matched) => translationDict[matched.toLowerCase()] || ""
+      (matched) => translationDict[matched?.toLowerCase()] || ""
     )
     .replace(/\s/g, "-")
     .replace(/[^\w\s-]/g, "")
-    .toLowerCase();
+    .toLowerCase()
+    .replace(/-+/g, "-");
 
   return sanitizedSentence;
 }

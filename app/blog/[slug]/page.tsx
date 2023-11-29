@@ -2,7 +2,7 @@ import { getPost } from "@/app/lib/getPost";
 import { Post, Section } from "@/app/types";
 import ScrollTo from "./ScrollTo";
 import { polishToEnglish } from "@/app/utils/polishToEnglish";
-import { renderMarkdown } from "@/app/lib/parseMarkdown";
+import { renderMarkdown } from "@/app/utils/parseMarkdown";
 import Link from "next/link";
 export async function generateStaticParams() {
   const { posts } = await fetch(

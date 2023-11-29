@@ -3,23 +3,17 @@ import Link from "next/link";
 
 import {
   FaArtstation,
-  FaAward,
-  FaBoxOpen,
   FaChartLine,
   FaChevronDown,
   FaClipboardList,
   FaCog,
   FaEdit,
   FaHome,
-  FaJediOrder,
-  FaMagic,
   FaPlus,
   FaRemoveFormat,
   FaShoppingCart,
   FaSignOutAlt,
-  FaStore,
   FaTags,
-  FaTrophy,
   FaUpload,
   FaUsers,
 } from "react-icons/fa";
@@ -106,7 +100,7 @@ export default function Nav() {
         <div className="text-white py-4 px-3">
           <h1 className="text-base font-bold  flex flex-row items-center ">
             <Image
-              src="/dashboardFav.png"
+              src="/favicons/favicon-32x32.png"
               width={36}
               height={36}
               alt=""
