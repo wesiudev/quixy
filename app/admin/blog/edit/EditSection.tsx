@@ -38,14 +38,13 @@ export default function EditSection({
     setIsResizing(false);
   };
 
-  const handleMouseMove = (event: MouseEvent) => {
-    if (isResizing) {
-      const newWidth = window.innerWidth - event.clientX;
-      setWidth(newWidth);
-    }
-  };
-
   useEffect(() => {
+    const handleMouseMove = (event: MouseEvent) => {
+      if (isResizing) {
+        const newWidth = window.innerWidth - event.clientX;
+        setWidth(newWidth);
+      }
+    };
     document.addEventListener("mousemove", handleMouseMove);
     document.addEventListener("mouseup", handleMouseUp);
     return () => {
