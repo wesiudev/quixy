@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setPosts } from "@/redux/slices/posts";
 import { getBlogPosts } from "@/firebase";
 import Image from "next/image";
-import { Post } from "@/types";
+import { Post } from "@/app/types";
 
 export default function Page() {
   const dispatch = useDispatch();
