@@ -12,7 +12,7 @@ import { FaCircleQuestion, FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 bg-[#212121] text-white min-h-[30vh] pt-24 pb-24 font-coco px-5 lg:px-20">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 bg-[#212121] text-white min-h-[30vh] pt-48 pb-24 font-coco px-5 lg:px-20">
         <div className="bg-[#191919] p-2 rounded-xl">
           <span className="text-white font-bold  text-2xl lg:text-3xl">
             Aktywne Oferty
