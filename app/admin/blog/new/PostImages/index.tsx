@@ -7,7 +7,7 @@ var randomId = require("random-id");
 
 import Image from "next/image";
 import { FaImage } from "react-icons/fa";
-import { ImageType } from "@/types";
+import { ImageType } from "@/app/types";
 
 export default function PostImages({
   input,
