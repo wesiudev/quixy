@@ -106,11 +106,11 @@ export default function Technologies({ dictionary }: { dictionary: any }) {
                   {tech.description}{" "}
                   {idx === 4 && (
                     <>
-                      <div className="text-sm mt-2 text-white">
+                      <div className="text-sm mt-2 text-white font-bold">
                         Wykorzystana m.in. w naszym projekcie
                         <Link
                           href="https://decocanva.com"
-                          title="Przejdź do decocanva"
+                          title="Przejdź do Decocanva"
                           target="_blank"
                           className="text-purple-500 font-bold ml-1"
                         >
@@ -121,7 +121,7 @@ export default function Technologies({ dictionary }: { dictionary: any }) {
                   )}
                   {idx === 5 && (
                     <>
-                      <div className="text-sm mt-2 text-white">
+                      <div className="text-sm mt-2 text-white font-bold">
                         Wykorzystana do renderowania modelu płótna 3D w jednej z
                         naszych realizacji:
                         <Link

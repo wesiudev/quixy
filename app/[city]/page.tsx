@@ -80,9 +80,9 @@ export default async function Page({ params }: { params: { city: string } }) {
               </ul>
             </div>
           </div>
-          <div className="grid xl:ml-8 grid-cols-2 gap-4 mt-3 lg:mt-0 select-none">
+          <div className="grid xl:ml-8 grid-cols-2 gap-4 mt-3 lg:mt-0 select-none h-max">
             {images.map((image: any, i: any) => (
-              <div key={i} className="relative group">
+              <div key={i} className="relative group aspect-square">
                 <div className="flex items-end justify-center text-center font-bold text-2xl rounded-xl absolute left-0 top-0 h-full w-full bg-gradient-to-b from-transparent to-[#000000ce] overflow-hidden">
                   <h2 className="text-white drop-shadow-lg text-sm sm:text-lg lg:text-xl mb-3 sm:mb-5 lg:mb-8">
                     {image.alt}
@@ -96,7 +96,7 @@ export default async function Page({ params }: { params: { city: string } }) {
                   className="rounded-xl"
                 />
                 <div
-                  className={` group-hover:translate-y-0 translate-y-[250px] duration-500 flex-col fixed bottom-12 w-[80vw] sm:w-[60vw] lg:w-[60vw] xl:[50vw] text-center p-4 bg-white rounded-xl left-[50%] -translate-x-[50%] z-[50] `}
+                  className={` group-hover:translate-y-0 translate-y-[250px] duration-500 flex-col fixed bottom-20 lg:bottom-12 w-[80vw] sm:w-[60vw] lg:w-[60vw] xl:[50vw] text-center p-4 bg-white rounded-xl left-[50%] -translate-x-[50%] z-[50] `}
                 >
                   <p className="relative">
                     <span className="absolute -top-8 left-[50%] -translate-x-[50%] bg-black font-bold text-yellow-400 rounded-md px-2">

@@ -601,7 +601,7 @@
           "name": "Next.js",
           "link": "https://nextjs.org/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
-          "description": "Dzięki Next.js jesteśmy w stanie stworzyć aplikacje internetowe na bardzo dużą skalę i mimo jej rozmiaru, będzie ona zoptymalizowana tak, żeby każdy użytkownik mógł z niej skorzystać na każdym urządzeniu."
+          "description": "Dzięki Next.js jesteśmy w stanie stworzyć perfekcyjnie zoptymalizowane aplikacje internetowe na bardzo dużą skalę."
         },
         {
           "name": "Redux",
