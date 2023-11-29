@@ -7,7 +7,6 @@ var randomId = require("random-id");
 
 import Image from "next/image";
 import { FaImage } from "react-icons/fa";
-import { ImageType } from "@/app/types";
 
 export default function PostImages({
   selectedPost,
@@ -25,7 +24,7 @@ export default function PostImages({
       });
     }
   }, []);
-  const [emptyRows, setEmptyRows] = useState<ImageType[]>([
+  const [emptyRows, setEmptyRows] = useState<any[]>([
     { src: "", alt: "" },
     { src: "", alt: "" },
     { src: "", alt: "" },
@@ -100,7 +99,7 @@ export default function PostImages({
       )}
       <h1 className="text-base text-white font-light mb-2">Media postu </h1>
       <div className="grid grid-cols-4 gap-5 w-full">
-        {emptyRows.map((item: ImageType, idx: number) => (
+        {emptyRows.map((item: any, idx: number) => (
           <div key={idx}>
             {item.src === "" ? (
               <>

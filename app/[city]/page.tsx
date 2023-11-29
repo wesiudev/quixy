@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 import BriefResponse from "./[websiteId]/websiteTypes/BriefResponse";
 import Footer from "../components/Footer";
 import Technologies from "./technologies/Technologies";
-import { pl } from "./technologies/pl.json";
+import pl from "./technologies/pl.json";
 export async function generateStaticParams() {
   return cities.cities.map((item) => ({
     city: item.city,
@@ -18,7 +18,7 @@ async function getCities() {
   return data;
 }
 async function getTechnologies() {
-  const data = pl[0];
+  const data = pl.pl[0];
   return data;
 }
 export default async function Page({ params }: { params: { city: string } }) {
