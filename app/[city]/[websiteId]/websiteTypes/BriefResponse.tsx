@@ -10,7 +10,6 @@ type Profession = {
   fonts: {
     fontName: string;
     variants: string[];
-    price: string;
     source: string;
   }[];
   structure: string;
@@ -146,7 +145,7 @@ export default function BriefResponse() {
                           <div className="mr-2 text-yellow-400 text-lg md:text-2xl flex flex-row items-center">
                             <div>{font.fontName.toUpperCase()}</div>
                             <div className="ml-3 text-white opacity-0 group-hover:opacity-50 duration-300 text-sm">
-                              ({font.source}, {font.price})
+                              ({font.source})
                             </div>
                           </div>
                           <div>
@@ -193,7 +192,6 @@ const professions = [
         fontName: "inter",
         variants: ["regular", "bold"],
         source: "Ogólnodostępna",
-        price: "Darmowa",
       },
     ],
     structure: "Strona główna, Usługi, Kontakt, Cennik",
@@ -209,13 +207,12 @@ const professions = [
     h2: "Jako fryzjer, Twoja strona internetowa jest Twoim głównym narzędziem marketingowym. Nasza strona wizytówka jest idealnym miejscem, aby pokazać światu swoje umiejętności i doświadczenie.",
     colors: ["#22C55E", "#F3F4F6", "#93C5FD"],
     style: "Nowoczesny i Trendy",
-    purpose: "Szybki kontakt z kancelarią, prezentacja usług",
+    purpose: "Szybki kontakt, prezentacja usług",
     fonts: [
       {
         fontName: "cocosharp",
         variants: ["regular", "bold"],
         source: "Kolekcja własna",
-        price: "200€",
       },
     ],
     structure: "Strona główna, Usługi, Kontakt, Cennik",
@@ -246,19 +243,16 @@ const professions = [
         fontName: "cocosharp",
         variants: ["regular", "bold", "light", "italic"],
         source: "Kolekcja własna",
-        price: "200€",
       },
       {
         fontName: "Gilroy",
         variants: ["regular"],
         source: "Ogólnodostępna",
-        price: "Darmowa",
       },
       {
         fontName: "GraublauWeb",
         variants: ["regular", "bold"],
         source: "Ogólnodostępna",
-        price: "Darmowa",
       },
     ],
     structure: "Strona główna, Portfolio, Kontakt, Sklep",

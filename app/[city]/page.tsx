@@ -54,7 +54,7 @@ export default async function Page({ params }: { params: { city: string } }) {
                   biznesu. Zaprezentuj się profesjonalnie i przyciągnij uwagę
                   klientów.
                 </li>
-                <li className=" -ml-6">
+                <li className="-ml-6">
                   <Link
                     href={`${params.city}/landing-page`}
                     className="flex flex-row items-center no-underline text-green-400"
